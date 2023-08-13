@@ -1,1 +1,3 @@
 Dataset of OpenHarmony
+
+In this dataset, we have compiled repositories associated with OpenHarmony. Currently, we have gathered 117 repositories from GitHub and 956 repositories from Gitee. Each set of repositories is stored in the corresponding subdirectories of this main directory. Due to the existence of projects with identical names, all repositories in this dataset follow the naming convention "Author__Project".
