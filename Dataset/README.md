@@ -1,3 +1,3 @@
 Dataset of OpenHarmony
 
-In this dataset, we have compiled repositories associated with OpenHarmony. Currently, we have gathered 117 repositories from GitHub and 956 repositories from Gitee. Each set of repositories is stored in the corresponding subdirectories of this main directory. Due to the existence of projects with identical names, all repositories in this dataset follow the naming convention "Author__Project".
+在此数据集中，我们收集了与 OpenHarmony 相关的项目。 目前，我们已经从 GitHub 的搜索界面分别按“openharmony”，“harmonyos”，“鸿蒙”为关键词收集了 887 个项目，储存在目录/github中。 从 Gitee 收集了三组项目，首先在openharmony的专题页收集了956个项目，放在目录/gitee，然后在搜索页面分别按“openharmony”，“harmonyos”，“鸿蒙”为关键词收集了 638 个项目，放在目录/moreGitee，最后在gitee的有关openharmony的三个官方组织（openharmony，openharmony-sig，openharmony-tpc）收集了1529个项目，放在目录/GieeOrgnization。 由于存在具有相同名称的项目，因此该数据集中的所有存储库都命名为“Author__Project”。
