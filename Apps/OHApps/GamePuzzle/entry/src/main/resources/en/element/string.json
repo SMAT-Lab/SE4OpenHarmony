@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "Description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "Description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "Game Puzzle"
+    },
+    {
+      "name": "start",
+      "value": "Start"
+    },
+    {
+      "name": "restart",
+      "value": "Restart"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "conform",
+      "value": "OK"
+    },
+    {
+      "name": "congratulations",
+      "value": "Congratulations!"
+    }
+  ]
+}

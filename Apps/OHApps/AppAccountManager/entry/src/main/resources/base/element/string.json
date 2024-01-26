@@ -1,0 +1,188 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "AppAccountManager"
+    },
+    {
+      "name": "description_mainability",
+      "value": "ETS_Empty Ability"
+    },
+    {
+      "name": "back",
+      "value": "return"
+    },
+    {
+      "name": "username",
+      "value": "*username: "
+    },
+    {
+      "name": "unusername",
+      "value": "username: "
+    },
+    {
+      "name": "password",
+      "value": "*password: "
+    },
+    {
+      "name": "unpassword",
+      "value": "password: "
+    },
+    {
+      "name": "register",
+      "value": "register"
+    },
+    {
+      "name": "login",
+      "value": "Login"
+    },
+    {
+      "name": "music",
+      "value": "Music"
+    },
+    {
+      "name": "video",
+      "value": "Video"
+    },
+    {
+      "name": "map",
+      "value": "Map"
+    },
+    {
+      "name": "register_login",
+      "value": "Register or Login"
+    },
+    {
+      "name": "appname",
+      "value": "Appname: "
+    },
+    {
+      "name": "password_message",
+      "value": "Account or password does not match"
+    },
+    {
+      "name": "password_error",
+      "value": "The passwords entered twice inconsistent "
+    },
+    {
+      "name": "close",
+      "value": "Close"
+    },
+    {
+      "name": "email",
+      "value": "Email: "
+    },
+    {
+      "name": "signature",
+      "value": "Signature: "
+    },
+    {
+      "name": "confirm_password",
+      "value": "*Confirm Password: "
+    },
+    {
+      "name": "unconfirm_password",
+      "value": "Confirm Password: "
+    },
+    {
+      "name": "setting",
+      "value": "Setup is complete"
+    },
+    {
+      "name": "account",
+      "value": "Account Info"
+    },
+    {
+      "name": "modify",
+      "value": "Modify Info"
+    },
+    {
+      "name": "application",
+      "value": "Switch APP"
+    },
+    {
+      "name": "delete",
+      "value": "Delete Account"
+    },
+    {
+      "name": "warning",
+      "value": "Warning"
+    },
+    {
+      "name": "confirm",
+      "value": "Confirm"
+    },
+    {
+      "name": "delete_account",
+      "value": "You are deleting your account"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "blank",
+      "value": "Username is null"
+    },
+    {
+      "name": "password_blank",
+      "value": "Password is null"
+    },
+    {
+      "name": "switch_app",
+      "value": "Switch app"
+    },
+    {
+      "name": "has",
+      "value": "Username already exists"
+    },
+    {
+      "name": "userpassword",
+      "value": "The new password is the same as before"
+    },
+    {
+      "name": "routerback",
+      "value": "Please confirm whether to log out"
+    },
+    {
+      "name": "prompt_username",
+      "value": "Input numbers, letters or underscores, 15 digits"
+    },
+    {
+      "name": "prompt_email",
+      "value": "Input mailbox format, 18 bits"
+    },
+    {
+      "name": "prompt_signature",
+      "value": "Input signature, 18 bits"
+    },
+    {
+      "name": "prompt_password",
+      "value": "Input password, 6-18 digits"
+    },
+    {
+      "name": "prompt_confirm_password",
+      "value": "Input the password again, 6-18 digits"
+    },
+    {
+      "name": "min_password",
+      "value": "Password length is less than 6 characters"
+    },
+    {
+      "name": "emailinfo",
+      "value": "Email format error"
+    },
+    {
+      "name": "register_info",
+      "value": "Successful account registration"
+    },
+    {
+      "name": "modify_info",
+      "value": "Modify information successfully"
+    },
+    {
+      "name": "empty",
+      "value": "empty"
+    }
+  ]
+}

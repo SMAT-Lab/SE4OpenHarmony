@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "js-sha256",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "0.9.0",
+        "Owner" : "Chen, Yi-Cyuan"
+        "Upstream URL": "https://github.com/emn178/js-sha256",
+        "Description": "A simple SHA-256 / SHA-224 hash function for JavaScript supports UTF-8 encoding"
+    }
+]

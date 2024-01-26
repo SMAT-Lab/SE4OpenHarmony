@@ -1,0 +1,32 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "select_color",
+      "value": "#4400AAFF"
+    },
+    {
+      "name": "text_color",
+      "value": "#182341"
+    },
+    {
+      "name": "button_color",
+      "value": "#007dff"
+    },
+    {
+      "name": "cursor_color",
+      "value": "#007dff"
+    },
+    {
+      "name": "input_text_background",
+      "value": "#04000000"
+    }
+  ]
+}

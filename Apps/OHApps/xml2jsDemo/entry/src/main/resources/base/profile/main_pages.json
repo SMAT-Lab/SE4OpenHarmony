@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/promiseUsage",
+    "pages/processingAttribute",
+    "pages/simpleParseXml",
+    "pages/xmlBuilder"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "H5页面跳转"
+    },
+    {
+      "name": "toast_msg",
+      "value": "该功能暂未开发，敬请期待"
+    },
+    {
+      "name": "confirm_order",
+      "value": "确认订单"
+    },
+    {
+      "name": "dollar",
+      "value": "¥%d"
+    },
+    {
+      "name": "invoice",
+      "value": "发票"
+    },
+    {
+      "name": "personal_invoice",
+      "value": "电子普通发票-个人"
+    },
+    {
+      "name": "delivery",
+      "value": "配送"
+    },
+    {
+      "name": "standard_delivery",
+      "value": "标准配送"
+    },
+    {
+      "name": "self_operated",
+      "value": "商城自营"
+    },
+    {
+      "name": "user_name",
+      "value": "张XX"
+    },
+    {
+      "name": "user_phone",
+      "value": "185 xxxx xxxx"
+    },
+    {
+      "name": "user_address",
+      "value": "北京市 海淀区 XXX小区XX楼XX单元XX室"
+    }
+  ]
+}

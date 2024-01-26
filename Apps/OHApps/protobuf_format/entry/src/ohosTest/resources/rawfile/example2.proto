@@ -1,0 +1,3 @@
+message Test2 {
+  required string b = 2;
+}

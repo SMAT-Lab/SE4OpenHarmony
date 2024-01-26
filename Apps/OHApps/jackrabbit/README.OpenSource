@@ -1,0 +1,29 @@
+[
+    {
+        "Name": "jackrabbit",
+        "License": "MIT license",
+        "License File": "package.json",
+        "Version Number": "5.4.3",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/pagerinc/jackrabbit",
+        "Description": "Easy RabbitMQ for node"
+    },
+    {
+        "Name": "amqplib",
+        "License": "MIT license",
+        "License File": "LICENSE-MIT",
+        "Version Number": "0.10.3",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/amqp-node/amqplib",
+        "Description": "AMQP 0-9-1 library and client for Node.JS"
+    },
+    {
+        "Name": "DefinitelyTyped",
+        "License": "MIT license",
+        "License File": "LICENSE",
+        "Version Number": "0.1.450",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "Description": "The repository for high quality TypeScript type definitions."
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "mime-db",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "1.52.0",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/jshttp/mime-db",
+        "Description": "This is a large database of mime types and information about them."
+    },
+]

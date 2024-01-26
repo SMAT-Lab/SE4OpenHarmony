@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "caverphone",
+        "License": "ISC License",
+        "License File": " LICENSE ",
+        "Version Number": "1.0.0",
+        "Owner" : "tcort"
+        "Upstream URL": "https://github.com/tcort/caverphone/tree/master",
+        "Description": "A JavaScript implementation of the Caverphone 2.0 (aka Caverphone Revised) phonetic matching algorithm."
+    }
+]

@@ -1,0 +1,80 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "International"
+    },
+    {
+      "name": "text_processing",
+      "value": "Character text processing"
+    },
+    {
+      "name": "text_break",
+      "value": "Text breakpoint"
+    },
+    {
+      "name": "show_character_type",
+      "value": "Show character type"
+    },
+    {
+      "name": "character_type_detection",
+      "value": "Character type detection"
+    },
+    {
+      "name": "calendar",
+      "value": "calendar"
+    },
+    {
+      "name": "monday",
+      "value": "MON"
+    },
+    {
+      "name": "tuesday",
+      "value": "TUE"
+    },
+    {
+      "name": "wednesday",
+      "value": "WED"
+    },
+    {
+      "name": "thursday",
+      "value": "THU"
+    },
+    {
+      "name": "friday",
+      "value": "FRI"
+    },
+    {
+      "name": "saturday",
+      "value": "SAT"
+    },
+    {
+      "name": "sunday",
+      "value": "SUN"
+    },
+    {
+      "name": "today",
+      "value": "Today"
+    },
+    {
+      "name": "long_piece_of_text",
+      "value": "Enter a long piece of text and click Text Breakpoint Processing"
+    },
+    {
+      "name": "text_breakpoint",
+      "value": "Text breakpoint handling"
+    },
+    {
+      "name": "character_type_tip",
+      "value": "Enter a character to display the character type"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "license": "BSD License",
+  "devDependencies": {},
+  "author": "ohos_tpc",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "@protobufjs/base64": "^1.1.2"
+  }
+}

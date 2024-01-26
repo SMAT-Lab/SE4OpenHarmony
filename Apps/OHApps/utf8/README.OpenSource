@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "utf8.js",
+        "License": "MIT License",
+        "License File": " LICENSE-MIT ",
+        "Version Number": "3.0.0",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/mathiasbynens/utf8.js",
+        "Description": "A robust JavaScript implementation of a UTF-8 encoder/decoder, as defined by the Encoding Standard."
+    }
+]

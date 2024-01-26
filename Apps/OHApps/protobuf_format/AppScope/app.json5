@@ -1,0 +1,10 @@
+{
+  "app": {
+    "bundleName": "com.openharmony.protobufformat",
+    "vendor": "openharmony",
+    "versionCode": 1000000,
+    "versionName": "1.0.2-rc.0",
+    "icon": "$media:app_icon",
+    "label": "$string:app_name"
+  }
+}

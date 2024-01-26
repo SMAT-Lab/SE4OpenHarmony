@@ -1,0 +1,120 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "AppRecoverySample"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "EntryAbility"
+    },
+    {
+      "name": "TextAbility_label",
+      "value": "TextAbility"
+    },
+    {
+      "name": "RecoveryAbility_label",
+      "value": "RecoveryAbility"
+    },
+    {
+      "name": "app_has_recovered",
+      "value": "Application has recovered from error"
+    },
+    {
+      "name": "trigger_fault",
+      "value": "Fault trigger page"
+    },
+    {
+      "name": "current_ability",
+      "value": "Ability:"
+    },
+    {
+      "name": "launch_reason",
+      "value": "Launch reason"
+    },
+    {
+      "name": "last_exit_reason",
+      "value": "Last exit reason"
+    },
+    {
+      "name": "current_status",
+      "value": "Current status:"
+    },
+    {
+      "name": "click_counter",
+      "value": "Click Count:"
+    },
+    {
+      "name": "trigger_fault_items",
+      "value": "Trigger Faults"
+    },
+    {
+      "name": "trigger_js_error",
+      "value": "Trigger JsError"
+    },
+    {
+      "name": "trigger_freeze_in_js_code",
+      "value": "Hung In Js Code"
+    },
+    {
+      "name": "trigger_freeze_in_native_code",
+      "value": "Hung In Native Code"
+    },
+    {
+      "name": "recover_settings",
+      "value": "Recovery settings"
+    },
+    {
+      "name": "save_all_ability_status",
+      "value": "Whole abilities status"
+    },
+    {
+      "name": "save_current_ability_status",
+      "value": "Current ability status"
+    },
+    {
+      "name": "route_to_second_ability",
+      "value": "Route to SecondAbility"
+    },
+    {
+      "name": "set_recovery_ability",
+      "value": "Set recovery ability"
+    },
+    {
+      "name": "counter_name",
+      "value": "ClickMe"
+    },
+    {
+      "name": "save_state",
+      "value": "Save"
+    },
+    {
+      "name": "set_config",
+      "value": "Set"
+    },
+    {
+      "name": "save_state_done",
+      "value": "Saved"
+    },
+    {
+      "name": "set_config_done",
+      "value": "Set"
+    },
+    {
+      "name": "launch_ability",
+      "value": "Launch"
+    },
+    {
+      "name": "trigger",
+      "value": "Trigger"
+    },
+    {
+      "name": "recover",
+      "value": "Recover"
+    }
+  ]
+}

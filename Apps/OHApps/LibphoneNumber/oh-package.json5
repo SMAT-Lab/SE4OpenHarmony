@@ -1,0 +1,16 @@
+{
+  "license": "ISC",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "name": "libphonenumber",
+  "ohos": {
+    "org": "huawei",
+    "directoryLevel": "project",
+    "buildTool": "hvigor"
+  },
+  "description": "example description",
+  "repository": {},
+  "version": "3.0.0",
+  "dependencies": {}
+}

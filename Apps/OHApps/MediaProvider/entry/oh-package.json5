@@ -1,0 +1,9 @@
+{
+  "license": "ISC",
+  "devDependencies": {},
+  "name": "entry",
+  "description": "This part provides an example of using the AVSession interface to develop media provider app.",
+  "repository": {},
+  "version": "1.0.0",
+  "dependencies": {}
+}

@@ -1,0 +1,24 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/TabPage",
+    "pages/MePage",
+    "pages/MainPage",
+    "pages/ToolPage",
+    "pages/LoginPage",
+    "pages/AddPage",
+    "pages/MainnPage",
+    "pages/ComSettingPage",
+    "pages/JitangPage",
+    "pages/XingzuoPage",
+    "pages/GiftBoxPage",
+    "pages/PurchaseHistoryPage",
+    "pages/SettingPage",
+    "pages/OpenPage",
+    "pages/WenanPage",
+    "pages/CutiePetPage",
+    "pages/WhitenoisePage",
+    "pages/Xingzuo2Page",
+    "pages/XiaohuaPage"
+  ]
+}

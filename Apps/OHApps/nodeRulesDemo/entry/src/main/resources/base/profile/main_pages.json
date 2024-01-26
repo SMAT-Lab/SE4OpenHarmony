@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/CascadingRules",
+    "pages/MoreRulesAndFacts",
+    "pages/MultipleRules",
+    "pages/PrioritizedRules",
+    "pages/RecurssionWithRules",
+    "pages/SimpleRule"
+  ]
+}

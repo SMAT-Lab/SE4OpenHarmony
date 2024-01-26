@@ -1,0 +1,12 @@
+[
+
+  {
+        "Name": "pcx-js",
+        "License": "MIT License",
+        "License File": "https://github.com/warpdesign/pcx-js/blob/master/LICENSE",
+        "Version Number": "v1.1.0",
+        "Owner" : "warpdesign",
+        "Upstream URL": "https://github.com/warpdesign/pcx-js",
+        "Description": "A PCX image decoder for JavaScript which works in NodeJS & the Browser"
+    },
+]

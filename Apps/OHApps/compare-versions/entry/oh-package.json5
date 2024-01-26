@@ -1,0 +1,12 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "ohos_tpc",
+  "license": "MIT License",
+  "dependencies": {
+    "compare-versions":"^6.1.0"
+  }
+}
+

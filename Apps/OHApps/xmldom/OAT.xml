@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="copyrightPolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5.ftl"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigor/hvigor-wrapper.js"
+                    type="filepath"/>
+                <filteritem
+                    desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw.bat"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"
+                    name="library/.*"
+                    type="filepath"/>
+            </filefilter>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="defaultPolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5.ftl"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigor/hvigor-wrapper.js"
+                    type="filepath"/>
+                <filteritem
+                    desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw.bat"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"
+                    name="library/.*"
+                    type="filepath"/>
+            </filefilter>
+            <filefilter
+                desc="Filters for resources files policies"
+                name="binaryFileTypePolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="entry/src/main/resources/base/media/icon.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="entry/src/ohosTest/resources/base/media/icon.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="AppScope/resources/base/media/app_icon.png"
+                    type="filepath"/>
+            </filefilter>
+        </filefilterlist>
+        <policylist>
+            <policy
+                name="projectPolicy" desc="">
+                <policyitem
+                    desc="原开源项目的LICENSE, 类似于BSD 2-Clause and MIT licenses, 符合开源要求"
+                    filefilter="defaultPolicyFilter"
+                    group="defaultGroup"
+                    name="MIT"
+                    path=".*"
+                    type="license"/>
+            </policy>
+        </policylist>
+    </oatconfig>
+</configuration>

@@ -1,0 +1,104 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "CustomTextInput"
+    },
+    {
+      "name": "text_input_type",
+      "value": "文本输入:"
+    },
+    {
+      "name": "default_input",
+      "value": "None"
+    },
+    {
+      "name": "text_input",
+      "value": "Text"
+    },
+    {
+      "name": "number_input",
+      "value": "Number"
+    },
+    {
+      "name": "phone_input",
+      "value": "Phone"
+    },
+    {
+      "name": "enter_key_type",
+      "value": "Enter键:"
+    },
+    {
+      "name": "default_enter_key",
+      "value": "None"
+    },
+    {
+      "name": "search_enter_key",
+      "value": "Search"
+    },
+    {
+      "name": "send_enter_key",
+      "value": "Send"
+    },
+    {
+      "name": "go_enter_key",
+      "value": "Go"
+    },
+    {
+      "name": "attach",
+      "value": "attach"
+    },
+    {
+      "name": "detach",
+      "value": "detach"
+    },
+    {
+      "name": "on",
+      "value": "on"
+    },
+    {
+      "name": "show",
+      "value": "show"
+    },
+    {
+      "name": "hide",
+      "value": "hide"
+    },
+    {
+      "name": "off",
+      "value": "off"
+    },
+    {
+      "name": "update_attribute",
+      "value": "updateAttribute"
+    },
+    {
+      "name": "update_cursor",
+      "value": "updateCursor"
+    },
+    {
+      "name": "change_selection",
+      "value": "changeSelection"
+    },
+    {
+      "name": "noattach_tips",
+      "value": "请先点击attach"
+    },
+    {
+      "name": "select_tips",
+      "value": "start值必须小于end"
+    },
+    {
+      "name": "update_cursor_tips",
+      "value": "已更新光标信息到输入法应用"
+    }
+  ]
+}

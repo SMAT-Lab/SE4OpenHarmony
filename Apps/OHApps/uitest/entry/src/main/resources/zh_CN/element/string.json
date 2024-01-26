@@ -1,0 +1,104 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "clickability_desc",
+      "value": "description"
+    },
+    {
+      "name": "clickability_label",
+      "value": "label"
+    },
+    {
+      "name": "InputAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "InputAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "MouseAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MouseAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "mouse_desc",
+      "value": "description"
+    },
+    {
+      "name": "mouse_label",
+      "value": "label"
+    },
+    {
+      "name": "FlingAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "FlingAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "Fling_desc",
+      "value": "description"
+    },
+    {
+      "name": "Fling_label",
+      "value": "label"
+    },
+    {
+      "name": "SwipeAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "SwipeAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "PinchAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "PinchAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "PointMatrixAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "PointMatrixAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "ScrollerAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "ScrollerAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "DragAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "DragAbility_label",
+      "value": "label"
+    }
+  ]
+}

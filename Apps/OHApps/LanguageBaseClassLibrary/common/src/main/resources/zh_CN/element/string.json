@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from npm package"
+    },
+    {
+      "name": "tv_no_data",
+      "value": "无数据"
+    },
+    {
+      "name": "deque",
+      "value": "Deque (线性容器Deque)"
+    },
+    {
+      "name": "hash_map",
+      "value": "HashMap (非线性容器HashMap)"
+    },
+    {
+      "name": "hash_set",
+      "value": "HashSet (非线性容器HashSet)"
+    },
+    {
+      "name": "light_weight_map",
+      "value": "LightWeightMap (非线性容器LightWeightMap)"
+    },
+    {
+      "name": "light_weight_set",
+      "value": "LightWeightSet (非线性容器LightWeightSet)"
+    },
+    {
+      "name": "linked_list",
+      "value": "LinkedList (线性容器LinkedList)"
+    },
+    {
+      "name": "list",
+      "value": "List (线性容器List)"
+    },
+    {
+      "name": "array_list",
+      "value": "ArrayList (线性容器ArrayList)"
+    },
+    {
+      "name": "plain_array",
+      "value": "PlainArray (非线性容器PlainArray)"
+    },
+    {
+      "name": "queue",
+      "value": "Queue (线性容器Queue)"
+    },
+    {
+      "name": "stack",
+      "value": "Stack (线性容器Stack)"
+    },
+    {
+      "name": "tree_map",
+      "value": "TreeMap (非线性容器TreeMap)"
+    },
+    {
+      "name": "tree_set",
+      "value": "TreeSet (非线性容器TreeSet)"
+    },
+    {
+      "name": "vector",
+      "value": "Vector (线性容器Vector)"
+    }
+  ]
+}

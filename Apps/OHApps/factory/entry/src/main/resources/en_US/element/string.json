@@ -1,0 +1,166 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "factoryTest"
+    },
+    {
+      "name": "entry_MainAbility",
+      "value": "eTSWLAN"
+    },
+    {
+      "name": "description_mainability",
+      "value": "eTSWLAN Ability"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "wlan",
+      "value": "WLAN"
+    },
+    {
+      "name": "sure",
+      "value": "Sure"
+    },
+    {
+      "name": "available_wlan",
+      "value": "Available WLAN"
+    },
+    {
+      "name": "connected",
+      "value": "Connected"
+    },
+    {
+      "name": "about",
+      "value": "About"
+    },
+    {
+      "name": "ip_address",
+      "value": "IP address:"
+    },
+    {
+      "name": "gate_way",
+      "value": "Gateway:"
+    },
+    {
+      "name": "net_mask",
+      "value": "Netmask:"
+    },
+    {
+      "name": "primary_dns",
+      "value": "Primary Dns IP address:"
+    },
+    {
+      "name": "second_dns",
+      "value": "Second DNS IP address:"
+    },
+    {
+      "name": "server_ip",
+      "value": "DHCP server IP:"
+    },
+    {
+      "name": "lease_duration",
+      "value": "IP address lease duration:"
+    },
+    {
+      "name": "country_code",
+      "value": "Country code:"
+    },
+    {
+      "name": "infrastructure_feature",
+      "value": "Infrastructure Feature:"
+    },
+    {
+      "name": "ghz_feature",
+      "value": "5 GHz Feature:"
+    },
+    {
+      "name": "gas_anqp_feature",
+      "value": "GAS/ANQP Feature:"
+    },
+    {
+      "name": "wifi_direct",
+      "value": "WiFi-Direct Feature:"
+    },
+    {
+      "name": "soft_ap",
+      "value": "Soft AP Feature:"
+    },
+    {
+      "name": "wifi_aware",
+      "value": "WiFi Aware Feature:"
+    },
+    {
+      "name": "encryption",
+      "value": "encrypted"
+    },
+    {
+      "name": "open",
+      "value": "open"
+    },
+    // bluetooth
+    {
+      "name": "bluetooth",
+      "value": "bluetooth"
+    },
+    {
+      "name": "match",
+      "value": "pairing"
+    },
+    {
+      "name": "match_request",
+      "value": "Bluetooth Pairing Request"
+    },
+    {
+      "name": "available_device",
+      "value": "Available Devices"
+    },
+    {
+      "name": "paired_device",
+      "value": "Paired Devices"
+    },
+    {
+      "name": "discovery",
+      "value": "The device can be detected by nearby devices"
+    },
+    {
+      "name": "confirm",
+      "value": "confirm"
+    },
+    {
+      "name": "grant_permission",
+      "value": "After paired, access to the address book and call records is granted to the paired device"
+    },
+    {
+      "name": "disconnect",
+      "value": "Disconnect?"
+    },
+    {
+      "name": "grant_use_bluetooth",
+      "value": "Apply bluetooth permission"
+    },
+    {
+      "name": "grant_discovery_bluetooth",
+      "value": "Discover bluetooth permission"
+    },
+    {
+      "name": "grant_location",
+      "value": "Obtaining location permission"
+    },
+    {
+      "name": "grant_manage_bluetooth",
+      "value": "Managing bluetooth permission"
+    }
+
+  ]
+}

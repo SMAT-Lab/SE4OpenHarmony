@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "js-md5",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "0.7.3",
+        "Owner" : "Chen, Yi-Cyuan"
+        "Upstream URL": "https://github.com/emn178/js-md5",
+        "Description": "A simple MD5 hash function for JavaScript supports UTF-8 encoding"
+    }
+]

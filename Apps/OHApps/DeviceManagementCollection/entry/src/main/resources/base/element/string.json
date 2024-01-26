@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "device_management",
+      "value": "Device Management"
+    },
+    {
+      "name": "battery_info",
+      "value": "Battery Information"
+    },
+    {
+      "name": "running_lock",
+      "value": "Runninglock"
+    },
+    {
+      "name": "thermal",
+      "value": "Thermal Management"
+    },
+    {
+      "name": "usb_manager",
+      "value": "USB Management"
+    },
+    {
+      "name": "power_manager",
+      "value": "System Power Management"
+    },
+    {
+      "name": "settings",
+      "value": "Data Item Settings"
+    },
+    {
+      "name": "stationary",
+      "value": "Device Status Awareness Framework"
+    }
+  ]
+}

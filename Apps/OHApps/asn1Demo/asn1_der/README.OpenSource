@@ -1,0 +1,11 @@
+[
+	 {
+        "Name": "asn1-der",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "v0.1.0",
+        "Owner":"xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/ComplyCloud/asn1-der",
+        "Description": "Javascript library for DER and PEM serialization/deserialization of Abstract Syntax Notation One (ASN.1)."
+    }
+]

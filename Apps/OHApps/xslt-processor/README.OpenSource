@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "xslt-processor",
+        "License": "GNU Lesser General Public License v3.0",
+        "License File": "https://github.com/fiduswriter/xslt-processor/blob/main/LICENSE",
+        "Version Number": "0.11.7",
+        "Owner" : "fiduswriter"
+        "Upstream URL": "https://github.com/fiduswriter/xslt-processor",
+        "Description": "A JavaScript XSLT processor without native library dependencies"
+    }
+]

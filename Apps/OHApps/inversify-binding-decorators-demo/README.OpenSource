@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "inversify-binding-decorators",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "4.0.0",
+        "Owner" : "inversify"
+        "Upstream URL": "https://github.com/inversify/inversify-binding-decorators",
+        "Description": "An utility that allows developers to declare InversifyJS bindings using ES2016 decorators"
+    }
+]

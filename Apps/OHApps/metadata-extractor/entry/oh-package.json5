@@ -1,0 +1,12 @@
+{
+  "license": "Apache License 2.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "2.0.0",
+  "dependencies": {
+    "@ohos/metadata-extractor": "file:../library"
+  }
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "XPopup",
+        "License": "Apache License 2.0",
+        "License File": "LICENSE",
+        "Version Number": "2.9.19",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://gitee.com/lxj_gitee/XPopup",
+        "Description": "提供功能强大，交互优雅，动画丝滑的通用弹窗,自带十几种效果良好的动画， 支持完全的UI和动画自定义"
+    }
+]

@@ -1,0 +1,22 @@
+{
+  "types": "",
+  "keywords": [
+    "OpenHarmony",
+    "utilCode",
+    "glide",
+    "HarmonyOS"
+  ],
+  "author": "ohos_tpc",
+  "description": "utilCode是一个OpenHarmony系统下使用通用工具的示例，包含温度转换、正则校验、图片处理、坐标转换、和颜色获取等常用功能。 目前示例的功能有如下",
+  "main": "index.ts",
+  "repository": "https://gitee.com/openharmony-sig/util_code",
+  "type": "module",
+  "version": "1.0.1",
+  "dependencies": {},
+  "tags": [
+    "Tool"
+  ],
+  "license": "Apache License 2.0",
+  "devDependencies": {},
+  "name": "library"
+}

@@ -1,0 +1,264 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MultiColumns"
+    },
+    {
+      "name": "account",
+      "value": "Account"
+    },
+    {
+      "name": "addAccount",
+      "value": "Adding an Account"
+    },
+    {
+      "name": "allAccount",
+      "value": "All accounts"
+    },
+    {
+      "name": "recUser",
+      "value": "Recipient："
+    },
+    {
+      "name": "nonSense",
+      "value": "xxxx"
+    },
+    {
+      "name": "recvBox",
+      "value": "Inbox"
+    },
+    {
+      "name": "album",
+      "value": "Albums"
+    },
+    {
+      "name": "photo",
+      "value": "Photographs"
+    },
+    {
+      "name": "WLAN",
+      "value": "WLAN"
+    },
+    {
+      "name": "bluetooth",
+      "value": "Bluetooth"
+    },
+    {
+      "name": "mobileData",
+      "value": "Mobile Data"
+    },
+    {
+      "name": "moreConnections",
+      "value": "More Connections"
+    },
+    {
+      "name": "desktopAndWallpaper",
+      "value": "Desktop and wallpaper"
+    },
+    {
+      "name": "displayAndBrightness",
+      "value": "Display and brightness"
+    },
+    {
+      "name": "soundAndVibration",
+      "value": "Sound and vibration"
+    },
+    {
+      "name": "notice",
+      "value": "Notifications"
+    },
+    {
+      "name": "storage",
+      "value": "Storage"
+    },
+    {
+      "name": "safe",
+      "value": "Security"
+    },
+    {
+      "name": "privacy",
+      "value": "Privacy"
+    },
+    {
+      "name": "userAccounts",
+      "value": "Users and Accounts"
+    },
+    {
+      "name": "system",
+      "value": "System"
+    },
+    {
+      "name": "aboutDevice",
+      "value": "About the device"
+    },
+    {
+      "name": "settings",
+      "value": "Settings"
+    },
+    {
+      "name": "networkAcceleration",
+      "value": "Network acceleration"
+    },
+    {
+      "name": "moreWLANSettings",
+      "value": "More WLAN settings"
+    },
+    {
+      "name": "wifiName",
+      "value": "xxx-Employee"
+    },
+    {
+      "name": "addNetWork",
+      "value": "Add Other Networks"
+    },
+    {
+      "name": "unRead",
+      "value": "Unread Messages"
+    },
+    {
+      "name": "sended",
+      "value": "Sent"
+    },
+    {
+      "name": "allFolders",
+      "value": "Show All Folders"
+    },
+    {
+      "name": "textPartOne",
+      "value": "Welcome to your membership space"
+    },
+    {
+      "name": "textPartTwo",
+      "value": "Dear jiaozi, your xxxx membership space has been created..."
+    },
+    {
+      "name": "searchMail",
+      "value": "Searching for Messages"
+    },
+    {
+      "name": "textData",
+      "value": "Want to try xx mailbox now?"
+    },
+    {
+      "name": "bodyTextPartOne",
+      "value": "Let's log in to e-mail together. Add a personal email account: Open the email, select an email service provider or touch Other, enter the email address and password, touch Login, and follow the prompts to configure the account. The system will automatically connect to the server and check the server settings."
+    },
+    {
+      "name": "bodyTextPartTwo",
+      "value": "Add xxxxxx account: xxxxxx is developed by xx company and is used for the internal email exchange system of the enterprise. If your company mailbox uses the xxxxxx server, you can log in to the company mailbox on your mobile phone. Choose Email > [xxxxxx], enter the email address, user name, and password, click Login, and configure as prompted. The system automatically connects to the server and checks the server settings."
+    },
+    {
+      "name": "bodyTextPartThree",
+      "value": "After the configuration is successful, the Inbox page is displayed by default. During the login, some mailboxes require an authorization code. Follow the onscreen instructions to obtain and enter the authorization code. The xx mailbox can automatically obtain the authorization code and log in to the system with one click."
+    },
+    {
+      "name": "mailDesc",
+      "value": "Imjiaozi and 3 others"
+    },
+    {
+      "name": "reply",
+      "value": "Reply"
+    },
+    {
+      "name": "replyAll",
+      "value": "Reply to all"
+    },
+    {
+      "name": "send",
+      "value": "Forwarding"
+    },
+    {
+      "name": "delete",
+      "value": "Deletion"
+    },
+    {
+      "name": "more",
+      "value": "More"
+    },
+    {
+      "name": "picture",
+      "value": "Pictures"
+    },
+    {
+      "name": "video",
+      "value": "Video"
+    },
+    {
+      "name": "collect",
+      "value": "Collection"
+    },
+    {
+      "name": "newAlbum",
+      "value": "New Album"
+    },
+    {
+      "name": "avatar",
+      "value": "Portrait"
+    },
+    {
+      "name": "address",
+      "value": "Location"
+    },
+    {
+      "name": "category",
+      "value": "Classifieds"
+    },
+    {
+      "name": "pictureType",
+      "value": "Shooting mode"
+    },
+    {
+      "name": "hidden",
+      "value": "Has been hidden"
+    },
+    {
+      "name": "placeholderText",
+      "value": "Photos, people, locations..."
+    },
+    {
+      "name": "userInfo",
+      "value": "Angie"
+    },
+    {
+      "name": "aboutUserInfo",
+      "value": "xx account, payment and billing, cloud space, etc."
+    },
+    {
+      "name": "useful",
+      "value": "Saved (Internet access available)"
+    },
+    {
+      "name": "useless",
+      "value": "Encryption (no Internet access)"
+    },
+    {
+      "name": "connected",
+      "value": "Connected (good network quality)"
+    },
+    {
+      "name": "wlanUseful",
+      "value": "Available WLAN"
+    },
+    {
+      "name": "wlanConnected",
+      "value": "Connected to Wi-Fi"
+    },
+    {
+      "name": "closed",
+      "value": "Closed"
+    },
+    {
+      "name": "search",
+      "value": "Searching for..."
+    }
+  ]
+}

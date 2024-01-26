@@ -1,0 +1,73 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "通用密钥库系统"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "通用密钥库系统"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "通用密钥库系统"
+    },
+    {
+      "name": "send_message",
+      "value": "发送消息"
+    },
+    {
+      "name": "recieve_message",
+      "value": "接收消息"
+    },
+    {
+      "name": "import_key",
+      "value": "导入密钥"
+    },
+    {
+      "name": "new_key",
+      "value": "新密钥"
+    },
+    {
+      "name": "old_key",
+      "value": "旧密钥"
+    },
+    {
+      "name": "back",
+      "value": "返回"
+    },
+    {
+      "name": "input_message",
+      "value": "输入您要发送的消息"
+    },
+    {
+      "name": "input_save_password",
+      "value": "输入需要保存到的密码"
+    },
+    {
+      "name": "min_access_control",
+      "value": "低安访问控制"
+    },
+    {
+      "name": "save_password",
+      "value": "保存密码"
+    },
+    {
+      "name": "read_password",
+      "value": "读取密码"
+    },
+    {
+      "name": "cipher_text",
+      "value": "密码密文"
+    },
+    {
+      "name": "plain_text",
+      "value": "密码明文"
+    },
+    {
+      "name": "pinInput",
+      "value": "PIN"
+    }
+
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "float": [
+    {
+      "name": "main_title_font_size",
+      "value": "25fp"
+    },
+    {
+      "name": "navigation_font_size",
+      "value": "20fp"
+    },
+    {
+      "name": "body_font_size",
+      "value": "15fp"
+    },
+    {
+      "name": "list_item_font_size",
+      "value": "12fp"
+    },
+    {
+      "name": "title_immersive_font_size",
+      "value": "14fp"
+    },
+    {
+      "name": "detail_immersive_font_size",
+      "value": "12fp"
+    },
+    {
+      "name": "column_padding",
+      "value": "12vp"
+    },
+    {
+      "name": "item_margin_top",
+      "value": "2vp"
+    }
+  ]
+}

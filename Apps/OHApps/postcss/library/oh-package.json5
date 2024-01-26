@@ -1,0 +1,20 @@
+{
+  "license": "MIT",
+  "types": "",
+  "devDependencies": {},
+  "keywords": [
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "author": "ohos_tpc",
+  "name": "@ohos/postcss",
+  "description": "PostCSS是一个用JS插件转换样式的工具。这些插件可以检测你的CSS，支持变量和混合，编译未来的CSS语法，内联图像等等。",
+  "main": "Index.ets",
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/postcss",
+  "version": "1.0.0",
+  "dependencies": {
+    "source-map-js": "^0.6.2",
+    "@ohos/fileio-extra": "latest",
+    "@ohos/node-polyfill": 'latest',
+  }
+}

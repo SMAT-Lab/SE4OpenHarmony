@@ -1,0 +1,188 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "应用账号管理"
+    },
+    {
+      "name": "description_mainability",
+      "value": "ETS_Empty Ability"
+    },
+    {
+      "name": "back",
+      "value": "返回"
+    },
+    {
+      "name": "username",
+      "value": "*用户名: "
+    },
+    {
+      "name": "unusername",
+      "value": "用户名: "
+    },
+    {
+      "name": "password",
+      "value": "*密码: "
+    },
+    {
+      "name": "unpassword",
+      "value": "密码: "
+    },
+    {
+      "name": "register",
+      "value": "注册"
+    },
+    {
+      "name": "login",
+      "value": "登录"
+    },
+    {
+      "name": "music",
+      "value": "音乐"
+    },
+    {
+      "name": "video",
+      "value": "视频"
+    },
+    {
+      "name": "map",
+      "value": "地图"
+    },
+    {
+      "name": "register_login",
+      "value": "注册/登录"
+    },
+    {
+      "name": "appname",
+      "value": "应用名: "
+    },
+    {
+      "name": "password_message",
+      "value": "账号或者密码不符"
+    },
+    {
+      "name": "password_error",
+      "value": "两次输入密码不一致"
+    },
+    {
+      "name": "close",
+      "value": "关闭"
+    },
+    {
+      "name": "email",
+      "value": "邮箱: "
+    },
+    {
+      "name": "signature",
+      "value": "个性签名: "
+    },
+    {
+      "name": "confirm_password",
+      "value": "*确认密码: "
+    },
+    {
+      "name": "unconfirm_password",
+      "value": "确认密码: "
+    },
+    {
+      "name": "setting",
+      "value": "设置完成"
+    },
+    {
+      "name": "account",
+      "value": "账户信息"
+    },
+    {
+      "name": "modify",
+      "value": "修改信息"
+    },
+    {
+      "name": "application",
+      "value": "切换应用"
+    },
+    {
+      "name": "delete",
+      "value": "删除账号"
+    },
+    {
+      "name": "warning",
+      "value": "警告"
+    },
+    {
+      "name": "confirm",
+      "value": "确认"
+    },
+    {
+      "name": "delete_account",
+      "value": "您正在删除账号"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "blank",
+      "value": "用户名为空"
+    },
+    {
+      "name": "password_blank",
+      "value": "密码为空"
+    },
+    {
+      "name": "switch_app",
+      "value": "切换应用"
+    },
+    {
+      "name": "has",
+      "value": "用户名已存在"
+    },
+    {
+      "name": "userpassword",
+      "value": "新密码与之前一样"
+    },
+    {
+      "name": "routerback",
+      "value": "请确认是否退出"
+    },
+    {
+      "name": "prompt_username",
+      "value": "输入数字、字母或下划线，15位"
+    },
+    {
+      "name": "prompt_email",
+      "value": "输入邮箱格式，18位"
+    },
+    {
+      "name": "prompt_signature",
+      "value": "输入签名，18位"
+    },
+    {
+      "name": "prompt_password",
+      "value": "输入密码，6-18位"
+    },
+    {
+      "name": "prompt_confirm_password",
+      "value": "再次输入密码，6-18位"
+    },
+    {
+      "name": "min_password",
+      "value": "密码长度小于6位"
+    },
+    {
+      "name": "emailinfo",
+      "value": "邮箱格式错误"
+    },
+    {
+      "name": "register_info",
+      "value": "注册账号成功"
+    },
+    {
+      "name": "modify_info",
+      "value": "修改信息成功"
+    },
+    {
+      "name": "empty",
+      "value": "empty"
+    }
+  ]
+}

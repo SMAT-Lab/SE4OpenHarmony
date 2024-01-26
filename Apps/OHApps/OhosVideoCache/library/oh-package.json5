@@ -1,0 +1,32 @@
+{
+  "name": "@ohos/video-cache",
+  "version": "1.0.0",
+  "type": "module",
+  "types": "",
+  "description": "OhosVideoCache allows to add caching support to your IjkPlayer/AvPlayer or any another player with help of single line!",
+  "main": "Index.ts",
+  "author": "ohos_tpc",
+  "ohos": {
+    "org": "opensource"
+  },
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/OhosVideoCache",
+  "license": "Apache-2.0 license",
+  "dependencies": {
+    "@ohos/crypto-js": "2.0.2"
+  },
+  "keywords": [
+    "Video Cache",
+    "Http Proxy",
+    "IjkPlayer AvPlayer",
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "tags": [
+    "Network",
+    "Tool",
+    "Media"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

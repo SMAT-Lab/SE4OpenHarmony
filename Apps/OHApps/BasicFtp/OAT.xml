@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="build-profile.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="BasicFtp/src/main/ets/.*" desc="源库默认的版权头,不做修改"/>
+                <filteritem type="filepath" name="BasicFtp/index.ets" desc="源库默认的版权头,不做修改"/>
+                <filteritem type="filepath" name="library/src/main/ets/.*" desc="源库默认的版权头,不做修改"/>
+                <filteritem type="filepath" name="library/index.ts" desc="源库默认的版权头,不做修改"/>
+                <filteritem type="filename" name="hvigorfile.ts" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="module.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw"  desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw.bat" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="oh-package.json5" desc="项目工程默认文件，不需要添加版权头"/>
+				<filteritem type="filename" name="LICENSE" desc="项目工程LICENSE申明文件"/>
+				<filteritem type="filename" name="NOTICE" desc="项目工程NOTICE申明文件"/>
+                <filteritem type="filepath" name="entry/oh-package.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="hvigor/hvigor-wrapper.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="hvigor/hvigor-config.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="AppScope/app.json5" desc="项目工程默认文件，不需要添加版权头"/>
+            </filefilter>
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="build-profile.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="BasicFtp/src/main/ets/.*" desc="源库默认的版权头,不做修改"/>
+                <filteritem type="filepath" name="BasicFtp/index.ets" desc="源库默认的版权头,不做修改"/>
+                <filteritem type="filepath" name="library/src/main/ets/.*" desc="源库默认的版权头,不做修改"/>
+                <filteritem type="filepath" name="library/index.ts" desc="源库默认的版权头,不做修改"/>
+                <filteritem type="filename" name="NOTICE" desc="项目工程LICENSE申明文件"/>
+                <filteritem type="filename" name="hvigorfile.ts" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="module.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="LICENSE" desc="项目工程LICENSE申明文件"/>
+				<filteritem type="filename" name="NOTICE" desc="项目工程NOTICE申明文件"/>
+                <filteritem type="filename" name="hvigorw" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw.bat" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="oh-package.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/oh-package.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="hvigor/hvigor-wrapper.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="hvigor/hvigor-config.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="AppScope/app.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/main/resource/rawfile/.*" desc="测试文件"/>
+                <filteritem type="filepath" name="entry/src/mmain/resources/base/media/.*" desc="测试文件"/>
+            </filefilter>
+            <filefilter name="binaryFileTypePolicyFilter" desc="Filters for copyright header policies">
+                <filteritem type="filepath" name="entry/src/main/resources/base/media/icon.png" desc="项目工程默认图片文件"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/resources/base/media/icon.png" desc="项目工程默认图片文件"/>
+                <filteritem type="filepath" name="AppScope/resources/base/media/app_icon.png" desc="项目工程默认图片文件"/>
+                <filteritem type="filepath" name="BasicFtp/entry/src/main/resources/rawfile/.*" desc="测试文件"/>
+                <filteritem type="filepath" name="BasicFtp/entry/src/main/resources/base/media/.*" desc="测试文件"/>
+            </filefilter>
+        </filefilterlist>
+		 <policylist>
+            <policy name="projectPolicy" desc="配置兼容的协议等，需要指定具体的path和通过desc说明原因">
+                <policyitem type="license" name="MIT" path="*" group="defaultGroup" filefilter="defaultPolicyFilter" desc="匹配原库协议，符合开源要求"/>				
+            </policy>
+        </policylist>
+    </oatconfig>
+</configuration>

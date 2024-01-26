@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/favourites/ic_favourites</title>
+    <defs>
+        <path d="M1.37638601,0.0734264853 L21.6779778,8.31422144 C22.1897103,8.5219432 22.4361597,9.10517608 22.2284379,9.61690855 C22.1268342,9.86721424 21.9282835,10.0657649 21.6779778,10.1673686 L1.38381007,18.40515 C0.872077606,18.6128718 0.288844722,18.3664224 0.0811229649,17.8546899 C-0.0107722991,17.6283016 -0.016605917,17.3761027 0.064723476,17.1457074 L2.83987731,9.28406982 L0.0564016182,1.33031471 C-0.126026114,0.809029213 0.148672379,0.238556927 0.669957874,0.0561291954 C0.899692112,-0.0242680078 1.15086187,-0.0181179753 1.37638601,0.0734264853 Z M18.124,9.99 L4.18,9.99 L1.8489655,16.5974671 L18.124,9.99 Z M1.83782941,1.8796026 L4.15,8.49 L18.124,8.49 L1.83782941,1.8796026 Z" id="path-1"></path>
+    </defs>
+    <g id="Demo-Sample" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.600000024">
+        <g id="画板备份-2" transform="translate(-69.000000, -395.000000)">
+            <g id="ic/favourites/ic_favourites" transform="translate(69.000000, 395.500000)">
+                <g id="symbol/frame/symbol_grid24-copy-2"></g>
+                <g id="Group" transform="translate(1.000000, 2.759205)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="合并形状" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <rect id="color/#000000" fill="#000000" mask="url(#mask-2)" x="-1" y="-2.75920496" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

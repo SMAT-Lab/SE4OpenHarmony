@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "85rRf/hypOXZpRd7thzm6A"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tile_iso_offset",
+      "rect": [
+        1,
+        36,
+        201,
+        166
+      ],
+      "offset": [
+        -26.5,
+        9
+      ],
+      "originalSize": [
+        256,
+        256
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

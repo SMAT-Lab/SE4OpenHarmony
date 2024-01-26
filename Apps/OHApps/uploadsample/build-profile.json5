@@ -1,0 +1,55 @@
+/* Copyright 2023 Unionman Technology Co., Ltd.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\xian.liu\\.ohos\\config\\openharmony\\auto_ohos_default_uploadsample2_com.example.uploadsample.cer",
+          "storePassword": "0000001BE3617DA2A970B659EBECCFFDEDB8082C57F92870AD65AA76A5549F5F59FBB3EB544A2FA2A53F6C",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B313FB73CDA8A6843CDE63F17CDC587CF5E91BFAB995971329EC750B0090832931FA199F471EC13",
+          "profile": "C:\\Users\\xian.liu\\.ohos\\config\\openharmony\\auto_ohos_default_uploadsample2_com.example.uploadsample.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\xian.liu\\.ohos\\config\\openharmony\\auto_ohos_default_uploadsample2_com.example.uploadsample.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 10,
+    "compatibleSdkVersion": 10,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

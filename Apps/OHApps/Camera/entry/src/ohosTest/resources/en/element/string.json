@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "rotation_angle",
+      "value": "Angle of rotation"
+    },
+    {
+      "name": "resolution_ratio",
+      "value": "size"
+    },
+    {
+      "name": "support_90_rotate",
+      "value": "support 90°C rotate"
+    },
+    {
+      "name": "confirm",
+      "value": "confirm"
+    },
+    {
+      "name": "allow",
+      "value": "ALLOW"
+    },
+    {
+      "name": "whether",
+      "value": "BAN"
+    }
+  ]
+}

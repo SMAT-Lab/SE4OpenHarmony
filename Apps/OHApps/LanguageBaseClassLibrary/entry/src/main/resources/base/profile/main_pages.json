@@ -1,0 +1,8 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/AddInformationView",
+    "pages/AddKeyValuePairView",
+    "pages/AddStringView"
+  ]
+}

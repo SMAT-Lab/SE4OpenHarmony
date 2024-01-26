@@ -1,0 +1,88 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "call_photo",
+      "value": "getFileUriFromPhoto"
+    },
+    {
+      "name": "call_file_picker_select_file",
+      "value": "call filePicker select file"
+    },
+    {
+      "name": "call_file_picker_save_file",
+      "value": "call filePicker save file "
+    },
+    {
+      "name": "call_file_picker_select_audio",
+      "value": "call filePicker select audio"
+    },
+    {
+      "name": "call_file_picker_save_audio",
+      "value": "call filePicker save audio "
+    },
+    {
+      "name": "call_file_picker_select_image_video",
+      "value": "call filePicker select image/video"
+    },
+    {
+      "name": "call_file_picker_save_image_video",
+      "value": "call filePicker save image/video"
+    },
+    {
+      "name": "read_permission",
+      "value": "user read file permission"
+    },
+    {
+      "name": "write_permission",
+      "value": "user write file permission"
+    },
+    {
+      "name": "write_image_video_permission",
+      "value": "user write image video permission"
+    },
+    {
+      "name": "edit_file_permission",
+      "value": "user edit file permission"
+    },
+    {
+      "name": "open_file",
+      "value": "openFile"
+    },
+    {
+      "name": "get_log",
+      "value": "get log"
+    },
+    {
+      "name": "clear_log",
+      "value": "clear log"
+    },
+    {
+      "name": "last_open",
+      "value": "Recently Opened"
+    },
+    {
+      "name": "view_last_open",
+      "value": "View recently opened files"
+    },
+    {
+      "name": "editable",
+      "value": "Editable"
+    },
+    {
+      "name": "saved",
+      "value": "Saved"
+    }
+  ]
+}

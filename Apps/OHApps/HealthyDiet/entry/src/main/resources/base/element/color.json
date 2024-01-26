@@ -1,0 +1,36 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "high_calorie",
+      "value": "#EE584C"
+    },
+    {
+      "name": "low_calorie",
+      "value": "#73CD57"
+    },
+    {
+      "name": "theme_color_orange",
+      "value": "#FD9A42"
+    },
+    {
+      "name": "theme_color_green",
+      "value": "#73CD57"
+    },
+    {
+      "name": "theme_color_grey",
+      "value": "#999999"
+    },
+    {
+      "name": "tab_bar_select_color",
+      "value": "#73CD57"
+    },
+    {
+      "name": "tab_bar_normal_color",
+      "value": "#999999"
+    }
+  ]
+}

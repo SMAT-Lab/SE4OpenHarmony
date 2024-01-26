@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "my_love",
+      "value": "我的最爱"
+    },
+    {
+      "name": "historical_record",
+      "value": "历史记录"
+    },
+    {
+      "name": "message",
+      "value": "消息"
+    },
+    {
+      "name": "buyCar",
+      "value": "购物车"
+    }
+  ]
+}

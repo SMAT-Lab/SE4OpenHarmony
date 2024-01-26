@@ -1,0 +1,28 @@
+{
+  "types": '',
+  "keywords": [
+    'POP3 Protocol',
+    'receive mail',
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "ohos": {
+    "org": "opensource"
+  },
+  "name": "@ohos/node-pop3",
+  "version": "1.0.1-rc.1",
+  "description": "pop3 command support for node. Supports Promise and stream.",
+  "main": "index.ts",
+  "type": "module",
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/node-pop3",
+  "tags": [
+    "Network",
+    "Tool"
+  ],
+  "author": "ohos_tpc",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@ohos/sax",
+  "version": "1.0.1",
+  "description": "A sax style parser for JS，A very simple tool to parse through an XML string。",
+  "main": "index.ts",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "types": "",
+  "keywords": [
+    "OpenHarmony",
+    "HarmonyOS",
+    "sax"
+  ],
+  "author": "ohos_tpc",
+  "ohos": {
+    "org": "opensource"
+  },
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/protobuf_format/sax",
+  "type": "module",
+  "tags": [
+    "Tool"
+  ],
+  "license": "ISC License"
+}

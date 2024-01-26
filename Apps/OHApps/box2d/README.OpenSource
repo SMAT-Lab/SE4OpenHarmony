@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "box2d.ts",
+        "License": "MIT",
+        "License File": " LICENSE ",
+        "Version Number": "2.3.2",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/flyover/box2d.ts",
+        "Description": "a 2D physics engine for games"
+    }
+]

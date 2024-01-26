@@ -1,0 +1,19 @@
+{
+  "license": "Apache License 2.0",
+  "types": "",
+  "devDependencies": {},
+  "keywords": [
+    "unrar",
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "author": "ohos_tpc",
+  "name": "@ohos/unrar",
+  "description": "unrar是一个解压rar文件的库，支持解压无加密/加密压缩包",
+  "main": "index.ets",
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/unrar",
+  "version": "2.0.2-rc.0",
+  "dependencies": {
+    "libunrar.so": "file:../library/src/main/cpp/types/libunrar"
+  }
+}

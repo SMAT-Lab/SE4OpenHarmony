@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "带有动画的上拉刷新BezierRadar样式下拉刷新(BezierRadar样式、BezierCircle样式、FlyRefresh样式、WaterDrop样式等）和下拉加载的滑动列表库.",
+  "main": "",
+  "version": "2.0.0",
+  "dependencies": {
+    "@ohos/smartrefreshlayout": "file:../library"
+  }
+}

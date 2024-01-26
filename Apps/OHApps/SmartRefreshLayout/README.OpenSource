@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "SmartRefreshLayout",
+        "License": "Apache License 2.0",
+        "License File": " LICENSE ",
+        "Version Number": "2.0.5",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/scwang90/SmartRefreshLayout",
+        "Description": "SmartRefreshLayout以打造一个强大，稳定，成熟的下拉刷新框架为目标，并集成各种的炫酷、多样、实用、美观的Header"
+    }
+]

@@ -1,0 +1,21 @@
+{
+  "types": "src/main/ets/Box2D/Box2D.ts",
+  "keywords": [
+    "OpenHarmony",
+    "box2d",
+    "HarmonyOS"
+  ],
+  "author": "flyover",
+  "description": "一个开源的物理游戏引擎库，用于游戏开发，使物体的运动更加真实，让游戏场景看起来更具交互性",
+  "ohos": {
+    "org": "opensource"
+  },
+  "main": "src/main/ets/Box2D/box2d.umd.js",
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/box2d",
+  "type": "module",
+  "version": "2.0.0",
+  "dependencies": {},
+  "license": "MIT",
+  "devDependencies": {},
+  "name": "@ohos/box2d"
+}

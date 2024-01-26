@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "parse-sreset",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "5.0.0",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/albell/parse-srcset",
+        "Description": "A javascript parser for the HTML5 srcset attribute, based on the WHATWG reference algorithm. "
+    },
+]

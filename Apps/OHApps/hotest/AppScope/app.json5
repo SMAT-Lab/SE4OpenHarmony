@@ -1,0 +1,12 @@
+{
+  "app": {
+    "bundleName": "com.example.hotest",//标识应用的Bundle名称，用于标识应用的唯一性。
+    "vendor": "example",//标识对应用开发厂商的描述
+    "versionCode": 1000000,//标识应用的版本号，
+    "versionName": "1.0.0",//标识应用版本号的文字描述
+
+    "minAPIVersion": 9,//	标识应用能够兼容的最低历史版本号，用于跨设备兼容性判断。
+    "icon": "$media:like",//	标识应用的图标，
+    "label": "$string:app_name" //标识应用的名称，
+  }
+}

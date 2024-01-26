@@ -1,0 +1,12 @@
+{
+  "license": "1.0.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "mime-db": "1.52.0"
+  }
+}

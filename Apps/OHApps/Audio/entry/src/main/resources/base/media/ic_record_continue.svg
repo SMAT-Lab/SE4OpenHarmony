@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_record_continue</title>
+    <defs>
+        <path d="M16.4178985,6.64969378 L22.7241113,17.6299232 C23.4117482,18.8272204 22.9985869,20.3552615 21.8012896,21.0428985 C21.4224145,21.2604957 20.9931281,21.375 20.5562128,21.375 L7.94378717,21.375 C6.56307529,21.375 5.44378717,20.2557119 5.44378717,18.875 C5.44378717,18.4380847 5.55829147,18.0087984 5.77588871,17.6299232 L12.0821015,6.64969378 C12.7697385,5.45239653 14.2977796,5.03923521 15.4950768,5.72687214 C15.8789642,5.94734799 16.1974226,6.26580643 16.4178985,6.64969378 Z" id="path-1"></path>
+    </defs>
+    <g id="ic_record_continue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1" transform="translate(14.250000, 12.125000) rotate(-270.000000) translate(-14.250000, -12.125000) "></use>
+        </mask>
+        <use id="多边形备份-5" fill="#182431" transform="translate(14.250000, 12.125000) rotate(-270.000000) translate(-14.250000, -12.125000) " xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "copyFileLog1",
+      "value": "1、沙箱目录文件个数3个"
+    },
+    {
+      "name": "copyFileLog2",
+      "value": "2、TestFile01.txt、TestFile02.txt等文件copy完成"
+    }
+  ]
+}

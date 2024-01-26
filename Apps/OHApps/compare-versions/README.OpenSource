@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "compare-versions",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "6.1.0",
+        "Owner" : "omichelsen"
+        "Upstream URL": "https://github.com/omichelsen/compare-versions",
+        "Description": "Compare semver version strings to find which is greater, equal or lesser."
+    }
+]

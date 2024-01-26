@@ -1,0 +1,2392 @@
+From 99f9315873977a22be702228960664ed01d5054e Mon Sep 17 00:00:00 2001
+From: song_yu <songyu50@h-partners.com>
+Date: Sat, 2 Dec 2023 17:04:35 +0800
+Subject: [PATCH] =?UTF-8?q?=E4=BE=B5=E5=85=A5=E5=BC=8F=E4=BF=AE=E6=94=B9?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ config.h.ohos        | 130 ++++++++
+ src/client.cpp       |  12 +-
+ src/clientbase.cpp   |   8 +-
+ src/clientbase.h     |   2 +-
+ src/config.h         |   2 +
+ src/jid.h            |   2 +-
+ src/mucroom.cpp      | 140 ++++++++
+ src/mucroom.h        | 758 +++++++++++++++++++++----------------------
+ src/registration.cpp |  75 +++--
+ src/registration.h   | 496 ++++++++++++++--------------
+ 10 files changed, 947 insertions(+), 678 deletions(-)
+ create mode 100644 config.h.ohos
+
+diff --git a/config.h.ohos b/config.h.ohos
+new file mode 100644
+index 0000000..6c44335
+--- /dev/null
++++ b/config.h.ohos
+@@ -0,0 +1,130 @@
++/* config.h.unix.  Generated from config.h.unix.in by configure.  */
++/* config.h.unix.in.  Generated from configure.ac by autoheader.  */
++
++/* Define to 1 if you have the <arpa/nameser.h> header file. */
++#define HAVE_ARPA_NAMESER_H 1
++
++/* Define to 1 if you have the <dlfcn.h> header file. */
++#define HAVE_DLFCN_H 1
++
++/* Define to 1 if you have the `dn_skipname' function. */
++#define HAVE_DN_SKIPNAME 1
++
++/* Define to 1 if you have the <errno.h> header file. */
++#define HAVE_ERRNO_H 1
++
++/* Define to 1 if GCC atomic builtins are available */
++#define HAVE_GCC_ATOMIC_BUILTINS 1
++
++/* Define to 1 if you have the `getaddrinfo' function. */
++/* #undef HAVE_GETADDRINFO */
++
++/* Define to 1 if you want TLS support (GnuTLS). Undefine HAVE_OPENSSL. */
++/* #undef HAVE_GNUTLS */
++
++/* Define to 1 if you have GnuTLS 2.12.0 or above. */
++/* #undef HAVE_GNUTLS_SESSION_CHANNEL_BINDING */
++
++/* Define to 1 if you have the <inttypes.h> header file. */
++#define HAVE_INTTYPES_H 1
++
++/* Define to 1 if you have the `bind' library (-lbind). */
++/* #undef HAVE_LIBBIND */
++
++/* Define to 1 if you want IDN support. */
++/* #undef HAVE_LIBIDN */
++
++/* Define to 1 if you have the `resolv' library (-lresolv). */
++/* #undef HAVE_LIBRESOLV */
++
++/* Define to 1 if you have the `socket' library (-lsocket). */
++/* #undef HAVE_LIBSOCKET */
++
++/* enable mdns support */
++/* #undef HAVE_MDNS */
++
++/* Define to 1 if you have the <memory.h> header file. */
++#define HAVE_MEMORY_H 1
++
++/* Define to 1 if you want TLS support (OpenSSL). Undefine HAVE_GNUTLS. */
++/* #undef HAVE_OPENSSL */
++
++/* Define if you have POSIX threads libraries and header files. */
++#define HAVE_PTHREAD 1
++
++/* Define to 1 if you have the `res_query' function. */
++#define HAVE_RES_QUERY 1
++
++/* Define to 1 if you have the `res_querydomain' function. */
++/* #undef HAVE_RES_QUERYDOMAIN */
++
++/* Define to 1 if you have the `setsockopt' function. */
++#define HAVE_SETSOCKOPT 1
++
++/* Define to 1 if you have the <stdint.h> header file. */
++#define HAVE_STDINT_H 1
++
++/* Define to 1 if you have the <stdlib.h> header file. */
++#define HAVE_STDLIB_H 1
++
++/* Define to 1 if you have the <strings.h> header file. */
++#define HAVE_STRINGS_H 1
++
++/* Define to 1 if you have the <string.h> header file. */
++#define HAVE_STRING_H 1
++
++/* Define to 1 if you have the <sys/stat.h> header file. */
++#define HAVE_SYS_STAT_H 1
++
++/* Define to 1 if you have the <sys/types.h> header file. */
++#define HAVE_SYS_TYPES_H 1
++
++/* Define to 1 if you have the <unistd.h> header file. */
++#define HAVE_UNISTD_H 1
++
++/* Define to 1 if you want Stream Compression support. */
++/* #undef HAVE_ZLIB */
++
++/* Define to the sub-directory in which libtool stores uninstalled libraries.
++   */
++#define LT_OBJDIR ".libs/"
++
++/* Name of package */
++#define PACKAGE "gloox"
++
++/* Define to the address where bug reports for this package should be sent. */
++#define PACKAGE_BUGREPORT "js@camaya.net"
++
++/* Define to the full name of this package. */
++#define PACKAGE_NAME "gloox"
++
++/* Define to the full name and version of this package. */
++#define PACKAGE_STRING "gloox 1.0.13"
++
++/* Define to the one symbol short name of this package. */
++#define PACKAGE_TARNAME "gloox"
++
++/* Define to the home page for this package. */
++#define PACKAGE_URL ""
++
++/* Define to the version of this package. */
++#define PACKAGE_VERSION "1.0.13"
++
++/* Define to necessary symbol if this constant uses a non-standard name on
++   your system. */
++/* #undef PTHREAD_CREATE_JOINABLE */
++
++/* Define to 1 if you have the ANSI C header files. */
++#define STDC_HEADERS 1
++
++/* Version number of package */
++#define VERSION "1.0.13"
++
++/* Define to empty if `const' does not conform to ANSI C. */
++/* #undef const */
++
++/* Define to `__inline__' or `__inline' if that's what the C compiler
++   calls it, or to nothing if 'inline' is not supported under any name.  */
++#ifndef __cplusplus
++/* #undef inline */
++#endif
+diff --git a/src/client.cpp b/src/client.cpp
+index abd9bc1..7f3daa6 100644
+--- a/src/client.cpp
++++ b/src/client.cpp
+@@ -456,7 +456,7 @@ namespace gloox
+         && !m_forceNonSasl )
+     {
+       notifyStreamEvent( StreamEventAuthentication );
+-      startSASL( SaslMechScramSha1Plus );
++      startSASL(SaslMechScramSha1Plus);
+     }
+     else if( m_streamFeatures & SaslMechScramSha1 && m_availableSaslMechs & SaslMechScramSha1
+              && !m_forceNonSasl )
+@@ -467,8 +467,8 @@ namespace gloox
+     else if( m_streamFeatures & SaslMechDigestMd5 && m_availableSaslMechs & SaslMechDigestMd5
+              && !m_forceNonSasl )
+     {
+-      notifyStreamEvent( StreamEventAuthentication );
+-      startSASL( SaslMechDigestMd5 );
++      notifyStreamEvent(StreamEventAuthentication);
++      startSASL(SaslMechDigestMd5);
+     }
+     else if( m_streamFeatures & SaslMechPlain && m_availableSaslMechs & SaslMechPlain
+              && !m_forceNonSasl )
+@@ -671,14 +671,14 @@ namespace gloox
+     m_presence.setPresence( pres );
+     m_presence.setPriority( priority );
+     m_presence.addStatus( status );
+-    sendPresence( m_presence );
++    sendPresence(m_presence);
+   }
+ 
+   void Client::setPresence( const JID& to, Presence::PresenceType pres, int priority,
+                             const std::string& status )
+   {
+     Presence p( pres, to, status, priority );
+-    sendPresence( p );
++    sendPresence(p);
+   }
+ 
+   void Client::sendPresence( Presence& pres )
+@@ -724,7 +724,7 @@ namespace gloox
+ 
+   void Client::rosterFilled()
+   {
+-    sendPresence( m_presence );
++    sendPresence(m_presence);
+     notifyStreamEvent( StreamEventFinished );
+     notifyOnConnect();
+   }
+diff --git a/src/clientbase.cpp b/src/clientbase.cpp
+index 07f5b1c..45bfe0c 100644
+--- a/src/clientbase.cpp
++++ b/src/clientbase.cpp
+@@ -213,6 +213,10 @@ namespace gloox
+ 
+     return true;
+   }
++   void ClientBase::setJID(JID jid){
++       m_jid = jid;
++   }
++
+ 
+   void ClientBase::handleTag( Tag* tag )
+   {
+@@ -976,8 +980,8 @@ namespace gloox
+   {
+     ++m_stats.s10nStanzasSent;
+     Tag* tag = sub.tag();
+-    addFrom( tag );
+-    addNamespace( tag );
++    addFrom(tag);
++    addNamespace(tag);
+     send( tag, true, false );
+   }
+ 
+diff --git a/src/clientbase.h b/src/clientbase.h
+index ea5fe3a..acd0b12 100644
+--- a/src/clientbase.h
++++ b/src/clientbase.h
+@@ -121,7 +121,7 @@ namespace gloox
+        * in addition to a return value of @b false.
+        */
+       bool connect( bool block = true );
+-
++      void setJID(JID jid);
+       /**
+        * Use this periodically to receive data from the socket and to feed the parser. You need to use
+        * this only if you chose to connect in non-blocking mode.
+diff --git a/src/config.h b/src/config.h
+index 53a1e82..a8411d1 100644
+--- a/src/config.h
++++ b/src/config.h
+@@ -22,6 +22,8 @@
+ # include "../config.h.symbian"
+ #elif defined( __ANDROID__ )
+ # include "../config.h.android"
++#elif defined( __OHOS__ )
++# include "../config.h.ohos"
+ #else
+ # include "config.h.unix" // run ./configure to create config.h.unix
+ #endif
+diff --git a/src/jid.h b/src/jid.h
+index 2c5869a..833d7f6 100644
+--- a/src/jid.h
++++ b/src/jid.h
+@@ -40,7 +40,7 @@ namespace gloox
+        * Constructs a new JID from a string.
+        * @param jid The string containing the JID.
+        */
+-      JID( const std::string& jid ) : m_valid( true ) { setJID( jid ); }
++      JID( const std::string& jid ) : m_valid( true ) { setJID(jid); }
+ 
+       /**
+        * Destructor.
+diff --git a/src/mucroom.cpp b/src/mucroom.cpp
+index 3fdf623..880eb89 100644
+--- a/src/mucroom.cpp
++++ b/src/mucroom.cpp
+@@ -22,6 +22,7 @@
+ #include "error.h"
+ #include "util.h"
+ #include "tag.h"
++#include "../../log.h"
+ 
+ namespace gloox
+ {
+@@ -846,6 +847,67 @@ namespace gloox
+ 
+     m_parent->send( iq, this, action );
+   }
++   void MUCRoom::setRoles( const std::string& nicks, MUCRoomRole role,
++                             const std::string& reason )
++      {
++        if( !m_parent || !m_joined || nicks.empty() || role == RoleInvalid )
++          return;
++  
++        MUCOperation action = InvalidOperation;
++        switch( role )
++        {
++          case RoleNone:
++            action = SetRNone;
++                break;
++          case RoleVisitor:
++            action = SetVisitor;
++                break;
++          case RoleParticipant:
++            action = SetParticipant;
++                break;
++          case RoleModerator:
++            action = SetModerator;
++                break;
++          default:
++            break;
++        }
++  
++        IQ iq( IQ::Set, m_nick.bareJID() );
++  //      iq.addExtension( new MUCAdmin( role, nick, reason ) );
++  //      m_parent->send( iq, this, action );
++  
++        char *s = (char *) nicks.c_str();
++        const char *d = ",";
++        char *p;
++        p = strtok(s,d);
++        int i=0;
++        MUCAdmin *admin = nullptr;
++  
++        while(p)
++        {
++          printf("%s\n",p);
++          LOGD("test setRoles %s ", p);
++  
++          if(admin == nullptr){
++            LOGD("test setRoles 0 opr");
++            if(strlen(p)>0){
++              LOGD("test setRoles 1 opr");
++              admin = new MUCAdmin( role, p, reason );
++            }
++          }else if(strlen(p)>0){
++            LOGD("test setRoles other opr");
++            const_cast<MUCListItemList &>(admin->list()).push_back( MUCListItem( p, role, reason ) );
++          }
++          p=strtok(NULL,d);
++          i++;
++        }
++        if(admin)
++        {
++          iq.addExtension( admin );
++          m_parent->send( iq, this, action );
++        }
++  
++      }
+ 
+   void MUCRoom::setAffiliation( const std::string& nick, MUCRoomAffiliation affiliation,
+                                 const std::string& reason )
+@@ -880,6 +942,84 @@ namespace gloox
+ 
+     m_parent->send( iq, this, action );
+   }
++  
++   void MUCRoom::setAffiliations( const std::string& nicks, MUCRoomAffiliation affiliation,
++                                    const std::string& reason )
++      {
++        if( !m_parent || !m_joined || nicks.empty() || affiliation == AffiliationInvalid )
++          return;
++  
++        MUCOperation action = InvalidOperation;
++        switch( affiliation )
++        {
++          case AffiliationOutcast:
++            action = SetOutcast;
++                break;
++          case AffiliationNone:
++            action = SetANone;
++                break;
++          case AffiliationMember:
++            action = SetMember;
++                break;
++          case AffiliationAdmin:
++            action = SetAdmin;
++                break;
++          case AffiliationOwner:
++            action = SetOwner;
++                break;
++          default:
++            break;
++        }
++  
++        LOGD("test setAffiliations 1");
++        IQ iq( IQ::Set, m_nick.bareJID() );
++  
++        char *s = (char *) nicks.c_str();
++        const char *d = ",";
++        char *p;
++        p = strtok(s,d);
++        int i=0;
++        MUCAdmin *admin = nullptr;
++  
++        while(p)
++        {
++          printf("%s\n",p);
++          LOGD("test setAffiliations %s ", p);
++  
++          if(admin == nullptr){
++            LOGD("test setAffiliations 0 opr");
++            if(strlen(p)>0){
++              LOGD("test setAffiliations 1 opr");
++              admin = new MUCAdmin( affiliation, p, reason );
++            }
++          }else if(strlen(p)>0){
++            LOGD("test setAffiliations other opr");
++            const_cast<MUCListItemList &>(admin->list()).push_back( MUCListItem( p, affiliation, reason ) );
++          }
++          p=strtok(NULL,d);
++          i++;
++        }
++        if(admin)
++        {
++          iq.addExtension( admin );
++          m_parent->send( iq, this, action );
++        }
++  
++  //      MUCAdmin *admin = new MUCAdmin( affiliation, "555", reason );
++  //      MUCListItemList& mlist = const_cast<MUCListItemList &>(admin->list());
++  //      mlist.push_back( MUCListItem( "test", affiliation, reason ) );
++  //      mlist.push_back( MUCListItem( "333", affiliation, reason ) );
++  //      iq.addExtension( admin );
++  //      m_parent->send( iq, this, action );
++      }
++      
++    std::string MUCRoom::isJoined(){
++      if(m_joined){
++        return "1";
++      }else{
++        return "0";
++      }
++    }
+ 
+   void MUCRoom::requestList( MUCOperation operation )
+   {
+diff --git a/src/mucroom.h b/src/mucroom.h
+index 238cb4b..be1c6e9 100644
+--- a/src/mucroom.h
++++ b/src/mucroom.h
+@@ -10,8 +10,6 @@
+   This software is distributed without any warranty.
+ */
+ 
+-
+-
+ #ifndef MUCROOM_H__
+ #define MUCROOM_H__
+ 
+@@ -28,14 +26,13 @@
+ 
+ #include <string>
+ 
+-namespace gloox
+-{
++namespace gloox {
+ 
+-  class ClientBase;
+-  class MUCMessageSession;
+-  class Message;
++class ClientBase;
++class MUCMessageSession;
++class Message;
+ 
+-  /**
++/**
+    * @brief This is an implementation of @xep{0045} (Multi-User Chat).
+    *
+    * Usage is pretty simple:
+@@ -82,41 +79,37 @@ namespace gloox
+    * @author Jakob Schröter <js@camaya.net>
+    * @since 0.9
+    */
+-  class GLOOX_API MUCRoom : private DiscoHandler, private PresenceHandler,
+-                            public IqHandler, private MessageHandler, private DiscoNodeHandler
+-  {
+-    public:
+-      /**
++class GLOOX_API MUCRoom : private DiscoHandler, private PresenceHandler, public IqHandler, private MessageHandler, private DiscoNodeHandler {
++  public:
++    /**
+        * Allowable history request types. To disable sending of history, use any value except
+        * HistoryUnknown and specify a zero-length time span (using setRequestHistory()).
+        */
+-      enum HistoryRequestType
+-      {
+-        HistoryMaxChars,            /**< Limit the total number of characters in the history to "X"
++    enum HistoryRequestType {
++        HistoryMaxChars,   /**< Limit the total number of characters in the history to "X"
+                                      * (where the character count is the characters of the complete
+                                      * XML stanzas, not only their XML character data). */
+-        HistoryMaxStanzas,          /**< Limit the total number of messages in the history to "X". */
+-        HistorySeconds,             /**< Send only the messages received in the last "X" seconds. */
+-        HistorySince,               /**< Send only the messages received since the datetime specified
++        HistoryMaxStanzas, /**< Limit the total number of messages in the history to "X". */
++        HistorySeconds,    /**< Send only the messages received in the last "X" seconds. */
++        HistorySince,      /**< Send only the messages received since the datetime specified
+                                      * (which MUST conform to the DateTime profile specified in Jabber
+                                      * Date and Time Profiles (@xep{0082})). */
+-        HistoryUnknown              /**< It is up to the service to decide how much history to send.
++        HistoryUnknown     /**< It is up to the service to decide how much history to send.
+                                      * This is the default. */
+-      };
++    };
+ 
+-      /**
++    /**
+        * Available operations.
+        */
+-      enum MUCUserOperation
+-      {
+-        OpNone,                 /**< No operation. */
+-        OpInviteTo,             /**< Invitation being sent to soemone. */
+-        OpInviteFrom,           /**< Invitation received from someone. */
+-        OpDeclineTo,            /**< Someone's invitation declined. */
+-        OpDeclineFrom           /**< Someone declined an invitation. */
+-      };
++    enum MUCUserOperation {
++        OpNone,       /**< No operation. */
++        OpInviteTo,   /**< Invitation being sent to soemone. */
++        OpInviteFrom, /**< Invitation received from someone. */
++        OpDeclineTo,  /**< Someone's invitation declined. */
++        OpDeclineFrom /**< Someone declined an invitation. */
++    };
+ 
+-      /**
++    /**
+        * @brief An abstraction of a MUC query.
+        *
+        * You should not need to use this class directly.
+@@ -124,73 +117,70 @@ namespace gloox
+        * @author Jakob Schröter <js@camaya.net>
+        * @since 1.0
+        */
+-      class MUC : public StanzaExtension
+-      {
+-        public:
+-          /**
++    class MUC : public StanzaExtension {
++      public:
++        /**
+            * Creates a new MUC object.
+            * @param password An optional room password.
+            * @param historyType The type of room history to request.
+            * @param historySince A string describing the amount of room history.
+            * @param historyValue The amount of requested room history.
+            */
+-          MUC( const std::string& password, HistoryRequestType historyType = HistoryUnknown,
+-               const std::string& historySince = EmptyString, int historyValue = 0 );
++        MUC(const std::string &password, HistoryRequestType historyType = HistoryUnknown,
++            const std::string &historySince = EmptyString, int historyValue = 0);
+ 
+-          /**
++        /**
+            * Constructs a new MUCUser object from the given Tag.
+            * @param tag The Tag to parse.
+            */
+-          MUC( const Tag* tag = 0 );
++        MUC(const Tag *tag = 0);
+ 
+-          /**
++        /**
+            * Virtual destructor.
+            */
+-          virtual ~MUC();
++        virtual ~MUC();
+ 
+-          /**
++        /**
+            * Returns a pointer to the current password, or 0.
+            * @return A pointer to the current password, or 0.
+            */
+-          const std::string* password() const { return m_password; }
++        const std::string *password() const { return m_password; }
+ 
+-          /**
++        /**
+            * Returns a pointer to the description of the amount of room history requested.
+            * @return A pointer to the description of the amount of room history requested.
+            */
+-          const std::string* historySince() const { return m_historySince; }
++        const std::string *historySince() const { return m_historySince; }
+ 
+-          // reimplemented from StanzaExtension
+-          virtual const std::string& filterString() const;
++        // reimplemented from StanzaExtension
++        virtual const std::string &filterString() const;
+ 
+-          // reimplemented from StanzaExtension
+-          virtual StanzaExtension* newInstance( const Tag* tag ) const
+-          {
+-            return new MUC( tag );
+-          }
++        // reimplemented from StanzaExtension
++        virtual StanzaExtension *newInstance(const Tag *tag) const {
++            return new MUC(tag);
++        }
+ 
+-          // reimplemented from StanzaExtension
+-          virtual Tag* tag() const;
++        // reimplemented from StanzaExtension
++        virtual Tag *tag() const;
+ 
+-          // reimplemented from StanzaExtension
+-          virtual StanzaExtension* clone() const
+-          {
+-            MUC* m = new MUC();
+-            m->m_password = m_password ? new std::string( *m_password ) : 0;
+-            m->m_historySince = m_historySince ? new std::string( *m_historySince ) : 0;
++        // reimplemented from StanzaExtension
++        virtual StanzaExtension *clone() const {
++            MUC *m = new MUC();
++            m->m_password = m_password ? new std::string(*m_password) : 0;
++            m->m_historySince = m_historySince ? new std::string(*m_historySince) : 0;
+             m->m_historyType = m_historyType;
+             m->m_historyValue = m_historyValue;
+             return m;
+-          }
++        }
+ 
+-        private:
+-          std::string* m_password;
+-          std::string* m_historySince;
+-          HistoryRequestType m_historyType;
+-          int m_historyValue;
+-      };
++      private:
++        std::string *m_password;
++        std::string *m_historySince;
++        HistoryRequestType m_historyType;
++        int m_historyValue;
++    };
+ 
+-      /**
++    /**
+        * @brief An abstraction of a MUC user query.
+        *
+        * You should not need to use this class directly.
+@@ -198,10 +188,9 @@ namespace gloox
+        * @author Jakob Schröter <js@camaya.net>
+        * @since 1.0
+        */
+-      class MUCUser : public StanzaExtension
+-      {
+-        public:
+-          /**
++    class MUCUser : public StanzaExtension {
++      public:
++        /**
+            * Constructor.
+            * @param operation An operation to perform.
+            * @param to The recipient.
+@@ -210,139 +199,136 @@ namespace gloox
+            * a transformation of a one-to-one chat to a MUC, include the one-to-one chat's
+            * thread ID here. Defaults to the empty string (i.e. not a continuation).
+            */
+-          MUCUser( MUCUserOperation operation, const std::string& to, const std::string& reason,
+-                   const std::string& thread = EmptyString );
++        MUCUser(MUCUserOperation operation, const std::string &to, const std::string &reason,
++                const std::string &thread = EmptyString);
+ 
+-          /**
++        /**
+            * Constructs a new MUCUser object from the given Tag.
+            * @param tag The Tag to parse.
+            */
+-          MUCUser( const Tag* tag = 0 );
++        MUCUser(const Tag *tag = 0);
+ 
+-          /**
++        /**
+            * Virtual destructor.
+            */
+-          virtual ~MUCUser();
++        virtual ~MUCUser();
+ 
+-          /**
++        /**
+            * Returns the current room flags.
+            * @return The current room flags.
+            */
+-          int flags() const { return m_flags; }
++        int flags() const { return m_flags; }
+ 
+-          /**
++        /**
+            * Returns the user's current room affiliation.
+            * @return The user's current room affiliation.
+            */
+-          MUCRoomAffiliation affiliation() const { return m_affiliation; }
++        MUCRoomAffiliation affiliation() const { return m_affiliation; }
+ 
+-          /**
++        /**
+            * Returns the user's current room role.
+            * @return The user's current room role.
+            */
+-          MUCRoomRole role() const { return m_role; }
++        MUCRoomRole role() const { return m_role; }
+ 
+-          /**
++        /**
+            *
+            */
+-          const std::string* jid() const { return m_jid; }
++        const std::string *jid() const { return m_jid; }
+ 
+-          /**
++        /**
+            *
+            */
+-          const std::string* actor() const { return m_actor; }
++        const std::string *actor() const { return m_actor; }
+ 
+-          /**
++        /**
+            *
+            */
+-          const std::string* password() const { return m_password; }
++        const std::string *password() const { return m_password; }
+ 
+-          /**
++        /**
+            *
+            */
+-          const std::string* thread() const { return m_thread; }
++        const std::string *thread() const { return m_thread; }
+ 
+-          /**
++        /**
+            *
+            */
+-          const std::string* reason() const { return m_reason; }
++        const std::string *reason() const { return m_reason; }
+ 
+-          /**
++        /**
+            *
+            */
+-          const std::string* newNick() const { return m_newNick; }
++        const std::string *newNick() const { return m_newNick; }
+ 
+-          /**
++        /**
+            * Returns an alternate venue, if set.
+            * @return An alternate venue, if set.
+            */
+-          const std::string* alternate() const { return m_alternate; }
++        const std::string *alternate() const { return m_alternate; }
+ 
+-          /**
++        /**
+            * Whether or not the 'continue' flag is set.
+            * @return Whether or not the 'continue' flag is set.
+            */
+-          bool continued() const { return m_continue; }
++        bool continued() const { return m_continue; }
+ 
+-          /**
++        /**
+            * Returns the current operation.
+            * @return The current operation.
+            */
+-          MUCUserOperation operation() const { return m_operation; }
++        MUCUserOperation operation() const { return m_operation; }
+ 
+-          // reimplemented from StanzaExtension
+-          virtual const std::string& filterString() const;
++        // reimplemented from StanzaExtension
++        virtual const std::string &filterString() const;
+ 
+-          // reimplemented from StanzaExtension
+-          virtual StanzaExtension* newInstance( const Tag* tag ) const
+-          {
+-            return new MUCUser( tag );
+-          }
++        // reimplemented from StanzaExtension
++        virtual StanzaExtension *newInstance(const Tag *tag) const {
++            return new MUCUser(tag);
++        }
+ 
+-          // reimplemented from StanzaExtension
+-          virtual Tag* tag() const;
++        // reimplemented from StanzaExtension
++        virtual Tag *tag() const;
+ 
+-          // reimplemented from StanzaExtension
+-          virtual StanzaExtension* clone() const
+-          {
+-            MUCUser* m = new MUCUser();
++        // reimplemented from StanzaExtension
++        virtual StanzaExtension *clone() const {
++            MUCUser *m = new MUCUser();
+             m->m_affiliation = m_affiliation;
+             m->m_role = m_role;
+-            m->m_jid = m_jid ? new std::string( *m_jid ) : 0;
+-            m->m_actor = m_actor ? new std::string( *m_actor ) : 0;
+-            m->m_thread = m_thread ? new std::string( *m_thread ) : 0;
+-            m->m_reason = m_reason ? new std::string( *m_reason ) : 0;
+-            m->m_newNick = m_newNick ? new std::string( *m_newNick ) : 0;
+-            m->m_password = m_password ? new std::string( *m_password ) : 0;
+-            m->m_alternate = m_alternate ? new std::string( *m_alternate ) : 0;
++            m->m_jid = m_jid ? new std::string(*m_jid) : 0;
++            m->m_actor = m_actor ? new std::string(*m_actor) : 0;
++            m->m_thread = m_thread ? new std::string(*m_thread) : 0;
++            m->m_reason = m_reason ? new std::string(*m_reason) : 0;
++            m->m_newNick = m_newNick ? new std::string(*m_newNick) : 0;
++            m->m_password = m_password ? new std::string(*m_password) : 0;
++            m->m_alternate = m_alternate ? new std::string(*m_alternate) : 0;
+             m->m_operation = m_operation;
+             m->m_flags = m_flags;
+             m->m_del = m_del;
+             m->m_continue = m_continue;
+             return m;
+-          }
+-
+-        private:
+-          static MUCRoomAffiliation getEnumAffiliation( const std::string& affiliation );
+-          static MUCRoomRole getEnumRole( const std::string& role );
+-
+-
+-          MUCRoomAffiliation m_affiliation;
+-          MUCRoomRole m_role;
+-          std::string* m_jid;
+-          std::string* m_actor;
+-          std::string* m_thread;
+-          std::string* m_reason;
+-          std::string* m_newNick;
+-          std::string* m_password;
+-          std::string* m_alternate;
+-          MUCUserOperation m_operation;
+-          int m_flags;
+-          bool m_del;
+-          bool m_continue;
+-      };
+-
+-      /**
++        }
++
++      private:
++        static MUCRoomAffiliation getEnumAffiliation(const std::string &affiliation);
++        static MUCRoomRole getEnumRole(const std::string &role);
++
++        MUCRoomAffiliation m_affiliation;
++        MUCRoomRole m_role;
++        std::string *m_jid;
++        std::string *m_actor;
++        std::string *m_thread;
++        std::string *m_reason;
++        std::string *m_newNick;
++        std::string *m_password;
++        std::string *m_alternate;
++        MUCUserOperation m_operation;
++        int m_flags;
++        bool m_del;
++        bool m_continue;
++    };
++
++    /**
+        * Creates a new abstraction of a Multi-User Chat room. The room is not joined automatically.
+        * Use join() to join the room, use leave() to leave it.
+        * @param parent The ClientBase object to use for the communication.
+@@ -354,41 +340,41 @@ namespace gloox
+        * initially. However, at the latest you need one when you create a new room which is not an
+        * instant room. You can set a MUCRoomConfigHandler using registerMUCRoomConfigHandler().
+        */
+-      MUCRoom( ClientBase* parent, const JID& nick, MUCRoomHandler* mrh, MUCRoomConfigHandler* mrch = 0 );
++    MUCRoom(ClientBase *parent, const JID &nick, MUCRoomHandler *mrh, MUCRoomConfigHandler *mrch = 0);
+ 
+-      /**
++    /**
+        * Virtual Destructor.
+        */
+-      virtual ~MUCRoom();
++    virtual ~MUCRoom();
+ 
+-      /**
++    /**
+        * Use this function to set a password to use when joining a (password protected)
+        * room.
+        * @param password The password to use for this room.
+        * @note This function does not password-protect a room.
+        */
+-      void setPassword( const std::string& password ) { m_password = password; }
++    void setPassword(const std::string &password) { m_password = password; }
+ 
+-      /**
++    /**
+        * A convenience function that returns the room's name.
+        * @return The room's name.
+        */
+-      const std::string name() const { return m_nick.username(); }
++    const std::string name() const { return m_nick.username(); }
+ 
+-      /**
++    /**
+        * A convenience function that returns the name/address of the MUC service the room is running on
+        * (e.g., conference.jabber.org).
+        * @return The MUC service's name/address.
+        */
+-      const std::string service() const { return m_nick.server(); }
++    const std::string service() const { return m_nick.server(); }
+ 
+-      /**
++    /**
+        * A convenience function that returns the user's nickname in the room.
+        * @return The user's nickname.
+        */
+-      const std::string nick() const { return m_nick.resource(); }
++    const std::string nick() const { return m_nick.resource(); }
+ 
+-      /**
++    /**
+        * Join this room.
+        * @param type The presence to join with, defaults to Available.
+        * @param status The presence's optional status text.
+@@ -396,59 +382,59 @@ namespace gloox
+        * ClientBase will automatically include the default Presence extensions added using
+        * @link gloox::ClientBase::addPresenceExtension() ClientBase::addPresenceExtension() @endlink.
+        */
+-      virtual void join( Presence::PresenceType type = Presence::Available,
+-                         const std::string& status = EmptyString,
+-                         int priority = 0 );
++    virtual void join(Presence::PresenceType type = Presence::Available,
++                      const std::string &status = EmptyString,
++                      int priority = 0);
+ 
+-      /**
++    /**
+        * Leave this room.
+        * @param msg An optional msg indicating the reason for leaving the room. Default: empty.
+        */
+-      void leave( const std::string& msg = EmptyString );
++    void leave(const std::string &msg = EmptyString);
+ 
+-      /**
++    /**
+        * Sends a chat message to the room.
+        * @param message The message to send.
+        */
+-      void send( const std::string& message );
++    void send(const std::string &message);
+ 
+-      /**
++    /**
+        * Sets the subject of the room to the given string.
+        * The MUC service may decline the request to set a new subject. You should
+        * not assume the subject was set successfully util it is acknowledged via the MUCRoomHandler.
+        * @param subject The new subject.
+        */
+-      void setSubject( const std::string& subject );
++    void setSubject(const std::string &subject);
+ 
+-      /**
++    /**
+        * Returns the user's current affiliation with this room.
+        * @return The user's current affiliation.
+        */
+-      MUCRoomAffiliation affiliation() const { return m_affiliation; }
++    MUCRoomAffiliation affiliation() const { return m_affiliation; }
+ 
+-      /**
++    /**
+        * Returns the user's current role in this room.
+        * @return The user's current role.
+        */
+-      MUCRoomRole role() const { return m_role; }
++    MUCRoomRole role() const { return m_role; }
+ 
+-      /**
++    /**
+        * Use this function to change the user's nickname in the room.
+        * The MUC service may decline the request to set a new nickname. You should not assume
+        * the nick change was successful until it is acknowledged via the MUCRoomHandler.
+        * @param nick The user's new nickname.
+        */
+-      void setNick( const std::string& nick );
++    void setNick(const std::string &nick);
+ 
+-      /**
++    /**
+        * Use this function to set the user's presence in this room. It is not possible to
+        * use Unavailable with this function.
+        * @param presence The user's new presence.
+        * @param msg An optional status message. Default: empty.
+        */
+-      void setPresence( Presence::PresenceType presence, const std::string& msg = EmptyString );
++    void setPresence(Presence::PresenceType presence, const std::string &msg = EmptyString);
+ 
+-      /**
++    /**
+        * Use this function to invite another user to this room.
+        * @param invitee The (bare) JID of the user to invite.
+        * @param reason The user-supplied reason for the invitation.
+@@ -456,23 +442,23 @@ namespace gloox
+        * one-to-one chat to a MUC, include the one-to-one chat's thread ID here. Defaults
+        * to the empty string (i.e. not a continuation).
+        */
+-      void invite( const JID& invitee, const std::string& reason, const std::string& thread = EmptyString );
++    void invite(const JID &invitee, const std::string &reason, const std::string &thread = EmptyString);
+ 
+-      /**
++    /**
+        * Use this function to request basic room info, possibly prior to joining it.
+        * Results are announced using the MUCRoomHandler.
+        */
+-      void getRoomInfo();
++    void getRoomInfo();
+ 
+-      /**
++    /**
+        * Use this function to request information about the current room occupants,
+        * possibly prior to joining it. The room ay be configured not to disclose such
+        * information.
+        * Results are announced using the MUCRoomHandler.
+        */
+-      void getRoomItems();
++    void getRoomItems();
+ 
+-      /**
++    /**
+        * The MUC spec enables other entities to discover via Service Discovery which rooms
+        * an entity is in. By default, gloox does not publish such info for privacy reasons.
+        * This function can be used to enable publishing the info for @b this room.
+@@ -481,33 +467,33 @@ namespace gloox
+        * @param publishNick Whether to publish the nickname used in the room. This parameter
+        * is ignored if @c publish is @b false.
+        */
+-      void setPublish( bool publish, bool publishNick );
++    void setPublish(bool publish, bool publishNick);
+ 
+-      /**
++    /**
+        * Use this function to register a (new) MUCRoomHandler with this room. There can be only one
+        * MUCRoomHandler per room at any one time.
+        * @param mrl The MUCRoomHandler to register.
+        */
+-      void registerMUCRoomHandler( MUCRoomHandler* mrl ) { m_roomHandler = mrl; }
++    void registerMUCRoomHandler(MUCRoomHandler *mrl) { m_roomHandler = mrl; }
+ 
+-      /**
++    /**
+        * Use this function to remove the registered MUCRoomHandler.
+        */
+-      void removeMUCRoomHandler() { m_roomHandler = 0; }
++    void removeMUCRoomHandler() { m_roomHandler = 0; }
+ 
+-      /**
++    /**
+        * Use this function to register a (new) MUCRoomConfigHandler with this room. There can
+        * be only one MUCRoomConfigHandler per room at any one time.
+        * @param mrch The MUCRoomConfigHandler to register.
+        */
+-      void registerMUCRoomConfigHandler( MUCRoomConfigHandler* mrch ) { m_roomConfigHandler = mrch; }
++    void registerMUCRoomConfigHandler(MUCRoomConfigHandler *mrch) { m_roomConfigHandler = mrch; }
+ 
+-      /**
++    /**
+        * Use this function to remove the registered MUCRoomConfigHandler.
+        */
+-      void removeMUCRoomConfigHandler() { m_roomConfigHandler = 0; }
++    void removeMUCRoomConfigHandler() { m_roomConfigHandler = 0; }
+ 
+-      /**
++    /**
+        * Use this function to add history to a (newly created) room. The use case from the MUC spec
+        * is to add history to a room that was created in the process of a transformation of a
+        * one-to-one chat to a multi-user chat.
+@@ -517,9 +503,9 @@ namespace gloox
+        * @note You should not attempt to use this function before
+        * MUCRoomHandler::handleMUCParticipantPresence() was called for the first time.
+        */
+-      void addHistory( const std::string& message, const JID& from, const std::string& stamp );
++    void addHistory(const std::string &message, const JID &from, const std::string &stamp);
+ 
+-      /**
++    /**
+        * Use this function to request room history. Set @c value to zero to disable the room
+        * history request. You should not use HistorySince type with this function.
+        * History is sent only once after entering a room. You should use this function before joining.
+@@ -529,9 +515,9 @@ namespace gloox
+        * @note If this function is not used to request a specific amount of room history, it is up
+        * to the MUC service to decide how much history to send.
+        */
+-      void setRequestHistory( int value, HistoryRequestType type );
++    void setRequestHistory(int value, HistoryRequestType type);
+ 
+-      /**
++    /**
+        * Use this function to request room history since specific datetime.
+        * History is sent only once after entering a room. You should use this function before joining.
+        * @param since A string representing a datetime conforming to the DateTime profile specified
+@@ -539,9 +525,9 @@ namespace gloox
+        * @note If this function is not used to request a specific amount of room history, it is up
+        * to the MUC service to decide how much history to send.
+        */
+-      void setRequestHistory( const std::string& since );
++    void setRequestHistory(const std::string &since);
+ 
+-      /**
++    /**
+        * This static function allows to formally decline a MUC
+        * invitation received via the MUCInvitationListener.
+        * @param room The JID of the room the invitation came from.
+@@ -550,16 +536,16 @@ namespace gloox
+        * @return A pointer to a Message. You will have to send (and
+        * possibly delete) this Message manually.
+        */
+-      static Message* declineInvitation( const JID& room, const JID& invitor,
+-                                     const std::string& reason = EmptyString);
++    static Message *declineInvitation(const JID &room, const JID &invitor,
++                                      const std::string &reason = EmptyString);
+ 
+-      /**
++    /**
+        * It is not possible for a visitor to speak in a moderated room. Use this function to request
+        * voice from the moderator.
+        */
+-      void requestVoice();
++    void requestVoice();
+ 
+-      /**
++    /**
+        * Use this function to kick a user from the room.
+        * Depending on service and/or room configuration and role/affiliation
+        * this may not always succeed. Usually, a role of 'moderator' is necessary.
+@@ -567,10 +553,9 @@ namespace gloox
+        * @param nick The nick of the user to be kicked.
+        * @param reason An optional reason for the kick.
+        */
+-      void kick( const std::string& nick, const std::string& reason = EmptyString )
+-        { setRole( nick, RoleNone, reason ); }
++    void kick(const std::string &nick, const std::string &reason = EmptyString) { setRole(nick, RoleNone, reason); }
+ 
+-      /**
++    /**
+        * Use this function to ban a user from the room.
+        * Depending on service and/or room configuration and role/affiliation
+        * this may not always succeed. Usually, an affiliation of admin is necessary.
+@@ -579,10 +564,10 @@ namespace gloox
+        * @param nick The nick of the user to be banned.
+        * @param reason An optional reason for the ban.
+        */
+-      void ban( const std::string& nick, const std::string& reason )
+-        { setAffiliation( nick, AffiliationOutcast, reason ); }
++    void ban(const std::string &nick, const std::string &reason) { setAffiliation(nick, AffiliationOutcast, reason); }
++    void bans(const std::string &nicks, const std::string &reason) { setAffiliations(nicks, AffiliationOutcast, reason); }
+ 
+-      /**
++    /**
+        * Use this function to grant voice to a user in a moderated room.
+        * Depending on service and/or room configuration and role/affiliation
+        * this may not always succeed. Usually, a role of 'moderator' is necessary.
+@@ -591,10 +576,9 @@ namespace gloox
+        * @param nick The nick of the user to be granted voice.
+        * @param reason An optional reason for the grant.
+        */
+-      void grantVoice( const std::string& nick, const std::string& reason )
+-        { setRole( nick, RoleParticipant, reason ); }
+-
+-      /**
++    void grantVoice(const std::string &nick, const std::string &reason) { setRole(nick, RoleParticipant, reason); }
++    
++    /**
+        * Use this function to create a Tag that approves a voice request or registration request
+        * delivered via MUCRoomConfigHandler::handleMUCVoiceRequest(). You will need to send this
+        * Tag off manually using Client/ClientBase.
+@@ -603,9 +587,9 @@ namespace gloox
+        * @param df The filled-in DataForm from the voice/registration request. The form object
+        * will be owned by the returned Message.
+        */
+-      static Message* createDataForm( const JID& room, const DataForm* df );
++    static Message *createDataForm(const JID &room, const DataForm *df);
+ 
+-      /**
++    /**
+        * Use this function to revoke voice from a user in a moderated room.
+        * Depending on service and/or room configuration and role/affiliation
+        * this may not always succeed. Usually, a role of 'moderator' is necessary.
+@@ -614,29 +598,31 @@ namespace gloox
+        * @param nick The nick of the user.
+        * @param reason An optional reason for the revoke.
+        */
+-      void revokeVoice( const std::string& nick, const std::string& reason )
+-        { setRole( nick, RoleVisitor, reason ); }
++    void revokeVoice(const std::string &nick, const std::string &reason) { setRole(nick, RoleVisitor, reason); }
+ 
+-      /**
++    /**
+        * Use this function to change the role of a user in the room.
+        * Usually, at least moderator privileges are required to succeed.
+        * @param nick The nick of the user who's role shall be modfified.
+        * @param role The user's new role in the room.
+        * @param reason An optional reason for the role change.
+        */
+-      void setRole( const std::string& nick, MUCRoomRole role, const std::string& reason = EmptyString );
+-
+-      /**
++    void setRole(const std::string &nick, MUCRoomRole role, const std::string &reason = EmptyString);
++    void setRoles( const std::string& nicks, MUCRoomRole role, const std::string& reason = EmptyString );
++    /**
+        * Use this function to change the affiliation of a user in the room.
+        * Usually, at least admin privileges are required to succeed.
+        * @param nick The nick of the user who's affiliation shall be modfified.
+        * @param affiliation The user's new affiliation in the room.
+        * @param reason An optional reason for the affiliation change.
+        */
+-      void setAffiliation( const std::string& nick, MUCRoomAffiliation affiliation,
+-                           const std::string& reason );
++    void setAffiliation(const std::string &nick, MUCRoomAffiliation affiliation,
++                        const std::string &reason);
+ 
+-      /**
++    void setAffiliations(const std::string &nicks, MUCRoomAffiliation affiliation,
++                         const std::string &reason);
++
++    /**
+        * Use this function to request the room's configuration form.
+        * It can be used either after MUCRoomHandler::handleMUCRoomCreation() was called,
+        * or at any later time.
+@@ -646,33 +632,31 @@ namespace gloox
+        *
+        * Use setRoomConfig() to send the modified room config back.
+        */
+-      void requestRoomConfig();
++    void requestRoomConfig();
+ 
+-      /**
++    /**
+        * After requesting (using requestRoomConfig()) and
+        * editing/filling in the room's configuration,
+        * use this function to send it back to the server.
+        * @param form The form to send. The function will delete the
+        * object pointed to.
+        */
+-      void setRoomConfig( DataForm* form );
+-
+-      /**
++    void setRoomConfig(DataForm *form);
++    std::string isJoined();
++    /**
+        * Use this function to accept the room's default configuration. This function is useful
+        * only after MUCRoomHandler::handleMUCRoomCreation() was called. This is a NOOP at
+        * any other time.
+        */
+-      void acknowledgeInstantRoom()
+-        { instantRoom( CreateInstantRoom ); }
++    void acknowledgeInstantRoom() { instantRoom(CreateInstantRoom); }
+ 
+-      /**
++    /**
+        * Use this function to cancel the creation of a room. This function is useful only after
+        * MUCRoomHandler::handleMUCRoomCreation() was called. This is a NOOP at any other time.
+        */
+-      void cancelRoomCreation()
+-        { instantRoom( CancelRoomCreation ); }
++    void cancelRoomCreation() { instantRoom(CancelRoomCreation); }
+ 
+-      /**
++    /**
+        * Use this function to destroy the room. All the occupants will be removed from the room.
+        * @param reason An optional reason for the destruction.
+        * @param alternate A pointer to a JID of an alternate venue (e.g., another MUC room).
+@@ -681,10 +665,10 @@ namespace gloox
+        *
+        * Usually owner privileges are required for this action to succeed.
+        */
+-      void destroy( const std::string& reason = EmptyString,
+-                    const JID& alternate = JID(), const std::string& password = EmptyString );
++    void destroy(const std::string &reason = EmptyString,
++                 const JID &alternate = JID(), const std::string &password = EmptyString);
+ 
+-      /**
++    /**
+        * Use this function to request a particluar list of room occupants.
+        * @note There must be a MUCRoomConfigHandler registered with this room for this
+        * function to be executed.
+@@ -697,9 +681,9 @@ namespace gloox
+        * @li Owner List: List of room owners. Use RequestOwnerList.
+        * Any other value of @c operation will be ignored.
+        */
+-      void requestList( MUCOperation operation );
++    void requestList(MUCOperation operation);
+ 
+-      /**
++    /**
+        * Use this function to store a (modified) list for the room.
+        * @param items The list of items. Example:<br>
+        * You want to set the Voice List. The privilege of Voice refers to the role of Participant.
+@@ -723,187 +707,184 @@ namespace gloox
+        * @param operation See requestList() for a list of available list types. Any other value will
+        * be ignored.
+        */
+-      void storeList( const MUCListItemList items, MUCOperation operation );
++    void storeList(const MUCListItemList items, MUCOperation operation);
+ 
+-      /**
++    /**
+        * Returns the currently known room flags.
+        * @return ORed MUCRoomFlag's describing the current room configuration.
+        */
+-      int flags() const { return m_flags; }
++    int flags() const { return m_flags; }
+ 
+-      // reimplemented from DiscoHandler
+-      virtual void handleDiscoInfo( const JID& from, const Disco::Info& info, int context );
++    // reimplemented from DiscoHandler
++    virtual void handleDiscoInfo(const JID &from, const Disco::Info &info, int context);
+ 
+-      // reimplemented from DiscoHandler
+-      // reimplemented from DiscoHandler
+-      virtual void handleDiscoItems( const JID& from, const Disco::Items& items, int context );
++    // reimplemented from DiscoHandler
++    // reimplemented from DiscoHandler
++    virtual void handleDiscoItems(const JID &from, const Disco::Items &items, int context);
+ 
+-      // reimplemented from DiscoHandler
+-      virtual void handleDiscoError( const JID& from, const Error* error, int context );
++    // reimplemented from DiscoHandler
++    virtual void handleDiscoError(const JID &from, const Error *error, int context);
+ 
+-      // reimplemented from PresenceHandler
+-      virtual void handlePresence( const Presence& presence );
++    // reimplemented from PresenceHandler
++    virtual void handlePresence(const Presence &presence);
+ 
+-      // reimplemented from MessageHandler
+-      virtual void handleMessage( const Message& msg, MessageSession* session = 0 );
++    // reimplemented from MessageHandler
++    virtual void handleMessage(const Message &msg, MessageSession *session = 0);
+ 
+-      // reimplemented from IqHandler
+-      virtual bool handleIq( const IQ& iq ) { (void)iq; return false; }
++    // reimplemented from IqHandler
++    virtual bool handleIq(const IQ &iq) {
++        (void)iq;
++        return false;
++    }
+ 
+-      // reimplemented from IqHandler
+-      virtual void handleIqID( const IQ& iq, int context );
++    // reimplemented from IqHandler
++    virtual void handleIqID(const IQ &iq, int context);
+ 
+-      // reimplemented from DiscoNodeHandler
+-      virtual StringList handleDiscoNodeFeatures( const JID& from, const std::string& node );
++    // reimplemented from DiscoNodeHandler
++    virtual StringList handleDiscoNodeFeatures(const JID &from, const std::string &node);
+ 
+-      // reimplemented from DiscoNodeHandler
+-      virtual Disco::IdentityList handleDiscoNodeIdentities( const JID& from,
+-                                                             const std::string& node );
++    // reimplemented from DiscoNodeHandler
++    virtual Disco::IdentityList handleDiscoNodeIdentities(const JID &from,
++                                                          const std::string &node);
+ 
+-      // reimplemented from DiscoNodeHandler
+-      virtual Disco::ItemList handleDiscoNodeItems( const JID& from, const JID& to,
+-                                                    const std::string& node = EmptyString );
++    // reimplemented from DiscoNodeHandler
++    virtual Disco::ItemList handleDiscoNodeItems(const JID &from, const JID &to,
++                                                 const std::string &node = EmptyString);
+ 
+-    protected:
+-      /**
++  protected:
++    /**
+        * Sets the room's name.
+        * @param name The room's name.
+        */
+-      void setName( const std::string& name ) { m_nick.setUsername( name ); }
++    void setName(const std::string &name) { m_nick.setUsername(name); }
+ 
+-      /**
++    /**
+        * Acknowledges instant room creation w/o a call to the MUCRoomConfigHandler.
+        * @return Whether an instant room is being created.
+        */
+-      virtual bool instantRoomHook() const { return false; }
++    virtual bool instantRoomHook() const { return false; }
+ 
+-      ClientBase* m_parent;
+-      JID m_nick;
++    ClientBase *m_parent;
++    JID m_nick;
+ 
+-      bool m_joined;
++    bool m_joined;
+ 
+-    private:
++  private:
+ #ifdef MUCROOM_TEST
+-    public:
++  public:
+ #endif
+-      /**
++    /**
+        * @brief An abstraction of a MUC owner query.
+        *
+        * @author Jakob Schröter <js@camaya.net>
+        * @since 1.0
+        */
+-      class MUCOwner : public StanzaExtension
+-      {
+-        public:
+-
+-          /**
++    class MUCOwner : public StanzaExtension {
++      public:
++        /**
+            * Describes available query types for the muc#owner namespace.
+            */
+-          enum QueryType
+-          {
+-            TypeCreate,             /**< Create a room. */
+-            TypeRequestConfig,      /**< Request room config. */
+-            TypeSendConfig,         /**< Submit configuration form to MUC service. */
+-            TypeCancelConfig,       /**< Cancel room configuration. */
+-            TypeInstantRoom,        /**< Request an instant room */
+-            TypeDestroy,            /**< Destroy the room. */
+-            TypeIncomingTag         /**< The Query has been created from an incoming Tag. */
+-          };
+-
+-          /**
++        enum QueryType {
++            TypeCreate,        /**< Create a room. */
++            TypeRequestConfig, /**< Request room config. */
++            TypeSendConfig,    /**< Submit configuration form to MUC service. */
++            TypeCancelConfig,  /**< Cancel room configuration. */
++            TypeInstantRoom,   /**< Request an instant room */
++            TypeDestroy,       /**< Destroy the room. */
++            TypeIncomingTag    /**< The Query has been created from an incoming Tag. */
++        };
++
++        /**
+            * Creates a new MUCOwner object for the given query, possibly including
+            * the given DataForm.
+            * @param type The intended query type.
+            * @param form An optional pointer to a DataForm. Necessity depends on the query type.
+            */
+-          MUCOwner( QueryType type, DataForm* form = 0 );
++        MUCOwner(QueryType type, DataForm *form = 0);
+ 
+-          /**
++        /**
+            * Creates a new query that destroys the current room.
+            * @param alternate An optional alternate discussion venue.
+            * @param reason An optional reason for the room destruction.
+            * @param password An optional password for the new room.
+            */
+-          MUCOwner( const JID& alternate = JID(), const std::string& reason = EmptyString,
+-                    const std::string& password = EmptyString);
++        MUCOwner(const JID &alternate = JID(), const std::string &reason = EmptyString,
++                 const std::string &password = EmptyString);
+ 
+-          /**
++        /**
+            * Creates a new MUCOwner object from the given Tag.
+            * @param tag A Tag to parse.
+            */
+-          MUCOwner( const Tag* tag );
++        MUCOwner(const Tag *tag);
+ 
+-          /**
++        /**
+            * Virtual destructor.
+            */
+-          virtual ~MUCOwner();
++        virtual ~MUCOwner();
+ 
+-          /**
++        /**
+            * Returns a pointer to a DataForm, included in the MUCOwner object. May be 0.
+            * @return A pointer to a configuration form.
+            */
+-          const DataForm* form() const { return m_form; }
++        const DataForm *form() const { return m_form; }
+ 
+-          // reimplemented from StanzaExtension
+-          const std::string& filterString() const;
++        // reimplemented from StanzaExtension
++        const std::string &filterString() const;
+ 
+-          // reimplemented from StanzaExtension
+-          StanzaExtension* newInstance( const Tag* tag ) const
+-          {
+-            return new MUCOwner( tag );
+-          }
++        // reimplemented from StanzaExtension
++        StanzaExtension *newInstance(const Tag *tag) const {
++            return new MUCOwner(tag);
++        }
+ 
+-          // reimplemented from StanzaExtension
+-          Tag* tag() const;
++        // reimplemented from StanzaExtension
++        Tag *tag() const;
+ 
+-          // reimplemented from StanzaExtension
+-          virtual StanzaExtension* clone() const
+-          {
+-            MUCOwner* m = new MUCOwner();
++        // reimplemented from StanzaExtension
++        virtual StanzaExtension *clone() const {
++            MUCOwner *m = new MUCOwner();
+             m->m_type = m_type;
+             m->m_jid = m_jid;
+             m->m_reason = m_reason;
+             m->m_pwd = m_pwd;
+-            m->m_form = m_form ? new DataForm( *m_form ) : 0;
++            m->m_form = m_form ? new DataForm(*m_form) : 0;
+             return m;
+-          }
++        }
+ 
+-        private:
+-          QueryType m_type;
+-          JID m_jid;
+-          std::string m_reason;
+-          std::string m_pwd;
+-          DataForm* m_form;
+-      };
++      private:
++        QueryType m_type;
++        JID m_jid;
++        std::string m_reason;
++        std::string m_pwd;
++        DataForm *m_form;
++    };
+ 
+-      /**
++    /**
+        * @brief An abstraction of a MUC admin query.
+        *
+        * @author Jakob Schröter <js@camaya.net>
+        * @since 1.0
+        */
+-      class MUCAdmin : public StanzaExtension
+-      {
+-        public:
+-          /**
++    class MUCAdmin : public StanzaExtension {
++      public:
++        /**
+            * Creates a new object that can be used to change the role of a room participant.
+            * @param role The participant's new role.
+            * @param nick The participant's nick.
+            * @param reason An optional reason for the role change.
+            */
+-          MUCAdmin( MUCRoomRole role, const std::string& nick,
+-                    const std::string& reason = EmptyString );
++        MUCAdmin(MUCRoomRole role, const std::string &nick,
++                 const std::string &reason = EmptyString);
+ 
+-          /**
++        /**
+            * Creates a new object that can be used to change the affiliation of a room participant.
+            * @param affiliation The participant's new affiliation.
+            * @param nick The participant's nick.
+            * @param reason An optional reason for the role change.
+            */
+-          MUCAdmin( MUCRoomAffiliation affiliation, const std::string& nick,
+-                    const std::string& reason = EmptyString );
++        MUCAdmin(MUCRoomAffiliation affiliation, const std::string &nick,
++                 const std::string &reason = EmptyString);
+ 
+-          /**
++        /**
+            * Creates a new object that can be used to request or store a role/affiliation
+            * list.
+            * @param operation The MUCOperation to carry out. Only the Request* and Store*
+@@ -912,83 +893,80 @@ namespace gloox
+            * structure should be set. The type of the list will be determined from the
+            * @c operation parameter.
+            */
+-          MUCAdmin( MUCOperation operation, const MUCListItemList& jids = MUCListItemList() );
++        MUCAdmin(MUCOperation operation, const MUCListItemList &jids = MUCListItemList());
+ 
+-          /**
++        /**
+            * Constructs a new MUCAdmin object from the given Tag.
+            * @param tag The Tag to parse.
+            */
+-          MUCAdmin( const Tag* tag = 0 );
++        MUCAdmin(const Tag *tag = 0);
+ 
+-          /**
++        /**
+            * Virtual destructor.
+            */
+-          virtual ~MUCAdmin();
++        virtual ~MUCAdmin();
+ 
+-          /**
++        /**
+            * Returns the contained list of MUC items.
+            * @return The contained list of MUC items.
+            */
+-          const MUCListItemList& list() const { return m_list; }
+-
+-          // reimplemented from StanzaExtension
+-          const std::string& filterString() const;
++        const MUCListItemList &list() const { return m_list; }
+ 
+-          // reimplemented from StanzaExtension
+-          StanzaExtension* newInstance( const Tag* tag ) const
+-          {
+-            return new MUCAdmin( tag );
+-          }
++        // reimplemented from StanzaExtension
++        const std::string &filterString() const;
+ 
+-          // reimplemented from StanzaExtension
+-          Tag* tag() const;
++        // reimplemented from StanzaExtension
++        StanzaExtension *newInstance(const Tag *tag) const {
++            return new MUCAdmin(tag);
++        }
+ 
+-          // reimplemented from StanzaExtension
+-          virtual StanzaExtension* clone() const
+-          {
+-            return new MUCAdmin( *this );
+-          }
++        // reimplemented from StanzaExtension
++        Tag *tag() const;
+ 
+-        private:
+-          MUCListItemList m_list;
+-          MUCRoomAffiliation m_affiliation;
+-          MUCRoomRole m_role;
+-      };
++        // reimplemented from StanzaExtension
++        virtual StanzaExtension *clone() const {
++            return new MUCAdmin(*this);
++        }
+ 
+-      void handleIqResult( const IQ& iq, int context );
+-      void handleIqError( const IQ& iq, int context );
+-      void setNonAnonymous();
+-      void setSemiAnonymous();
+-      void setFullyAnonymous();
+-      void acknowledgeRoomCreation();
+-      void instantRoom( int context );
++      private:
++        MUCListItemList m_list;
++        MUCRoomAffiliation m_affiliation;
++        MUCRoomRole m_role;
++    };
+ 
+-      MUCRoomHandler* m_roomHandler;
+-      MUCRoomConfigHandler* m_roomConfigHandler;
+-      MUCMessageSession* m_session;
++    void handleIqResult(const IQ &iq, int context);
++    void handleIqError(const IQ &iq, int context);
++    void setNonAnonymous();
++    void setSemiAnonymous();
++    void setFullyAnonymous();
++    void acknowledgeRoomCreation();
++    void instantRoom(int context);
+ 
+-      typedef std::list<MUCRoomParticipant> ParticipantList;
+-      ParticipantList m_participants;
++    MUCRoomHandler *m_roomHandler;
++    MUCRoomConfigHandler *m_roomConfigHandler;
++    MUCMessageSession *m_session;
+ 
+-      std::string m_password;
+-      std::string m_newNick;
++    typedef std::list<MUCRoomParticipant> ParticipantList;
++    ParticipantList m_participants;
+ 
+-      MUCRoomAffiliation m_affiliation;
+-      MUCRoomRole m_role;
++    std::string m_password;
++    std::string m_newNick;
+ 
+-      HistoryRequestType m_historyType;
++    MUCRoomAffiliation m_affiliation;
++    MUCRoomRole m_role;
+ 
+-      std::string m_historySince;
+-      int m_historyValue;
+-      int m_flags;
+-      bool m_creationInProgress;
+-      bool m_configChanged;
+-      bool m_publishNick;
+-      bool m_publish;
+-      bool m_unique;
++    HistoryRequestType m_historyType;
+ 
+-  };
++    std::string m_historySince;
++    int m_historyValue;
++    int m_flags;
++    bool m_creationInProgress;
++    bool m_configChanged;
++    bool m_publishNick;
++    bool m_publish;
++    bool m_unique;
++};
+ 
+-}
++} // namespace gloox
+ 
+ #endif // MUCROOM_H__
+diff --git a/src/registration.cpp b/src/registration.cpp
+index ad7eaa6..7c4ac3a 100644
+--- a/src/registration.cpp
++++ b/src/registration.cpp
+@@ -19,31 +19,33 @@
+ #include "prep.h"
+ #include "oob.h"
+ 
++#include "log.h"
++
+ namespace gloox
+ {
+ 
+   // Registration::Query ----
+   Registration::Query::Query( DataForm* form )
+-    : StanzaExtension( ExtRegistration ), m_form( form ), m_fields( 0 ), m_oob( 0 ),
+-      m_del( false ), m_reg( false )
++  : StanzaExtension( ExtRegistration ), m_form( form ), m_fields( 0 ), m_oob( 0 ),
++  m_del( false ), m_reg( false )
+   {
+   }
+ 
+   Registration::Query::Query( bool del )
+-    : StanzaExtension( ExtRegistration ), m_form( 0 ), m_fields( 0 ), m_oob( 0 ), m_del( del ),
+-      m_reg( false )
++  : StanzaExtension( ExtRegistration ), m_form( 0 ), m_fields( 0 ), m_oob( 0 ), m_del( del ),
++  m_reg( false )
+   {
+   }
+ 
+   Registration::Query::Query( int fields, const RegistrationFields& values )
+-    : StanzaExtension( ExtRegistration ), m_form( 0 ), m_fields( fields ), m_values( values ),
+-      m_oob( 0 ), m_del( false ), m_reg( false )
++  : StanzaExtension( ExtRegistration ), m_form( 0 ), m_fields( fields ), m_values( values ),
++  m_oob( 0 ), m_del( false ), m_reg( false )
+   {
+   }
+ 
+   Registration::Query::Query( const Tag* tag )
+-    : StanzaExtension( ExtRegistration ), m_form( 0 ), m_fields( 0 ), m_oob( 0 ), m_del( false ),
+-      m_reg( false )
++  : StanzaExtension( ExtRegistration ), m_form( 0 ), m_fields( 0 ), m_oob( 0 ), m_del( false ),
++  m_reg( false )
+   {
+     if( !tag || tag->name() != "query" || tag->xmlns() != XMLNS_REGISTER )
+       return;
+@@ -217,7 +219,7 @@ namespace gloox
+ 
+   // ---- Registration ----
+   Registration::Registration( ClientBase* parent, const JID& to )
+-    : m_parent( parent ), m_to( to ), m_registrationHandler( 0 )
++  : m_parent( parent ), m_to( to ), m_registrationHandler( 0 )
+   {
+     init();
+   }
+@@ -282,24 +284,37 @@ namespace gloox
+ 
+   void Registration::removeAccount()
+   {
++    LOGD("Test Registration removeAccount");
+     if( !m_parent || !m_parent->authed() )
+       return;
+ 
++    LOGD("Test Registration removeAccount 1");
+     IQ iq( IQ::Set, m_to );
++    LOGD("Test Registration removeAccount 2");
+     iq.addExtension( new Query( true ) );
++    LOGD("Test Registration removeAccount 3");
+     m_parent->send( iq, this, RemoveAccount );
++    LOGD("Test Registration removeAccount 4");
+   }
+ 
+   void Registration::changePassword( const std::string& username, const std::string& password )
+   {
+-    if( !m_parent || !m_parent->authed() || username.empty() )
++    LOGD("Test Registration changePassword");
++
++    if( !m_parent || !m_parent->authed() || username.empty() ){
++      LOGD("Test Registration changePassword  0");
+       return;
++    }
++
+ 
++    LOGD("Test Registration changePassword 1");
+     int fields = FieldUsername | FieldPassword;
+     RegistrationFields rf;
+     rf.username = username;
+     rf.password = password;
++    LOGD("Test Registration changePassword 2");
+     createAccount( fields, rf );
++    LOGD("Test Registration changePassword 3");
+   }
+ 
+   void Registration::registerRegistrationHandler( RegistrationHandler* rh )
+@@ -343,8 +358,8 @@ namespace gloox
+         case CreateAccount:
+         case ChangePassword:
+         case RemoveAccount:
+-          m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationSuccess );
+-          break;
++        m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationSuccess );
++        break;
+       }
+     }
+     else if( iq.subtype() == IQ::Error )
+@@ -356,32 +371,32 @@ namespace gloox
+       switch( e->error() )
+       {
+         case StanzaErrorConflict:
+-          m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationConflict );
+-          break;
++        m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationConflict );
++        break;
+         case StanzaErrorNotAcceptable:
+-          m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationNotAcceptable );
+-          break;
++        m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationNotAcceptable );
++        break;
+         case StanzaErrorBadRequest:
+-          m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationBadRequest );
+-          break;
++        m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationBadRequest );
++        break;
+         case StanzaErrorForbidden:
+-          m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationForbidden );
+-          break;
++        m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationForbidden );
++        break;
+         case StanzaErrorRegistrationRequired:
+-          m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationRequired );
+-          break;
++        m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationRequired );
++        break;
+         case StanzaErrorUnexpectedRequest:
+-          m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationUnexpectedRequest );
+-          break;
++        m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationUnexpectedRequest );
++        break;
+         case StanzaErrorNotAuthorized:
+-          m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationNotAuthorized );
+-          break;
++        m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationNotAuthorized );
++        break;
+         case StanzaErrorNotAllowed:
+-          m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationNotAllowed );
+-          break;
++        m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationNotAllowed );
++        break;
+         default:
+-          m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationUnknownError );
+-          break;
++        m_registrationHandler->handleRegistrationResult( iq.from(), RegistrationUnknownError );
++        break;
+ 
+       }
+     }
+diff --git a/src/registration.h b/src/registration.h
+index fac0c09..82d0a22 100644
+--- a/src/registration.h
++++ b/src/registration.h
+@@ -35,22 +35,22 @@ namespace gloox
+    */
+   struct RegistrationFields
+   {
+-    std::string username;           /**< Desired username. */
+-    std::string nick;               /**< User's nickname. */
+-    std::string password;           /**< User's password. */
+-    std::string name;               /**< User's name. */
+-    std::string first;              /**< User's first name.*/
+-    std::string last;               /**< User's last name. */
+-    std::string email;              /**< User's email address. */
+-    std::string address;            /**< User's address. */
+-    std::string city;               /**< User's city. */
+-    std::string state;              /**< User's state. */
+-    std::string zip;                /**< User's ZIP code. */
+-    std::string phone;              /**< User's phone number. */
+-    std::string url;                /**< User's homepage URL (or other URL). */
+-    std::string date;               /**< Date (?) */
+-    std::string misc;               /**< Misc (?) */
+-    std::string text;               /**< Text (?)*/
++      std::string username;           /**< Desired username. */
++      std::string nick;               /**< User's nickname. */
++      std::string password;           /**< User's password. */
++      std::string name;               /**< User's name. */
++      std::string first;              /**< User's first name.*/
++      std::string last;               /**< User's last name. */
++      std::string email;              /**< User's email address. */
++      std::string address;            /**< User's address. */
++      std::string city;               /**< User's city. */
++      std::string state;              /**< User's state. */
++      std::string zip;                /**< User's ZIP code. */
++      std::string phone;              /**< User's phone number. */
++      std::string url;                /**< User's homepage URL (or other URL). */
++      std::string date;               /**< Date (?) */
++      std::string misc;               /**< Misc (?) */
++      std::string text;               /**< Text (?)*/
+   };
+ 
+   /**
+@@ -90,249 +90,249 @@ namespace gloox
+    * @since 0.2
+    */
+   class GLOOX_API Registration : public IqHandler
++{
++public:
++
++  /**
++   * The possible fields of a @xep{0077} account registration.
++   */
++  enum fieldEnum
+   {
+-    public:
++    FieldUsername  =     1,     /**< Username requested */
++    FieldNick      =     2,     /**< Nickname requested */
++    FieldPassword  =     4,     /**< Password requested */
++    FieldName      =     8,     /**< Name requested */
++    FieldFirst     =    16,     /**< Given name requested */
++    FieldLast      =    32,     /**< Family name requested */
++    FieldEmail     =    64,     /**< Email address requested */
++    FieldAddress   =   128,     /**< Postal address requested */
++    FieldCity      =   256,     /**< Locality requested */
++    FieldState     =   512,     /**< State/Province requested */
++    FieldZip       =  1024,     /**< ZIP requested */
++    FieldPhone     =  2048,     /**< Phone no. requested */
++    FieldUrl       =  4096,     /**< Homepage or other URL requested */
++    FieldDate      =  8192,     /**< Date requested (unknown purpose; see @xep{0077}) */
++    FieldMisc      = 16384,     /**< Misc data requested (unknown purpose; see @xep{0077}) */
++    FieldText      = 32768      /**< Extra text requested (unknown purpose; see @xep{0077}) */
++  };
+ 
+-      /**
+-       * The possible fields of a @xep{0077} account registration.
+-       */
+-      enum fieldEnum
++  /**
++   * @brief A wrapping class for the @xep{0077} &lt;query&gt; element.
++   *
++   * @author Jakob Schröter <js@camaya.net>
++   * @since 1.0
++   */
++  class Query : public StanzaExtension
++  {
++  public:
++    /**
++     * Creates a new object that can be used to carry out a registration.
++     * @param form A DataForm containing the registration terms.
++     */
++      Query( DataForm* form );
++
++    /**
++     * Creates a new object that can be used to carry out a registration.
++     * @param del Whether or not to remove the account.
++     */
++      Query( bool del = false );
++
++    /**
++     * Creates a new object that can be used to carry out a registration.
++     * @param fields Bit-wise ORed fieldEnum values describing the valid (i.e., set)
++     * fields in the @b values parameter.
++     * @param values Contains the registration fields.
++     */
++      Query( int fields, const RegistrationFields& values );
++
++    /**
++     * Creates a new object from the given Tag.
++     * @param tag The Tag to parse.
++     */
++      Query( const Tag* tag );
++
++    /**
++     * Virtual Destructor.
++     */
++      virtual ~Query();
++
++    /**
++     * Returns the contained registration form, if any.
++     * @return The registration form. May be 0.
++     */
++      const DataForm* form() const { return m_form; }
++
++    /**
++     * Returns the registration instructions, if given
++     * @return The registration instructions.
++     */
++      const std::string& instructions() const { return m_instructions; }
++
++    /**
++     * Returns the registration fields, if set.
++     * @return The registration fields.
++     */
++      int fields() const { return m_fields; }
++
++    /**
++     *
++     */
++      const RegistrationFields& values() const { return m_values; }
++
++    /**
++     * Indicates whether the account is already registered.
++     * @return @b True if the &lt;registered&gt; element is present, @b false otherwise.
++     */
++      bool registered() const { return m_reg; }
++
++    /**
++     * Indicates whether the account shall be removed.
++     * @return @b True if the &lt;remove&gt; element is present, @b false otherwise.
++     */
++      bool remove() const { return m_del; }
++
++    /**
++     * Returns an optional OOB object.
++     * @return A pointer to an OOB object, if present, 0 otherwise.
++     */
++      const OOB* oob() const { return m_oob; }
++
++    // reimplemented from StanzaExtension
++      virtual const std::string& filterString() const;
++
++    // reimplemented from StanzaExtension
++      virtual StanzaExtension* newInstance( const Tag* tag ) const
+       {
+-        FieldUsername  =     1,     /**< Username requested */
+-        FieldNick      =     2,     /**< Nickname requested */
+-        FieldPassword  =     4,     /**< Password requested */
+-        FieldName      =     8,     /**< Name requested */
+-        FieldFirst     =    16,     /**< Given name requested */
+-        FieldLast      =    32,     /**< Family name requested */
+-        FieldEmail     =    64,     /**< Email address requested */
+-        FieldAddress   =   128,     /**< Postal address requested */
+-        FieldCity      =   256,     /**< Locality requested */
+-        FieldState     =   512,     /**< State/Province requested */
+-        FieldZip       =  1024,     /**< ZIP requested */
+-        FieldPhone     =  2048,     /**< Phone no. requested */
+-        FieldUrl       =  4096,     /**< Homepage or other URL requested */
+-        FieldDate      =  8192,     /**< Date requested (unknown purpose; see @xep{0077}) */
+-        FieldMisc      = 16384,     /**< Misc data requested (unknown purpose; see @xep{0077}) */
+-        FieldText      = 32768      /**< Extra text requested (unknown purpose; see @xep{0077}) */
+-      };
+-
+-      /**
+-       * @brief A wrapping class for the @xep{0077} &lt;query&gt; element.
+-       *
+-       * @author Jakob Schröter <js@camaya.net>
+-       * @since 1.0
+-       */
+-      class Query : public StanzaExtension
++        return new Query( tag );
++      }
++
++    // reimplemented from StanzaExtension
++      virtual Tag* tag() const;
++
++    // reimplemented from StanzaExtension
++      virtual StanzaExtension* clone() const
+       {
+-        public:
+-          /**
+-           * Creates a new object that can be used to carry out a registration.
+-           * @param form A DataForm containing the registration terms.
+-           */
+-          Query( DataForm* form );
+-
+-          /**
+-           * Creates a new object that can be used to carry out a registration.
+-           * @param del Whether or not to remove the account.
+-           */
+-          Query( bool del = false );
+-
+-          /**
+-           * Creates a new object that can be used to carry out a registration.
+-           * @param fields Bit-wise ORed fieldEnum values describing the valid (i.e., set)
+-           * fields in the @b values parameter.
+-           * @param values Contains the registration fields.
+-           */
+-          Query( int fields, const RegistrationFields& values );
+-
+-          /**
+-           * Creates a new object from the given Tag.
+-           * @param tag The Tag to parse.
+-           */
+-          Query( const Tag* tag );
+-
+-          /**
+-           * Virtual Destructor.
+-           */
+-          virtual ~Query();
+-
+-          /**
+-           * Returns the contained registration form, if any.
+-           * @return The registration form. May be 0.
+-           */
+-          const DataForm* form() const { return m_form; }
+-
+-          /**
+-           * Returns the registration instructions, if given
+-           * @return The registration instructions.
+-           */
+-          const std::string& instructions() const { return m_instructions; }
+-
+-          /**
+-           * Returns the registration fields, if set.
+-           * @return The registration fields.
+-           */
+-          int fields() const { return m_fields; }
+-
+-          /**
+-           *
+-           */
+-          const RegistrationFields& values() const { return m_values; }
+-
+-          /**
+-           * Indicates whether the account is already registered.
+-           * @return @b True if the &lt;registered&gt; element is present, @b false otherwise.
+-           */
+-          bool registered() const { return m_reg; }
+-
+-          /**
+-           * Indicates whether the account shall be removed.
+-           * @return @b True if the &lt;remove&gt; element is present, @b false otherwise.
+-           */
+-          bool remove() const { return m_del; }
+-
+-          /**
+-           * Returns an optional OOB object.
+-           * @return A pointer to an OOB object, if present, 0 otherwise.
+-           */
+-          const OOB* oob() const { return m_oob; }
+-
+-          // reimplemented from StanzaExtension
+-          virtual const std::string& filterString() const;
+-
+-          // reimplemented from StanzaExtension
+-          virtual StanzaExtension* newInstance( const Tag* tag ) const
+-          {
+-            return new Query( tag );
+-          }
+-
+-          // reimplemented from StanzaExtension
+-          virtual Tag* tag() const;
+-
+-          // reimplemented from StanzaExtension
+-          virtual StanzaExtension* clone() const
+-          {
+-            Query* q = new Query();
+-            q->m_form = m_form ? new DataForm( *m_form ) : 0;
+-            q->m_fields = m_fields;
+-            q->m_values = m_values;
+-            q->m_instructions = m_instructions;
+-            q->m_oob = new OOB( *m_oob );
+-            q->m_del = m_del;
+-            q->m_reg = m_reg;
+-            return q;
+-          }
+-
+-        private:
+-          DataForm* m_form;
+-          int m_fields;
+-          RegistrationFields m_values;
+-          std::string m_instructions;
+-          OOB* m_oob;
+-          bool m_del;
+-          bool m_reg;
+-      };
+-
+-      /**
+-       * Constructor.
+-       * @param parent The ClientBase which is used for establishing a connection.
+-       * @param to The server or service to authenticate with. If empty the currently connected
+-       * server will be used.
+-       */
+-      Registration( ClientBase* parent, const JID& to );
+-
+-      /**
+-       * Constructor. Registration will be attempted with the ClientBase's connected host.
+-       * @param parent The ClientBase which is used for establishing a connection.
+-       */
+-      Registration( ClientBase* parent );
+-
+-      /**
+-       * Virtual destructor.
+-       */
+-      virtual ~Registration();
+-
+-      /**
+-       * Use this function to request the registration fields the server requires.
+-       * The required fields are returned asynchronously to the object registered as
+-       * @ref RegistrationHandler by calling @ref RegistrationHandler::handleRegistrationFields().
+-       */
+-      void fetchRegistrationFields();
+-
+-      /**
+-       * Attempts to register an account with the given credentials. Only the fields OR'ed in
+-       * @c fields will be sent. This can only be called with an unauthenticated parent (@ref Client).
+-       * @note It is recommended to use @ref fetchRegistrationFields to find out which fields the
+-       * server requires.
+-       * @param fields The fields to use to generate the registration request. OR'ed
+-       * @ref fieldEnum values.
+-       * @param values The struct contains the values which shall be used for the registration.
+-       * @return Returns @b true if the registration request was sent successfully, @b false
+-       * otherwise. In that case either there's no connected ClientBase available, or
+-       * prepping of the username failed (i.e. the username is not valid for use in XMPP).
+-       */
+-      bool createAccount( int fields, const RegistrationFields& values );
+-
+-      /**
+-       * Attempts to register an account with the given credentials. This can only be called with an
+-       * unauthenticated parent (@ref Client).
+-       * @note According to @xep{0077}, if the server sends both old-style fields and data form,
+-       * implementations SHOULD prefer data forms.
+-       * @param form The DataForm containing the registration credentials.
+-       */
+-      void createAccount( DataForm* form );
+-
+-      /**
+-       * Tells the server to remove the currently authenticated account from the server.
+-       */
+-      void removeAccount();
+-
+-      /**
+-       * Tells the server to change the password for the current account.
+-       * @param username The username to change the password for. You might want to use
+-       * Client::username() to get the current prepped username.
+-       * @param password The new password.
+-       */
+-      void changePassword( const std::string& username, const std::string& password );
+-
+-      /**
+-       * Registers the given @c rh as RegistrationHandler. Only one handler is possible at a time.
+-       * @param rh The RegistrationHandler to register.
+-       */
+-      void registerRegistrationHandler( RegistrationHandler* rh );
+-
+-      /**
+-       * Un-registers the current RegistrationHandler.
+-       */
+-      void removeRegistrationHandler();
+-
+-      // reimplemented from IqHandler.
+-      virtual bool handleIq( const IQ& iq ) { (void)iq; return false; }
+-
+-      // reimplemented from IqHandler.
+-      virtual void handleIqID( const IQ& iq, int context );
+-
+-    private:
++        Query* q = new Query();
++        q->m_form = m_form ? new DataForm( *m_form ) : 0;
++        q->m_fields = m_fields;
++        q->m_values = m_values;
++        q->m_instructions = m_instructions;
++        q->m_oob = new OOB( *m_oob );
++        q->m_del = m_del;
++        q->m_reg = m_reg;
++        return q;
++      }
++
++  private:
++      DataForm* m_form;
++      int m_fields;
++      RegistrationFields m_values;
++      std::string m_instructions;
++      OOB* m_oob;
++      bool m_del;
++      bool m_reg;
++  };
++
++  /**
++   * Constructor.
++   * @param parent The ClientBase which is used for establishing a connection.
++   * @param to The server or service to authenticate with. If empty the currently connected
++   * server will be used.
++   */
++  Registration( ClientBase* parent, const JID& to );
++
++  /**
++   * Constructor. Registration will be attempted with the ClientBase's connected host.
++   * @param parent The ClientBase which is used for establishing a connection.
++   */
++  Registration( ClientBase* parent );
++
++  /**
++   * Virtual destructor.
++   */
++  virtual ~Registration();
++
++  /**
++   * Use this function to request the registration fields the server requires.
++   * The required fields are returned asynchronously to the object registered as
++   * @ref RegistrationHandler by calling @ref RegistrationHandler::handleRegistrationFields().
++   */
++  void fetchRegistrationFields();
++
++  /**
++   * Attempts to register an account with the given credentials. Only the fields OR'ed in
++   * @c fields will be sent. This can only be called with an unauthenticated parent (@ref Client).
++   * @note It is recommended to use @ref fetchRegistrationFields to find out which fields the
++   * server requires.
++   * @param fields The fields to use to generate the registration request. OR'ed
++   * @ref fieldEnum values.
++   * @param values The struct contains the values which shall be used for the registration.
++   * @return Returns @b true if the registration request was sent successfully, @b false
++   * otherwise. In that case either there's no connected ClientBase available, or
++   * prepping of the username failed (i.e. the username is not valid for use in XMPP).
++   */
++  bool createAccount( int fields, const RegistrationFields& values );
++
++  /**
++   * Attempts to register an account with the given credentials. This can only be called with an
++   * unauthenticated parent (@ref Client).
++   * @note According to @xep{0077}, if the server sends both old-style fields and data form,
++   * implementations SHOULD prefer data forms.
++   * @param form The DataForm containing the registration credentials.
++   */
++  void createAccount( DataForm* form );
++
++  /**
++   * Tells the server to remove the currently authenticated account from the server.
++   */
++  void removeAccount();
++
++  /**
++   * Tells the server to change the password for the current account.
++   * @param username The username to change the password for. You might want to use
++   * Client::username() to get the current prepped username.
++   * @param password The new password.
++   */
++  void changePassword( const std::string& username, const std::string& password );
++
++  /**
++   * Registers the given @c rh as RegistrationHandler. Only one handler is possible at a time.
++   * @param rh The RegistrationHandler to register.
++   */
++  void registerRegistrationHandler( RegistrationHandler* rh );
++
++  /**
++   * Un-registers the current RegistrationHandler.
++   */
++  void removeRegistrationHandler();
++
++  // reimplemented from IqHandler.
++  virtual bool handleIq( const IQ& iq ) { (void)iq; return false; }
++
++  // reimplemented from IqHandler.
++  virtual void handleIqID( const IQ& iq, int context );
++
++  private:
+ #ifdef REGISTRATION_TEST
+     public:
+ #endif
+ 
+-      enum IdType
+-      {
+-        FetchRegistrationFields,
+-        CreateAccount,
+-        RemoveAccount,
+-        ChangePassword
+-      };
++  enum IdType
++  {
++    FetchRegistrationFields,
++    CreateAccount,
++    RemoveAccount,
++    ChangePassword
++  };
+ 
+-      Registration operator=( const Registration& );
++  Registration operator=( const Registration& );
+ 
+-      void init();
++  void init();
+ 
+-      ClientBase* m_parent;
+-      const JID m_to;
+-      RegistrationHandler* m_registrationHandler;
+-  };
++  ClientBase* m_parent;
++  const JID m_to;
++  RegistrationHandler* m_registrationHandler;
++};
+ 
+ }
+ 
+-- 
+2.30.1.windows.1
+

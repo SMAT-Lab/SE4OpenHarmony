@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="copyrightPolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.js"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5.ftl"
+                    type="filename"/>
+                <filteritem
+                    desc="版权免责声明文件，无需修改"
+                    name="NOTICE"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.cpp"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.h"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.am"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="ohos_smack/hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="entry/hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw"
+                    type="filename"/>
+            </filefilter>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="defaultPolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.js"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5.ftl"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.cpp"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.h"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.am"
+                    type="filename"/>
+                <filteritem
+                    desc="版权免责声明文件，无需修改"
+                    name="NOTICE"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+            </filefilter>
+            <filefilter
+                desc="Filters for resources files policies"
+                name="binaryFileTypePolicyFilter">
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/1.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/2.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/3.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/7.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/8.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/9.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/10.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/11.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/12.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/13.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/14.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/15.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/16.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/17.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/18.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="entry/src/ohosTest/resources/base/media/icon.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="entry/src/main/resources/base/media/add.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="entry/src/main/resources/base/media/back.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="entry/src/main/resources/base/media/change.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="entry/src/main/resources/base/media/icon.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="AppScope/resources/base/media/app_icon.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="entry/src/main/resources/base/media/more.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="entry/src/main/resources/base/media/refresh.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="自研图片资源文件，DevEco Studio自动生成，不手动修改"
+                    name="image/sample.gif"
+                    type="filepath"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+            </filefilter>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="defaultPolicyFilter">
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="entry/hvigorfile.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="entry/src/main/ets/entryability/EntryAbility.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="entry/src/ohosTest/ets/test/List.test.ets"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name=".clang-tidy"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/types/libentry/index.d.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="ohos_smack/hvigorfile.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/AUTHORS"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/config.h.symbian"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/INSTALL"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/config.h.win"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/missing"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/acinclude.m4"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/UPGRADING"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/TODO"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/README.wince"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/ets/PresenceRoomType.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/gloox.cbp"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/README.win32"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/ets/MUCRoomRole.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/README.symbian"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/ets/MUCRoomAffiliation.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/configure.ac"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/ChangeLog"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/gloox.mmp"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/bld.inf"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/COPYING"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name=".clangd"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/config.guess"
+                    type="filepath"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw"
+                    type="filepath"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw.bat"
+                    type="filepath"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigor/hvigor-wrapper.js"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/config.sub"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/configure"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/depcomp"
+                    type="filepath"/>
+                <filteritem
+                    desc="版权免责声明文件，无需修改"
+                    name="NOTICE"
+                    type="filename"/>
+            </filefilter>
+
+            <filefilter
+                desc="Filters for copyright header policies"
+                name="copyrightPolicyFilter">
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="src/test-export.c"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name=".clang-tidy"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/UPGRADING"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/acinclude.m4"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/TODO"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/README.wince"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/ets/PresenceRoomType.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/gloox.cbp"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/README.win32"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/ets/MUCRoomRole.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/README.symbian"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/ets/MUCRoomAffiliation.ts"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/configure.ac"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/config.h.win"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无版权头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/config.h.symbian"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/config.guess"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/config.sub"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/depcomp"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/missing"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/bld.inf"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name=".clangd"
+                    type="filepath"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw.bat"
+                    type="filepath"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigor/hvigor-wrapper.js"
+                    type="filepath"/>
+                <filteritem
+                    desc="原库代码文件，原本就无协议头，不做侵入式修改"
+                    name="library/src/main/cpp/gloox/gloox.mmp"
+                    type="filepath"/>
+                <filteritem
+                    desc="版权免责声明文件，无需修改"
+                    name="NOTICE"
+                    type="filename"/>
+            </filefilter>
+
+        </filefilterlist>
+
+        <policylist>
+            <policy
+                desc=""
+                name="projectPolicy">
+                <policyitem
+                    desc="源开源项目的LICENSE,  符合开源要求"
+                    filefilter="defaultPolicyFilter"
+                    group="defaultGroup"
+                    name="GPL-3.0+"
+                    path=".*"
+                    type="license"/>
+
+            </policy>
+
+            <policy
+                desc=""
+                name="projectPolicy">
+                <policyitem
+                    desc="原开源库版权头，版权头维持原样，不做侵入式修改"
+                    filefilter="copyrightPolicyFilter"
+                    group="defaultGroup"
+                    name="Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc."
+                    path="library/src/main/cpp/gloox/configure"
+                    rule="may"
+                    type="copyright"/>
+                <policyitem
+                    desc="匹配原库协议，符合开源要求"
+                    filefilter="defaultPolicyFilter"
+                    group="defaultGroup"
+                    name="Copyright (C) 2023 Huawei Device Co., Ltd."
+                    path=".*"
+                    type="license"/>
+            </policy>
+        </policylist>
+
+        <licensematcherlist>
+            <licensematcher
+                desc="Huawei Device Co., Ltd."
+                name="Copyright (C) 2023 Huawei Device Co., Ltd.">
+                <licensetext
+                    desc=""
+                    name="
+                         * Copyright (C) 2023 Huawei Device Co., Ltd.
+                         *
+                         * This software is distributed under a license. The full license
+                         * agreement can be found in the file LICENSE in this distribution.
+                         * This software may not be copied, modified, sold or distributed
+                         * other than expressed in the named license agreement.
+                         *
+                         * This software is distributed without any warranty."/>
+            </licensematcher>
+        </licensematcherlist>
+
+    </oatconfig>
+</configuration>

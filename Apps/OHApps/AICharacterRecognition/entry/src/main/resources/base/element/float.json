@@ -1,0 +1,104 @@
+{
+  "float": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "top_height",
+      "value": "30vp"
+    },
+    {
+      "name": "button_tip_size",
+      "value": "14fp"
+    },
+    {
+      "name": "indicate_upper_margin",
+      "value": "16vp"
+    },
+    {
+      "name": "decorative_point_size",
+      "value": "6vp"
+    },
+    {
+      "name": "decorative_dots_rounded_corners",
+      "value": "3vp"
+    },
+    {
+      "name": "decorative_dots_upper_margin",
+      "value": "6vp"
+    },
+    {
+      "name": "decorative_dots_bottom_margin",
+      "value": "20vp"
+    },
+    {
+      "name": "button_border_size",
+      "value": "76vp"
+    },
+    {
+      "name": "button_size",
+      "value": "60vp"
+    },
+    {
+      "name": "button_border_radius",
+      "value": "37vp"
+    },
+    {
+      "name": "button_radius",
+      "value": "30vp"
+    },
+    {
+      "name": "camera_lower_height",
+      "value": "228vp"
+    },
+    {
+      "name": "dialog_title_font_size",
+      "value": "20fp"
+    },
+    {
+      "name": "dialog_content_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "dialog_title_height",
+      "value": "56vp"
+    },
+    {
+      "name": "dialog_title_padding_top",
+      "value": "14vp"
+    },
+    {
+      "name": "dialog_title_padding_bottom",
+      "value": "14vp"
+    },
+    {
+      "name": "dialog_title_padding_left",
+      "value": "24vp"
+    },
+    {
+      "name": "dialog_content_line_height",
+      "value": "33vp"
+    },
+    {
+      "name": "dialog_content_padding_leftright",
+      "value": "24vp"
+    },
+    {
+      "name": "dialog_content_padding_bottom",
+      "value": "33vp"
+    },
+    {
+      "name": "dialog_content_height",
+      "value": "463vp"
+    },
+    {
+      "name": "button_border_width",
+      "value": "1vp"
+    },
+    {
+      "name": "dialog_result_text_height",
+      "value": "407vp"
+    }
+  ]
+}

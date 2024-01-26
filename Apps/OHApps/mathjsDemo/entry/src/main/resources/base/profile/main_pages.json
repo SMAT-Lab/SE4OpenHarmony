@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/Index",
+    "crcalc/crcalc",
+    "ejml/ejml",
+    "ejml/ejmlMathjs",
+    "jafama/jafama",
+    "mathjs/mathjs"
+  ]
+}

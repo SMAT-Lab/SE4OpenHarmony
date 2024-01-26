@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "IMAP"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "IMAP"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "node-imap"
+    }
+  ]
+}

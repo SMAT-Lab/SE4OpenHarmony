@@ -1,0 +1,13 @@
+{
+  "name": "node-pop3",
+  "version": "1.0.1-rc.1",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "ohos_tpc",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  }
+}

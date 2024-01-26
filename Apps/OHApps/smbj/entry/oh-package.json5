@@ -1,0 +1,16 @@
+{
+  "license": "MIT License",
+  "devDependencies": {},
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "ohos": {
+    "org": "huawei",
+    "directoryLevel": "module",
+    "buildTool": "hvigor"
+  },
+  "main": "",
+  "version": "2.0.0",
+  "dependencies": {
+    "@ohos/smbj": "file:../library"
+  }
+}

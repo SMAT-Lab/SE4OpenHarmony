@@ -1,0 +1,140 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MultiNavBar"
+    },
+    {
+      "name": "install",
+      "value": "Install"
+    },
+    {
+      "name": "excellentGame",
+      "value": "Boutique Games"
+    },
+    {
+      "name": "excellentApp",
+      "value": "High-quality applications"
+    },
+    {
+      "name": "more",
+      "value": "More"
+    },
+    {
+      "name": "category",
+      "value": "Classifieds"
+    },
+    {
+      "name": "quickApp",
+      "value": "Quick application"
+    },
+    {
+      "name": "garden",
+      "value": "Little Garden"
+    },
+    {
+      "name": "education",
+      "value": "Education Center"
+    },
+    {
+      "name": "double",
+      "value": "Double"
+    },
+    {
+      "name": "photoEditing",
+      "value": "Photo editing"
+    },
+    {
+      "name": "mathematicsSquare",
+      "value": "Math Square"
+    },
+    {
+      "name": "carefree",
+      "value": "Relaxed and happy"
+    },
+    {
+      "name": "explorer",
+      "value": "Explorer"
+    },
+    {
+      "name": "romance",
+      "value": "Romance of the Three Kingdoms"
+    },
+    {
+      "name": "dreaming",
+      "value": "Dreaming of you"
+    },
+    {
+      "name": "ambush",
+      "value": "Ambush on ten sides"
+    },
+    {
+      "name": "search",
+      "value": "Searching for..."
+    },
+    {
+      "name": "nullString",
+      "value": " "
+    },
+    {
+      "name": "index",
+      "value": "Home Page"
+    },
+    {
+      "name": "recommend",
+      "value": "Recommended"
+    },
+    {
+      "name": "appList",
+      "value": "App List"
+    },
+    {
+      "name": "gameList",
+      "value": "Game List"
+    },
+    {
+      "name": "app",
+      "value": "Application"
+    },
+    {
+      "name": "video",
+      "value": "Audio and Video"
+    },
+    {
+      "name": "shopping",
+      "value": "Shopping"
+    },
+    {
+      "name": "game",
+      "value": "The game"
+    },
+    {
+      "name": "rank",
+      "value": "Ranking"
+    },
+    {
+      "name": "explore",
+      "value": "To explore"
+    },
+    {
+      "name": "discovery",
+      "value": "Discovered today"
+    },
+    {
+      "name": "hot",
+      "value": "Popular Topics"
+    },
+    {
+      "name": "mine",
+      "value": "Mine"
+    }
+  ]
+}

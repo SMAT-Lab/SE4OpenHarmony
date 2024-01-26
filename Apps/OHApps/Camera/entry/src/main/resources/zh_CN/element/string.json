@@ -1,0 +1,116 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "eTS多媒体"
+    },
+    {
+      "name": "delete_file",
+      "value": "删除文件?"
+    },
+    {
+      "name": "rename_file",
+      "value": "重置文件名"
+    },
+    {
+      "name": "yes",
+      "value": "确认"
+    },
+    {
+      "name": "confirm",
+      "value": "确定"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "save",
+      "value": "保存"
+    },
+    {
+      "name": "rename_placeholder",
+      "value": "输入新名称"
+    },
+    {
+      "name": "photo",
+      "value": "拍照"
+    },
+    {
+      "name": "video",
+      "value": "录像"
+    },
+    {
+      "name": "album_empty",
+      "value": "相册是空的"
+    },
+    {
+      "name": "setting",
+      "value": "设置"
+    },
+    {
+      "name": "size",
+      "value": "录制分辨率"
+    },
+    {
+      "name": "rotation",
+      "value": "角度旋转"
+    },
+    {
+      "name": "notEnabled",
+      "value": "未启用"
+    },
+    {
+      "name": "default_size",
+      "value": "1920*1080"
+    },
+    {
+      "name": "800_600",
+      "value": "800*600"
+    },
+    {
+      "name": "1280_720",
+      "value": "1280*720"
+    },
+    {
+      "name": "1920_1080",
+      "value": "1920*1080"
+    },
+    {
+      "name": "support_270_rotate",
+      "value": "支持 270°C 旋转"
+    },
+    {
+      "name": "support_180_rotate",
+      "value": "支持 180°C 旋转"
+    },
+    {
+      "name": "support_90_rotate",
+      "value": "支持 90°C 旋转"
+    },
+    {
+      "name": "angle_of_rotation",
+      "value": "拍照旋转角度"
+    },
+    {
+      "name": "recording_resolution",
+      "value": "录制分辨率"
+    },
+    {
+      "name": "font_family",
+      "value": "HarmonyOS Sans SC-Medium"
+    },
+    {
+      "name": "font_family_Regular",
+      "value": "HarmonyOS Sans SC-Regular"
+    }
+  ]
+}

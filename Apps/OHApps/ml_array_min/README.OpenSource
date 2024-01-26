@@ -1,0 +1,12 @@
+[
+    {
+         "Name": "ml-array-min",
+         "License": "MIT License",
+         "License File": "LICENSE",
+         "Version Number": "1.2.3",
+         "Owner" : "xiafeng@huawei.com"
+         "Upstream URL": "https://github.com/mljs/array/tree/master/packages/array-min",
+         "Description": "Get the minimum value in an array."
+    }
+]
+

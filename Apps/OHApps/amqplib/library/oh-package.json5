@@ -1,0 +1,22 @@
+{
+  "license": "MIT",
+  "types": "src/main/ets/types/index.d.ts",
+  "devDependencies": {},
+  "author": "ohos_tpc",
+  "name": "@ohos/amqplib",
+  "keywords": [
+    "AMQP",
+    "amqp",
+    "amqplib",
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "description": "专门为OpenHarmony打造的一个支持AMQP（Advanced Message Queuing Protocol）网络通信协议的library，可以在一个进程间传递异步消息",
+  "main": "src/main/ets/channel_api.js",
+  "version": "1.0.0",
+  "dependencies": {
+    "@ohos/node-polyfill": "1.0.0",
+    "querystringify": "^2.1.1",
+    "url-parse": "^1.5.10"
+  }
+}

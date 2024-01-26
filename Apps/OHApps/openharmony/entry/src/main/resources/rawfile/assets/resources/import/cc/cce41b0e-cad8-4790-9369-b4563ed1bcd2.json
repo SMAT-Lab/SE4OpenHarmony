@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "06s8ThglVIdrSb2mDq4c+K"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "imgLabel",
+      "rect": [
+        0,
+        1,
+        170,
+        23
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        170,
+        24
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

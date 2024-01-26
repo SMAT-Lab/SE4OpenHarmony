@@ -1,0 +1,13 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/FirstPage",
+    "pages/homeItem",
+    "pages/mainPage",
+    "pages/LoginPage",
+    "pages/DeliciousPage",
+    "pages/videoPage",
+    "pages/TabPage",
+    "pages/SurfingPage"
+  ]
+}

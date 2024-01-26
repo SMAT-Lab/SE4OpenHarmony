@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "gameAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "gameAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "gameability_desc",
+      "value": "description"
+    },
+    {
+      "name": "gameability_label",
+      "value": "label"
+    },
+    {
+      "name": "GameAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "GameAbility_label",
+      "value": "label"
+    }
+  ]
+}

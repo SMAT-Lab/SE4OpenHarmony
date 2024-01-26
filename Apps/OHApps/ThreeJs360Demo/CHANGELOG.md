@@ -1,0 +1,2 @@
+1.样例适配的系统版本是OpenHarmony API 9
+2.使用系统web组件加载threeJs,实现360全景渲染

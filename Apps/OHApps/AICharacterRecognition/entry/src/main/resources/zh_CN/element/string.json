@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "AI文字识别"
+    },
+    {
+      "name": "Recognize_text",
+      "value": "识别文字"
+    },
+    {
+      "name": "Recognize_result",
+      "value": "识别结果"
+    },
+    {
+      "name": "unrecognizable",
+      "value": "暂未识别到文字信息，请重新拍摄"
+    }
+  ]
+}

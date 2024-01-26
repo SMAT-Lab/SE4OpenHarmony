@@ -1,0 +1,16 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "name": "entry",
+  "ohos": {
+    "org": "huawei",
+    "directoryLevel": "module",
+    "buildTool": "hvigor"
+  },
+  "description": "example description",
+  "repository": {},
+  "version": "2.0.0",
+  "dependencies": {
+    "@ohos/stun": "file:../library"
+  }
+}

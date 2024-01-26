@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "CustomNotificationBadge"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "CustomNotificationBadge"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "CustomNotificationBadge"
+    },
+    {
+      "name": "basic_notification",
+      "value": "Basic notification"
+    },
+    {
+      "name": "long_text_notification",
+      "value": "Long text notification"
+    },
+    {
+      "name": "multiline_notification",
+      "value": "Multiline notification"
+    },
+    {
+      "name": "picture_notification",
+      "value": "Picture notification"
+    },
+    {
+      "name": "conversation_notification",
+      "value": "Conversation notification"
+    },
+    {
+      "name": "notification_title",
+      "value": "Title"
+    },
+    {
+      "name": "notification_content",
+      "value": "Notification content"
+    },
+    {
+      "name": "notification_additional",
+      "value": "Notification additional content"
+    },
+    {
+      "name": "notification_long_text",
+      "value": "Notification long text"
+    },
+    {
+      "name": "notification_brief_text",
+      "value": "Notification brief text,it is a summary of the contents of the notice."
+    },
+    {
+      "name": "notification_expanded_title",
+      "value": "Notification expanded title"
+    },
+    {
+      "name": "cancel_all_notifications",
+      "value": "Cancel all notifications"
+    },
+    {
+      "name": "messages_list_title",
+      "value": "Messages List"
+    },
+    {
+      "name": "notification_publish_title",
+      "value": "Notifications Publish"
+    },
+    {
+      "name": "accept",
+      "value": "accept"
+    }
+  ]
+}

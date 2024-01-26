@@ -1,0 +1,26 @@
+{
+  "types": "",
+  "keywords": [
+    "OpenHarmony",
+    "HarmonyOS",
+    "XPopup"
+  ],
+  "author": "ohos_tpc",
+  "description": "基于OpenHarmony的弹框基础能力和自定义能力，针对通用的弹框业务场景进行封装组合，提供一款OpenHarmony版的三方UI库。",
+  "ohos": {
+    "org": "opensource"
+  },
+  "main": "index.ets",
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/dialogs",
+  "type": "module",
+  "version": "1.0.1",
+  "dependencies": {
+    "@ohos/subsampling-scale-image-view": "2.0.1"
+  },
+  "tags": [
+    "UI"
+  ],
+  "license": "Apache License 2.0",
+  "devDependencies": {},
+  "name": "@ohos/dialogs"
+}

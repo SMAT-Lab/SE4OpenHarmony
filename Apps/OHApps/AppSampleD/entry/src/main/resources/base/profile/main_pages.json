@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/Index",
+    "appsampled/pages/Login",
+    "appsampled/pages/ChatPage",
+    "appsampled/pages/SearchPage",
+    "appsampled/pages/CameraPage",
+    "appsampled/pages/PublishPage"
+  ]
+}

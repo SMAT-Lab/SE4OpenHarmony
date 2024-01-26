@@ -1,0 +1,56 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Native MultiThreads"
+    },
+    {
+      "name": "sample_title",
+      "value": "Native多线程示例"
+    },
+    {
+      "name": "image_error_dialog_title",
+      "value": "错误警告"
+    },
+    {
+      "name": "image_error_dialog_message",
+      "value": "目标图片不存在！！！"
+    },
+    {
+      "name": "error_dialog_primary_button",
+      "value": "取消"
+    },
+    {
+      "name": "error_dialog_secondary_button",
+      "value": "确认"
+    },
+    {
+      "name": "sync_button_title",
+      "value": "多线程同步调用"
+    },
+    {
+      "name": "async_callback_button_title",
+      "value": "多线程callback异步调用"
+    },
+    {
+      "name": "async_promise_button_title",
+      "value": "多线程promise异步调用"
+    },
+    {
+      "name": "async_tsf_button_title",
+      "value": "多线程tsf异步调用"
+    },
+    {
+      "name": "error_image_button_title",
+      "value": "错误图片"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "libphonenumber-js",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "0.2.2",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/catamphetamine/libphonenumber-js",
+        "Description": "A simpler (and smaller) rewrite of Google's libphonenumber library in javascript"
+    }
+]

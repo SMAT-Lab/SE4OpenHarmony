@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_ok</title>
+    <defs>
+        <path d="M21.7196699,3.63800151 C22.0125631,3.34510829 22.4874369,3.34510829 22.7803301,3.63800151 C23.0732233,3.93089473 23.0732233,4.40576846 22.7803301,4.69866168 L9.44866168,18.0303301 C9.15576846,18.3232233 8.68089473,18.3232233 8.38800151,18.0303301 L1.21966991,10.8619985 C0.926776695,10.5691053 0.926776695,10.0942315 1.21966991,9.80133832 C1.51256313,9.5084451 1.98743687,9.5084451 2.28033009,9.80133832 L8.9183316,16.4393398 L21.7196699,3.63800151 Z" id="path-1"></path>
+    </defs>
+    <g id="ic_ok" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Path-21" fill="#182431" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

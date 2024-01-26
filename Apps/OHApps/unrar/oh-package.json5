@@ -1,0 +1,11 @@
+{
+  "license": "ISC",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "name": "ohosunrar",
+  "description": "example description",
+  "repository": {},
+  "version": "2.0.2-rc.0",
+  "dependencies": {}
+}

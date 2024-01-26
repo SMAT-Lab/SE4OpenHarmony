@@ -1,0 +1,40 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "text_normal",
+      "value": "#182431"
+    },
+    {
+      "name": "button_light_gray",
+      "value": "#0D182431"
+    },
+    {
+      "name": "button_blue",
+      "value": "#007DFF"
+    },
+    {
+      "name": "btn_text_blue",
+      "value": "#007DFF"
+    },
+    {
+      "name": "maskColor",
+      "value": "#66182431"
+    },
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "gray",
+      "value": "#F7F7F7"
+    },
+    {
+      "name": "light_gray",
+      "value": "#F1F3F5"
+    }
+  ]
+}

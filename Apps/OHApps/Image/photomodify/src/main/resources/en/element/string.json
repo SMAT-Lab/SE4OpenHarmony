@@ -1,0 +1,88 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from npm package"
+    },
+    {
+      "name": "recently_added",
+      "value": "recently added"
+    },
+    {
+      "name": "next",
+      "value": "next"
+    },
+    {
+      "name": "choice_photo",
+      "value": "choice photo"
+    },
+    {
+      "name": "choice_video",
+      "value": "choice video"
+    },
+    {
+      "name": "photograph",
+      "value": "take photo"
+    },
+    {
+      "name": "take_video",
+      "value": "take video"
+    },
+    {
+      "name": "complete",
+      "value": "complete"
+    },
+    {
+      "name": "adjust",
+      "value": "adjust"
+    },
+    {
+      "name": "rotate",
+      "value": "rotate"
+    },
+    {
+      "name": "crop",
+      "value": "crop"
+    },
+    {
+      "name": "scale",
+      "value": "scale"
+    },
+    {
+      "name": "confirm",
+      "value": "confirm"
+    },
+    {
+      "name": "proportion_three_four",
+      "value": "3:4"
+    },
+    {
+      "name": "proportion_nine_sixth",
+      "value": "9:16"
+    },
+    {
+      "name": "proportion_one_one",
+      "value": "confirm"
+    },
+    {
+      "name": "choice_number",
+      "value": "select a maximum of six images"
+    },
+    {
+      "name": "origin_photo",
+      "value": "origin photo"
+    },
+    {
+      "name": "narrow",
+      "value": "narrow"
+    },
+    {
+      "name": "amplification",
+      "value": "amplification"
+    },
+    {
+      "name": "user_tip",
+      "value": "function development in progress"
+    }
+  ]
+}

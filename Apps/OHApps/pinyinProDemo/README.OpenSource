@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "pinyin-pro",
+        "License": "Apache License",
+        "License File": " LICENSE ",
+        "Version Number": "3.18.3",
+        "Owner": "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/zh-lx/pinyin-pro",
+        "Description": "A reactive programming library for JavaScript"
+    }
+]

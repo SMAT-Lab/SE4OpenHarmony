@@ -1,0 +1,11 @@
+{
+  "strings": {
+    "title": "你好·世界",
+    "title_immersive": "今日美食推荐",
+    "detail_immersive": "一碗香喷喷的炸酱面，回到儿时的青涩回忆"
+  },
+  "strings2": {
+    "title": "AdaptiveServiceWidget",
+    "text": "使用说明\n\n\n长按示例应用，等待出现服务卡片字样，点击后选择需要的卡片尺寸，添加到屏幕。\n\n\n可以将此应用安装到不同类型的设备上，查看自适应效果。\n"
+  }
+}

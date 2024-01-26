@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "image processing"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "image processing"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "ImageProcessing"
+    },
+    {
+      "name": "publish_comments",
+      "value": "publish comments"
+    },
+    {
+      "name": "submit",
+      "value": "commit"
+    },
+    {
+      "name": "commodity_comment",
+      "value": "commodity comment"
+    },
+    {
+      "name": "tip",
+      "value": "      In accordance with the evaluation rules, evaluation more than 10 words can be obtained orange beans"
+    },
+    {
+      "name": "anonymous_display",
+      "value": "Your comments will be displayed anonymously on the product review page."
+    },
+    {
+      "name": "add_picture",
+      "value": "add picture/photo"
+    },
+    {
+      "name": "media_read_permission",
+      "value": "Allows applications to read media files from external storage"
+    },
+    {
+      "name": "media_write_permission",
+      "value": "allow applications can read and write media files stored in external storage"
+    },
+    {
+      "name": "media_location_permission",
+      "value": "allows applications to access location information in user media files"
+    }
+  ]
+}

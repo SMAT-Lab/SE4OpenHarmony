@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "AdaptiveServiceWidget"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "form_description"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "form_label"
+    },
+    {
+      "name": "title",
+      "value": "direction for use"
+    },
+    {
+      "name": "content1",
+      "value": "长按示例应用，等待出现服务卡片字样，点击后选择需要的卡片尺寸，添加到屏幕。"
+    },
+    {
+      "name": "content2",
+      "value": "You can install this application on different types of devices to see the adaptive effect."
+    },
+    {
+      "name": "index_title",
+      "value": "AdaptiveServiceWidget"
+    }
+  ]
+}

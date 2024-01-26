@@ -1,0 +1,74 @@
+{
+  "strarray": [
+    {
+      "name": "power_operations",
+      "value": [
+        {
+          "value": "检测亮灭屏状态"
+        },
+        {
+          "value": "获取电源模式"
+        }
+      ]
+    },
+    {
+      "name": "running_lock_operations",
+      "value": [
+        {
+          "value": "设备支持的休眠锁类型"
+        },
+        {
+          "value": "设置阻止系统休眠的锁"
+        },
+        {
+          "value": "设置是否通过接近或者远离状态来控制亮灭屏的锁"
+        }
+      ]
+    },
+    {
+      "name": "power_mode",
+      "value": [
+        {
+          "value": "标准模式"
+        },
+        {
+          "value": "省电模式"
+        },
+        {
+          "value": "性能模式"
+        },
+        {
+          "value": "超级省电模式"
+        }
+      ]
+    },
+    {
+      "name": "settings_operations",
+      "value": [
+        {
+          "value": "获取数据项uri"
+        },
+        {
+          "value": "开关飞行模式"
+        },
+        {
+          "value": "检查应用是否能以悬浮窗形式显示"
+        }
+      ]
+    },
+    {
+      "name": "stationary_operations",
+      "value": [
+        {
+          "value": "订阅设备状态服务"
+        },
+        {
+          "value": "取消订阅设备状态服务"
+        },
+        {
+          "value": "查询设备状态"
+        }
+      ]
+    }
+  ]
+}

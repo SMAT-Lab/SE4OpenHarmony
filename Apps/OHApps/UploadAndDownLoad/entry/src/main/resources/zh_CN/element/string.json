@@ -1,0 +1,120 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "上传下载"
+    },
+    {
+      "name": "upload",
+      "value": "上传"
+    },
+    {
+      "name": "upload_fail",
+      "value": "上传失败，稍后继续上传"
+    },
+    {
+      "name": "upload_success",
+      "value": "上传成功，继续上传"
+    },
+    {
+      "name": "uploading",
+      "value": "已上传"
+    },
+    {
+      "name": "user_tip",
+      "value": "功能开发中"
+    },
+    {
+      "name": "open",
+      "value": "公开"
+    },
+    {
+      "name": "anyone",
+      "value": "谁可以看"
+    },
+    {
+      "name": "gps",
+      "value": "所在位置"
+    },
+    {
+      "name": "tip",
+      "value": "这一刻的想法..."
+    },
+    {
+      "name": "pick_album",
+      "value": "从相册选择"
+    },
+    {
+      "name": "ok",
+      "value": "确定"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "check_file_tips",
+      "value": "请选择文件"
+    },
+    {
+      "name": "download",
+      "value": "下载"
+    },
+    {
+      "name": "downloading",
+      "value": "已下载"
+    },
+    {
+      "name": "view_download_files",
+      "value": "查看下载文件"
+    },
+    {
+      "name": "download_to",
+      "value": "选择下载位置"
+    },
+    {
+      "name": "download_finish",
+      "value": "下载完成"
+    },
+    {
+      "name": "download_fail",
+      "value": "下载失败"
+    },
+    {
+      "name": "pause",
+      "value": "暂停"
+    },
+    {
+      "name": "continue",
+      "value": "继续"
+    },
+    {
+      "name": "media_permission",
+      "value": "允许应用读取用户外部存储中的媒体文件信息"
+    },
+    {
+      "name": "media_internet_permission",
+      "value": "允许访问网络"
+    },
+    {
+      "name": "background_tips",
+      "value": "是否开启后台任务"
+    },
+    {
+      "name": "home_tips",
+      "value": "演示前台和后台上传和下载任务"
+    },
+    {
+      "name": "background_task_start",
+      "value": "后台任务已开始，可在通知栏查看下载状态"
+    }
+  ]
+}

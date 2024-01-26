@@ -1,0 +1,40 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\13627\\.ohos\\config\\openharmony\\auto_ohos_default_CherishDates_com.example.cherishdates.cer",
+          "storePassword": "0000001929380F3836DC6E943254B95751DDCD973BA1614BB777BAACFE3A99F560C6E07AF31E3CA48A",
+          "keyAlias": "debugKey",
+          "keyPassword": "000000198BE3AFC099506D56D6399CEDDF915AAD6D0C0F7786F3108F00D7C7001BCC5C1F488C5899D1",
+          "profile": "C:\\Users\\13627\\.ohos\\config\\openharmony\\auto_ohos_default_CherishDates_com.example.cherishdates.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\13627\\.ohos\\config\\openharmony\\auto_ohos_default_CherishDates_com.example.cherishdates.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "图片处理"
+    },
+    {
+      "name": "recently_added",
+      "value": "最近添加"
+    },
+    {
+      "name": "next",
+      "value": "下一步"
+    },
+    {
+      "name": "choice_photo",
+      "value": "选照片"
+    },
+    {
+      "name": "choice_video",
+      "value": "选视频"
+    },
+
+    {
+      "name": "photograph",
+      "value": "拍照"
+    },
+    {
+      "name": "take_video",
+      "value": "拍视频"
+    },
+    {
+      "name": "choice_number",
+      "value": "最多选择六张图片"
+    },
+    {
+      "name": "user_tip",
+      "value": "功能开发中"
+    }
+  ]
+}

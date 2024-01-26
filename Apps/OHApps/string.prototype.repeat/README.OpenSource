@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "String.prototype.repeat",
+        "License": "MIT",
+        "License File": "LICENSE-MIT",
+        "Version Number": "^0.2.0",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/mathiasbynens/String.prototype.repeat",
+        "Description": "A robust & optimized ES3-compatible polyfill for the `String.prototype.repeat` method in ECMAScript 6."
+    }
+]

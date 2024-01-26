@@ -1,0 +1,64 @@
+{
+  "strarray": [
+    {
+      "name": "language_base_class_library_list",
+      "value": [
+
+        {
+          "value": "Xml & ConvertXml (XML解析,生成与转换)"
+        },
+        {
+          "value": "TaskPool (启动任务池)"
+        },
+        {
+          "value": "Url (Url字符串解析)"
+        },
+        {
+          "value": "Util (util工具函数)"
+        },
+        {
+          "value": "ArrayList (线性容器ArrayList)"
+        },
+        {
+          "value": "Deque (线性容器Deque)"
+        },
+        {
+          "value": "HashMap (非线性容器HashMap)"
+        },
+        {
+          "value": "HashSet (非线性容器HashSet)"
+        },
+        {
+          "value": "LightWeightMap (非线性容器LightWeightMap)"
+        },
+        {
+          "value": "LightWeightSet (非线性容器LightWeightSet)"
+        },
+        {
+          "value": "LinkedList (线性容器LinkedList)"
+        },
+        {
+          "value": "List (线性容器List)"
+        },
+        {
+          "value": "PlainArray (非线性容器PlainArray)"
+        },
+        {
+          "value": "Queue (线性容器Queue)"
+        },
+        {
+          "value": "Stack (线性容器Stack)"
+        },
+        {
+          "value": "TreeMap (非线性容器TreeMap)"
+        },
+        {
+          "value": "TreeSet (非线性容器TreeSet)"
+        },
+        {
+          "value": "Vector (线性容器Vector)"
+        }
+      ]
+    }
+  ]
+}

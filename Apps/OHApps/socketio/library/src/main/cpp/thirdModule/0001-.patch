@@ -1,0 +1,124 @@
+---
+ src/sio_message.h  | 10 ++++++++++
+ src/sio_socket.cpp | 30 ++++++++++++++++++++----------
+ src/sio_socket.h   |  2 +-
+ 3 files changed, 31 insertions(+), 11 deletions(-)
+
+diff --git a/src/sio_message.h b/src/sio_message.h
+index 6ad0d9b..067019b 100755
+--- a/src/sio_message.h
++++ b/src/sio_message.h
+@@ -363,6 +363,16 @@ namespace sio
+         {
+             _v[key] = string_message::create(move(text));
+         }
++        
++        void insert(const std::string & key,int64_t num_value)
++        {
++            _v[key] = int_message::create(num_value);
++        }
++        
++        void insert(const std::string & key,bool bool_value)
++        {
++            _v[key] = bool_message::create(bool_value);
++        }
+ 
+         void insert(const std::string & key,std::shared_ptr<std::string> const& binary)
+         {
+diff --git a/src/sio_socket.cpp b/src/sio_socket.cpp
+index f89429f..50f024c 100644
+--- a/src/sio_socket.cpp
++++ b/src/sio_socket.cpp
+@@ -137,7 +137,7 @@ namespace sio
+         
+         void close();
+         
+-        void emit(std::string const& name, message::list const& msglist, std::function<void (message::list const&)> const& ack);
++        void emit(std::string const& name, message::list const& msglist, std::function<void (std::string const&, message::list const&)> const& ack);
+         
+         std::string const& get_namespace() const {return m_nsp;}
+         
+@@ -179,7 +179,9 @@ namespace sio
+         std::string m_nsp;
+         message::ptr m_auth;
+         
+-        std::map<unsigned int, std::function<void (message::list const&)> > m_acks;
++        std::map<unsigned int, std::function<void (std::string const&, message::list const&)> > m_acks;
++        
++        std::map<unsigned int, std::string > m_ack_names;
+         
+         std::map<std::string, event_listener> m_event_binding;
+         
+@@ -265,7 +267,7 @@ namespace sio
+     
+     unsigned int socket::impl::s_global_event_id = 1;
+     
+-    void socket::impl::emit(std::string const& name, message::list const& msglist, std::function<void (message::list const&)> const& ack)
++    void socket::impl::emit(std::string const& name, message::list const& msglist, std::function<void (std::string const&, message::list const&)> const& ack)
+     {
+         NULL_GUARD(m_client);
+         message::ptr msg_ptr = msglist.to_array_message(name);
+@@ -275,6 +277,7 @@ namespace sio
+             pack_id = s_global_event_id++;
+             std::lock_guard<std::mutex> guard(m_event_mutex);
+             m_acks[pack_id] = ack;
++            m_ack_names[pack_id] = name;
+         }
+         else
+         {
+@@ -474,17 +477,24 @@ namespace sio
+     
+     void socket::impl::on_socketio_ack(int msgId, message::list const& message)
+     {
+-        std::function<void (message::list const&)> l;
++        std::function<void (std::string const&, message::list const&)> l;
++        std::string ack_name;
+         {
+             std::lock_guard<std::mutex> guard(m_event_mutex);
+-            auto it = m_acks.find(msgId);
+-            if(it!=m_acks.end())
++            auto ack_iterator=m_acks.find(msgId);
++            if(ack_iterator!=m_acks.end())
++            {
++                l = ack_iterator->second;
++                m_acks.erase(ack_iterator);
++            }
++            auto ack_name_iterator=m_ack_names.find(msgId);
++            if(ack_name_iterator!=m_ack_names.end())
+             {
+-                l = it->second;
+-                m_acks.erase(it);
++                ack_name = ack_name_iterator->second;
++                m_ack_names.erase(ack_name_iterator);
+             }
+         }
+-        if(l)l(message);
++        if(l)l(ack_name,message);
+     }
+     
+     void socket::impl::on_socketio_error(message::ptr const& err_message)
+@@ -597,7 +607,7 @@ namespace sio
+         m_impl->off_error();
+     }
+ 
+-    void socket::emit(std::string const& name, message::list const& msglist, std::function<void (message::list const&)> const& ack)
++    void socket::emit(std::string const& name,message::list const& msglist,std::function<void (std::string const&,message::list const&)> const& ack)
+     {
+         m_impl->emit(name, msglist,ack);
+     }
+diff --git a/src/sio_socket.h b/src/sio_socket.h
+index 9e2e529..b2502da 100644
+--- a/src/sio_socket.h
++++ b/src/sio_socket.h
+@@ -74,7 +74,7 @@ namespace sio
+         
+         void off_error();
+ 
+-        void emit(std::string const& name, message::list const& msglist = nullptr, std::function<void (message::list const&)> const& ack = nullptr);
++        void emit(std::string const& name,message::list const& msglist = nullptr,std::function<void (std::string const&,message::list const&)> const& ack = nullptr);
+         
+         std::string const& get_namespace() const;
+         
+-- 
+2.30.1.windows.1
+

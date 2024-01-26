@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "snappyjs",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "0.7.0",
+        "Owner" : "zhipeng-jia"
+        "Upstream URL": "https://github.com/zhipeng-jia/snappyjs",
+        "Description": "A pure JavaScript implementation of Google's Snappy compression library."
+    }
+
+]

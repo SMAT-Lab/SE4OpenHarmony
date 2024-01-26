@@ -1,0 +1,120 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "加解密算法库框架"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "加解密算法库框架"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "加解密算法库框架"
+    },
+    {
+      "name": "please_choose",
+      "value": "请选择"
+    },
+    {
+      "name": "open_file",
+      "value": "打开文件"
+    },
+    {
+      "name": "file_name",
+      "value": "文件名"
+    },
+    {
+      "name": "select_key_file",
+      "value": "选择密钥"
+    },
+    {
+      "name": "select_signature_file",
+      "value": "选择签名文件"
+    },
+    {
+      "name": "text_context",
+      "value": "文件内容"
+    },
+    {
+      "name": "encrypt",
+      "value": "加密"
+    },
+    {
+      "name": "encrypted_context",
+      "value": "加密内容"
+    },
+    {
+      "name": "decrypt",
+      "value": "解密"
+    },
+    {
+      "name": "decrypted_context",
+      "value": "解密内容"
+    },
+    {
+      "name": "generate_rsa_key_randomly",
+      "value": "随机生成RSA密钥"
+    },
+    {
+      "name": "generate_aes_key_randomly",
+      "value": "随机生成AES密钥"
+    },
+    {
+      "name": "sign",
+      "value": "签名"
+    },
+    {
+      "name": "verify",
+      "value": "验签"
+    },
+    {
+      "name": "encrypt_success",
+      "value": "加密成功"
+    },
+    {
+      "name": "encrypt_fail",
+      "value": "加密失败"
+    },
+    {
+      "name": "decrypt_success",
+      "value": "解密成功"
+    },
+    {
+      "name": "decrypt_fail",
+      "value": "解密失败"
+    },
+    {
+      "name": "sign_success",
+      "value": "签名成功"
+    },
+    {
+      "name": "sign_fail",
+      "value": "签名失败"
+    },
+    {
+      "name": "verify_success",
+      "value": "验签成功"
+    },
+    {
+      "name": "verify_fail",
+      "value": "验签失败"
+    },
+    {
+      "name": "gen_key_success",
+      "value": "已成功生成密钥"
+    },
+    {
+      "name": "gen_key_fail",
+      "value": "未生成或保存密钥"
+    },
+    {
+      "name": "null_message",
+      "value": "文本或密钥为空"
+    },
+    {
+      "name": "slow_rsa_key_gen",
+      "value": "RSA密钥生成较慢，请稍等"
+    }
+  ]
+}

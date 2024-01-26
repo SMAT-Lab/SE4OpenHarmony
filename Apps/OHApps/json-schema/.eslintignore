@@ -1,0 +1,8 @@
+entry/src/ohosTest/fixtures/**/*
+entry/src/ohosTest/json-metaschema/**/*
+entry/src/ohosTest/tests/**/*
+jsonschema/src/main/js/**/*
+jsonschema/src/main/origincode/**/*
+jsonschema/src/main/polyfill/**/*
+hvigor/hvigor-config.json5
+hvigor/hvigor-wrapper.js

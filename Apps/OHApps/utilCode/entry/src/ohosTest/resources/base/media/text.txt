@@ -1,0 +1,7 @@
+1、当日气温 // NowWeatherModel.now.temp
+2 、未来两小时   天气状况的文字描述，包括阴晴雨雪等天气状态的描述 //NowWeatherModel.now.text
+3、最低最高气温  //7d.daily.tempMax~tempMin
+4、日期，星期
+5、空气质量 // NowAirModel.now.category.
+6、小时温度 //Weather24hModel.hourly.temp
+7、每日天气状况图标 //Weather7dModel.iconDay

@@ -1,0 +1,99 @@
+{
+  "module": {
+    "name": "entry",
+    //标识当前Module的名称
+    "type": "entry",
+    //标识当前Module的类型
+    /*
+
+* entry：应用的主模块。
+* feature：应用的动态特性模块。
+* har：静态共享包模块。
+* shared：动态共享包模块。
+    */
+    "description": "$string:module_desc",
+    //	标识当前Module所对应的代码路径
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "default"
+    ],
+    "deliveryWithInstall": true,
+    //标识当前Module是否在用户主动安装的时候安
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    //标识当前Module的profile资源，用于列举每个页面信息
+    "requestPermissions": [
+      {
+        "name": "ohos.abilitydemo.permission.PROVIDER",
+        //填写需要使用的权限名称。
+        "reason": "$string:EntryAbility_desc",
+        "usedScene": {
+          "abilities": [
+            "EntryFormAbility"
+          ],
+          "when": "inuse"
+        }
+      }
+    ],
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        //UIAbility组件的名称
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        // UIAbility组件的代码路径
+        "description": "$string:EntryAbility_desc",
+        // UIAbility组件的描述信息
+        "icon": "$media:img",
+        // UIAbility组件的图标
+        "label": "$string:EntryAbility_label",
+        // UIAbility组件的标签
+        "startWindowIcon": "$media:icon",
+        // UIAbility组件启动页面图标资源文件的索引
+        "startWindowBackground": "$color:start_window_background",
+        // UIAbility组件启动页面背景颜色资源文件的索引
+        "exported": true,
+        "orientation": "portrait",//landscape,portrait
+        "launchType": "singleton",
+        /*
+        singleton（单实例模式）
+         multiton（多实例模式）
+         specified（指定实例模式）
+        */
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SecondAbility",
+        "srcEntry": "./ets/secondability/SecondAbility.ts",
+        "description": "$string:SecondAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:SecondAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background"
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "EntryFormAbility",
+        "srcEntry": "./ets/entryformability/EntryFormAbility.ts",
+        "label": "$string:EntryFormAbility_label",
+        "description": "$string:EntryFormAbility_desc",
+        "type": "form",
+        "metadata": [
+          {
+            "name": "ohos.extension.form",
+            "resource": "$profile:form_config"
+          }
+        ]
+      }
+    ]
+  }
+}

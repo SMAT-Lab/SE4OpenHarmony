@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "entryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "entryAbility_label",
+      "value": "video play"
+    },
+    {
+      "name": "video_res_1",
+      "value": "test1.mp4"
+    },
+    {
+      "name": "video_res_2",
+      "value": "test2.mp4"
+    },
+    {
+      "name": "video_res_3",
+      "value": "network.mp4"
+    },
+    {
+      "name": "video_speed_1_0X",
+      "value": "1.0X"
+    },
+    {
+      "name": "video_speed_1_25X",
+      "value": "1.25X"
+    },
+    {
+      "name": "video_speed_1_75X",
+      "value": "1.75X"
+    },
+    {
+      "name": "video_speed_2_0X",
+      "value": "2.0X"
+    },
+    {
+      "name": "video_warn",
+      "value": "Exit the program and check if the network is connected or available!"
+    },
+    {
+      "name": "dialog_cancel",
+      "value": "cancel"
+    },
+    {
+      "name": "dialog_play_speed",
+      "value": "play speed"
+    },
+    {
+      "name": "playing",
+      "value": "playing"
+    }
+  ]
+}

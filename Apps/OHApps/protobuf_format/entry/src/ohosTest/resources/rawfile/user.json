@@ -1,0 +1,35 @@
+{
+  "package": "com.user",
+  "syntax": "proto3",
+  "messages": [
+    {
+      "name": "UserLoginResponse",
+      "fields": [
+        {
+          "rule": "optional",
+          "type": "string",
+          "name": "sessionId",
+          "id": 1
+        },
+        {
+          "rule": "optional",
+          "type": "string",
+          "name": "userPrivilege",
+          "id": 2
+        },
+        {
+          "rule": "optional",
+          "type": "bool",
+          "name": "isTokenType",
+          "id": 3
+        },
+        {
+          "rule": "optional",
+          "type": "string",
+          "name": "formatTimestamp",
+          "id": 4
+        }
+      ]
+    }
+  ]
+}

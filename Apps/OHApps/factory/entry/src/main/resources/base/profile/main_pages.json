@@ -1,0 +1,17 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/testSample/information",
+    "pages/testSample/gradient",
+    "pages/testSample/fileRW",
+    "pages/testSample/wifi",
+    "pages/testSample/bluetooth",
+    "pages/testSample/audio",
+    "pages/Mic/Mic_index",
+    "pages/Camera/Camera_index",
+    "pages/testSample/sensor",
+    "pages/testSample/nfc",
+    "pages/testSample/touch",
+    "pages/testSample/led"
+  ]
+}

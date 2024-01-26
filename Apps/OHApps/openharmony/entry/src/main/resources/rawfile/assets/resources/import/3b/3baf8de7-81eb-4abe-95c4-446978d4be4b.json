@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "3dwowlimJH85Ckryb82/nb"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "mecha_1502b_tex",
+      "rect": [
+        1,
+        1,
+        507,
+        481
+      ],
+      "offset": [
+        -1.5,
+        14.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

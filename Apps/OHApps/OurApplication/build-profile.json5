@@ -1,0 +1,40 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\lenovo\\.ohos\\config\\openharmony\\auto_ohos_default_OurApplication_com.WhatToEat.whatToEatTodayMaYao.cer",
+          "storePassword": "0000001B6ED2A425EB8A9284049A0DA2876073226C00804F40AA1855189676BC3D9E280E2F0428E861E760",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B6C5D1E4D39FE883CC242F6F4B4399168E727412A34DB247AD7849EA46A93FAB9CE5AC9A5DDD8D1",
+          "profile": "C:\\Users\\lenovo\\.ohos\\config\\openharmony\\auto_ohos_default_OurApplication_com.WhatToEat.whatToEatTodayMaYao.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\lenovo\\.ohos\\config\\openharmony\\auto_ohos_default_OurApplication_com.WhatToEat.whatToEatTodayMaYao.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

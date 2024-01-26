@@ -1,0 +1,28 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "badge_color",
+      "value": "#FA2A2D"
+    },
+    {
+      "name": "title_bar_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "background_light_gray",
+      "value": "#f1f3f5"
+    },
+    {
+      "name": "notification_button",
+      "value": "#007DFF"
+    },
+    {
+      "name": "tab_bar_divider",
+      "value": "#33182431"
+    }
+  ]
+}

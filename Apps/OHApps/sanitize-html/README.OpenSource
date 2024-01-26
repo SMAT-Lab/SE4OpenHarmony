@@ -1,0 +1,21 @@
+[
+    {
+        "Name": "sanitize-html",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "2.7.1",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/apostrophecms/sanitize-html",
+        "Description": "Clean up user-submitted HTML, preserving whitelisted elements and whitelisted attributes on a per-element basis. Built on htmlparser2 for speed and tolerance"
+    }
+    {
+         "Name": "postcss",
+         "License": "MIT License",
+         "License File": "LICENSE",
+         "Version Number": "8.3.11",
+         "Owner" : "xiafeng@huawei.com"
+         "Upstream URL": "https://github.com/postcss/postcss",
+         "Description": "PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more."
+    }
+]
+

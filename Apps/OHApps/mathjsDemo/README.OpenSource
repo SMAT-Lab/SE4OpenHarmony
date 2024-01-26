@@ -1,0 +1,52 @@
+[
+  {
+    "Name":"mathjs",
+    "License":"Apache License 2.0",
+    "License File":"LICENSE",
+    "Version Number":"^11.2.0",
+    "Owner":"xiafeng@huawei.com",
+    "Upstream URL":"https://github.com/josdejong/mathjs",
+    "Description": "Math.js is an extensive math library It features a flexible expression parser with support for symbolic computation, comes with a large set of built-in functions and constants, and offers an integrated solution to work with different data types like numbers, big numbers, complex numbers, fractions, units, and matrices."
+  }
+
+  {
+    "Name":"long.js",
+    "License":"Apache License 2.0",
+    "License File":"LICENSE",
+    "Version Number":"^5.2.0",
+    "Owner":"xiafeng@huawei.com",
+    "Upstream URL":"https://github.com/dcodeIO/long.js",
+    "Description": "A Long class for representing a 64 bit two's-complement integer value derived from the Closure Library for stand-alone use and extended with unsigned support."
+  }
+
+  {
+    "Name":"bignumber.js",
+    "License":"MIT License",
+    "License File":"LICENCE.md",
+    "Version Number":"^9.1.0",
+    "Owner":"xiafeng@huawei.com",
+    "Upstream URL":"https://github.com/MikeMcl/bignumber.js",
+    "Description":"A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic."
+  }
+
+  {
+    "Name":"matrix",
+    "License":"MIT License",
+    "License File":"LICENSE",
+    "Version Number":"^6.10.2",
+    "Owner":"xiafeng@huawei.com",
+    "Upstream URL":"https://github.com/mljs/matrix",
+    "Description": "Matrix manipulation and computation library."
+  }
+
+  {
+    "Name":"stdlib",
+    "License":"Apache License 2.0",
+    "License File":"LICENSE",
+    "Version Number":"0.0.6",
+    "Owner":"xiafeng@huawei.com",
+    "Upstream URL":"https://github.com/stdlib-js/stdlib",
+    "Description": "stdlib is a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing applications. The library provides a collection of robust, high performance libraries for mathematics, statistics, data processing, streams, and more and includes many of the utilities you would expect from a standard library."
+  }
+
+]

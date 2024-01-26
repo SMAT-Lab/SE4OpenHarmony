@@ -1,0 +1,140 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MultiNavBar"
+    },
+    {
+      "name": "install",
+      "value": "安装"
+    },
+    {
+      "name": "excellentGame",
+      "value": "精品游戏"
+    },
+    {
+      "name": "excellentApp",
+      "value": "精品应用"
+    },
+    {
+      "name": "more",
+      "value": "更多"
+    },
+    {
+      "name": "category",
+      "value": "分类"
+    },
+    {
+      "name": "quickApp",
+      "value": "快应用"
+    },
+    {
+      "name": "garden",
+      "value": "小花园"
+    },
+    {
+      "name": "education",
+      "value": "教育中心"
+    },
+    {
+      "name": "double",
+      "value": "Double"
+    },
+    {
+      "name": "photoEditing",
+      "value": "照片编辑"
+    },
+    {
+      "name": "mathematicsSquare",
+      "value": "数学广场"
+    },
+    {
+      "name": "carefree",
+      "value": "心旷神怡"
+    },
+    {
+      "name": "explorer",
+      "value": "Explorer"
+    },
+    {
+      "name": "romance",
+      "value": "三国演义"
+    },
+    {
+      "name": "dreaming",
+      "value": "做梦的你"
+    },
+    {
+      "name": "ambush",
+      "value": "十面埋伏"
+    },
+    {
+      "name": "search",
+      "value": "搜索..."
+    },
+    {
+      "name": "nullString",
+      "value": " "
+    },
+    {
+      "name": "index",
+      "value": "首页"
+    },
+    {
+      "name": "recommend",
+      "value": "推荐"
+    },
+    {
+      "name": "appList",
+      "value": "应用榜"
+    },
+    {
+      "name": "gameList",
+      "value": "游戏榜"
+    },
+    {
+      "name": "app",
+      "value": "应用"
+    },
+    {
+      "name": "video",
+      "value": "影音"
+    },
+    {
+      "name": "shopping",
+      "value": "购物"
+    },
+    {
+      "name": "game",
+      "value": "游戏"
+    },
+    {
+      "name": "rank",
+      "value": "排行"
+    },
+    {
+      "name": "explore",
+      "value": "探索"
+    },
+    {
+      "name": "discovery",
+      "value": "今日发现"
+    },
+    {
+      "name": "hot",
+      "value": "热门专题"
+    },
+    {
+      "name": "mine",
+      "value": "我的"
+    }
+  ]
+}

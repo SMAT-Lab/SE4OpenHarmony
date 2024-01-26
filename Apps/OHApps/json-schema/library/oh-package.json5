@@ -1,0 +1,28 @@
+{
+  "types": "",
+  "keywords": [
+    "jsonschema",
+    "validator",
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "author": "ohos_tpc",
+  "description": "JSON schema validator, which is designed to be fast and simple to use. JSON Schema versions through draft-07 are fully supported.",
+  "ohos": {
+    "org": "opensource"
+  },
+  "main": "index.ts",
+  "type": "module",
+  "repository": "https://gitee.com/zdy09/openharmony_tpc_samples/tree/master/json-schema",
+  "version": "2.0.0",
+  "dependencies": {},
+  "tags": [
+    "Tool"
+  ],
+  "license": "MIT",
+  "devDependencies": {},
+  "name": "@ohos/jsonschema",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" \u0026\u0026 exit 1"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "float": [
+    {
+      "name": "title_text_font_size",
+      "value": "30fp"
+    },
+    {
+      "name": "title_area_height",
+      "value": "56vp"
+    },
+    {
+      "name": "title_area_left_padding",
+      "value": "24vp"
+    },
+    {
+      "name": "image_border_radius",
+      "value": "16vp"
+    },
+    {
+      "name": "image_area_height",
+      "value": "200vp"
+    },
+    {
+      "name": "image_area_left_padding",
+      "value": "24vp"
+    },
+    {
+      "name": "image_area_right_padding",
+      "value": "24vp"
+    },
+    {
+      "name": "error_dialog_offset_dx",
+      "value": "0vp"
+    },
+    {
+      "name": "error_dialog_offset_dy",
+      "value": "-24vp"
+    },
+    {
+      "name": "button_common_margin",
+      "value": "6vp"
+    },
+    {
+      "name": "button_area_left_padding",
+      "value": "24vp"
+    },
+    {
+      "name": "button_area_right_padding",
+      "value": "24vp"
+    },
+    {
+      "name": "button_area_bottom_padding",
+      "value": "18vp"
+    }
+  ]
+}

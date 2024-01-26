@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "author": "",
+  "name": "OHOS_APP_socket.io",
+  "description": "example description",
+  "main": "",
+  "version": "2.0.0",
+  "dependencies": {}
+}

@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/HttpsPlayer",
+    "pages/IjkVideoPlayerPage",
+    "pages/DiyCacheSizePage",
+    "pages/DiyCacheCountPage",
+    "pages/DiyCacheHeaderPage",
+    "pages/DiyFileNameGeneratorPage"
+  ]
+}

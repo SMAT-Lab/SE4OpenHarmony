@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#nav {
+    height: 56px;
+    font-size: 24px;
+    color: #182431;
+    text-align: left;
+    line-height: 56px;
+    font-weight: 700;
+    padding: 0 24px;
+}
+
+ul {
+    flex: 1;
+    overflow: scroll;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: flex;
+    padding: 8px 24px;
+}
+li > img {
+    width: 106px;
+    aspect-ratio: 1;
+    border-radius: 18px;
+}
+li > div {
+    margin-left: 12px;
+    flex: 1;
+}
+li > div > p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #182431;
+    font-weight: 400;
+}
+
+li > div > span {
+    font-size: 21px;
+    color: #E92F4F;
+    line-height: 28px;
+    font-weight: 500;
+}
+li > div > span > span {
+    font-size: 14px;
+}

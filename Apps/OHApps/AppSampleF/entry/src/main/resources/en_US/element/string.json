@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "AppSampleF"
+    },
+    {
+      "name": "index_nike",
+      "value": "Nike short-sleeved male"
+    },
+    {
+      "name": "index_search",
+      "value": "Search"
+    },
+    {
+      "name": "camera_sweep",
+      "value": "Sweep"
+    },
+    {
+      "name": "camera_pictures",
+      "value": "AppSampleF to take pictures"
+    },
+    {
+      "name": "camera_pai",
+      "value": "Papping Music"
+    },
+    {
+      "name": "message_text",
+      "value": "Barcode source: National Coding Center"
+    },
+    {
+      "name": "message_baby",
+      "value": "Identify the following babies"
+    },
+    {
+      "name": "text_description",
+      "value": "QR code, barcode can be scanned"
+    },
+    {
+      "name": "text_concern",
+      "value": "Concern"
+    },
+    {
+      "name": "text_translation",
+      "value": "Translation"
+    },
+    {
+      "name": "index_index_text",
+      "value": "Index"
+    },
+    {
+      "name": "index_shopping",
+      "value": "Shopping"
+    },
+    {
+      "name": "index_video",
+      "value": "Video"
+    },
+    {
+      "name": "index_message",
+      "value": "Message"
+    },
+    {
+      "name": "index_me",
+      "value": "Me"
+    }
+  ]
+}

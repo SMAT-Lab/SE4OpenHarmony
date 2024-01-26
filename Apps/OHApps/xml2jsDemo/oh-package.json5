@@ -1,0 +1,17 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "xml2jsdemo",
+  "ohos": {
+    "org": "huawei",
+    "directoryLevel": "project",
+    "buildTool": "hvigor"
+  },
+  "description": "example description",
+  "main": "",
+  "version": "2.0.0",
+  "dependencies": {
+    "@ohos/hypium": "1.0.6"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "title_background",
+      "value": "#0D9FFB"
+    },
+    {
+      "name": "text_grey",
+      "value": "#182431"
+    },
+    {
+      "name": "text_black",
+      "value": "#000000"
+    },
+    {
+      "name": "text_grey_opacity",
+      "value": "#F3F4F4"
+    },
+    {
+      "name": "text_blue_opacity",
+      "value": "#007dFF"
+    }
+  ]
+}

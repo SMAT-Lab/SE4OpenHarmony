@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic__comfirm_S</title>
+    <defs>
+        <path d="M13.9549513,2.71966991 C14.2478445,2.4267767 14.7227182,2.4267767 15.0156115,2.71966991 C15.3085047,3.01256313 15.3085047,3.48743687 15.0156115,3.78033009 L15.0156115,3.78033009 L6.53033009,12.2656115 C6.23743687,12.5585047 5.76256313,12.5585047 5.46966991,12.2656115 C5.42770399,12.2236455 5.39175097,12.1779437 5.36181085,12.1295764 L1.21966991,7.98483496 C0.926776695,7.69194174 0.926776695,7.217068 1.21966991,6.92417479 C1.51256313,6.63128157 1.98743687,6.63128157 2.28033009,6.92417479 L6.015,10.659 Z" id="path-1"></path>
+    </defs>
+    <g id="Demo-Sample" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板备份-2" transform="translate(-144.000000, -232.000000)">
+            <g id="ic__comfirm_S" transform="translate(144.000000, 232.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#000000" xlink:href="#path-1"></use>
+                <g id="编组" mask="url(#mask-2)" fill="#254FF7" fill-opacity="0.9">
+                    <g id="color/light/#000000">
+                        <rect id="color/#000000" x="0" y="0" width="16" height="16"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

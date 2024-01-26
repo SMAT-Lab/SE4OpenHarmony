@@ -1,0 +1,11 @@
+[
+    {
+         "Name": "@fortanix/asn1js",
+         "License": "BSD-3-Clause",
+         "License File": "LICENSE",
+         "Version Number": "2.0.27",
+         "Owner" : "xiafeng@huawei.com"
+         "Upstream URL": "https://github.com/PeculiarVentures/ASN1.js",
+         "Description": "Abstract Syntax Notation One (ASN.1) is a standard and notation that describes rules and structures for representing."
+]
+

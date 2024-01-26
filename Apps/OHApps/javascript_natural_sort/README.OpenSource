@@ -1,0 +1,12 @@
+[
+    {
+         "Name": "javascript-natural-sort",
+         "License": "MIT License",
+         "License File": "LICENSE",
+         "Version Number": "0.7.1",
+         "Owner" : "xiafeng@huawei.com"
+         "Upstream URL": "https://github.com/Bill4Time/javascript-natural-sort",
+         "Description": "Natural Sort algorithm for Javascript"
+    }
+]
+

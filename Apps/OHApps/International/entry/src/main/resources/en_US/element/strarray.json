@@ -1,0 +1,116 @@
+{
+  "strarray": [
+    {
+      "name": "operation_arr",
+      "value": [
+        {
+          "value": "Calendar"
+        },
+        {
+          "value": "Character text processing"
+        }
+      ]
+    },
+    {
+      "name": "text_type_arr",
+      "value": [
+        {
+          "value": "UNASSIGNED"
+        },
+        {
+          "value": "GENERAL OTHER TYPES"
+        },
+        {
+          "value": "UPPERCASE LETTER"
+        },
+        {
+          "value": "LOWERCASE LETTER"
+        },
+        {
+          "value": "TITLE CASE LETTER"
+        },
+        {
+          "value": "MODIFIER LETTER"
+        },
+        {
+          "value": "OTHER LETTER"
+        },
+        {
+          "value": "NON SPACING MARK"
+        },
+        {
+          "value": "ENCLOSING MARK"
+        },
+        {
+          "value": "COMBINING SPACING MARK"
+        },
+        {
+          "value": "DECIMAL DIGIT NUMBER"
+        },
+        {
+          "value": "LETTER NUMBER"
+        },
+        {
+          "value": "OTHER NUMBER"
+        },
+        {
+          "value": "SPACE SEPARATOR"
+        },
+        {
+          "value": "LINE SEPARATOR"
+        },
+        {
+          "value": "PARAGRAPH SEPARATOR"
+        },
+        {
+          "value": "CONTROL CHAR"
+        },
+        {
+          "value": "FORMAT CHAR"
+        },
+        {
+          "value": "PRIVATE USE CHAR"
+        },
+        {
+          "value": "SURROGATE"
+        },
+        {
+          "value": "DASH PUNCTUATION"
+        },
+        {
+          "value": "START PUNCTUATION"
+        },
+        {
+          "value": "END PUNCTUATION"
+        },
+        {
+          "value": "CONNECTOR PUNCTUATION"
+        },
+        {
+          "value": "OTHER PUNCTUATION"
+        },
+        {
+          "value": "MATH SYMBOL"
+        },
+        {
+          "value": "CURRENCY SYMBOL"
+        },
+        {
+          "value": "MODIFIER SYMBOL"
+        },
+        {
+          "value": "OTHER SYMBOL"
+        },
+        {
+          "value": "INITIAL PUNCTUATION"
+        },
+        {
+          "value": "FINAL PUNCTUATION"
+        },
+        {
+          "value": "CHAR CATEGORY COUNT"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "device_management",
+      "value": "设备管理"
+    },
+    {
+      "name": "battery_info",
+      "value": "电量信息"
+    },
+    {
+      "name": "thermal",
+      "value": "热管理"
+    },
+    {
+      "name": "usb_manager",
+      "value": "USB管理"
+    },
+    {
+      "name": "power_manager",
+      "value": "系统电源管理"
+    },
+    {
+      "name": "running_lock",
+      "value": "RunningLock锁"
+    },
+    {
+      "name": "settings",
+      "value": "设置数据项名称"
+    },
+    {
+      "name": "stationary",
+      "value": "设备状态感知框架"
+    }
+  ]
+}

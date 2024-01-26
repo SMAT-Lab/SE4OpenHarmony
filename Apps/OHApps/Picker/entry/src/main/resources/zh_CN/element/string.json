@@ -1,0 +1,88 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "call_photo",
+      "value": "调用Photo获取FileUri"
+    },
+    {
+      "name": "call_file_picker_select_file",
+      "value": "调用picker获取文件"
+    },
+    {
+      "name": "call_file_picker_save_file",
+      "value": "调用picker保存文件"
+    },
+    {
+      "name": "call_file_picker_select_audio",
+      "value": "调用picker获取音频"
+    },
+    {
+      "name": "call_file_picker_save_audio",
+      "value": "调用picker保存音频"
+    },
+    {
+      "name": "call_file_picker_select_image_video",
+      "value": "调用picker获取图片/视频"
+    },
+    {
+      "name": "call_file_picker_save_image_video",
+      "value": "调用picker保存图片/视频"
+    },
+    {
+      "name": "read_permission",
+      "value": "user read file permission"
+    },
+    {
+      "name": "write_permission",
+      "value": "user write file permission"
+    },
+    {
+      "name": "write_image_video_permission",
+      "value": "user write image video permission"
+    },
+    {
+      "name": "edit_file_permission",
+      "value": "user edit file permission"
+    },
+    {
+      "name": "open_file",
+      "value": "openFile"
+    },
+    {
+      "name": "get_log",
+      "value": "获取log"
+    },
+    {
+      "name": "clear_log",
+      "value": "清除log"
+    },
+    {
+      "name": "last_open",
+      "value": "最近打开"
+    },
+    {
+      "name": "view_last_open",
+      "value": "查看最近打开的文件"
+    },
+    {
+      "name": "editable",
+      "value": "进入编辑状态"
+    },
+    {
+      "name": "saved",
+      "value": "已保存"
+    }
+  ]
+}

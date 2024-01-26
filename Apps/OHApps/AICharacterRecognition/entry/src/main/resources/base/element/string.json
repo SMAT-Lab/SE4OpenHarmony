@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "AICharacterRecognition"
+    },
+    {
+      "name": "Recognize_text",
+      "value": "Recognize text"
+    },
+    {
+      "name": "Recognize_result",
+      "value": "Identify the results"
+    },
+    {
+      "name": "unrecognizable",
+      "value": "The text message is not recognized, so please take a new shot"
+    },
+    {
+      "name": "Device_not_support",
+      "value": "Sorry, your current device does not support OCR"
+    }
+  ]
+}

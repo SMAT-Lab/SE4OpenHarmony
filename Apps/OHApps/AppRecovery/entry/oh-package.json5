@@ -1,0 +1,9 @@
+{
+  "license": "ISC",
+  "devDependencies": {},
+  "name": "entry",
+  "description": "app recovery sample",
+  "repository": {},
+  "version": "1.0.0",
+  "dependencies": {}
+}

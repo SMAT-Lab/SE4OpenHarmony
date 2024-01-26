@@ -1,0 +1,24 @@
+{
+  "src": [
+    "pages/index",
+    "pages/Picture",
+    "pages/Audio",
+    "pages/Videos",
+    "pages/AviSample",
+    "pages/Mp4Sample",
+    "pages/Mp3Sample",
+    "pages/GifSample",
+    "pages/IcoSample",
+    "pages/PcxSample",
+    "pages/PngSample",
+    "pages/WebpSample",
+    "pages/BmpSample",
+    "pages/EpsSample",
+    "pages/JpgSample",
+    "pages/PsdSample",
+    "pages/WavSample",
+    "pages/AdobeJpeg",
+    "pages/OtherSample",
+    "pages/ExifReaderSample"
+  ]
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "reflect_metadata",
+        "License": "Apache-2.0 License",
+        "License File": " LICENSE ",
+        "Version Number": "master",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/rbuckton/reflect-metadata",
+        "Description": "Prototype for a Metadata Reflection API for ECMAScript
+    }
+]

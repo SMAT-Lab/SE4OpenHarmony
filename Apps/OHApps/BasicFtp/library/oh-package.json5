@@ -1,0 +1,24 @@
+{
+  "name": "@ohos/basic-ftp",
+  "description": "This is an FTP client library for Node.js. It supports FTPS over TLS, Passive Mode over IPv6, has a Promise-based API, and offers methods to operate on whole directories.",
+  "main": "index.ts",
+  "author": "ohos_tpc",
+  "license": "MIT",
+  "dependencies": {},
+  "types": "",
+  "keywords": [
+    "ftp",
+    "ftps",
+    "OpenHarmony",
+    "HarmonyOs",
+    "file"
+  ],
+  "ohos": {
+    "org": "opensource"
+  },
+  "type": "module",
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/BasicFtp",
+  "version": "1.0.1-rc.1",
+  "devDependencies": {
+  }
+}

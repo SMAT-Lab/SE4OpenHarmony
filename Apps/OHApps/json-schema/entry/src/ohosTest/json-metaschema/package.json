@@ -1,0 +1,22 @@
+{
+  "name": "json-metaschema",
+  "description": "Repository of JSON Schema meta-schemas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awwright/json-metaschema.git"
+  },
+  "keywords": [
+    "json-schema"
+  ],
+  "author": "Austin Wright",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/awwright/json-metaschema/issues"
+  },
+  "homepage": "https://github.com/awwright/json-metaschema#readme",
+  "version": "v1.3.0"
+}

@@ -1,0 +1,8 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Upload",
+    "pages/Download",
+    "pages/DownloadFiles"
+  ]
+}

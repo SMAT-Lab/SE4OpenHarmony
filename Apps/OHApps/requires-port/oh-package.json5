@@ -1,0 +1,12 @@
+{
+  "license": "MIT License",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.11"
+  },
+  "author": "ohos_tpc",
+  "name": "requires-port",
+  "description": "一个 Node.js 模块，用于检查给定的协议是否需要指定端口号",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {}
+}

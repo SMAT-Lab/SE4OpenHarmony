@@ -1,0 +1,14 @@
+{
+  "license": "",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.11"
+  },
+  "author": "",
+  "name": "myapplication",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "7.8.1",
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
+}

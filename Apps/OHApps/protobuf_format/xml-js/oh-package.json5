@@ -1,0 +1,26 @@
+{
+  "name": "@ohos/xml_js",
+  "version": "1.0.2",
+  "description": "Converter utility between XML text and Javascript object/JSON text。",
+  "main": "index.ts",
+  "dependencies": {
+    "@ohos/sax": "^1.0.1"
+  },
+  "devDependencies": {},
+  "types": "",
+  "keywords": [
+    "OpenHarmony",
+    "HarmonyOS",
+    "xml-js"
+  ],
+  "author": "ohos_tpc",
+  "ohos": {
+    "org": "opensource"
+  },
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/protobuf_format/xml-js",
+  "type": "module",
+  "tags": [
+    "Tool"
+  ],
+  "license": "MIT License"
+}

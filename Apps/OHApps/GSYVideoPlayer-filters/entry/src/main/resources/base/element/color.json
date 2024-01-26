@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "color_add_danmu",
+      "value": "#808080"
+    },
+    {
+      "name": "color_add_text_danmu",
+      "value": "#ffffff"
+    },
+    {
+      "name": "color_show_danmu",
+      "value": "#ffffff"
+    }
+  ]
+}

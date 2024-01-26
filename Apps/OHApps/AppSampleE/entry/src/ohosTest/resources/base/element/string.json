@@ -1,0 +1,156 @@
+{
+  "string": [
+    {
+      "name": "module_test_desc",
+      "value": "test ability description"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "the test ability"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "test label"
+    },
+    {
+      "name": "login_help",
+      "value": "帮助"
+    },
+    {
+      "name": "login_welcome",
+      "value": "欢迎登录"
+    },
+    {
+      "name": "login_86",
+      "value": "+86"
+    },
+    {
+      "name": "login_phone",
+      "value": "请输入手机号"
+    },
+    {
+      "name": "login_pass",
+      "value": "请输入密码"
+    },
+    {
+      "name": "login_agree",
+      "value": "我已阅读并同意。"
+    },
+    {
+      "name": "login_login",
+      "value": "登录"
+    },
+    {
+      "name": "login_captcha",
+      "value": "验证码"
+    },
+    {
+      "name": "login_question",
+      "value": "遇到问题"
+    },
+    {
+      "name": "index_coffee",
+      "value": "瑞幸咖啡"
+    },
+    {
+      "name": "index_search",
+      "value": "搜索"
+    },
+    {
+      "name": "index_text",
+      "value": "美食百货随叫随到"
+    },
+    {
+      "name": "index_takeaway",
+      "value": "外卖"
+    },
+    {
+      "name": "index_buy",
+      "value": "团购"
+    },
+    {
+      "name": "index_convenient",
+      "value": "便利"
+    },
+    {
+      "name": "index_general_merchandise",
+      "value": "百货"
+    },
+    {
+      "name": "index_medicine",
+      "value": "买药"
+    },
+    {
+      "name": "index_recommend",
+      "value": "推荐"
+    },
+    {
+      "name": "index_optimization",
+      "value": "优选"
+    },
+    {
+      "name": "index_video",
+      "value": "视频"
+    },
+    {
+      "name": "index_message",
+      "value": "消息"
+    },
+    {
+      "name": "index_me",
+      "value": "我的"
+    },
+    {
+      "name": "business_noodles",
+      "value": "面条"
+    },
+    {
+      "name": "business_takeaway",
+      "value": "外卖"
+    },
+    {
+      "name": "business_vip",
+      "value": "会员"
+    },
+    {
+      "name": "business_order",
+      "value": "订单"
+    },
+    {
+      "name": "business_more",
+      "value": "更多"
+    },
+    {
+      "name": "Connection_timesout",
+      "value": "The connection times out. Please check the network status"
+    },
+    {
+      "name": "pd_dispenser_description",
+      "value": "掌柜描述："
+    },
+    {
+      "name": "pd_package_contents",
+      "value": "套餐内容："
+    },
+    {
+      "name": "pd_price_description",
+      "value": "价格说明"
+    },
+    {
+      "name": "pd_tabs_detail",
+      "value": "详情"
+    },
+    {
+      "name": "pd_tabs_appraise",
+      "value": "评价2000+"
+    },
+    {
+      "name": "commodity_tabs_order",
+      "value": "点菜"
+    },
+    {
+      "name": "pass",
+      "value": "允许"
+    }
+  ]
+}

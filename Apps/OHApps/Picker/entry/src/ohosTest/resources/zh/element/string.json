@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_test_desc",
+      "value": "test ability description"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "the test ability"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "test label"
+    },
+    {
+      "name": "permit",
+      "value": "允许"
+    },
+    {
+      "name": "new_dir",
+      "value": "新建文件夹"
+    },
+    {
+      "name": "label_confirm",
+      "value": "确定"
+    },
+    {
+      "name": "finish",
+      "value": "完成"
+    },
+    {
+      "name": "video",
+      "value": "录像"
+    },
+    {
+      "name": "photo",
+      "value": "拍照"
+    },
+    {
+      "name": "newFolder",
+      "value": "新建文件夹"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "js-sha1",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "0.6.0",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/emn178/js-sha1",
+        "Description": "A simple SHA1 hash function for JavaScript supports UTF-8 encoding."
+    }
+]

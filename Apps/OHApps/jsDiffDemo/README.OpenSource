@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "jsdiff",
+        "License": "Software License Agreement (BSD License)",
+        "License File": " LICENSE ",
+        "Version Number": "v5.0.0",
+        "Owner" : "Kevin Decker"
+        "Upstream URL": "https://github.com/kpdecker/jsdiff",
+        "Description": "A javascript text differencing implementation"
+    }
+]

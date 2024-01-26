@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "证书算法库框架"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "证书算法库框架"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "证书算法库框架"
+    },
+    {
+      "name": "certificate_data",
+      "value": "证书数据"
+    },
+    {
+      "name": "origin_data",
+      "value": "原始数据"
+    },
+    {
+      "name": "signature_data",
+      "value": "签名数据"
+    },
+    {
+      "name": "display_data",
+      "value": "数据展示"
+    },
+    {
+      "name": "verify",
+      "value": "签名校验"
+    },
+    {
+      "name": "modify_origin_data",
+      "value": "修改原始数据"
+    },
+    {
+      "name": "modify_signature_data",
+      "value": "修改签名数据"
+    },
+    {
+      "name": "verify_success",
+      "value": "校验通过"
+    },
+    {
+      "name": "verify_fail",
+      "value": "校验失败"
+    }
+  ]
+}

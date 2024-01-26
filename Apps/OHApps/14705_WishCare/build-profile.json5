@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\衡骏杰\\.ohos\\config\\auto_debug_WiseCare_com.hjj.myapplication_2850086000500060789.cer",
+          "storePassword": "0000001B72386280BBF24D757C97FAB511575FBAD6B4A9D81F4653620AB4A6C5E7B01218C6576E940D48B4",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BD45F33379F3B1FF30AB8750259A9DF0590FBD7FD186641981CD976FF512DCCB601E1A60CACF7D9",
+          "profile": "C:\\Users\\衡骏杰\\.ohos\\config\\auto_debug_WiseCare_com.hjj.myapplication_2850086000500060789.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\衡骏杰\\.ohos\\config\\auto_debug_WiseCare_com.hjj.myapplication_2850086000500060789.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "verify_success",
+      "value": "Verify Success"
+    },
+    {
+      "name": "verify_fail",
+      "value": "Verify Fail"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "verify_success",
+      "value": "校验通过"
+    },
+    {
+      "name": "verify_fail",
+      "value": "校验失败"
+    }
+  ]
+}

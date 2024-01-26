@@ -1,0 +1,16 @@
+{
+  "color": [
+    {
+      "name": "button_gray",
+      "value": "#D5D5D5"
+    },
+    {
+      "name": "light_gray",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "text_normal",
+      "value": "#182431"
+    }
+  ]
+}

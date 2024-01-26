@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>reply all</title>
+    <defs>
+        <path d="M26.875,17.8125 L26.875,7.5 C26.875,6.46446609 26.0355339,5.625 25,5.625 L0,5.625 L0,0 L30,0 L30,17.8125 L26.875,17.8125 Z" id="path-1"></path>
+    </defs>
+    <g id="Demo-Sample" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板备份-2" transform="translate(-110.000000, -171.000000)">
+            <g id="ic/favourites/ic_favourites" transform="translate(110.000000, 171.000000)">
+                <g id="symbol/frame/symbol_grid24-copy-2"></g>
+                <path d="M19.7443969,25.3125 L4.53125,25.3125 C3.23683262,25.3125 2.1875,24.2631674 2.1875,22.96875 L2.1875,10.78125 C2.1875,9.48683262 3.23683262,8.4375 4.53125,8.4375 L21.71875,8.4375 C23.0131674,8.4375 24.0625,9.48683262 24.0625,10.78125 L24.0625,13.2087896 L24.0625,13.2087896" id="路径" stroke="#000000" stroke-width="1.5625" stroke-linecap="round"></path>
+                <g id="路径-copy" transform="translate(-0.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="路径" opacity="0.783877418"></g>
+                    <path d="M5.9375,19.21875 L5.9375,7.03125 C5.9375,5.73683262 6.98683262,4.6875 8.28125,4.6875 L25.46875,4.6875 C26.7631674,4.6875 27.8125,5.73683262 27.8125,7.03125 L27.8125,19.21875 C27.8125,20.5131674 26.7631674,21.5625 25.46875,21.5625 L8.28125,21.5625 C6.98683262,21.5625 5.9375,20.5131674 5.9375,19.21875 Z" stroke="#000000" stroke-width="1.5625" stroke-linecap="round" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M3.4375,9.375 L12.0237519,18.0834086 C12.629621,18.6978974 13.6189166,18.7048851 14.2334054,18.0990159 C14.2348311,18.0976103 14.236254,18.0962019 14.2376742,18.0947908 L22.8125,9.57499609 L22.8125,9.57499609" id="Stroke-45" stroke="#000000" stroke-width="1.5625" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="分组" transform="translate(20.000000, 16.029029)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5625">
+                    <line x1="0.3125" y1="4.64038825" x2="9.0625" y2="4.64038825" id="路径-2"></line>
+                    <polyline id="路径" transform="translate(4.640388, 4.640388) rotate(-45.000000) translate(-4.640388, -4.640388) " points="1.35913825 7.92163825 1.35913825 1.35913825 7.92163825 1.35913825"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

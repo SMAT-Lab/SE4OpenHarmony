@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="hvigorfile.ts" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json5.ftl" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="LICENSE" desc="当前项目兼容此协议"/>
+                <filteritem type="filename" name="NOTICE" desc="当前项目兼容此协议"/>
+                <filteritem desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改" name="hvigorw" type="filename"/>
+                <filteritem desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改" name="hvigorw.bat" type="filename"/>
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="hvigor-wrapper.js" type="filename"/>
+            </filefilter>
+            <filefilter name="binaryFileTypePolicyFilter" desc="Filters for resources files policies">
+                <filteritem type="filepath" name="screenshot/效果展示1.jpg" desc="组件效果图，无需修改"/>
+                <filteritem desc="直接使用的资源文件" name="*.png" type="filename"/>
+                <filteritem desc="直接使用的资源文件" name="*.gif" type="filename"/>
+                <filteritem type="filepath" name="library/oh-package.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+            </filefilter>
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="hvigorfile.ts" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json5.ftl" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="LICENSE" desc="当前项目兼容此协议"/>
+                <filteritem type="filename" name="NOTICE" desc="当前项目兼容此协议"/>
+                <filteritem desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改" name="hvigorw" type="filename"/>
+                <filteritem desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改" name="hvigorw.bat" type="filename"/>
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="hvigor-wrapper.js" type="filename"/>
+            </filefilter>
+        </filefilterlist>
+        <policylist>
+            <policy name="projectPolicy" desc="配置兼容的协议等，需要指定具体的path和通过desc说明原因">
+				<policyitem type="copyright" name="Copyright (c) 2006-2007 Erin Catto http://www.box2d.org" path="entry/src/main/ets/Testbed/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+				<policyitem type="copyright" name="Copyright (c) 2006-2012 Erin Catto http://www.box2d.org" path="entry/src/main/ets/Testbed/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+				<policyitem type="copyright" name="Copyright (c) 2006-2009 Erin Catto http://www.box2d.org" path="entry/src/main/ets/Testbed/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2006-2007 Erin Catto http://www.box2d.org" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2006-2012 Erin Catto http://www.box2d.org" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2006-2009 Erin Catto http://www.box2d.org" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2006-2011 Erin Catto http://www.box2d.org" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2011 Erin Catto http://box2d.org" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2010 Erin Catto http://www.box2d.org" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2011 Erin Catto http://www.box2d.org" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2009 Erin Catto http://www.box2d.org" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2006-2010 Erin Catto http://www.box2d.org	" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2015 Google, Inc." path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2014 Google, Inc." path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2013 Google, Inc." path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2014 Google, Inc" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2015 Google, Inc." path="entry/src/main/ets/Testbed/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2014 Google, Inc." path="entry/src/main/ets/Testbed/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2013 Google, Inc." path="entry/src/main/ets/Testbed/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2014 Google, Inc" path="entry/src/main/ets/Testbed/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="Copyright (c) 2006-2011 Erin Catto http://www.box2d.org" path="entry/src/main/ets/Testbed/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="NULL" path="entry/src/main/ets/Testbed/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+                <policyitem type="copyright" name="NULL" path="library/src/main/ets/Box2D/.*" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+            </policy>
+            <policy name="projectPolicy" desc="">
+                <policyitem type="license" name="zlib-acknowledgement" path="entry/src/main/ets/Testbed/.*" group="defaultGroup" filefilter="defaultPolicyFilter" desc="当前项目兼容此协议" />
+                <policyitem type="license" name="zlib-acknowledgement" path="library/src/main/ets/Box2D/.*" group="defaultGroup" filefilter="defaultPolicyFilter" desc="当前项目兼容此协议" />
+                <policyitem type="license" name="NoLicenseHeader" path="entry/src/main/ets/Testbed/.*" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改" />
+                <policyitem type="license" name="NoLicenseHeader" path="library/src/main/ets/Box2D/.*" group="defaultGroup" filefilter="defaultPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改" />
+            </policy>
+        </policylist>
+    </oatconfig>
+</configuration>

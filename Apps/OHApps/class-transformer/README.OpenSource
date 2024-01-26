@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "class-transformer",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "0.5.1",
+        "Owner" : "typestack"
+        "Upstream URL": "https://github.com/typestack/class-transformer",
+        "Description": "Decorator-based transformation, serialization, and deserialization between objects and classes."
+    }
+]

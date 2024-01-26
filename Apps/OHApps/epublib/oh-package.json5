@@ -1,0 +1,17 @@
+{
+  "license": "LGPL-3.0",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "name": "epublib",
+  "ohos": {
+    "org": "huawei",
+    "directoryLevel": "project",
+    "buildTool": "hvigor"
+  },
+  "description": "example description",
+  "main": "",
+  "repository": {},
+  "version": "2.0.0",
+  "dependencies": {}
+}

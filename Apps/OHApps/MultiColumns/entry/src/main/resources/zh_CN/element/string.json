@@ -1,0 +1,264 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MultiColumns"
+    },
+    {
+      "name": "account",
+      "value": "账户"
+    },
+    {
+      "name": "addAccount",
+      "value": "添加账户"
+    },
+    {
+      "name": "allAccount",
+      "value": "全部账户"
+    },
+    {
+      "name": "recUser",
+      "value": "收件人："
+    },
+    {
+      "name": "nonSense",
+      "value": "xxxx"
+    },
+    {
+      "name": "recvBox",
+      "value": "收件箱"
+    },
+    {
+      "name": "album",
+      "value": "相册"
+    },
+    {
+      "name": "photo",
+      "value": "相片"
+    },
+    {
+      "name": "WLAN",
+      "value": "WLAN"
+    },
+    {
+      "name": "bluetooth",
+      "value": "蓝牙"
+    },
+    {
+      "name": "mobileData",
+      "value": "移动数据"
+    },
+    {
+      "name": "moreConnections",
+      "value": "更多连接"
+    },
+    {
+      "name": "desktopAndWallpaper",
+      "value": "桌面和壁纸"
+    },
+    {
+      "name": "displayAndBrightness",
+      "value": "显示和亮度"
+    },
+    {
+      "name": "soundAndVibration",
+      "value": "声音和振动"
+    },
+    {
+      "name": "notice",
+      "value": "通知"
+    },
+    {
+      "name": "storage",
+      "value": "存储"
+    },
+    {
+      "name": "safe",
+      "value": "安全"
+    },
+    {
+      "name": "privacy",
+      "value": "隐私"
+    },
+    {
+      "name": "userAccounts",
+      "value": "用户和账户"
+    },
+    {
+      "name": "system",
+      "value": "系统"
+    },
+    {
+      "name": "aboutDevice",
+      "value": "关于设备"
+    },
+    {
+      "name": "settings",
+      "value": "设置"
+    },
+    {
+      "name": "networkAcceleration",
+      "value": "网络加速"
+    },
+    {
+      "name": "moreWLANSettings",
+      "value": "更多WLAN设置"
+    },
+    {
+      "name": "wifiName",
+      "value": "xxx-Employee"
+    },
+    {
+      "name": "addNetWork",
+      "value": "添加其他网络"
+    },
+    {
+      "name": "unRead",
+      "value": "未读邮件"
+    },
+    {
+      "name": "sended",
+      "value": "已发送"
+    },
+    {
+      "name": "allFolders",
+      "value": "显示全部文件夹"
+    },
+    {
+      "name": "textPartOne",
+      "value": "欢迎来到您的会员空间"
+    },
+    {
+      "name": "textPartTwo",
+      "value": "亲爱的 jiaozi ，  您的xxxx 会员空间已经创..."
+    },
+    {
+      "name": "searchMail",
+      "value": "搜索邮件"
+    },
+    {
+      "name": "textData",
+      "value": "想要马上试用xx邮箱吗？"
+    },
+    {
+      "name": "bodyTextPartOne",
+      "value": "来我们一起登录电子邮件。添加个人邮箱账户：打开电子邮件，选择一个邮箱服务提供商或点击其他，输入电子邮件地址和密码，点击登录，按照提示进行配置，系统会自动连接服务器并检查服务器设置。"
+    },
+    {
+      "name": "bodyTextPartTwo",
+      "value": "添加xxxxxx账户：xxxxxx是由xx公司开发，用于企业内部的邮件交换系统，如果您的公司邮箱使用xxxxxx服务器，您可以在手机上登录公司邮箱。打开【电子邮箱】>【xxxxxx】，输入电子邮箱地址，用户名和密码，点击登录，按照提示进行配置，系统会自动连接服务器并检查服务器设置。"
+    },
+    {
+      "name": "bodyTextPartThree",
+      "value": "配置成功后，系统默认进入收件箱界面。在登录过程中，有些邮箱需要收入授权码，请按照屏幕提示获取并输入授权码，其中xx邮箱可以自动获取授权码并一键登录。"
+    },
+    {
+      "name": "mailDesc",
+      "value": "imjiaozi以及其他3个"
+    },
+    {
+      "name": "reply",
+      "value": "回复"
+    },
+    {
+      "name": "replyAll",
+      "value": "全部回复"
+    },
+    {
+      "name": "send",
+      "value": "转发"
+    },
+    {
+      "name": "delete",
+      "value": "删除"
+    },
+    {
+      "name": "more",
+      "value": "更多"
+    },
+    {
+      "name": "picture",
+      "value": "图片"
+    },
+    {
+      "name": "video",
+      "value": "视频"
+    },
+    {
+      "name": "collect",
+      "value": "收藏"
+    },
+    {
+      "name": "newAlbum",
+      "value": "新建相册"
+    },
+    {
+      "name": "avatar",
+      "value": "人像"
+    },
+    {
+      "name": "address",
+      "value": "地点"
+    },
+    {
+      "name": "category",
+      "value": "分类"
+    },
+    {
+      "name": "pictureType",
+      "value": "拍摄模式"
+    },
+    {
+      "name": "hidden",
+      "value": "已隐藏"
+    },
+    {
+      "name": "placeholderText",
+      "value": "照片、人物、地点..."
+    },
+    {
+      "name": "userInfo",
+      "value": "安琪"
+    },
+    {
+      "name": "aboutUserInfo",
+      "value": "xx账号、付款与账单、云空间等"
+    },
+    {
+      "name": "useful",
+      "value": "已保存（可上网）"
+    },
+    {
+      "name": "useless",
+      "value": "加密（不可上网）"
+    },
+    {
+      "name": "connected",
+      "value": "已连接（网络质量好）"
+    },
+    {
+      "name": "wlanUseful",
+      "value": "可用WLAN"
+    },
+    {
+      "name": "wlanConnected",
+      "value": "已连接WLAN"
+    },
+    {
+      "name": "closed",
+      "value": "已关闭"
+    },
+    {
+      "name": "search",
+      "value": "搜索..."
+    }
+  ]
+}

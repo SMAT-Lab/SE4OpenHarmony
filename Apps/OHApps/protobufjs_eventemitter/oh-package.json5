@@ -1,0 +1,17 @@
+{
+  "license": "BSD 3-Clause License",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.11"
+  },
+  "author": "",
+  "name": "protobufjs_eventemitter",
+  "description": "Please describe the basic information.",
+  "ohos": {
+    "org": "huawei",
+    "directoryLevel": "project",
+    "buildTool": "hvigor"
+  },
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {}
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.user;
+message UserLoginResponse{
+   string sessionId = 1;
+   string userPrivilege = 2;
+   bool isTokenType = 3;
+   string formatTimestamp = 4;
+}

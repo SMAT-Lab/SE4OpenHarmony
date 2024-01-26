@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "mdurl",
+        "License": "MIT License",
+        "License File": " LICENSE ",
+        "Version Number": "1.0.1",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/markdown-it/mdurl",
+        "Description": "URL utilities for markdown-it parser."
+    }
+]

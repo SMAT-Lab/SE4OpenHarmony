@@ -1,0 +1,41 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 10,
+        "compatibleSdkVersion": 10,
+        "runtimeOS": "OpenHarmony"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\openharmony\\auto_ohos_default_17_worker_com.openharmony.aki.worker.cer",
+          "storePassword": "0000001B118C115E064BB375A985488A6535F720B12E3AFA07322FA4AA2D2BFB29BDF13C639D474478A53E",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BAE847F82EC636C37C3AB743505799FB834659F575DD4EDDB80D82DD28C54FCF4A35CBDE282DA7A",
+          "profile": "C:\\Users\\Administrator\\.ohos\\config\\openharmony\\auto_ohos_default_17_worker_com.openharmony.aki.worker.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\openharmony\\auto_ohos_default_17_worker_com.openharmony.aki.worker.p12"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "src": [
+    "pages/LoginPage",
+    "pages/SendMailPage",
+    "pages/SendBigAttachmentPage"
+  ]
+}

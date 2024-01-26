@@ -1,0 +1,68 @@
+{
+  "float": [
+    {
+      "name": "tips_font_size",
+      "value": "16"
+    },
+    {
+      "name": "source_code_font_size",
+      "value": "12"
+    },
+    {
+      "name": "circle_size",
+      "value": "40"
+    },
+    {
+      "name": "component_radius",
+      "value": "5"
+    },
+    {
+      "name": "button_text_size",
+      "value": "16"
+    },
+    {
+      "name": "button_height",
+      "value": "40"
+    },
+    {
+      "name": "border_width",
+      "value": "1"
+    },
+    {
+      "name": "title_bar_height",
+      "value": "60"
+    },
+    {
+      "name": "icon_back_size",
+      "value": "20"
+    },
+    {
+      "name": "page_padding",
+      "value": "12"
+    },
+    {
+      "name": "title_font_size",
+      "value": "18"
+    },
+    {
+      "name": "title_margin",
+      "value": "16"
+    },
+    {
+      "name": "divider_height",
+      "value": "1"
+    },
+    {
+      "name": "code_view_bottom",
+      "value": "20"
+    },
+    {
+      "name": "select_font_size",
+      "value": "16"
+    },
+    {
+      "name": "margin_bottom",
+      "value": "50vp"
+    }
+  ]
+}

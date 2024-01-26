@@ -1,0 +1,16 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "forbid",
+      "value": "#E5E5E5"
+    },
+    {
+      "name": "allow",
+      "value": "#0D9FFB"
+    }
+  ]
+}

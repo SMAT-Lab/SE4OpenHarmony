@@ -1,0 +1,120 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "UploadAndDownload"
+    },
+    {
+      "name": "upload",
+      "value": "Upload"
+    },
+    {
+      "name": "upload_fail",
+      "value": "Upload fail,resume upload later"
+    },
+    {
+      "name": "upload_success",
+      "value": "Upload success,continue upload"
+    },
+    {
+      "name": "uploading",
+      "value": "Uploading"
+    },
+    {
+      "name": "user_tip",
+      "value": "Feature development"
+    },
+    {
+      "name": "open",
+      "value": "Open"
+    },
+    {
+      "name": "anyone",
+      "value": "Anyone"
+    },
+    {
+      "name": "gps",
+      "value": "Location"
+    },
+    {
+      "name": "tip",
+      "value": "Thoughts of the moment..."
+    },
+    {
+      "name": "pick_album",
+      "value": "Pick from album"
+    },
+    {
+      "name": "ok",
+      "value": "OK"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "check_file_tips",
+      "value": "Please check files"
+    },
+    {
+      "name": "download",
+      "value": "Download"
+    },
+    {
+      "name": "downloading",
+      "value": "Downloading"
+    },
+    {
+      "name": "download_to",
+      "value": "Select a download location"
+    },
+    {
+      "name": "view_download_files",
+      "value": "View download files"
+    },
+    {
+      "name": "download_finish",
+      "value": "Download finish"
+    },
+    {
+      "name": "download_fail",
+      "value": "Download fail"
+    },
+    {
+      "name": "pause",
+      "value": "Pause"
+    },
+    {
+      "name": "continue",
+      "value": "Continue"
+    },
+    {
+      "name": "media_permission",
+      "value": "Allows the app to read media file information from the user's external storage"
+    },
+    {
+      "name": "media_internet_permission",
+      "value": "Allow access to the network"
+    },
+    {
+      "name": "background_tips",
+      "value": "Whether to start background tasks"
+    },
+    {
+      "name": "home_tips",
+      "value": "Demonstrate foreground and background upload and download tasks"
+    },
+    {
+      "name": "background_task_start",
+      "value": "The background task has started, and you can check the download status in the notification bar"
+    }
+  ]
+}

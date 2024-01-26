@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "socketio",
+        "License": "MIT license",
+        "License File": " LICENSE ",
+        "Version Number": "3.1.0",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/socketio/socket.io-client-cpp",
+        "Description": "a library that enables low latency, bidirectional, and event based communication between clients and servers."
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "Metadata for manipulating classes in TypeScript.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}

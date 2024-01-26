@@ -1,0 +1,45 @@
+{
+  "app": {
+    "signingConfigs": [],
+    "products": [
+      {
+        "compileSdkVersion": 10,
+        "compatibleSdkVersion": 10,
+        "targetSdkVersion": 10,
+        "runtimeOS": "OpenHarmony",
+        "name": "default",
+        "signingConfig": "default"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "amqplib",
+      "srcPath": "./amqplib"
+    },
+    {
+      "name": "library",
+      "srcPath": "./library"
+    }
+  ]
+}

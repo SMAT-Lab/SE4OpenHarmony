@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "jmespath.js",
+        "License": "Apache License 2.0",
+        "License File": "LICENSE",
+        "Version Number": "0.16.0",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/jmespath/jmespath.js",
+        "Description": "jmespath.js is a javascript implementation of JMESPath, which is a query language for JSON. It will take a JSON document and transform it into another JSON document through a JMESPath expression."
+    }
+]

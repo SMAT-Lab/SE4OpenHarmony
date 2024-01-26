@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "querystringify",
+        "License": "MIT LICENSE ",
+        "License File": "LICENSE ",
+        "Version Number": "^2.1.1",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/unshiftio/querystringify",
+        "Description": "Querystringify - Small, simple butpowerful query string parser."
+    }
+]

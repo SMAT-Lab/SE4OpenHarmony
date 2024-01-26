@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "module_test_desc",
+      "value": "test ability description"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "the test ability"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "test label"
+    },
+    {
+      "name": "stringDesc",
+      "value": "String: "
+    },
+    {
+      "name": "stringArrayDesc",
+      "value": "StringArray: "
+    },
+    {
+      "name": "pluralStringDesc",
+      "value": "PluralString: "
+    },
+    {
+      "name": "string_str",
+      "value": "ETSResourceManager"
+    },
+    {
+      "name": "capabilityDesc",
+      "value": "DeviceCapability: "
+    },
+    {
+      "name": "configurationDesc",
+      "value": "Configuration: "
+    },
+    {
+      "name": "mediaDesc",
+      "value": "Media size: "
+    },
+    {
+      "name": "mediaBase64Desc",
+      "value": "MediaBase64 string length:"
+    },
+    {
+      "name": "formatStr",
+      "value": "Hello %s"
+    },
+    {
+      "name": "world",
+      "value": "world"
+    },
+    {
+      "name": "formatStrDesc",
+      "value": "FormatString: "
+    },
+    {
+      "name": "densityMediaDesc",
+      "value": "Specific Screen Density Media: "
+    },
+    {
+      "name": "systemResDesc",
+      "value": "SystemResource: "
+    }
+  ]
+}

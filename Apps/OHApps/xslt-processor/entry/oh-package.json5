@@ -1,0 +1,13 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "ohos_tpc",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "xslt-processor": "^0.11.7",
+    "he": "^1.2.0"
+  }
+}

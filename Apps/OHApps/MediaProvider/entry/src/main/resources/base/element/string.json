@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "This module provides an example of using the AVSession interface to develop media provider app."
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "This ability provides an example of using the AVSession interface to develop media provider app."
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "In_play",
+      "value": "正在播放"
+    },
+    {
+      "name": "Not_in_play",
+      "value": "未在播放"
+    }
+  ]
+}

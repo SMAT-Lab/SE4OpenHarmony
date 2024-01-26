@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Page Redirection"
+    },
+    {
+      "name": "toast_msg",
+      "value": "This function is not developed yet. Please look forward to it."
+    },
+    {
+      "name": "confirm_order",
+      "value": "Confirm the order"
+    },
+    {
+      "name": "dollar",
+      "value": "¥%d"
+    },
+    {
+      "name": "invoice",
+      "value": "Invoice"
+    },
+    {
+      "name": "personal_invoice",
+      "value": "Electronic Free Text Invoice - Personal"
+    },
+    {
+      "name": "delivery",
+      "value": "Delivery"
+    },
+    {
+      "name": "standard_delivery",
+      "value": "Standard Delivery"
+    },
+    {
+      "name": "self_operated",
+      "value": "Mall self-operated"
+    },
+    {
+      "name": "user_name",
+      "value": "Zhang XX"
+    },
+    {
+      "name": "user_phone",
+      "value": "185 xxxx xxxx"
+    },
+    {
+      "name": "user_address",
+      "value": "Room XX, Unit XX, XX Building, XXX Community, Haidian District, Beijing"
+    }
+  ]
+}

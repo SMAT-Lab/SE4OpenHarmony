@@ -1,0 +1,56 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Native MultiThreads"
+    },
+    {
+      "name": "sample_title",
+      "value": "Native MultiThreads Sample"
+    },
+    {
+      "name": "image_error_dialog_title",
+      "value": "Error warning"
+    },
+    {
+      "name": "image_error_dialog_message",
+      "value": "The target image does not exist!!!"
+    },
+    {
+      "name": "error_dialog_primary_button",
+      "value": "Cancel"
+    },
+    {
+      "name": "error_dialog_secondary_button",
+      "value": "Confirm"
+    },
+    {
+      "name": "sync_button_title",
+      "value": "MultiThreads Sync"
+    },
+    {
+      "name": "async_callback_button_title",
+      "value": "MultiThreads Callback Async"
+    },
+    {
+      "name": "async_promise_button_title",
+      "value": "MultiThreads Promise Async"
+    },
+    {
+      "name": "async_tsf_button_title",
+      "value": "MultiThreads TSF Async"
+    },
+    {
+      "name": "error_image_button_title",
+      "value": "Error Image"
+    }
+  ]
+}

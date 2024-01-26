@@ -1,0 +1,436 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "StateManagement entry model"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "StateManagement entry ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "状态管理"
+    },
+    {
+      "name": "close",
+      "value": "关闭"
+    },
+    {
+      "name": "page_level",
+      "value": "页面级状态管理"
+    },
+    {
+      "name": "app_level",
+      "value": "应用级状态管理"
+    },
+    {
+      "name": "single_component_state",
+      "value": "单组件内的状态变量"
+    },
+    {
+      "name": "decorated_object_type",
+      "value": "修饰的对象类型"
+    },
+    {
+      "name": "base_type",
+      "value": "基础类型"
+    },
+    {
+      "name": "array_type",
+      "value": "数组类型"
+    },
+    {
+      "name": "array_type_add",
+      "value": "新增元素"
+    },
+    {
+      "name": "array_type_delete",
+      "value": "删除元素"
+    },
+    {
+      "name": "array_type_update",
+      "value": "更新数组中的单个元素"
+    },
+    {
+      "name": "array_type_deletetoast",
+      "value": "列表为空，不能删除！"
+    },
+    {
+      "name": "array_type_updatetoast",
+      "value": "列表为空，不能更新！"
+    },
+    {
+      "name": "class_type",
+      "value": "类对象类型"
+    },
+    {
+      "name": "class_type_objectName",
+      "value": "title"
+    },
+    {
+      "name": "class_object",
+      "value": "对象"
+    },
+    {
+      "name": "class_attribute",
+      "value": "对象属性"
+    },
+    {
+      "name": "class_child_attribute",
+      "value": "属性的属性"
+    },
+    {
+      "name": "class_type_update_object",
+      "value": "更新对象"
+    },
+    {
+      "name": "class_type_update_attribute",
+      "value": "更新对象属性"
+    },
+    {
+      "name": "class_type_update_child_attribute",
+      "value": "更新属性中的属性"
+    },
+    {
+      "name": "update_principle",
+      "value": "更新原理"
+    },
+    {
+      "name": "only_update_bound_components",
+      "value": "只更新所绑定的组件"
+    },
+    {
+      "name": "only_update_state",
+      "value": "@State变量"
+    },
+    {
+      "name": "only_update_title",
+      "value": "标题:"
+    },
+    {
+      "name": "only_update_private",
+      "value": "private声明变量"
+    },
+    {
+      "name": "only_update_content",
+      "value": "内容:"
+    },
+    {
+      "name": "update_title_content",
+      "value": "点击修改标题和内容"
+    },
+    {
+      "name": "only_update_state_components",
+      "value": "只更新@State变量绑定的组件"
+    },
+    {
+      "name": "update_the_custom_component",
+      "value": "所在的自定义组件都更新"
+    },
+    {
+      "name": "multi_component_sync",
+      "value": "自定义组件之间的状态同步"
+    },
+    {
+      "name": "parent_child_sync",
+      "value": "父子组件之间状态同步"
+    },
+    {
+      "name": "single_and_two_way_sync",
+      "value": "单、双向同步"
+    },
+    {
+      "name": "parent_component",
+      "value": "父组件"
+    },
+    {
+      "name": "child_component",
+      "value": "子组件"
+    },
+    {
+      "name": "uni_and_bidirection_sync_tips",
+      "value": "父组件中原型颜色为@State状态变量"
+    },
+    {
+      "name": "single_direction_sync_tips",
+      "value": "单向同步 子组件中原型颜色为@Prop状态变量"
+    },
+    {
+      "name": "both_direction_sync_tips",
+      "value": "双向同步 子组件中原型颜色为@Link状态变量"
+    },
+    {
+      "name": "uni_and_bidirection_sync_btn",
+      "value": "设置为粉色，子组件同步更新"
+    },
+    {
+      "name": "single_direction_sync_btn",
+      "value": "设置为蓝色，父组件不同步"
+    },
+    {
+      "name": "both_direction_sync_btn",
+      "value": "设置为红色，父组件同步"
+    },
+    {
+      "name": "partial_sync",
+      "value": "子组件同步父组件部分内容"
+    },
+    {
+      "name": "partial_sync_element_one",
+      "value": "元素1"
+    },
+    {
+      "name": "partial_sync_element_two",
+      "value": "元素2"
+    },
+    {
+      "name": "partial_sync_element_three",
+      "value": "元素3"
+    },
+    {
+      "name": "partial_sync_attribute_one",
+      "value": "属性1"
+    },
+    {
+      "name": "partial_sync_attribute_two",
+      "value": "属性2"
+    },
+    {
+      "name": "partial_sync_attribute_three",
+      "value": "属性3"
+    },
+    {
+      "name": "partial_sync_parent_tips",
+      "value": "父组件中数组为@State状态变量，数组的元素的类用@observed修饰"
+    },
+    {
+      "name": "partial_sync_text",
+      "value": "子组件中使用@ObjectLink修饰变量，与父组件中对象的元素同步数据"
+    },
+    {
+      "name": "parent_descendent_sync",
+      "value": "爷孙组件之间状态同步"
+    },
+    {
+      "name": "select_colorblue",
+      "value": "蓝色"
+    },
+    {
+      "name": "select_colorpink",
+      "value": "粉色"
+    },
+    {
+      "name": "realize_by_state_link",
+      "value": "使用@State,@Link实现："
+    },
+    {
+      "name": "realize_by_provide_consume",
+      "value": "使用@Provide, @Consume实现："
+    },
+    {
+      "name": "deepnest_parent_titleone",
+      "value": "使用@State，@Link实现父组件中圆形颜色为@State状态变量"
+    },
+    {
+      "name": "deepnest_child_titleone",
+      "value": "子组件圆形颜色为@Link状态变量传递给孙组件"
+    },
+    {
+      "name": "deepnest_descendent_titleone",
+      "value": "孙组件中圆形颜色为@Link状态变量"
+    },
+    {
+      "name": "deepnest_parent_titletwo",
+      "value": "使用@Provide，@Consume实现父组件中圆形颜色为@Provide状态变量作为数据提供方"
+    },
+    {
+      "name": "deepnest_child_titletwo",
+      "value": "子组件中不需要设置变量"
+    },
+    {
+      "name": "deepnest_descendent_titletwo",
+      "value": "子组件中圆形颜色为@Consume变量感知数据变化，更新UI，也可反向同步"
+    },
+    {
+      "name": "brother_sync",
+      "value": "兄弟组件之间状态同步"
+    },
+    {
+      "name": "parent_titleone",
+      "value": "共同的父组件圆形颜色为@State变量"
+    },
+    {
+      "name": "link_brothers_title",
+      "value": "兄弟组件圆形颜色为@Link状态变量"
+    },
+    {
+      "name": "parent_titletwo",
+      "value": "共同的父组件圆形颜色为@Provide变量"
+    },
+    {
+      "name": "consume_brothers_title",
+      "value": "兄弟组件圆形颜色为@Consume状态变量"
+    },
+    {
+      "name": "application_storage_ui",
+      "value": "应用内全局数据与UI之间的状态同步"
+    },
+    {
+      "name": "nightmode",
+      "value": "夜间模式"
+    },
+    {
+      "name": "close_nightmode",
+      "value": "关闭夜间模式"
+    },
+    {
+      "name": "start_nightmode",
+      "value": "打开夜间模式"
+    },
+    {
+      "name": "nightmode_text",
+      "value": "夜间模式控制Ability1，Ability2界面样式"
+    },
+    {
+      "name": "fontSize_text",
+      "value": "字体大小"
+    },
+    {
+      "name": "fontSize_singlesync_textone",
+      "value": "字体大小控制Ability1，Ability2，界面字体大小单向同步"
+    },
+    {
+      "name": "enter_abilityone",
+      "value": "进入ability1"
+    },
+    {
+      "name": "enter_abilitytwo",
+      "value": "进入ability2"
+    },
+    {
+      "name": "abilityone_page",
+      "value": "Ability1"
+    },
+    {
+      "name": "abilitytwo_page",
+      "value": "Ability2"
+    },
+    {
+      "name": "both_data_binding",
+      "value": "组件通过@StorageLink(key)装饰的状态变量与AppStorage建立双向绑定"
+    },
+    {
+      "name": "single_data_binding",
+      "value": "组件通过使用@StorageProp(key)装饰的状态变量，与AppStorage建立单向数据绑定"
+    },
+    {
+      "name": "nigntmode_both_binding",
+      "value": "此界面中夜间模式为@StorageLink(key)变量双向同步，其他Ability中会同步夜间模式开关"
+    },
+    {
+      "name": "single_fontsize_binding",
+      "value": "此界面中字体大小为@StorageProp(key)变量单向同步，只改变当前界面的字体大小"
+    },
+    {
+      "name": "ability_storage_ui",
+      "value": "Ability内全局数据与UI之间的状态同步"
+    },
+    {
+      "name": "enter_pageone",
+      "value": "进入Page1"
+    },
+    {
+      "name": "enter_pagetwo",
+      "value": "进入Page2"
+    },
+    {
+      "name": "enter_ability_outofsync",
+      "value": "跨Ability不同步"
+    },
+    {
+      "name": "ability_storage_nightmodelsync",
+      "value": "夜间模式控制Page1，Page2界面样式"
+    },
+    {
+      "name": "ability_storage_fontsizesync",
+      "value": "字体大小控制Page1，Page2界面字体大小单向同步"
+    },
+    {
+      "name": "localStorage_both_data_binding",
+      "value": "组件通过@LocalStorageLink(key)装饰的状态变量与LocalStorage建立双向绑定"
+    },
+    {
+      "name": "localStorage_single_data_binding",
+      "value": "组件通过使用@LocalStorageProp(key)装饰的状态变量，与LocalStorage建立单向数据绑定"
+    },
+    {
+      "name": "localStorage_nigntmode_both_binding",
+      "value": "此界面中夜间模式为@LocaltorageLink(key)变量双向同步，其它页面中会同步夜间模式开关"
+    },
+    {
+      "name": "localStorage_single_fontsize_binding",
+      "value": "此界面中字体大小为@LocalStorageProp(key)变量单向同步，只改变当前界面的字体大小"
+    },
+    {
+      "name": "enter_ability_outofsync_text",
+      "value": "跨Ability，数据不同步，因此此界面中夜间模式和主页的开关不同步"
+    },
+    {
+      "name": "localStorage_pagetitleone",
+      "value": "Page1"
+    },
+    {
+      "name": "localStorage_pagetitletwo",
+      "value": "Page2"
+    },
+    {
+      "name": "localStorage_abilitytitle",
+      "value": "Ability"
+    },
+    {
+      "name": "base_type_tip_text",
+      "value": "圆形颜色为@State状态变量"
+    },
+    {
+      "name": "source_code",
+      "value": "查看源码"
+    },
+    {
+      "name": "set_to_blue",
+      "value": "设置为蓝色"
+    },
+    {
+      "name": "set_to_pink",
+      "value": "设置为粉色"
+    },
+    {
+      "name": "storagepropability_desc",
+      "value": "StoragePropAbility_desc"
+    },
+    {
+      "name": "storagepropability_label",
+      "value": "StoragePropAbilityLabel"
+    },
+    {
+      "name": "storagelinkability_desc",
+      "value": "storageLinkAbilityDesc"
+    },
+    {
+      "name": "storagelinkability_label",
+      "value": "StorageLinkAbilityLabel"
+    },
+    {
+      "name": "outofsyncability_desc",
+      "value": "OutofsyncAbilityDesc"
+    },
+    {
+      "name": "outofsyncability_label",
+      "value": "OutOfSyncAbilityLabel"
+    },
+    {
+      "name": "empty",
+      "value": "empty"
+    }
+  ]
+}

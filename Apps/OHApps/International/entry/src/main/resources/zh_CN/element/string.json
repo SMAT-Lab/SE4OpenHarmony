@@ -1,0 +1,80 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "描述"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "国际化"
+    },
+    {
+      "name": "text_processing",
+      "value": "字符、文本处理"
+    },
+    {
+      "name": "text_break",
+      "value": "文本断点"
+    },
+    {
+      "name": "show_character_type",
+      "value": "显示字符类型"
+    },
+    {
+      "name": "character_type_detection",
+      "value": "字符类型判断"
+    },
+    {
+      "name": "calendar",
+      "value": "日历"
+    },
+    {
+      "name": "monday",
+      "value": "一"
+    },
+    {
+      "name": "tuesday",
+      "value": "二"
+    },
+    {
+      "name": "wednesday",
+      "value": "三"
+    },
+    {
+      "name": "thursday",
+      "value": "四"
+    },
+    {
+      "name": "friday",
+      "value": "五"
+    },
+    {
+      "name": "saturday",
+      "value": "六"
+    },
+    {
+      "name": "sunday",
+      "value": "日"
+    },
+    {
+      "name": "today",
+      "value": "今天"
+    },
+    {
+      "name": "long_piece_of_text",
+      "value": "输入一段长文本，点击文本断点处理"
+    },
+    {
+      "name": "text_breakpoint",
+      "value": "文本断点处理"
+    },
+    {
+      "name": "character_type_tip",
+      "value": "输入一个字符，显示字符类型"
+    }
+  ]
+}

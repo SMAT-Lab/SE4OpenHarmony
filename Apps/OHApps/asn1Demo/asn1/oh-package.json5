@@ -1,0 +1,24 @@
+{
+  "author": "ohos_tpc",
+  "pre-commit": [
+    "check",
+    "test:circleci"
+  ],
+  "keywords": [
+    "asn1",
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "description": "Javascript library for parsing Abstract Syntax Notation One (ASN.1)",
+  "main": "src/main/dist/index.js",
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/asn1Demo",
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "buffer": "^6.0.3"
+  },
+  "compileOnlyDependencies": {},
+  "license": "MIT",
+  "devDependencies": {},
+  "name": "@ohos/asn1"
+}

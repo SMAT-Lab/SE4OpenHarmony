@@ -1,0 +1,13 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/TwoDirectionBind",
+    "pages/EasyMixBind",
+    "pages/ClassBind",
+    "pages/proConsumeDate",
+    "pages/WatchBind",
+    "pages/DynamicBuildBind",
+    "pages/DynamicStyleBuild",
+    "pages/DynamicBindDemo"
+  ]
+}

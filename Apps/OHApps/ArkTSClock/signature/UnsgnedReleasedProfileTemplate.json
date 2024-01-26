@@ -1,0 +1,28 @@
+{
+	"version-name":"2.0.0",
+	"version-code":2,
+	"app-distribution-type":"os_integration",
+	"uuid":"5027b99e-5f9e-465d-9508-a9e0134ffe18",
+	"validity":{
+		"not-before":1594865258,
+		"not-after":1689473258
+	},
+	"type":"release",
+	"bundle-info":{
+		"developer-id":"OpenHarmony",
+		"distribution-certificate":"-----BEGIN CERTIFICATE-----\nMIICFjCCAZugAwIBAgIINVKNU2+cnQ4wCgYIKoZIzj0EAwMwYzELMAkGA1UEBhMC\nQ04xFDASBgNVBAoTC09wZW5IYXJtb255MRkwFwYDVQQLExBPcGVuSGFybW9ueSBU\nZWFtMSMwIQYDVQQDExpPcGVuSGFybW9ueSBBcHBsaWNhdGlvbiBDQTAeFw0yMzA5\nMjIwMjMxNDVaFw0zMzA5MTkwMjMxNDVaMEoxFTATBgNVBAMMDGlkZV9kZW1vX2Fw\ncDENMAsGA1UECxMEVW5pdDEVMBMGA1UEChMMT3JnYW5pemF0aW9uMQswCQYDVQQG\nEwJDTjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCcDpyVt7Qqexv1t/Y0bFs81\njZkv+Ok6lgU+DRPCjx/Xsht288GsxWz19yLJHtUxdC7U7DNPs+qatheXKxItOKCj\nUjBQMB0GA1UdDgQWBBS48MIxAZ3FjK37m6CFLk0r8vmcXDAOBgNVHQ8BAf8EBAMC\nB4AwHwYDVR0jBBgwFoAU24a3IhbVC6FLt90le7nxBX2iLUcwCgYIKoZIzj0EAwMD\naQAwZgIxAK5UDxk3kMjJKmwla56rml66pGnR4KK1uSL/qY2l44Pw7ybEYdu0qkdu\necFp5Qj8jgIxAKNjyfRF/vLqcRmbdX/lGSwNPj5e8xEU/97lkVN+D/P24+dHrOtj\nP6g8TX02DokL+Q==\n-----END CERTIFICATE-----\n",
+		"bundle-name":"ohos.samples.etsclock",
+		"apl":"system_core",
+		"app-feature":"hos_system_app"
+	},
+	"acls":{
+		"allowed-acls":[
+			"ohos.permission.DISTRIBUTED_DATASYNC",
+			"ohos.permission.START_ABILITIES_FROM_BACKGROUND"
+		]
+	},
+	"permissions":{
+		"restricted-permissions":[]
+	},
+	"issuer":"pki_internal"
+}

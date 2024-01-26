@@ -1,0 +1,14 @@
+# folder
+node_modules
+oh_modules
+.preview
+build
+.cxx
+.test
+.idea
+.hvigor
+.clang*
+
+# file
+local.properties
+oh-package-lock.json5

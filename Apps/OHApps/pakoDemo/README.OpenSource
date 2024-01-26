@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "pako",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "2.1.0",
+        "Owner" : "nodeca"
+        "Upstream URL": "https://github.com/nodeca/pako",
+        "Description": "zlib port to javascript, very fast!"
+    }
+
+]

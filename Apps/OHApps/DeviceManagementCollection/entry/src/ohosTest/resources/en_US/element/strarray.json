@@ -1,0 +1,74 @@
+{
+  "strarray": [
+    {
+      "name": "power_operations",
+      "value": [
+        {
+          "value": "Check whether the screen is on or off"
+        },
+        {
+          "value": "Get Power Mode"
+        }
+      ]
+    },
+    {
+      "name": "running_lock_operations",
+      "value": [
+        {
+          "value": "Supported runningLock"
+        },
+        {
+          "value": "Set Screen Sleep Lock"
+        },
+        {
+          "value": "Set Proximity Screen Control Lock"
+        }
+      ]
+    },
+    {
+      "name": "power_mode",
+      "value": [
+        {
+          "value": "normal"
+        },
+        {
+          "value": "power save"
+        },
+        {
+          "value": "performance"
+        },
+        {
+          "value": "extreme power save"
+        }
+      ]
+    },
+    {
+      "name": "settings_operations",
+      "value": [
+        {
+          "value": "Get Settings Uri"
+        },
+        {
+          "value": "Enable Airplane Mode"
+        },
+        {
+          "value": "Can Show Floating"
+        }
+      ]
+    },
+    {
+      "name": "stationary_operations",
+      "value": [
+        {
+          "value": "Subscribe to Device Status Service"
+        },
+        {
+          "value": "Unsubscribe from Device Status Service"
+        },
+        {
+          "value": "Query device status"
+        }
+      ]
+    }
+  ]
+}

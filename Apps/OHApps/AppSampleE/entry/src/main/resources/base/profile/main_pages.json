@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/login/Login",
+    "pages/takeaway/Business",
+    "pages/takeaway/Commodity",
+    "pages/buy/Buy",
+    "pages/takeaway/ProductDetails",
+    "pages/buy/SelfPickUp"
+  ]
+}

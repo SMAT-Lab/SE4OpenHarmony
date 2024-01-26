@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "amqplib",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

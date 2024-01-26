@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "描述"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "压缩"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "压缩"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "调用压缩文件接口"
+    },
+    {
+      "name": "zip",
+      "value": "压缩"
+    },
+    {
+      "name": "unzip",
+      "value": "解压"
+    },
+    {
+      "name": "file_name",
+      "value": "文件名称"
+    },
+    {
+      "name": "file_content",
+      "value": "文件内容"
+    },
+    {
+      "name": "button_confirm",
+      "value": "确认"
+    },
+    {
+      "name": "button_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "input_name",
+      "value": "请输入名称"
+    },
+    {
+      "name": "input_content",
+      "value": "请输入文件内容"
+    },
+    {
+      "name": "create_file",
+      "value": "创建文件"
+    },
+    {
+      "name": "warning_empty",
+      "value": "文件名不能为空"
+    },
+    {
+      "name": "warning_failed",
+      "value": "已存在压缩文件，压缩失败"
+    },
+    {
+      "name": "tip_complete",
+      "value": "文件压缩完成"
+    },
+    {
+      "name": "warning_failure",
+      "value": "文件压缩失败"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "license": "",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "@hw-agconnect/cloud": "^1.0.0",
+    "@hw-agconnect/hmcore": "^1.0.0",
+    "@hw-agconnect/auth-component": "^1.0.0",
+    "long": "5.2.1"
+  }
+}

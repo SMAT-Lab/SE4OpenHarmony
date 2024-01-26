@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from npm package"
+    },
+    {
+      "name": "skip",
+      "value": "skip"
+    },
+    {
+      "name": "shopping",
+      "value": "shopping"
+    },
+    {
+      "name": "shoppingAdvertising",
+      "value": "low price first, saving you money"
+    }
+  ]
+}

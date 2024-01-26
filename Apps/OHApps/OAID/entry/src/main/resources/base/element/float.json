@@ -1,0 +1,104 @@
+{
+  "float": [
+    {
+      "name": "offset_dx",
+      "value": "0vp"
+    },
+    {
+      "name": "offset_dy",
+      "value": "-16vp"
+    },
+    {
+      "name": "text_font_size",
+      "value": "14fp"
+    },
+    {
+      "name": "text_padding_top",
+      "value": "8vp"
+    },
+    {
+      "name": "text_padding_left",
+      "value": "28vp"
+    },
+    {
+      "name": "text_padding_bottom",
+      "value": "8vp"
+    },
+    {
+      "name": "textArea_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "textArea_height",
+      "value": "60vp"
+    },
+    {
+      "name": "textArea_margin_right",
+      "value": "14vp"
+    },
+    {
+      "name": "textArea_margin_left",
+      "value": "14vp"
+    },
+    {
+      "name": "textArea_margin_bottom",
+      "value": "8vp"
+    },
+    {
+      "name": "textArea_padding_top",
+      "value": "8vp"
+    },
+    {
+      "name": "textArea_padding_right",
+      "value": "14vp"
+    },
+    {
+      "name": "textArea_padding_left",
+      "value": "14vp"
+    },
+    {
+      "name": "textArea_padding_bottom",
+      "value": "8vp"
+    },
+    {
+      "name": "button_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "button_height",
+      "value": "40vp"
+    },
+    {
+      "name": "button_margin_bottom",
+      "value": "30vp"
+    },
+    {
+      "name": "blackText_font_size",
+      "value": "16fp"
+    },
+    {
+      "name": "descStyle_font_size",
+      "value": "14fp"
+    },
+    {
+      "name": "descStyle_line_height",
+      "value": "20vp"
+    },
+    {
+      "name": "descStyle_margin_top",
+      "value": "8vp"
+    },
+    {
+      "name": "divider_height",
+      "value": "22vp"
+    },
+    {
+      "name": "buttons_margin_bottom",
+      "value": "14vp"
+    },
+    {
+      "name": "windows_padding",
+      "value": "16vp"
+    }
+  ]
+}

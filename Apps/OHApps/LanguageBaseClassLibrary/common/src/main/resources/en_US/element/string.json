@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from npm package"
+    },
+    {
+      "name": "tv_no_data",
+      "value": "No data"
+    },
+    {
+      "name": "deque",
+      "value": "Deque (Linear Container Deque)"
+    },
+    {
+      "name": "hash_map",
+      "value": "HashMap (NoLinear Container HashMap)"
+    },
+    {
+      "name": "hash_set",
+      "value": "HashSet (NoLinear Container HashSet)"
+    },
+    {
+      "name": "light_weight_map",
+      "value": "LightWeightMap (NoLinear Container LightWeightMap)"
+    },
+    {
+      "name": "light_weight_set",
+      "value": "LightWeightSet (NoLinear Container LightWeightSet)"
+    },
+    {
+      "name": "linked_list",
+      "value": "LinkedList (Linear Container LinkedList)"
+    },
+    {
+      "name": "list",
+      "value": "List (Linear Container List)"
+    },
+    {
+      "name": "array_list",
+      "value": "ArrayList (Linear Container ArrayList)"
+    },
+    {
+      "name": "plain_array",
+      "value": "PlainArray (NoLinear Container PlainArray)"
+    },
+    {
+      "name": "queue",
+      "value": "Queue (Linear Container Queue)"
+    },
+    {
+      "name": "stack",
+      "value": "Stack (Linear Container Stack)"
+    },
+    {
+      "name": "tree_map",
+      "value": "TreeMap (NoLinear Container TreeMap)"
+    },
+    {
+      "name": "tree_set",
+      "value": "TreeSet (NoLinear Container TreeSet)"
+    },
+    {
+      "name": "vector",
+      "value": "Vector (Linear Container Vector)"
+    }
+  ]
+}

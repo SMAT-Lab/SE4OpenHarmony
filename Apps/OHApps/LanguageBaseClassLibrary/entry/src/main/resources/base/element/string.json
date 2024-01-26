@@ -1,0 +1,124 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "lable_name",
+      "value": "LanguageBaseClassLibrary"
+    },
+    {
+      "name": "xml",
+      "value": "Xml & ConvertXml (XML Parsing,Generation and convert)"
+    },
+    {
+      "name": "url",
+      "value": "Url (URL String Parsing)"
+    },
+    {
+      "name": "util",
+      "value": "Util (util)"
+    },
+    {
+      "name": "array_list",
+      "value": "ArrayList (Linear Container ArrayList)"
+    },
+    {
+      "name": "task_pool",
+      "value": "TaskPool (Start Task Pool)"
+    },
+    {
+      "name": "deque",
+      "value": "Deque (Linear Container Deque)"
+    },
+    {
+      "name": "hash_map",
+      "value": "HashMap (NoLinear Container HashMap)"
+    },
+    {
+      "name": "hash_set",
+      "value": "HashSet (NoLinear Container HashSet)"
+    },
+    {
+      "name": "light_weight_map",
+      "value": "LightWeightMap (NoLinear Container LightWeightMap)"
+    },
+    {
+      "name": "light_weight_set",
+      "value": "LightWeightSet (NoLinear Container LightWeightSet)"
+    },
+    {
+      "name": "linked_list",
+      "value": "LinkedList (Linear Container LinkedList)"
+    },
+    {
+      "name": "list",
+      "value": "List (Linear Container List)"
+    },
+    {
+      "name": "plain_array",
+      "value": "PlainArray (NoLinear Container PlainArray)"
+    },
+    {
+      "name": "queue",
+      "value": "Queue (Linear Container Queue)"
+    },
+    {
+      "name": "stack",
+      "value": "Stack (Linear Container Stack)"
+    },
+    {
+      "name": "tree_map",
+      "value": "TreeMap (NoLinear Container TreeMap)"
+    },
+    {
+      "name": "tree_set",
+      "value": "TreeSet (NoLinear Container TreeSet)"
+    },
+    {
+      "name": "vector",
+      "value": "Vector (Linear Container Vector)"
+    },
+    {
+      "name": "age",
+      "value": "Age"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "sure",
+      "value": "Sure"
+    },
+    {
+      "name": "add_new_contact",
+      "value": "Add new contact"
+    },
+    {
+      "name": "names",
+      "value": "Name"
+    },
+    {
+      "name": "please_choose",
+      "value": "Please choose"
+    },
+    {
+      "name": "add",
+      "value": "Add"
+    },
+    {
+      "name": "input_key",
+      "value": "Please input key"
+    },
+    {
+      "name": "input_value",
+      "value": "Please input value"
+    }
+  ]
+}

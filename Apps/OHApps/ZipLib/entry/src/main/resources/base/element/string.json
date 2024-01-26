@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "zipLib"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "ziplib"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "Call the compressed file interface"
+    },
+    {
+      "name": "zip",
+      "value": "zip"
+    },
+    {
+      "name": "unzip",
+      "value": "unzip"
+    },
+    {
+      "name": "file_name",
+      "value": "FileName"
+    },
+    {
+      "name": "file_content",
+      "value": "FileContent"
+    },
+    {
+      "name": "button_confirm",
+      "value": "confirm"
+    },
+    {
+      "name": "button_cancel",
+      "value": "cancel"
+    },
+    {
+      "name": "input_name",
+      "value": "Please enter a name"
+    },
+    {
+      "name": "input_content",
+      "value": "Please enter the file content"
+    },
+    {
+      "name": "create_file",
+      "value": "Create File"
+    },
+    {
+      "name": "warning_empty",
+      "value": "The file name cannot be empty"
+    },
+    {
+      "name": "warning_failed",
+      "value": "Compression failed because the compressed file exists, compression failure"
+    },
+    {
+      "name": "tip_complete",
+      "value": "File compression complete"
+    },
+    {
+      "name": "warning_failure",
+      "value": "File compression failure"
+    }
+  ]
+}

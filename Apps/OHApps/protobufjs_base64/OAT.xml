@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="copyrightPolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="版权免责声明文件，无需修改"
+                    name="NOTICE"
+                    type="filename"/>
+            </filefilter>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="defaultPolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="版权免责声明文件，无需修改"
+                    name="NOTICE"
+                    type="filename"/>
+            </filefilter>
+        </filefilterlist>
+        <policylist>
+            <policy
+                desc=""
+                name="projectPolicy">
+                <policyitem
+                    desc="继承源组件的BSD协议，在功能上等同于 BSD 2-Clause 和 MIT 许可证。"
+                    filefilter="defaultPolicyFilter"
+                    group="defaultGroup"
+                    name="BSD"
+                    path=".*"
+                    type="license"/>
+            </policy>
+        </policylist>
+    </oatconfig>
+</configuration>

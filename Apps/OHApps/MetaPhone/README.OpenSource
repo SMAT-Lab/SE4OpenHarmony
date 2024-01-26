@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "metaphone",
+        "License": "MIT License",
+        "License File": " LICENSE ",
+        "Version Number": "2.0.0",
+        "Owner" : "words"
+        "Upstream URL": "https://github.com/words/metaphone",
+        "Description": "Fast Metaphone implementation."
+    }
+]

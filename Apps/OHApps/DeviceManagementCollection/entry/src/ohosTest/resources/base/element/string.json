@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "module_test_desc",
+      "value": "test ability description"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "the test ability"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "test label"
+    },
+    {
+      "name": "battery_info",
+      "value": "Battery Information"
+    },
+    {
+      "name": "running_lock",
+      "value": "Runninglock"
+    },
+    {
+      "name": "thermal",
+      "value": "Thermal Management"
+    },
+    {
+      "name": "usb_manager",
+      "value": "USB Management"
+    },
+    {
+      "name": "power_manager",
+      "value": "System Power Management"
+    },
+    {
+      "name": "settings",
+      "value": "Data Item Settings"
+    },
+    {
+      "name": "stationary",
+      "value": "Device Status Awareness Framework"
+    },
+    {
+      "name": "screen_state",
+      "value": "The screen state:"
+    },
+    {
+      "name": "power_mode",
+      "value": "current power mode:"
+    },
+    {
+      "name": "airplane_status",
+      "value": "Airplane status:"
+    },
+    {
+      "name": "confirm",
+      "value": "confirm"
+    }
+  ]
+}

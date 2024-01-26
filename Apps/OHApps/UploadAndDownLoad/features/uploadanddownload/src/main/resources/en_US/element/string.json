@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from npm package"
+    },
+    {
+      "name": "no_network_tips",
+      "value": "Please connect network"
+    },
+    {
+      "name": "download_files_title",
+      "value": "Download files"
+    },
+    {
+      "name": "folder_empty",
+      "value": "Empty folder"
+    },
+    {
+      "name": "clear_folder",
+      "value": "Clear folder"
+    },
+    {
+      "name": "have_upload_task_tips",
+      "value": "There is a foreground upload task, please upload later"
+    },
+    {
+      "name": "have_download_task_tips",
+      "value": "There is a foreground download task, please download later"
+    }
+  ]
+}

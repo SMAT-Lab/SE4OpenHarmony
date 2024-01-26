@@ -1,0 +1,142 @@
+/*
+* Copyright (c) 2023 Huawei Device Co., Ltd.
+* Licensed under the Apache License, Version 2.0 (the "License")
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "clickAbility",
+        "srcEntry": "./ets/clickability/ClickAbility.ets",
+        "description": "$string:clickability_desc",
+        "icon": "$media:icon",
+        "label": "$string:clickability_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      },
+      {
+        "name": "InputAbility",
+        "srcEntry": "./ets/inputability/InputAbility.ets",
+        "description": "$string:InputAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:InputAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      },
+      {
+        "name": "MouseAbility",
+        "srcEntry": "./ets/mouseability/MouseAbility.ets",
+        "description": "$string:MouseAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:MouseAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      },
+      {
+        "name": "FlingAbility",
+        "srcEntry": "./ets/flingability/FlingAbility.ets",
+        "description": "$string:FlingAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:FlingAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      },
+      {
+        "name": "SwipeAbility",
+        "srcEntry": "./ets/swipeability/SwipeAbility.ets",
+        "description": "$string:SwipeAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:SwipeAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      },
+      {
+        "name": "PinchAbility",
+        "srcEntry": "./ets/pinchability/PinchAbility.ets",
+        "description": "$string:PinchAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:PinchAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      },
+      {
+        "name": "PointMatrixAbility",
+        "srcEntry": "./ets/pointmatrixability/PointMatrixAbility.ets",
+        "description": "$string:PointMatrixAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:PointMatrixAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      },
+      {
+        "name": "ScrollerAbility",
+        "srcEntry": "./ets/scrollerability/ScrollerAbility.ets",
+        "description": "$string:ScrollerAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:ScrollerAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      },
+      {
+        "name": "DragAbility",
+        "srcEntry": "./ets/dragability/DragAbility.ets",
+        "description": "$string:DragAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:DragAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/ColorDemo",
+    "pages/CachePage",
+    "pages/GcoordPage",
+    "pages/TimePage",
+    "pages/PicturePage",
+    "pages/CountryPage",
+    "pages/TempPage"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "license": "BSD 3-Clause License",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "author": "",
+  "name": "protobufjs_base64",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "ohos": {
+    "org": "huawei",
+    "directoryLevel": "project",
+    "buildTool": "hvigor"
+  },
+  "version": "1.0.0",
+  "dependencies": {}
+}
+

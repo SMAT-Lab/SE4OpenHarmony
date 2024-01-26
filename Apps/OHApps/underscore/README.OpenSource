@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "underscore",
+        "License": "MIT License",
+        "License File": " LICENSE ",
+        "Version Number": "1.13.2",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/jashkenas/underscore",
+        "Description": "support for the usual functional suspects (each, map, reduce, filter...) "
+    }
+]

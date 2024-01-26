@@ -1,0 +1,380 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "login_help",
+      "value": "Help"
+    },
+    {
+      "name": "login_welcome",
+      "value": "Welcome to tuan"
+    },
+    {
+      "name": "login_86",
+      "value": "+86"
+    },
+    {
+      "name": "login_phone",
+      "value": "Please enter your mobile phone number"
+    },
+    {
+      "name": "login_pass",
+      "value": "Please enter your password"
+    },
+    {
+      "name": "login_agree",
+      "value": "I have read and agree。"
+    },
+    {
+      "name": "login_login",
+      "value": "Login"
+    },
+    {
+      "name": "login_captcha",
+      "value": "Verification code to sign in"
+    },
+    {
+      "name": "login_question",
+      "value": "Encountered a problem"
+    },
+    {
+      "name": "index_coffee",
+      "value": "Luckin Coffee"
+    },
+    {
+      "name": "index_search",
+      "value": "Search"
+    },
+    {
+      "name": "index_text",
+      "value": "Gourmet department stores are on call"
+    },
+    {
+      "name": "index_takeaway",
+      "value": "Takeaway"
+    },
+    {
+      "name": "index_buy",
+      "value": "Buy"
+    },
+    {
+      "name": "index_convenient",
+      "value": "Convenient"
+    },
+    {
+      "name": "index_general_merchandise",
+      "value": "Merchandise"
+    },
+    {
+      "name": "index_medicine",
+      "value": "Buy medicine"
+    },
+    {
+      "name": "index_recommend",
+      "value": "Recommend"
+    },
+    {
+      "name": "index_optimization",
+      "value": "Optimization"
+    },
+    {
+      "name": "index_video",
+      "value": "Video"
+    },
+    {
+      "name": "index_message",
+      "value": "Message"
+    },
+    {
+      "name": "index_me",
+      "value": "Me"
+    },
+    {
+      "name": "business_noodles",
+      "value": "Noodles"
+    },
+    {
+      "name": "business_takeaway",
+      "value": "Takeaway"
+    },
+    {
+      "name": "business_vip",
+      "value": "Vip"
+    },
+    {
+      "name": "business_order",
+      "value": "Order"
+    },
+    {
+      "name": "business_more",
+      "value": "More"
+    },
+    {
+      "name": "Connection_timesout",
+      "value": "The connection times out. Please check the network status"
+    },
+    {
+      "name": "pd_dispenser_description",
+      "value": "Dispenser description"
+    },
+    {
+      "name": "pd_package_contents",
+      "value": "Package Contents："
+    },
+    {
+      "name": "pd_price_description",
+      "value": "Price description"
+    },
+    {
+      "name": "pd_tabs_detail",
+      "value": "Detail"
+    },
+    {
+      "name": "pd_tabs_appraise",
+      "value": "Appraise 2000+"
+    },
+    {
+      "name": "commodity_tabs_order",
+      "value": "Order"
+    },
+    {
+      "name": "business_less_delivery",
+      "value": "Less delivery fees"
+    },
+    {
+      "name": "business_zero",
+      "value": "From 0 yuan"
+    },
+    {
+      "name": "business_order_minus",
+      "value": "The first order is minus"
+    },
+    {
+      "name": "business_score",
+      "value": "\"s%\"Score"
+    },
+    {
+      "name": "business_monthly_sale",
+      "value": "Monthly sales"
+    },
+    {
+      "name": "business_good_shop",
+      "value": "Good shop"
+    },
+    {
+      "name": "business_buy_back",
+      "value": "\"Will buy back the money!\\"
+    },
+    {
+      "name": "business_reduce",
+      "value": "20 minus 5 | Full 30 minus 10"
+    },
+    {
+      "name": "business_per_capita",
+      "value": "Per capita"
+    },
+    {
+      "name": "business_delivery",
+      "value": "tuangou Express Delivery"
+    },
+    {
+      "name": "business_give",
+      "value": "give "
+    },
+    {
+      "name": "business_yuan",
+      "value": "yuan"
+    },
+    {
+      "name": "business_distribution",
+      "value": "distribution"
+    },
+    {
+      "name": "business_min",
+      "value": "min"
+    },
+    {
+      "name": "business_m",
+      "value": "m"
+    },
+    {
+      "name": "buy_all",
+      "value": "All"
+    },
+    {
+      "name": "buy_takeaway",
+      "value": "Takeaway"
+    },
+    {
+      "name": "buy_store",
+      "value": "Arrival at the store"
+    },
+    {
+      "name": "buy_hongtuan",
+      "value": "tuangou preferred"
+    },
+    {
+      "name": "buy_delivery",
+      "value": "Delivery"
+    },
+    {
+      "name": "buy_shop",
+      "value": "Filter for specials, group buying shops"
+    },
+    {
+      "name": "buy_time",
+      "value": "The next day at 16:00"
+    },
+    {
+      "name": "buy_address",
+      "value": "Address"
+    },
+    {
+      "name": "self_ponit",
+      "value": "Search for more addresses or pickup points"
+    },
+    {
+      "name": "self_near",
+      "value": "Pick-up point nearby"
+    },
+    {
+      "name": "self_cold",
+      "value": "Refrigerate and freeze"
+    },
+    {
+      "name": "self_door",
+      "value": "Home delivery"
+    },
+    {
+      "name": "self_service",
+      "value": "Services"
+    },
+    {
+      "name": "self_walk",
+      "value": "Walk"
+    },
+    {
+      "name": "self_choose",
+      "value": "Choose this"
+    },
+    {
+      "name": "commodity_car",
+      "value": "Shopping Cart"
+    },
+    {
+      "name": "commodity_share",
+      "value": "Share businesses"
+    },
+    {
+      "name": "commodity_call",
+      "value": "Call the business"
+    },
+    {
+      "name": "commodity_one",
+      "value": "One serving"
+    },
+    {
+      "name": "commodity_reduce_money",
+      "value": "5 has been reduced"
+    },
+    {
+      "name": "commodity_clear_car",
+      "value": "Empty the cart"
+    },
+    {
+      "name": "commodity_to_pay",
+      "value": "Go to checkout"
+    },
+    {
+      "name": "commodity_to_give",
+      "value": "From 20 RMB"
+    },
+    {
+      "name": "commodity_fee",
+      "value": "Estimated delivery fee ¥0"
+    },
+    {
+      "name": "commodity_vip",
+      "value": "tuangou vip"
+    },
+    {
+      "name": "commodity_all_in",
+      "value": "All"
+    },
+    {
+      "name": "commodity_best_new",
+      "value": "Best new"
+    },
+    {
+      "name": "commodity_good_reviews",
+      "value": "Good reviews"
+    },
+    {
+      "name": "commodity_bad_reviews",
+      "value": "Bad reviews"
+    },
+    {
+      "name": "commodity_video",
+      "value": "There are pictures/videos"
+    },
+    {
+      "name": "commodity_month",
+      "value": "Monthly sales"
+    },
+    {
+      "name": "commodity_good",
+      "value": "Positive rating95%"
+    },
+    {
+      "name": "commodity_tell",
+      "value": "166666666666"
+    },
+    {
+      "name": "commodity_money",
+      "value": "￥"
+    },
+    {
+      "name": "commodity_des",
+      "value": "Full 28 minus 4, Full 36 minus 6, Full 49 minus 8, Full 79 minus 15"
+    },
+    {
+      "name": "login_phone_input",
+      "value": "13111111111"
+    },
+    {
+      "name": "login_pass_input",
+      "value": "123456"
+    },
+    {
+      "name": "commodity_plus",
+      "value": "+"
+    },
+    {
+      "name": "commodity_reduce",
+      "value": "-"
+    },
+    {
+      "name": "commodity_right",
+      "value": ">"
+    },
+    {
+      "name": "buy_longitude",
+      "value": "111.28"
+    },
+    {
+      "name": "buy_latitude",
+      "value": "28.57"
+    }
+  ]
+}

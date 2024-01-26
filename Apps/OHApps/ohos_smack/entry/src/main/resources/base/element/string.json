@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "smack"
+    },
+    {
+      "name": "invite_str",
+      "value": "%s 邀请您加入群聊"
+    },
+    {
+      "name": "add_friends_str",
+      "value": "%s 请求添加你为好友"
+    }
+  ]
+}

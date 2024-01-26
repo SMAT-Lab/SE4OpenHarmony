@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>UpdateBoundComponentCode.ets</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #faa23d;}
+.s3 { color: #aa7dfc;}
+.s4 { color: #bbb529;}
+.s5 { color: #e2da90;}
+.s6 { color: #b3e54c;}
+.s7 { color: #db7e9b;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+UpdateBoundComponentCode.ets</font>
+</center></td></tr></table>
+<pre><span class="s0">/* 
+ * Copyright (c) 2023 Huawei Device Co., Ltd. 
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License. 
+ */</span>
+
+<span class="s1">import </span><span class="s2">{ </span><span class="s1">ViewCodeText </span><span class="s2">} </span><span class="s1">from </span><span class="s3">'../../../../../commoncomponents/ViewCodeText'</span>
+
+<span class="s4">@</span><span class="s1">Component</span>
+<span class="s1">export struct UpdateBoundComponentCode </span><span class="s2">{</span>
+  <span class="s0">// 组件内状态变量</span>
+  <span class="s4">@</span><span class="s1">State titleName</span><span class="s5">: </span><span class="s1">string </span><span class="s5">= </span><span class="s3">'title'</span><span class="s5">;</span>
+  <span class="s0">// 组件内private变量</span>
+  <span class="s1">private content</span><span class="s5">: </span><span class="s1">string </span><span class="s5">= </span><span class="s3">'content'</span><span class="s5">;</span>
+  <span class="s0">// 组件内变量更新的次数</span>
+  <span class="s1">private updateCount</span><span class="s5">: </span><span class="s1">number </span><span class="s5">= </span><span class="s6">0</span><span class="s5">;</span>
+
+  <span class="s1">build</span><span class="s7">() </span><span class="s2">{</span>
+    <span class="s1">Column</span><span class="s7">(</span><span class="s2">{ </span><span class="s1">space</span><span class="s5">: </span><span class="s6">10 </span><span class="s2">}</span><span class="s7">) </span><span class="s2">{</span>
+      <span class="s0">// 点击查看源码</span>
+      <span class="s1">ViewCodeText</span><span class="s7">(</span><span class="s2">{</span><span class="s1">webSrc</span><span class="s5">: </span><span class="s1">$rawfile</span><span class="s7">(</span><span class="s3">'UpdateBoundComponentCode.ets.html'</span><span class="s7">)</span><span class="s2">}</span><span class="s7">)</span>
+
+      <span class="s1">Column</span><span class="s7">() </span><span class="s2">{</span>
+        <span class="s1">Text</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.string.only_update_state'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">fontColor</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.color.tips_font_color'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">fontSize</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.float.tips_font_size'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">width</span><span class="s7">(</span><span class="s3">'100%'</span><span class="s7">)</span>
+        <span class="s1">Row</span><span class="s7">() </span><span class="s2">{</span>
+          <span class="s1">Text</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.string.only_update_title'</span><span class="s7">))</span>
+            <span class="s5">.</span><span class="s1">fontColor</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.color.button_text_color'</span><span class="s7">))</span>
+            <span class="s5">.</span><span class="s1">fontSize</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.float.button_text_size'</span><span class="s7">))</span>
+          <span class="s1">Text</span><span class="s7">(</span><span class="s3">`</span><span class="s2">${</span><span class="s1">this</span><span class="s5">.</span><span class="s1">titleName</span><span class="s2">}</span><span class="s3">`</span><span class="s7">) </span><span class="s0">// titleName为状态变量，绑定Text组件</span>
+            <span class="s5">.</span><span class="s1">fontColor</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.color.button_text_color'</span><span class="s7">))</span>
+            <span class="s5">.</span><span class="s1">fontSize</span><span class="s7">(</span><span class="s6">20</span><span class="s7">)</span>
+        <span class="s2">}</span>
+        <span class="s5">.</span><span class="s1">width</span><span class="s7">(</span><span class="s3">'100%'</span><span class="s7">)</span>
+        <span class="s5">.</span><span class="s1">margin</span><span class="s7">(</span><span class="s6">10</span><span class="s7">)</span>
+
+        <span class="s1">Text</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.string.only_update_private'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">fontColor</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.color.tips_font_color'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">fontSize</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.float.tips_font_size'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">width</span><span class="s7">(</span><span class="s3">'100%'</span><span class="s7">)</span>
+          <span class="s5">.</span><span class="s1">margin</span><span class="s7">(</span><span class="s2">{ </span><span class="s1">top</span><span class="s5">: </span><span class="s6">20 </span><span class="s2">}</span><span class="s7">)</span>
+        <span class="s1">Row</span><span class="s7">() </span><span class="s2">{</span>
+          <span class="s1">Text</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.string.only_update_content'</span><span class="s7">))</span>
+            <span class="s5">.</span><span class="s1">fontColor</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.color.button_text_color'</span><span class="s7">))</span>
+            <span class="s5">.</span><span class="s1">fontSize</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.float.button_text_size'</span><span class="s7">))</span>
+          <span class="s1">Text</span><span class="s7">(</span><span class="s3">`</span><span class="s2">${</span><span class="s1">this</span><span class="s5">.</span><span class="s1">content</span><span class="s2">}</span><span class="s3">`</span><span class="s7">) </span><span class="s0">// content为private，绑定Text组件</span>
+            <span class="s5">.</span><span class="s1">fontColor</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.color.button_text_color'</span><span class="s7">))</span>
+            <span class="s5">.</span><span class="s1">fontSize</span><span class="s7">(</span><span class="s6">20</span><span class="s7">)</span>
+        <span class="s2">}</span>
+        <span class="s5">.</span><span class="s1">width</span><span class="s7">(</span><span class="s3">'100%'</span><span class="s7">)</span>
+        <span class="s5">.</span><span class="s1">margin</span><span class="s7">(</span><span class="s6">10</span><span class="s7">)</span>
+      <span class="s2">}</span>
+      <span class="s5">.</span><span class="s1">width</span><span class="s7">(</span><span class="s3">'100%'</span><span class="s7">)</span>
+      <span class="s5">.</span><span class="s1">padding</span><span class="s7">(</span><span class="s6">10</span><span class="s7">)</span>
+      <span class="s5">.</span><span class="s1">justifyContent</span><span class="s7">(</span><span class="s1">FlexAlign</span><span class="s5">.</span><span class="s1">SpaceAround</span><span class="s7">)</span>
+      <span class="s5">.</span><span class="s1">backgroundColor</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.color.component_background_pink'</span><span class="s7">))</span>
+
+      <span class="s1">Column</span><span class="s7">() </span><span class="s2">{</span>
+        <span class="s1">Button</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.string.update_title_content'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">onClick</span><span class="s7">(() </span><span class="s5">=&gt; </span><span class="s2">{</span>
+            <span class="s0">// 点击更新@State和Private声明的变量，更新策略为：@State和Private的数据发生变化，@State变量绑定的组件更新，Private变量绑定的组件不更新。</span>
+            <span class="s1">this</span><span class="s5">.</span><span class="s1">updateCount</span><span class="s5">++;</span>
+            <span class="s1">this</span><span class="s5">.</span><span class="s1">content </span><span class="s5">= </span><span class="s3">`content </span><span class="s2">${</span><span class="s1">this</span><span class="s5">.</span><span class="s1">updateCount</span><span class="s2">}</span><span class="s3">`</span><span class="s5">;</span>
+            <span class="s1">this</span><span class="s5">.</span><span class="s1">titleName </span><span class="s5">= </span><span class="s3">`title </span><span class="s2">${</span><span class="s1">this</span><span class="s5">.</span><span class="s1">updateCount</span><span class="s2">}</span><span class="s3">`</span><span class="s5">;</span>
+          <span class="s2">}</span><span class="s7">)</span>
+          <span class="s5">.</span><span class="s1">id</span><span class="s7">(</span><span class="s3">'titleAndContentBtn'</span><span class="s7">)</span>
+          <span class="s5">.</span><span class="s1">width</span><span class="s7">(</span><span class="s3">'100%'</span><span class="s7">)</span>
+          <span class="s5">.</span><span class="s1">height</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.float.button_height'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">fontColor</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.color.button_text_color'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">fontSize</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.float.button_text_size'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">type</span><span class="s7">(</span><span class="s1">ButtonType</span><span class="s5">.</span><span class="s1">Capsule</span><span class="s7">)</span>
+          <span class="s5">.</span><span class="s1">backgroundColor</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.color.button_background_color'</span><span class="s7">))</span>
+        <span class="s1">Text</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.string.only_update_state_components'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">fontColor</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.color.tips_font_color'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">fontSize</span><span class="s7">(</span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.float.button_text_size'</span><span class="s7">))</span>
+          <span class="s5">.</span><span class="s1">margin</span><span class="s7">(</span><span class="s2">{ </span><span class="s1">top</span><span class="s5">: </span><span class="s6">30 </span><span class="s2">}</span><span class="s7">)</span>
+      <span class="s2">}</span><span class="s5">.</span><span class="s1">width</span><span class="s7">(</span><span class="s3">'100%'</span><span class="s7">)</span>
+    <span class="s2">}</span>
+    <span class="s5">.</span><span class="s1">padding</span><span class="s7">(</span><span class="s6">10</span><span class="s7">)</span>
+    <span class="s5">.</span><span class="s1">border</span><span class="s7">(</span><span class="s2">{ </span><span class="s1">radius</span><span class="s5">: </span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.float.component_radius'</span><span class="s7">)</span><span class="s5">, </span><span class="s1">color</span><span class="s5">: </span><span class="s1">Color</span><span class="s5">.</span><span class="s1">Grey</span><span class="s5">, </span><span class="s1">width</span><span class="s5">: </span><span class="s1">$r</span><span class="s7">(</span><span class="s3">'app.float.border_width'</span><span class="s7">) </span><span class="s2">}</span><span class="s7">)</span>
+  <span class="s2">}</span>
+<span class="s2">}</span></pre>
+</body>
+</html>

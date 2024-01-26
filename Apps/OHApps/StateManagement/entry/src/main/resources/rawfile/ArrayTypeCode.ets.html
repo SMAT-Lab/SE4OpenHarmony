@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>ArrayTypeCode.ets</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #aa7dfc;}
+.s3 { color: #e2da90;}
+.s4 { color: #faa23d;}
+.s5 { color: #db7e9b;}
+.s6 { color: #b3e54c;}
+.s7 { color: #bbb529;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ArrayTypeCode.ets</font>
+</center></td></tr></table>
+<pre><span class="s0">/* 
+ * Copyright (c) 2023 Huawei Device Co., Ltd. 
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License. 
+ */</span>
+
+<span class="s1">import promptAction from </span><span class="s2">'@ohos.promptAction'</span><span class="s3">;</span>
+<span class="s1">import </span><span class="s4">{ </span><span class="s1">ViewCodeText </span><span class="s4">} </span><span class="s1">from </span><span class="s2">'../../../../../commoncomponents/ViewCodeText'</span>
+
+<span class="s0">// 数组中元素的类</span>
+<span class="s1">export class ArrayDataType </span><span class="s4">{</span>
+  <span class="s1">public id</span><span class="s3">: </span><span class="s1">number</span><span class="s3">;</span>
+  <span class="s1">public name</span><span class="s3">: </span><span class="s1">string</span><span class="s3">;</span>
+  <span class="s1">public age</span><span class="s3">: </span><span class="s1">number</span><span class="s3">;</span>
+
+  <span class="s1">constructor</span><span class="s5">(</span><span class="s1">id</span><span class="s3">: </span><span class="s1">number</span><span class="s3">, </span><span class="s1">name</span><span class="s3">: </span><span class="s1">string</span><span class="s3">, </span><span class="s1">age</span><span class="s3">: </span><span class="s1">number</span><span class="s5">) </span><span class="s4">{</span>
+    <span class="s1">this</span><span class="s3">.</span><span class="s1">id </span><span class="s3">= </span><span class="s1">id</span><span class="s3">;</span>
+    <span class="s1">this</span><span class="s3">.</span><span class="s1">name </span><span class="s3">= </span><span class="s1">name</span><span class="s3">;</span>
+    <span class="s1">this</span><span class="s3">.</span><span class="s1">age </span><span class="s3">= </span><span class="s1">age</span><span class="s3">;</span>
+  <span class="s4">}</span>
+<span class="s4">}</span>
+
+<span class="s0">// 初始化数组数据</span>
+<span class="s1">const ARRAY_TYPE_AGE_DATA</span><span class="s3">: </span><span class="s1">ArrayDataType</span><span class="s5">[] </span><span class="s3">= </span><span class="s5">[</span><span class="s1">new ArrayDataType</span><span class="s5">(</span><span class="s6">0</span><span class="s3">, </span><span class="s2">'name'</span><span class="s3">, </span><span class="s6">17</span><span class="s5">)</span><span class="s3">, </span><span class="s1">new ArrayDataType</span><span class="s5">(</span><span class="s6">1</span><span class="s3">, </span><span class="s2">'name'</span><span class="s3">, </span><span class="s6">18</span><span class="s5">)</span><span class="s3">, </span><span class="s1">new ArrayDataType</span><span class="s5">(</span><span class="s6">2</span><span class="s3">, </span><span class="s2">'name'</span><span class="s3">, </span><span class="s6">19</span><span class="s5">)]</span>
+<span class="s0">// 初始化功能按钮字符串数据</span>
+<span class="s1">const ARRAY_TYPE_BTN</span><span class="s3">: </span><span class="s1">Resource</span><span class="s5">[] </span><span class="s3">= </span><span class="s5">[</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">&quot;app.string.array_type_add&quot;</span><span class="s5">)</span><span class="s3">, </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">&quot;app.string.array_type_delete&quot;</span><span class="s5">)</span><span class="s3">, </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">&quot;app.string.array_type_update&quot;</span><span class="s5">)]</span><span class="s3">;</span>
+
+<span class="s7">@</span><span class="s1">Component</span>
+<span class="s1">export struct ArrayTypeCode </span><span class="s4">{</span>
+  <span class="s0">// 数组类型状态变量初始化</span>
+  <span class="s7">@</span><span class="s1">State arrayTypeData</span><span class="s3">: </span><span class="s1">ArrayDataType</span><span class="s5">[] </span><span class="s3">= </span><span class="s1">ARRAY_TYPE_AGE_DATA</span><span class="s3">;</span>
+
+  <span class="s1">build</span><span class="s5">() </span><span class="s4">{</span>
+    <span class="s1">Column</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">space</span><span class="s3">: </span><span class="s6">10 </span><span class="s4">}</span><span class="s5">) </span><span class="s4">{</span>
+      <span class="s0">// 点击查看源码</span>
+      <span class="s1">ViewCodeText</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">webSrc</span><span class="s3">: </span><span class="s1">$rawfile</span><span class="s5">(</span><span class="s2">'ArrayType.ets.html'</span><span class="s5">) </span><span class="s4">}</span><span class="s5">)</span>
+      <span class="s0">// 数组内容展示</span>
+      <span class="s1">List</span><span class="s5">() </span><span class="s4">{</span>
+        <span class="s1">ForEach</span><span class="s5">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s3">, </span><span class="s5">(</span><span class="s1">item</span><span class="s3">: </span><span class="s1">ArrayDataType</span><span class="s3">, </span><span class="s1">index</span><span class="s3">: </span><span class="s1">number</span><span class="s5">) </span><span class="s3">=&gt; </span><span class="s4">{</span>
+          <span class="s1">ListItem</span><span class="s5">() </span><span class="s4">{</span>
+            <span class="s1">ArrayDataItem</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">arrayDataItem</span><span class="s3">: </span><span class="s1">item</span><span class="s3">, </span><span class="s1">itemIndex</span><span class="s3">: </span><span class="s1">index </span><span class="s4">}</span><span class="s5">)</span>
+          <span class="s4">}</span>
+        <span class="s4">}</span><span class="s3">, </span><span class="s1">item </span><span class="s3">=&gt; </span><span class="s1">JSON</span><span class="s3">.</span><span class="s1">stringify</span><span class="s5">(</span><span class="s1">item</span><span class="s5">))</span>
+      <span class="s4">}</span>
+      <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+      <span class="s3">.</span><span class="s1">height</span><span class="s5">(</span><span class="s2">'40%'</span><span class="s5">)</span>
+      <span class="s3">.</span><span class="s1">backgroundColor</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.color.component_background_pink'</span><span class="s5">))</span>
+      <span class="s3">.</span><span class="s1">padding</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">left</span><span class="s3">: </span><span class="s6">10</span><span class="s3">, </span><span class="s1">right</span><span class="s3">: </span><span class="s6">10 </span><span class="s4">}</span><span class="s5">)</span>
+      <span class="s0">// 功能按钮区</span>
+      <span class="s1">ForEach</span><span class="s5">(</span><span class="s1">ARRAY_TYPE_BTN</span><span class="s3">, </span><span class="s5">(</span><span class="s1">item</span><span class="s3">:</span><span class="s1">Resource</span><span class="s3">, </span><span class="s1">index</span><span class="s3">:</span><span class="s1">number</span><span class="s5">) </span><span class="s3">=&gt; </span><span class="s4">{</span>
+        <span class="s1">Button</span><span class="s5">(</span><span class="s1">item</span><span class="s5">)</span>
+          <span class="s3">.</span><span class="s1">id</span><span class="s5">(</span><span class="s2">`arrayTypeBtn</span><span class="s4">${</span><span class="s1">index</span><span class="s4">}</span><span class="s2">`</span><span class="s5">)</span>
+          <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+          <span class="s3">.</span><span class="s1">height</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.float.button_height'</span><span class="s5">))</span>
+          <span class="s3">.</span><span class="s1">fontColor</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.color.button_text_color'</span><span class="s5">))</span>
+          <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.float.button_text_size'</span><span class="s5">))</span>
+          <span class="s3">.</span><span class="s1">type</span><span class="s5">(</span><span class="s1">ButtonType</span><span class="s3">.</span><span class="s1">Capsule</span><span class="s5">)</span>
+          <span class="s3">.</span><span class="s1">backgroundColor</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.color.button_background_color'</span><span class="s5">))</span>
+          <span class="s3">.</span><span class="s1">onClick</span><span class="s5">(() </span><span class="s3">=&gt; </span><span class="s4">{</span>
+            <span class="s1">this</span><span class="s3">.</span><span class="s1">handleButtonClick</span><span class="s5">(</span><span class="s1">index</span><span class="s5">)</span>
+          <span class="s4">}</span><span class="s5">)</span>
+      <span class="s4">}</span><span class="s3">, </span><span class="s1">item </span><span class="s3">=&gt; </span><span class="s1">JSON</span><span class="s3">.</span><span class="s1">stringify</span><span class="s5">(</span><span class="s1">item</span><span class="s5">))</span>
+    <span class="s4">}</span>
+    <span class="s3">.</span><span class="s1">padding</span><span class="s5">(</span><span class="s6">10</span><span class="s5">)</span>
+    <span class="s3">.</span><span class="s1">border</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">radius</span><span class="s3">: </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.float.component_radius'</span><span class="s5">)</span><span class="s3">, </span><span class="s1">color</span><span class="s3">: </span><span class="s1">Color</span><span class="s3">.</span><span class="s1">Grey</span><span class="s3">, </span><span class="s1">width</span><span class="s3">: </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.float.border_width'</span><span class="s5">) </span><span class="s4">}</span><span class="s5">)</span>
+  <span class="s4">}</span>
+
+  <span class="s1">handleButtonClick</span><span class="s5">(</span><span class="s1">index</span><span class="s3">: </span><span class="s1">number</span><span class="s5">)</span><span class="s4">{</span>
+    <span class="s1">switch </span><span class="s5">(</span><span class="s1">index</span><span class="s5">) </span><span class="s4">{</span>
+      <span class="s1">case </span><span class="s6">0</span><span class="s3">:</span>
+      <span class="s0">// 数组添加元素</span>
+        <span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s3">.</span><span class="s1">push</span><span class="s5">(</span><span class="s1">new ArrayDataType</span><span class="s5">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s3">.</span><span class="s1">length</span><span class="s3">, </span><span class="s2">`name`</span><span class="s3">, </span><span class="s6">18</span><span class="s5">))</span><span class="s3">; </span><span class="s0">// 新增元素数据，age为18</span>
+        <span class="s1">break</span><span class="s3">;</span>
+      <span class="s1">case </span><span class="s6">1</span><span class="s3">:</span>
+        <span class="s1">if </span><span class="s5">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s3">.</span><span class="s1">length </span><span class="s3">=== </span><span class="s6">0</span><span class="s5">) </span><span class="s4">{</span>
+          <span class="s0">// 当数据没有数据的时候，点击删除按钮，出现提示弹窗</span>
+          <span class="s1">promptAction</span><span class="s3">.</span><span class="s1">showToast</span><span class="s5">(</span><span class="s4">{</span>
+            <span class="s1">message</span><span class="s3">: </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.string.array_type_deletetoast'</span><span class="s5">)</span>
+          <span class="s4">}</span><span class="s5">)</span><span class="s3">;</span>
+        <span class="s4">} </span><span class="s1">else </span><span class="s4">{</span>
+          <span class="s0">// 数组删除元素</span>
+          <span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s3">.</span><span class="s1">splice</span><span class="s5">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s3">.</span><span class="s1">length </span><span class="s3">- </span><span class="s6">1</span><span class="s3">, </span><span class="s6">1</span><span class="s5">)</span><span class="s3">; </span><span class="s0">// 删除最后一个元素</span>
+        <span class="s4">}</span>
+        <span class="s1">break</span><span class="s3">;</span>
+      <span class="s1">case </span><span class="s6">2</span><span class="s3">:</span>
+        <span class="s1">if </span><span class="s5">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s3">.</span><span class="s1">length </span><span class="s3">=== </span><span class="s6">0</span><span class="s5">) </span><span class="s4">{</span>
+          <span class="s0">// 当数据没有数据的时候，点击更新按钮，出现提示弹窗</span>
+          <span class="s1">promptAction</span><span class="s3">.</span><span class="s1">showToast</span><span class="s5">(</span><span class="s4">{</span>
+            <span class="s1">message</span><span class="s3">: </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.string.array_type_updatetoast'</span><span class="s5">)</span>
+          <span class="s4">}</span><span class="s5">)</span><span class="s3">;</span>
+          <span class="s1">break</span><span class="s3">;</span>
+        <span class="s4">}</span>
+      <span class="s0">// 初始化一个对象后给数组中的元素赋值，更新数组元素</span>
+        <span class="s1">let temp </span><span class="s3">= </span><span class="s1">new ArrayDataType</span><span class="s5">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s5">[</span><span class="s6">0</span><span class="s5">]</span><span class="s3">.</span><span class="s1">id</span><span class="s3">, </span><span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s5">[</span><span class="s6">0</span><span class="s5">]</span><span class="s3">.</span><span class="s1">name</span><span class="s3">, </span><span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s5">[</span><span class="s6">0</span><span class="s5">]</span><span class="s3">.</span><span class="s1">age </span><span class="s3">+ </span><span class="s6">1</span><span class="s5">)</span><span class="s3">;</span>
+        <span class="s1">this</span><span class="s3">.</span><span class="s1">arrayTypeData</span><span class="s5">[</span><span class="s6">0</span><span class="s5">] </span><span class="s3">= </span><span class="s1">temp</span><span class="s3">;</span>
+        <span class="s1">break</span><span class="s3">;</span>
+      <span class="s1">default</span><span class="s3">:</span>
+        <span class="s1">break</span><span class="s3">;</span>
+    <span class="s4">}</span>
+  <span class="s4">}</span>
+<span class="s4">}</span>
+
+<span class="s0">// 数组Item内容组件</span>
+<span class="s7">@</span><span class="s1">Component</span>
+<span class="s1">struct ArrayDataItem </span><span class="s4">{</span>
+  <span class="s1">private arrayDataItem</span><span class="s3">: </span><span class="s1">ArrayDataType</span><span class="s3">;</span>
+  <span class="s1">private itemIndex</span><span class="s3">: </span><span class="s1">number</span><span class="s3">;</span>
+
+  <span class="s1">build</span><span class="s5">() </span><span class="s4">{</span>
+    <span class="s1">Column</span><span class="s5">() </span><span class="s4">{</span>
+      <span class="s1">Text</span><span class="s5">(</span><span class="s2">`</span><span class="s4">${</span><span class="s1">this</span><span class="s3">.</span><span class="s1">arrayDataItem</span><span class="s3">.</span><span class="s1">name</span><span class="s4">}${</span><span class="s1">this</span><span class="s3">.</span><span class="s1">itemIndex</span><span class="s4">}</span><span class="s2">`</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">fontColor</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.color.button_text_color'</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s6">20</span><span class="s5">)</span>
+      <span class="s1">Text</span><span class="s5">(</span><span class="s2">`age:</span><span class="s4">${</span><span class="s1">this</span><span class="s3">.</span><span class="s1">arrayDataItem</span><span class="s3">.</span><span class="s1">age</span><span class="s4">}</span><span class="s2">`</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">fontColor</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.color.button_text_color'</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s6">20</span><span class="s5">)</span>
+      <span class="s1">Divider</span><span class="s5">()</span><span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">strokeWidth</span><span class="s5">(</span><span class="s6">1</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">margin</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">top</span><span class="s3">: </span><span class="s6">20 </span><span class="s4">}</span><span class="s5">)</span>
+    <span class="s4">}</span>
+    <span class="s3">.</span><span class="s1">margin</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">top</span><span class="s3">: </span><span class="s6">20 </span><span class="s4">}</span><span class="s5">)</span>
+  <span class="s4">}</span>
+<span class="s4">}</span></pre>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "example description",
+  "main": "",
+  "version": "2.0.0",
+  "dependencies": {
+    "ml-matrix": "6.10.2",
+    "bignumber.js": "^9.1.0",
+    "mathjs": "11.2.0",
+    "long": "^5.2.0"
+  }
+}

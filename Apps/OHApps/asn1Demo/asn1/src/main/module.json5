@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "asn1",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

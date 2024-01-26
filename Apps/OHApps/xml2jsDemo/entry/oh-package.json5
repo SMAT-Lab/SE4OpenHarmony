@@ -1,0 +1,20 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "ohos": {
+    "org": "huawei",
+    "directoryLevel": "module",
+    "buildTool": "hvigor"
+  },
+  "description": "example description",
+  "main": "",
+  "repository": {},
+  "version": "1.0.0",
+  "dependencies": {
+    "timers": "0.1.1",
+    "xml2js": "^0.4.23",
+    "events": "3.3.0"
+  }
+}

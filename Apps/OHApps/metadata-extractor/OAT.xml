@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="copyrightPolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="版权免责声明文件，无需修改"
+                    name="NOTICE"
+                    type="filename"/>
+
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw"
+                    type="filename"/>
+
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw.bat"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigor-wrapper.js"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json"
+                    type="filename"/>
+                <filteritem
+                desc="测试辅助脚本"
+                name="*.bat"
+                type="filename"/>
+            </filefilter>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="defaultPolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="版权免责声明文件，无需修改"
+                    name="NOTICE"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigorw.bat"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="hvigor-wrapper.js"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json"
+                    type="filename"/>
+                <filteritem
+                    desc="测试辅助脚本"
+                    name="*.bat"
+                    type="filename"/>
+            </filefilter>
+            <filefilter
+                desc="Filters for resources files policies"
+                name="binaryFileTypePolicyFilter">
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.png"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.txt"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.jpg"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.psd"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.avi"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.mp4"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.JPG"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.WEBP"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.bmp"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.ico"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.gif"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.wav"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.PCX"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.mp3"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.eps"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.app1"
+                    type="filename"/>
+                <filteritem
+                    desc="直接使用的资源文件"
+                    name="*.appe"
+                    type="filename"/>
+				<filteritem
+                    desc="直接使用的资源文件"
+                    name="metadata-extractor/resources/.*"
+                    type="filepath"/>
+            </filefilter>
+        </filefilterlist>
+        <policylist>
+            <policy
+                desc="协议相关策略"
+                name="projectPolicy">
+                <policyitem
+                    desc="原开源项目的LICENSE, 类似于 MIT licenses, 符合开源要求"
+                    filefilter="defaultPolicyFilter"
+                    group="defaultGroup"
+                    name="MIT"
+                    path=".*"
+                    type="license"/>
+                <policyitem
+                    desc="原开源项目的LICENSE, 类似于MIT licenses, 符合开源要求"
+                    filefilter="defaultPolicyFilter"
+                    group="defaultGroup"
+                    name="Copyright (c) 2022 Huawei Device Co., Ltd."
+                    path=".*"
+                    rule="may"
+                    type="copyright"/>
+            </policy>
+        </policylist>
+    </oatconfig>
+</configuration>

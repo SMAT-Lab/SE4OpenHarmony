@@ -1,0 +1,26 @@
+{
+    "description": "Configuration for avplayer Tests",
+    "driver": {
+        "type": "OHJSUnitTest",
+        "test-timeout": "600000",
+        "shell-timeout": "600000",
+        "bundle-name": "com.avplayer.napitest",
+        "module-name": "com.avplayer.napitest"
+    },
+    "kits": [
+        {
+            "test-file-name": [
+                "ActsAVPlayerNdkTest.hap",
+                "ActsAVPlayerMainTest.hap"
+            ],
+            "type": "AppInstallKit",
+            "cleanup-apps": true
+        },{
+            "type": "ShellKit",
+            "run-command": [
+                "power-shell wakeup",
+                "power-shell setmode 602"
+            ]
+        }
+    ]
+}

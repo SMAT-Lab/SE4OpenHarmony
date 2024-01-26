@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "OAID"
+    },
+    {
+      "name": "navigation_title",
+      "value": "Advertisement Identification Service"
+    },
+    {
+      "name": "OAID_text",
+      "value": "OAID Text"
+    },
+    {
+      "name": "button_name",
+      "value": "Obtaining the OAID"
+    },
+    {
+      "name": "description_tips",
+      "value": "Click Permissions in the application information management page of OAID, allow Ad Tracking, and then access the application again."
+    },
+    {
+      "name": "functional_requirement",
+      "value": "This function requires the ad tracking permission."
+    },
+    {
+      "name": "quit",
+      "value": "Quit"
+    },
+    {
+      "name": "redirect",
+      "value": "Redirect"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "node-imap",
+        "License": "MIT License",
+        "License File": " LICENSE ",
+        "Version Number": "v0.8.19",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/mscdex/node-imap",
+        "Description": "An IMAP client module for node.js."
+    }
+]

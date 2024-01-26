@@ -1,0 +1,28 @@
+{
+  "name": "@ohos/node-imap",
+  "version": "1.0.1-rc.1",
+  "type": "module",
+  "types": "",
+  "description": "@ohos/node-imap is an IMAP client module for OpenHarmony",
+  "main": "index.ts",
+  "author": "ohos_tpc",
+  "ohos": {
+    "org": "opensource"
+  },
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/node-imap",
+  "license": "MIT",
+  "dependencies": {},
+  "keywords": [
+    "SMTP Protocol",
+    "send email",
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "tags": [
+    "Network",
+    "Tool"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

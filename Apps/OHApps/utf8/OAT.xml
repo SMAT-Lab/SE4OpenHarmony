@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="copyrightPolicyFilter">
+                <filteritem
+                    desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="版权文件，不添加版权头"
+                    name="LICENSE"
+                    type="filename"/>
+                <filteritem
+                    desc="NOTICE文件，不添加版权头"
+                    name="NOTICE"
+                    type="filename"/>
+
+                <filteritem type="filename" name="hvigorw" desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="hvigorw.bat" desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="hvigor-wrapper.js" desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"/>
+
+            </filefilter>
+            <filefilter
+                desc="Filters for compatibility，license header policies"
+                name="defaultPolicyFilter">
+                <filteritem
+                    desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"
+                    name="hvigorfile.ts"
+                    type="filename"/>
+                <filteritem
+                    desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"
+                    name="*.json5"
+                    type="filename"/>
+                <filteritem
+                    desc="版权文件，不添加版权头"
+                    name="LICENSE"
+                    type="filename"/>
+                <filteritem
+                    desc="NOTICE文件，不添加版权头"
+                    name="NOTICE"
+                    type="filename"/>
+                <filteritem type="filename" name="hvigorw" desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="hvigorw.bat" desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="hvigor-wrapper.js" desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"/>
+            </filefilter>
+            <filefilter
+                desc="Filters for copyright header policies"
+                name="defaultPolicyFilter">
+            </filefilter>
+            <filefilter
+                desc="Filters for binary file policies"
+                name="binaryFileTypePolicyFilter">
+                <filteritem
+                    desc="cur图片格式文件,用于展示示例"
+                    name="*.cur"
+                    type="filename"/>
+                <filteritem
+                    desc="png图片格式文件,用于展示示例"
+                    name="*.png"
+                    type="filename"/>
+                <filteritem
+                    desc="ico图片格式文件,用于展示示例"
+                    name="*.ico"
+                    type="filename"/>
+                <filteritem
+                    desc="pcx图片格式文件,用于展示示例"
+                    name="*.pcx"
+                    type="filename"/>
+                <filteritem
+                    desc="wbmp图片格式文件,用于展示示例"
+                    name="*.wbmp"
+                    type="filename"/>
+                <filteritem
+                    desc="psd图片格式文件,用于展示示例"
+                    name="*.psd"
+                    type="filename"/>
+            </filefilter>
+        </filefilterlist>
+    </oatconfig>
+</configuration>

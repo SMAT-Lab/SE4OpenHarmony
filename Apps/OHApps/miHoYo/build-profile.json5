@@ -1,0 +1,40 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\Wang\\.ohos\\config\\openharmony\\auto_ohos_default_miHoYo_com.example.mihoyo.cer",
+          "storePassword": "0000001A178A3ECC1C9B348DC6669AF40A89B770E28CF4F0E5D27420130818540C0D227B25E9DBCCE2AB",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001AFC42ACA63A30D6902CB6105BDDC676300D786084BE17656F5FB2D35DBE71FE1DDF31E32A928D",
+          "profile": "C:\\Users\\Wang\\.ohos\\config\\openharmony\\auto_ohos_default_miHoYo_com.example.mihoyo.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Wang\\.ohos\\config\\openharmony\\auto_ohos_default_miHoYo_com.example.mihoyo.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "description": "Configuration for esmodule_entry_hap Tests",
+    "driver": {
+        "type": "OHJSUnitTest",
+        "test-timeout": "1800000",
+        "bundle-name": "com.esmodule.acts",
+        "module-name": "entry",
+        "shell-timeout": "180000",
+        "compile-mode": "esmodule"
+    },
+    "kits": [
+        {
+            "test-file-name": [
+                "ActsEsmoduleEntryTest.hap"
+            ],
+            "type": "AppInstallKit",
+            "cleanup-apps": true
+        }
+    ]
+}

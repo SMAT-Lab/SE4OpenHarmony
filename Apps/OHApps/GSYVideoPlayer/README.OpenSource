@@ -1,0 +1,47 @@
+[
+    {
+        "Name": " GSYVideoPlayer",
+        "License": " Apache-2.0 license ",
+        "License File": " LICENSE ",
+        "Version Number": "v8.5.0-release-jitpack",
+        "Owner": "xiafeng@huawei.com"
+        "Upstream URL": " https://github.com/CarGuo/GSYVideoPlayer",
+        "Description": "  支持 IJKPlayer、 Media3(EXOPlayer2)、MediaPlayer、AliPlayer，实现了多功能的视频播放器。"
+    },
+     {
+        "Name": " ohos_ijkplayer",
+        "License": " LGPLv2.1 or later ",
+        "License File": " LICENSE ",
+        "Version Number": "2.0.2",
+        "Owner": "xiafeng@huawei.com"
+        "Upstream URL": " https://gitee.com/openharmony-sig/ohos_ijkplayer",
+        "Description": "  ijkplayer是OpenHarmony环境下可用的一款基于FFmpeg的视频播放器。"
+    },
+    {
+        "Name": " mp4parser",
+        "License": " Apache-2.0 license ",
+        "License File": " LICENSE ",
+        "Version Number": "2.0.3-rc.0",
+        "Owner": "xiafeng@huawei.com"
+        "Upstream URL": " https://gitee.com/openharmony-tpc/mp4parser",
+        "Description": "  一个读取、写入操作音视频文件编辑的工具。"
+    },
+     {
+        "Name": " OhosVideoCache",
+        "License": " Apache-2.0 license ",
+        "License File": " LICENSE ",
+        "Version Number": "1.0.0-rc.0",
+        "Owner": "xiafeng@huawei.com"
+        "Upstream URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/OhosVideoCache",
+        "Description": "  OhosVideoCache是一个支持边播放边缓存的库。"
+    },
+     {
+        "Name": " DanmakuFlameMaster",
+        "License": " Apache-2.0 license ",
+        "License File": " LICENSE ",
+        "Version Number": "2.0.0",
+        "Owner": "xiafeng@huawei.com"
+        "Upstream URL": " https://gitee.com/openharmony-sig/DanmakuFlameMaster",
+        "Description": "  DanmakuFlameMaster是一款弹幕框架，支持发送纯文本弹幕、设置弹幕在屏幕的显示区域、控制弹幕播放状态等功能。"
+    }
+]

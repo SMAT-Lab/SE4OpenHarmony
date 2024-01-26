@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "leven",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "4.0.0",
+        "Owner" : "sindresorhus"
+        "Upstream URL": "https://github.com/sindresorhus/leven",
+        "Description": "Measure the difference between two strings with the fastest JS implementation of the Levenshtein distance algorithm"
+    }
+]

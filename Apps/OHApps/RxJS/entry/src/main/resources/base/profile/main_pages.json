@@ -1,0 +1,14 @@
+{
+  "src": [
+    "pages/index",
+    "pages/create",
+    "pages/combine",
+    "pages/condition",
+    "pages/error",
+    "pages/multicast",
+    "pages/tool",
+    "pages/convert",
+    "pages/filter",
+    "pages/scheduler"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "分布式视频播放器"
+    },
+    {
+      "name": "choiceDevice",
+      "value": "选择设备"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "distributed_permission",
+      "value": "用于分布式视频播放器进行不同设备间的数据交换"
+    },
+    {
+      "name": "media_reason",
+      "value": "用于分布式视频播放器访问用户媒体文件中的地理位置信息"
+    }
+  ]
+}

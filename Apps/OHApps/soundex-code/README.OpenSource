@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "soundex-code",
+        "License": "MIT License",
+        "License File": "https://github.com/words/soundex-code/blob/main/license",
+        "Version Number": "2.0.1",
+        "Owner" : "words",
+        "Upstream URL": "https://github.com/words/soundex-code",
+        "Description": "Soundex phonetic algorithm"
+    }
+]

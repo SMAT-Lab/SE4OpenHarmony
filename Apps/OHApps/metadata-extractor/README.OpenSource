@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "metadata-extractor",
+        "License": "Apache-2.0 License",
+        "License File": " LICENSE ",
+        "Version Number": "2.17.0",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/drewnoakes/metadata-extractor",
+        "Description": "Extracts Exif, IPTC, XMP, ICC and other metadata from image, video and audio files"
+    }
+]

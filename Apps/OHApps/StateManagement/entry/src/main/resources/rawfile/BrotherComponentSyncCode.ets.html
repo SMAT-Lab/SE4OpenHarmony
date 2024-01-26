@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>BrotherComponentSyncCode.ets</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #faa23d;}
+.s3 { color: #aa7dfc;}
+.s4 { color: #bbb529;}
+.s5 { color: #db7e9b;}
+.s6 { color: #e2da90;}
+.s7 { color: #b3e54c;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+BrotherComponentSyncCode.ets</font>
+</center></td></tr></table>
+<pre><span class="s0">/* 
+ * Copyright (c) 2023 Huawei Device Co., Ltd. 
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License. 
+ */</span>
+
+<span class="s1">import </span><span class="s2">{ </span><span class="s1">ProvideFatherComponent </span><span class="s2">} </span><span class="s1">from </span><span class="s3">'./ProvideFatherComponent'</span>
+<span class="s1">import </span><span class="s2">{ </span><span class="s1">StateFatherComponent </span><span class="s2">} </span><span class="s1">from </span><span class="s3">'./StateFatherComponent'</span>
+
+<span class="s4">@</span><span class="s1">Component</span>
+<span class="s1">export struct BrotherComponentSyncCode </span><span class="s2">{</span>
+
+  <span class="s1">build</span><span class="s5">() </span><span class="s2">{</span>
+    <span class="s1">Column</span><span class="s5">() </span><span class="s2">{</span>
+      <span class="s1">Column</span><span class="s5">() </span><span class="s2">{</span>
+        <span class="s1">Text</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s3">'app.string.realize_by_state_link'</span><span class="s5">))</span>
+          <span class="s6">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s3">'app.float.tips_font_size'</span><span class="s5">))</span>
+          <span class="s6">.</span><span class="s1">width</span><span class="s5">(</span><span class="s3">'100%'</span><span class="s5">)</span>
+          <span class="s6">.</span><span class="s1">textAlign</span><span class="s5">(</span><span class="s1">TextAlign</span><span class="s6">.</span><span class="s1">Start</span><span class="s5">)</span>
+        <span class="s0">// 共同父组件@State</span>
+        <span class="s1">StateFatherComponent</span><span class="s5">()</span>
+      <span class="s2">}</span>
+
+      <span class="s1">Column</span><span class="s5">() </span><span class="s2">{</span>
+        <span class="s1">Text</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s3">'app.string.realize_by_provide_consume'</span><span class="s5">))</span>
+          <span class="s6">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s3">'app.float.tips_font_size'</span><span class="s5">))</span>
+          <span class="s6">.</span><span class="s1">width</span><span class="s5">(</span><span class="s3">'100%'</span><span class="s5">)</span>
+          <span class="s6">.</span><span class="s1">textAlign</span><span class="s5">(</span><span class="s1">TextAlign</span><span class="s6">.</span><span class="s1">Start</span><span class="s5">)</span>
+        <span class="s0">// 共同父组件@Provide</span>
+        <span class="s1">ProvideFatherComponent</span><span class="s5">()</span>
+      <span class="s2">}</span>
+      <span class="s6">.</span><span class="s1">margin</span><span class="s5">(</span><span class="s2">{ </span><span class="s1">top</span><span class="s6">: </span><span class="s7">10 </span><span class="s2">}</span><span class="s5">)</span>
+    <span class="s2">}</span>
+  <span class="s2">}</span>
+<span class="s2">}</span></pre>
+</body>
+</html>

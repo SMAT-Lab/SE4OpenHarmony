@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Setting",
+    "pages/LocalUpdater",
+    "pages/changeip",
+    "pages/AppUpdater",
+    "pages/AppLocalUpdater"
+  ]
+}

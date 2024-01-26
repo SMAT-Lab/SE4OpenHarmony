@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>ConsumeBrotherTwoComponent.ets</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #aa7dfc;}
+.s3 { color: #e2da90;}
+.s4 { color: #faa23d;}
+.s5 { color: #bbb529;}
+.s6 { color: #db7e9b;}
+.s7 { color: #b3e54c;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ConsumeBrotherTwoComponent.ets</font>
+</center></td></tr></table>
+<pre><span class="s0">/* 
+ * Copyright (c) 2023 Huawei Device Co., Ltd. 
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License. 
+ */</span>
+
+<span class="s1">import common from </span><span class="s2">'@ohos.app.ability.common'</span><span class="s3">;</span>
+<span class="s1">import </span><span class="s4">{ </span><span class="s1">ColorType </span><span class="s4">} </span><span class="s1">from </span><span class="s2">'../model/ColorType'</span><span class="s3">;</span>
+<span class="s1">import </span><span class="s4">{ </span><span class="s1">COLOR_SELECT_DATA </span><span class="s4">} </span><span class="s1">from </span><span class="s2">'../data/ColorData'</span><span class="s3">;</span>
+<span class="s1">import </span><span class="s4">{ </span><span class="s1">getResourceString </span><span class="s4">} </span><span class="s1">from </span><span class="s2">'../../../../utils/ResourceUtils'</span><span class="s3">;</span>
+<span class="s1">import </span><span class="s4">{ </span><span class="s1">ViewCodeText </span><span class="s4">} </span><span class="s1">from </span><span class="s2">'../../../../commoncomponents/ViewCodeText'</span>
+
+<span class="s5">@</span><span class="s1">Component</span>
+<span class="s1">export struct ConsumeBrotherTwoComponent </span><span class="s4">{</span>
+  <span class="s5">@</span><span class="s1">State selectColors</span><span class="s3">: </span><span class="s1">ColorType</span><span class="s6">[] </span><span class="s3">= </span><span class="s1">COLOR_SELECT_DATA</span><span class="s3">;</span>
+  <span class="s0">// 和父组件、子组件B双向同步圆形颜色</span>
+  <span class="s5">@</span><span class="s1">Consume consumeCircleColor</span><span class="s3">: </span><span class="s1">Resource</span><span class="s3">;</span>
+  <span class="s0">// 和父组件、子组件A双向同步Select组件的Index值</span>
+  <span class="s5">@</span><span class="s1">Consume currentSelectIndex</span><span class="s3">: </span><span class="s1">number</span><span class="s3">;</span>
+
+  <span class="s1">build</span><span class="s6">() </span><span class="s4">{</span>
+    <span class="s1">Column</span><span class="s6">(</span><span class="s4">{ </span><span class="s1">space</span><span class="s3">: </span><span class="s7">10 </span><span class="s4">}</span><span class="s6">) </span><span class="s4">{</span>
+      <span class="s0">// 点击查看源码</span>
+      <span class="s1">ViewCodeText</span><span class="s6">(</span><span class="s4">{ </span><span class="s1">webSrc</span><span class="s3">: </span><span class="s1">$rawfile</span><span class="s6">(</span><span class="s2">'ParentChildPartialContentSyncCode.ets.html'</span><span class="s6">) </span><span class="s4">}</span><span class="s6">)</span>
+      <span class="s1">Text</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.string.consume_brothers_title'</span><span class="s6">))</span>
+        <span class="s3">.</span><span class="s1">fontColor</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.color.tips_font_color'</span><span class="s6">))</span>
+        <span class="s3">.</span><span class="s1">fontSize</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.float.button_text_size'</span><span class="s6">))</span>
+        <span class="s3">.</span><span class="s1">width</span><span class="s6">(</span><span class="s2">'100%'</span><span class="s6">)</span>
+        <span class="s3">.</span><span class="s1">textAlign</span><span class="s6">(</span><span class="s1">TextAlign</span><span class="s3">.</span><span class="s1">Center</span><span class="s6">)</span>
+        <span class="s3">.</span><span class="s1">height</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.float.button_height'</span><span class="s6">))</span>
+      <span class="s1">Row</span><span class="s6">() </span><span class="s4">{</span>
+        <span class="s1">Select</span><span class="s6">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">selectColors</span><span class="s6">)</span>
+          <span class="s3">.</span><span class="s1">id</span><span class="s6">(</span><span class="s2">'consumeSelectCompB'</span><span class="s6">)</span>
+          <span class="s3">.</span><span class="s1">selected</span><span class="s6">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">currentSelectIndex</span><span class="s6">)</span>
+          <span class="s3">.</span><span class="s1">value</span><span class="s6">(</span><span class="s1">getResourceString</span><span class="s6">(</span><span class="s1">getContext</span><span class="s6">(</span><span class="s1">this</span><span class="s6">) </span><span class="s1">as common</span><span class="s3">.</span><span class="s1">UIAbilityContext</span><span class="s3">, </span><span class="s1">this</span><span class="s3">.</span><span class="s1">selectColors</span><span class="s6">[</span><span class="s1">this</span><span class="s3">.</span><span class="s1">currentSelectIndex</span><span class="s6">]</span><span class="s3">.</span><span class="s1">value</span><span class="s6">))</span>
+          <span class="s3">.</span><span class="s1">fontColor</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.color.button_text_color'</span><span class="s6">))</span>
+          <span class="s3">.</span><span class="s1">font</span><span class="s6">(</span><span class="s4">{ </span><span class="s1">size</span><span class="s3">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.float.select_font_size'</span><span class="s6">) </span><span class="s4">}</span><span class="s6">)</span>
+          <span class="s3">.</span><span class="s1">selectedOptionFont</span><span class="s6">(</span><span class="s4">{ </span><span class="s1">size</span><span class="s3">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.float.select_font_size'</span><span class="s6">) </span><span class="s4">}</span><span class="s6">)</span>
+          <span class="s3">.</span><span class="s1">optionFont</span><span class="s6">(</span><span class="s4">{ </span><span class="s1">size</span><span class="s3">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.float.select_font_size'</span><span class="s6">) </span><span class="s4">}</span><span class="s6">)</span>
+          <span class="s3">.</span><span class="s1">onSelect</span><span class="s6">((</span><span class="s1">index</span><span class="s3">: </span><span class="s1">number</span><span class="s6">) </span><span class="s3">=&gt; </span><span class="s4">{</span>
+            <span class="s0">// 此组件@Consume声明的数据页面更新，兄弟组件@Consume的数据页面同步更新</span>
+            <span class="s1">this</span><span class="s3">.</span><span class="s1">currentSelectIndex </span><span class="s3">= </span><span class="s1">index</span><span class="s3">;</span>
+            <span class="s1">this</span><span class="s3">.</span><span class="s1">consumeCircleColor </span><span class="s3">= </span><span class="s1">this</span><span class="s3">.</span><span class="s1">selectColors</span><span class="s6">[</span><span class="s1">index</span><span class="s6">]</span><span class="s3">.</span><span class="s1">color</span><span class="s3">;</span>
+          <span class="s4">}</span><span class="s6">)</span>
+        <span class="s1">Circle</span><span class="s6">()</span>
+          <span class="s3">.</span><span class="s1">size</span><span class="s6">(</span><span class="s4">{ </span><span class="s1">width</span><span class="s3">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.float.circle_size'</span><span class="s6">)</span><span class="s3">, </span><span class="s1">height</span><span class="s3">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.float.circle_size'</span><span class="s6">) </span><span class="s4">}</span><span class="s6">)</span>
+          <span class="s3">.</span><span class="s1">fill</span><span class="s6">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">consumeCircleColor</span><span class="s6">)</span>
+
+      <span class="s4">}</span><span class="s3">.</span><span class="s1">justifyContent</span><span class="s6">(</span><span class="s1">FlexAlign</span><span class="s3">.</span><span class="s1">SpaceAround</span><span class="s6">)</span>
+      <span class="s3">.</span><span class="s1">width</span><span class="s6">(</span><span class="s2">'100%'</span><span class="s6">)</span>
+    <span class="s4">}</span>
+    <span class="s3">.</span><span class="s1">padding</span><span class="s6">(</span><span class="s7">10</span><span class="s6">)</span>
+    <span class="s3">.</span><span class="s1">border</span><span class="s6">(</span><span class="s4">{ </span><span class="s1">radius</span><span class="s3">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.float.component_radius'</span><span class="s6">)</span><span class="s3">, </span><span class="s1">color</span><span class="s3">: </span><span class="s1">Color</span><span class="s3">.</span><span class="s1">Blue</span><span class="s3">, </span><span class="s1">width</span><span class="s3">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s2">'app.float.border_width'</span><span class="s6">) </span><span class="s4">}</span><span class="s6">)</span>
+  <span class="s4">}</span>
+<span class="s4">}</span></pre>
+</body>
+</html>

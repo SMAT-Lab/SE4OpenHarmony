@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "lodash.isequal",
+        "License": "MIT",
+        "License File": " LICENSE ",
+        "Version Number": "4.5.0",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/lodash/lodash",
+        "Description": "lodash.clonedeep is a function from the Lodash library. It is used to compare two given objects"
+    }
+]

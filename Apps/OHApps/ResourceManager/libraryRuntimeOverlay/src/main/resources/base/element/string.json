@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "description"
+    },
+    {
+      "name": "test_string",
+      "value": "en_US_overlay_RUNTIME"
+    }
+  ]
+}

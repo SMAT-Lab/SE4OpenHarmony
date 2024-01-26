@@ -1,0 +1,21 @@
+前置条件：
+   1.准备基于openharmony的设备
+   2.电脑环境变量中配置hdc_std或者hdc_rk
+
+
+1.从工程下的resources获取对应的文件资源
+2.以3568作为调试设备,将resources资源拷贝到本电脑的F盘下为例,
+3. 拷贝资源到板子 执行命令：F:\>hdc_std file send AVITest.avi /data/local/tmp/
+4.执行命令：hdc_std shell，进入板子
+5.执行命令：cd /data/app/el2/100/base/cn.openharmony.metadata_extractor/haps/entry/files
+6.查看安装包权限，执行命令：
+ ls -al
+total 8
+drwxr-xr-x 2 20010032 20010032 4096 1970-01-01 08:20 .
+drwxr-xr-x 4 20010032 20010032 4096 1970-01-01 08:20 ..
+7.把板子中的临时资源拷贝到安装包的文件路径 执行命令：
+cp /data/local/tmp/AVITest.avi  ./
+8，对要读取的文件授权，执行命令：
+chown 20010032:20010032 AVITest.avi
+
+备注（文件读取授权码，和安装包下files一致，如20010032）

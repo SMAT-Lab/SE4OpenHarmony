@@ -1,0 +1,12 @@
+[
+    {
+         "Name": "escape-latex",
+         "License": "MIT License",
+         "License File": "LICENSE",
+         "Version Number": "1.2.0",
+         "Owner" : "xiafeng@huawei.com"
+         "Upstream URL": "https://github.com/dangmai/escape-latex",
+         "Description": "Escape LaTeX special characters with Javascript"
+    }
+]
+

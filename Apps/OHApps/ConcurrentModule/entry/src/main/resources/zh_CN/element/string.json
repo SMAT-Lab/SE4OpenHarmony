@@ -1,0 +1,88 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "ConcurrentModule"
+    },
+    {
+      "name": "Text_desc",
+      "value": "请输入待排序字符串，并以逗号分割"
+    },
+    {
+      "name": "Result_desc",
+      "value": "执行结果"
+    },
+    {
+      "name": "SortString_desc",
+      "value": "字符串排序"
+    },
+    {
+      "name": "Clear_desc",
+      "value": "清除"
+    },
+    {
+      "name": "Execute_After_3s_desc",
+      "value": "超时3s执行"
+    },
+    {
+      "name": "Execute_Immediately_desc",
+      "value": "立即执行"
+    },
+    {
+      "name": "Function_Task_desc",
+      "value": "函数任务"
+    },
+    {
+      "name": "Cancel_Task_desc",
+      "value": "取消任务"
+    },
+    {
+      "name": "strSortText",
+      "value": "字符串排序"
+    },
+    {
+      "name": "copyFileText",
+      "value": "拷贝文件"
+    },
+    {
+      "name": "workerTitleText",
+      "value": "公共目录下文件列表"
+    },
+    {
+      "name": "logTitle",
+      "value": "触发事件后日志"
+    },
+    {
+      "name": "workerLog1",
+      "value": "1、沙箱目录文件个数"
+    },
+    {
+      "name": "workerLog2",
+      "value": "个"
+    },
+    {
+      "name": "workerLog3",
+      "value": "文件"
+    },
+    {
+      "name": "workerLog4",
+      "value": "完成"
+    },
+    {
+      "name": "workerLog5",
+      "value": "等"
+    },
+    {
+      "name": "workerLogChooseFile",
+      "value": "2、请选择文件"
+    }
+  ]
+}

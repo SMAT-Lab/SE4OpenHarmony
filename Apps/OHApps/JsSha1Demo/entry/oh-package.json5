@@ -1,0 +1,12 @@
+{
+  "license": "MIT license",
+  "devDependencies": {},
+  "author": "ohos_tpc",
+  "name": "entry",
+  "description": "A simple SHA1 hash function for JavaScript supports UTF-8 encoding.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "js-sha1": "^0.6.0"
+  }
+}

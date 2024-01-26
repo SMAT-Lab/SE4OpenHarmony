@@ -1,0 +1,112 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "etsResourceManager"
+    },
+    {
+      "name": "entry_MainAbility",
+      "value": "eTSResourceManager"
+    },
+    {
+      "name": "description_mainability",
+      "value": "eTSResourceManager Ability"
+    },
+    {
+      "name": "title",
+      "value": "ResourceManager"
+    },
+    {
+      "name": "get_info",
+      "value": "get info from ResourceManager"
+    },
+    {
+      "name": "stringDesc",
+      "value": "String: "
+    },
+    {
+      "name": "stringArrayDesc",
+      "value": "StringArray: "
+    },
+    {
+      "name": "pluralStringDesc",
+      "value": "PluralString: "
+    },
+    {
+      "name": "string_str",
+      "value": "ETSResourceManager"
+    },
+    {
+      "name": "capabilityDesc",
+      "value": "DeviceCapability: "
+    },
+    {
+      "name": "configurationDesc",
+      "value": "Configuration: "
+    },
+    {
+      "name": "mediaDesc",
+      "value": "Media size: "
+    },
+    {
+      "name": "mediaBase64Desc",
+      "value": "MediaBase64 string length: "
+    },
+    {
+      "name": "formatStr",
+      "value": "Hello %s"
+    },
+    {
+      "name": "world",
+      "value": "world"
+    },
+    {
+      "name": "formatStrDesc",
+      "value": "FormatString: "
+    },
+    {
+      "name": "densityMediaDesc",
+      "value": "Specific Screen Density Media: "
+    },
+    {
+      "name": "systemResDesc",
+      "value": "SystemResource: "
+    },
+    {
+      "name": "test_string",
+      "value": "en_US_test"
+    },
+    {
+      "name": "unEnableFailed",
+      "value": "overlay unEnable failed"
+    },
+    {
+      "name": "unEnableSuccess",
+      "value": "overlay unEnable success"
+    },
+    {
+      "name": "enableFailed",
+      "value": "overlay enable failed"
+    },
+    {
+      "name": "enableSuccess",
+      "value": "overlay enable success"
+    },
+    {
+      "name": "testResources",
+      "value": "Example of resource API"
+    },
+    {
+      "name": "testOverlay",
+      "value": "Example of using Overlay"
+    }
+  ]
+}

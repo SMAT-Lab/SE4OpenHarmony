@@ -1,0 +1,48 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MusicAlbum"
+    },
+    {
+      "name": "play_list",
+      "value": "playlist"
+    },
+    {
+      "name": "list_name",
+      "value": "Independent folk"
+    },
+    {
+      "name": "playlist_Introduction",
+      "value": "The set list is a selection of popular folk songs."
+    },
+    {
+      "name": "download",
+      "value": "download"
+    },
+    {
+      "name": "comment",
+      "value": "comment"
+    },
+    {
+      "name": "share",
+      "value": "share"
+    },
+    {
+      "name": "play_all",
+      "value": "Play all(104)"
+    },
+    {
+      "name": "collection_num",
+      "value": "125000"
+    }
+  ]
+}

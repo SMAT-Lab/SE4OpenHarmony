@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/three.js"></script>
+    <script src="./js/index.js"></script>
+    <title>Document</title>
+    <style>
+      #pano-container {
+        width: "100%";
+        height: 100vh;
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="pano-container"></div>
+    <script>
+      let btn = document.querySelector(".btn");
+      const container = document.getElementById("pano-container");
+      //img/bitmap360.jpg
+      Panorama.init(container, "xxxxx.jpg", 180);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="hvigorfile.ts" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="hvigorw.bat" desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="hvigorw" desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="NOTICE" desc="版权免责声明文件，无需修改"/>
+                <filteritem type="filename" name="LICENSE" desc="license文件声明，无需修改"/>
+                <filteritem type="filepath" name="hvigor/hvigor-wrapper.js" desc="配置文件，DevEco Studio自动生成，不手动修改"/>
+            </filefilter>
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="hvigorfile.ts" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="hvigorw.bat" desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="hvigorw" desc="hvigorw配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="NOTICE" desc="版权免责声明文件，无需修改"/>
+                <filteritem type="filename" name="LICENSE" desc="license文件声明，无需修改"/>
+                <filteritem type="filepath" name="hvigor/hvigor-wrapper.js" desc="配置文件，DevEco Studio自动生成，不手动修改"/>
+            </filefilter>
+            <filefilter desc="Filters for resources files policies" name="binaryFileTypePolicyFilter">
+                <filteritem desc="png图片格式文件,demo工程图标" name="*.png" type="filename"/>
+            </filefilter>
+        </filefilterlist>
+    </oatconfig>
+</configuration>

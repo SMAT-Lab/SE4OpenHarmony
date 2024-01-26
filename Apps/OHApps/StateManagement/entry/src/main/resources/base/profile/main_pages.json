@@ -1,0 +1,20 @@
+{
+  "src": [
+    "pages/home/Home",
+    "pages/pagelevelstagemanagement/singlecomponentstatevariables/decoratedobjecttype/basetype/BaseType",
+    "pages/pagelevelstagemanagement/singlecomponentstatevariables/decoratedobjecttype/arraytype/ArrayType",
+    "pages/pagelevelstagemanagement/singlecomponentstatevariables/decoratedobjecttype/classobjecttype/ClassObjectType",
+    "pages/pagelevelstagemanagement/singlecomponentstatevariables/updatetactics/updateboundcomponent/UpdateBoundComponent",
+    "pages/pagelevelstagemanagement/multicompomentssync/parentchildcomponentsync/uniandbidirectionsync/UniAndBidirectionSync",
+    "pages/pagelevelstagemanagement/multicompomentssync/parentchildcomponentsync/parentchildpartialcontentsync/ParentChildPartialContentSync",
+    "pages/pagelevelstagemanagement/multicompomentssync/brothercomponentssync/BrotherComponentSync",
+    "pages/pagelevelstagemanagement/multicompomentssync/deepnestcomponentssync/DeepNestComponentsSync",
+    "pages/applylevelstagemanagement/applyglobaldatasync/ApplyGlobalDataSync",
+    "pages/applylevelstagemanagement/applyglobaldatasync/StorageLinkAbilityPage",
+    "pages/applylevelstagemanagement/applyglobaldatasync/StoragePropAbilityPage",
+    "pages/applylevelstagemanagement/abilityglobaldatasync/AbilityGlobalDataSync",
+    "pages/applylevelstagemanagement/abilityglobaldatasync/LocalStorageLinkPage",
+    "pages/applylevelstagemanagement/abilityglobaldatasync/LocalStoragePropPage",
+    "pages/applylevelstagemanagement/abilityglobaldatasync/AbilityOutOfSyncPage"
+  ]
+}

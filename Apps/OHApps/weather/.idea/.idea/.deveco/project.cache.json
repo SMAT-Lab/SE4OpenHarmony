@@ -1,0 +1,13 @@
+{
+	"BuildOptions":{
+		"BUNDLE_NAME":"com.jianguo.weather",
+		"BUILD_PATH":{
+			"OUTPUT_PATH":"D:\\Desktop\\hotest-master\\hotest-master\\weather\\build\\outputs\\default"
+		},
+		"SELECT_BUILD_PRODUCT":"default"
+	},
+	"CommonInfo":{
+		"project.ide.version":"3.1.0.500",
+		"current.select.product":"default"
+	}
+}

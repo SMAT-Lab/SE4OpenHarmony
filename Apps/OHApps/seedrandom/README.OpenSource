@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "seedrandom",
+        "License": "MIT License",
+        "License File": " LICENSE ",
+        "Version Number": "3.0.5",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/davidbau/seedrandom",
+        "Description": "Seeded random number generator for JavaScript."
+    }
+]

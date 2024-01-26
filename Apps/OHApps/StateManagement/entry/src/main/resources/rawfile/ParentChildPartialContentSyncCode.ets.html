@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>ParentChildPartialContentSyncCode.ets</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #faa23d;}
+.s3 { color: #aa7dfc;}
+.s4 { color: #e2da90;}
+.s5 { color: #bbb529;}
+.s6 { color: #db7e9b;}
+.s7 { color: #b3e54c;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ParentChildPartialContentSyncCode.ets</font>
+</center></td></tr></table>
+<pre><span class="s0">/* 
+ * Copyright (c) 2023 Huawei Device Co., Ltd. 
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License. 
+ */</span>
+
+<span class="s1">import </span><span class="s2">{ </span><span class="s1">ObjectLinkComponent </span><span class="s2">} </span><span class="s1">from </span><span class="s3">'./ObjectLinkComponent'</span><span class="s4">;</span>
+<span class="s1">import </span><span class="s2">{ </span><span class="s1">ViewCodeText </span><span class="s2">} </span><span class="s1">from </span><span class="s3">'../../../../../commoncomponents/ViewCodeText'</span><span class="s4">;</span>
+
+<span class="s0">// 数组中元素的类，使用@Observed修饰</span>
+<span class="s5">@</span><span class="s1">Observed</span>
+<span class="s1">export class ClassObject </span><span class="s2">{</span>
+  <span class="s1">public elementType</span><span class="s4">: </span><span class="s1">Resource</span><span class="s4">;</span>
+  <span class="s1">public attributeType</span><span class="s4">: </span><span class="s1">Resource </span><span class="s4">| </span><span class="s1">string</span><span class="s4">;</span>
+
+  <span class="s1">constructor</span><span class="s6">(</span><span class="s1">elementType</span><span class="s4">: </span><span class="s1">Resource</span><span class="s4">, </span><span class="s1">attributeType</span><span class="s4">: </span><span class="s1">Resource </span><span class="s4">| </span><span class="s1">string</span><span class="s6">) </span><span class="s2">{</span>
+    <span class="s1">this</span><span class="s4">.</span><span class="s1">elementType </span><span class="s4">= </span><span class="s1">elementType</span><span class="s4">;</span>
+    <span class="s1">this</span><span class="s4">.</span><span class="s1">attributeType </span><span class="s4">= </span><span class="s1">attributeType</span><span class="s4">;</span>
+  <span class="s2">}</span>
+<span class="s2">}</span>
+
+<span class="s0">// 初始化父组件中的数据</span>
+<span class="s1">const PARENT_DATA</span><span class="s4">: </span><span class="s1">ClassObject</span><span class="s6">[] </span><span class="s4">= </span><span class="s6">[</span><span class="s1">new ClassObject</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">&quot;app.string.partial_sync_element_one&quot;</span><span class="s6">)</span><span class="s4">, </span><span class="s1">$r</span><span class="s6">(</span><span class="s3">&quot;app.string.partial_sync_attribute_one&quot;</span><span class="s6">))</span><span class="s4">,</span>
+  <span class="s1">new ClassObject</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">&quot;app.string.partial_sync_element_two&quot;</span><span class="s6">)</span><span class="s4">, </span><span class="s1">$r</span><span class="s6">(</span><span class="s3">&quot;app.string.partial_sync_attribute_two&quot;</span><span class="s6">))</span><span class="s4">,</span>
+  <span class="s1">new ClassObject</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">&quot;app.string.partial_sync_element_three&quot;</span><span class="s6">)</span><span class="s4">, </span><span class="s1">$r</span><span class="s6">(</span><span class="s3">&quot;app.string.partial_sync_attribute_three&quot;</span><span class="s6">))]</span><span class="s4">;</span>
+
+<span class="s5">@</span><span class="s1">Component</span>
+<span class="s1">export struct ParentChildPartialContentSyncCode </span><span class="s2">{</span>
+  <span class="s0">// 初始化父组件中状态变量</span>
+  <span class="s5">@</span><span class="s1">State parentData</span><span class="s4">: </span><span class="s1">ClassObject</span><span class="s6">[] </span><span class="s4">= </span><span class="s1">PARENT_DATA</span><span class="s4">;</span>
+  <span class="s0">// 与子组件同步的的数据是数组的第几个元素，默认选中第一个</span>
+  <span class="s5">@</span><span class="s1">State syncIndex</span><span class="s4">: </span><span class="s1">number </span><span class="s4">= </span><span class="s7">0</span><span class="s4">;</span>
+
+  <span class="s1">build</span><span class="s6">() </span><span class="s2">{</span>
+    <span class="s1">Column</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">space</span><span class="s4">: </span><span class="s7">10 </span><span class="s2">}</span><span class="s6">) </span><span class="s2">{</span>
+      <span class="s0">// 点击查看源码</span>
+      <span class="s1">ViewCodeText</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">webSrc</span><span class="s4">: </span><span class="s1">$rawfile</span><span class="s6">(</span><span class="s3">'ParentChildPartialContentSyncCode.ets.html'</span><span class="s6">) </span><span class="s2">}</span><span class="s6">)</span>
+
+      <span class="s1">Text</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">&quot;app.string.partial_sync_parent_tips&quot;</span><span class="s6">))</span>
+        <span class="s4">.</span><span class="s1">fontColor</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.color.tips_font_color'</span><span class="s6">))</span>
+        <span class="s4">.</span><span class="s1">fontSize</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.tips_font_size'</span><span class="s6">))</span>
+        <span class="s4">.</span><span class="s1">width</span><span class="s6">(</span><span class="s3">'100%'</span><span class="s6">)</span>
+        <span class="s4">.</span><span class="s1">textAlign</span><span class="s6">(</span><span class="s1">TextAlign</span><span class="s4">.</span><span class="s1">Start</span><span class="s6">)</span>
+      <span class="s0">// 父组件中List展示状态变量中的内容</span>
+      <span class="s1">Column</span><span class="s6">() </span><span class="s2">{</span>
+        <span class="s1">ForEach</span><span class="s6">(</span><span class="s1">this</span><span class="s4">.</span><span class="s1">parentData</span><span class="s4">, </span><span class="s6">(</span><span class="s1">item</span><span class="s4">: </span><span class="s1">ClassObject</span><span class="s4">, </span><span class="s1">index</span><span class="s4">: </span><span class="s1">number</span><span class="s6">) </span><span class="s4">=&gt; </span><span class="s2">{</span>
+          <span class="s1">Column</span><span class="s6">() </span><span class="s2">{</span>
+            <span class="s1">ParentCompDataItem</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">index</span><span class="s4">: </span><span class="s1">index</span><span class="s4">, </span><span class="s1">syncIndex</span><span class="s4">: </span><span class="s1">this</span><span class="s4">.</span><span class="s1">syncIndex</span><span class="s4">, </span><span class="s1">childObject</span><span class="s4">: </span><span class="s1">item </span><span class="s2">}</span><span class="s6">)</span>
+          <span class="s2">}</span>
+          <span class="s4">.</span><span class="s1">backgroundColor</span><span class="s6">(</span><span class="s1">index </span><span class="s4">=== </span><span class="s1">this</span><span class="s4">.</span><span class="s1">syncIndex </span><span class="s4">? </span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.color.component_background_pink'</span><span class="s6">) </span><span class="s4">: </span><span class="s1">undefined</span><span class="s6">)</span>
+          <span class="s4">.</span><span class="s1">onClick</span><span class="s6">(() </span><span class="s4">=&gt; </span><span class="s2">{</span>
+            <span class="s1">this</span><span class="s4">.</span><span class="s1">syncIndex </span><span class="s4">= </span><span class="s1">index</span><span class="s4">;</span>
+          <span class="s2">}</span><span class="s6">)</span>
+        <span class="s2">}</span><span class="s4">, </span><span class="s1">item </span><span class="s4">=&gt; </span><span class="s1">JSON</span><span class="s4">.</span><span class="s1">stringify</span><span class="s6">(</span><span class="s1">item</span><span class="s6">))</span>
+      <span class="s2">}</span>
+      <span class="s4">.</span><span class="s1">width</span><span class="s6">(</span><span class="s3">'100%'</span><span class="s6">)</span>
+      <span class="s4">.</span><span class="s1">backgroundColor</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.color.component_background_pink'</span><span class="s6">))</span>
+
+      <span class="s0">//与父组件状态同步的子组件</span>
+      <span class="s1">ObjectLinkComponent</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">childObjectData</span><span class="s4">: </span><span class="s1">this</span><span class="s4">.</span><span class="s1">parentData</span><span class="s6">[</span><span class="s1">this</span><span class="s4">.</span><span class="s1">syncIndex</span><span class="s6">] </span><span class="s2">}</span><span class="s6">)</span>
+    <span class="s2">}</span>
+    <span class="s4">.</span><span class="s1">width</span><span class="s6">(</span><span class="s3">'100%'</span><span class="s6">)</span>
+    <span class="s4">.</span><span class="s1">padding</span><span class="s6">(</span><span class="s7">10</span><span class="s6">)</span>
+    <span class="s4">.</span><span class="s1">border</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">radius</span><span class="s4">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.component_radius'</span><span class="s6">)</span><span class="s4">, </span><span class="s1">color</span><span class="s4">: </span><span class="s1">Color</span><span class="s4">.</span><span class="s1">Grey</span><span class="s4">, </span><span class="s1">width</span><span class="s4">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.border_width'</span><span class="s6">) </span><span class="s2">}</span><span class="s6">)</span>
+  <span class="s2">}</span>
+<span class="s2">}</span>
+
+<span class="s0">// 展示数组中单个元素的子组件</span>
+<span class="s5">@</span><span class="s1">Component</span>
+<span class="s1">struct ParentCompDataItem </span><span class="s2">{</span>
+  <span class="s1">private index</span><span class="s4">: </span><span class="s1">number</span><span class="s4">;</span>
+  <span class="s5">@</span><span class="s1">Prop syncIndex</span><span class="s4">: </span><span class="s1">number</span><span class="s4">;</span>
+  <span class="s0">// 使用@ObjectLink修饰，与父组件中元素同步</span>
+  <span class="s5">@</span><span class="s1">ObjectLink childObject</span><span class="s4">: </span><span class="s1">ClassObject</span><span class="s4">;</span>
+
+  <span class="s1">build</span><span class="s6">() </span><span class="s2">{</span>
+    <span class="s1">Column</span><span class="s6">() </span><span class="s2">{</span>
+      <span class="s1">Text</span><span class="s6">(</span><span class="s1">this</span><span class="s4">.</span><span class="s1">childObject</span><span class="s4">.</span><span class="s1">elementType</span><span class="s6">)</span>
+        <span class="s4">.</span><span class="s1">width</span><span class="s6">(</span><span class="s3">'100%'</span><span class="s6">)</span>
+        <span class="s4">.</span><span class="s1">fontSize</span><span class="s6">(</span><span class="s7">20</span><span class="s6">)</span>
+      <span class="s1">if </span><span class="s6">(</span><span class="s1">this</span><span class="s4">.</span><span class="s1">index </span><span class="s4">=== </span><span class="s1">this</span><span class="s4">.</span><span class="s1">syncIndex</span><span class="s6">) </span><span class="s2">{</span>
+        <span class="s1">TextInput</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">text</span><span class="s4">: </span><span class="s1">this</span><span class="s4">.</span><span class="s1">childObject</span><span class="s4">.</span><span class="s1">attributeType </span><span class="s2">}</span><span class="s6">)</span>
+          <span class="s4">.</span><span class="s1">fontSize</span><span class="s6">(</span><span class="s7">20</span><span class="s6">)</span>
+          <span class="s4">.</span><span class="s1">id</span><span class="s6">(</span><span class="s3">`attribute</span><span class="s2">${</span><span class="s1">this</span><span class="s4">.</span><span class="s1">index </span><span class="s4">+ </span><span class="s7">1</span><span class="s2">}</span><span class="s3">`</span><span class="s6">)</span>
+          <span class="s4">.</span><span class="s1">onChange</span><span class="s6">((</span><span class="s1">value</span><span class="s4">: </span><span class="s1">string</span><span class="s6">) </span><span class="s4">=&gt; </span><span class="s2">{</span>
+            <span class="s0">// 更新父组件中元素的属性，子组件同步</span>
+            <span class="s1">this</span><span class="s4">.</span><span class="s1">childObject</span><span class="s4">.</span><span class="s1">attributeType </span><span class="s4">= </span><span class="s1">value</span><span class="s4">;</span>
+          <span class="s2">}</span><span class="s6">)</span>
+      <span class="s2">} </span><span class="s1">else </span><span class="s2">{</span>
+        <span class="s1">Text</span><span class="s6">(</span><span class="s1">this</span><span class="s4">.</span><span class="s1">childObject</span><span class="s4">.</span><span class="s1">attributeType</span><span class="s6">)</span>
+          <span class="s4">.</span><span class="s1">width</span><span class="s6">(</span><span class="s3">'100%'</span><span class="s6">)</span>
+          <span class="s4">.</span><span class="s1">fontSize</span><span class="s6">(</span><span class="s7">20</span><span class="s6">)</span>
+      <span class="s2">}</span>
+    <span class="s2">}</span>
+    <span class="s4">.</span><span class="s1">padding</span><span class="s6">(</span><span class="s7">10</span><span class="s6">)</span>
+    <span class="s4">.</span><span class="s1">id</span><span class="s6">(</span><span class="s3">`arrayElement</span><span class="s2">${</span><span class="s1">this</span><span class="s4">.</span><span class="s1">index</span><span class="s2">}</span><span class="s3">`</span><span class="s6">)</span>
+  <span class="s2">}</span>
+<span class="s2">}</span>
+
+</pre>
+</body>
+</html>

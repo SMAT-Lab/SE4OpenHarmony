@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="build-profile.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorfile.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/module.json5"  desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/main/module.json5"  desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw"  desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw.bat" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="oh-package.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/oh-package.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="hvigor/hvigor-wrapper.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="hvigor/hvigor-config.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="AppScope/app.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="source/.*" desc="服务器上html5的代码"/>
+            </filefilter>
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="build-profile.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorfile.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="LICENSE" desc="项目工程LICENSE申明文件"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/module.json5"  desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/main/module.json5"  desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw.bat" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="oh-package.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/oh-package.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="hvigor/hvigor-wrapper.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="hvigor/hvigor-config.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="AppScope/app.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="source/.*" desc="服务器上html5的代码"/>
+            </filefilter>
+            <filefilter name="binaryFileTypePolicyFilter" desc="Filters for copyright header policies">
+                <filteritem type="filepath" name="entry/src/main/resources/base/media/icon.png" desc="项目工程默认图片文件"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/resources/base/media/icon.png" desc="项目工程默认图片文件"/>
+                <filteritem type="filepath" name="AppScope/resources/base/media/app_icon.png" desc="项目工程默认图片文件"/>
+                <filteritem type="filepath" name="gif/surface_360.gif" desc="项目效果展示图"/>
+                <filteritem type="filepath" name="source/.*" desc="服务器上html5的代码"/>
+            </filefilter>
+            <filefilter name="defaultFilter" desc="Files not to check">
+                <filteritem type="filepath" name="source/.*" desc="服务器上html5的代码"/>
+            </filefilter>
+        </filefilterlist>
+    </oatconfig>
+</configuration>

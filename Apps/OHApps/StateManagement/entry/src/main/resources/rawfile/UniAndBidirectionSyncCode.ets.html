@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>UniAndBidirectionSyncCode.ets</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #faa23d;}
+.s3 { color: #aa7dfc;}
+.s4 { color: #e2da90;}
+.s5 { color: #bbb529;}
+.s6 { color: #db7e9b;}
+.s7 { color: #b3e54c;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+UniAndBidirectionSyncCode.ets</font>
+</center></td></tr></table>
+<pre><span class="s0">/* 
+ * Copyright (c) 2023 Huawei Device Co., Ltd. 
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License. 
+ */</span>
+<span class="s1">import </span><span class="s2">{ </span><span class="s1">ChildCompLink </span><span class="s2">} </span><span class="s1">from </span><span class="s3">'./ComponentLink'</span>
+<span class="s1">import </span><span class="s2">{ </span><span class="s1">ChildCompProp </span><span class="s2">} </span><span class="s1">from </span><span class="s3">'./ComponentProp'</span>
+<span class="s1">import </span><span class="s2">{ </span><span class="s1">ViewCodeText </span><span class="s2">} </span><span class="s1">from </span><span class="s3">'../../../../../commoncomponents/ViewCodeText'</span>
+
+<span class="s0">// 初始化圆形的可设置颜色</span>
+<span class="s1">export const COLOR_DATA </span><span class="s4">= </span><span class="s2">{</span>
+  <span class="s1">GREY</span><span class="s4">: </span><span class="s3">'#eebebeba'</span><span class="s4">,</span>
+  <span class="s1">BLUE</span><span class="s4">: </span><span class="s3">'#4A90E2'</span><span class="s4">,</span>
+  <span class="s1">PINK</span><span class="s4">: </span><span class="s3">'#8DF8BEBE'</span><span class="s4">,</span>
+  <span class="s1">RED</span><span class="s4">: </span><span class="s3">'#FFF30823'</span><span class="s4">,</span>
+<span class="s2">}</span>
+
+<span class="s5">@</span><span class="s1">Component</span>
+<span class="s1">export struct UniAndBidirectionSyncCode </span><span class="s2">{</span>
+  <span class="s0">// 初始化圆形颜色的状态变量</span>
+  <span class="s5">@</span><span class="s1">State circleColor</span><span class="s4">: </span><span class="s1">string </span><span class="s4">= </span><span class="s1">COLOR_DATA</span><span class="s4">.</span><span class="s1">GREY</span><span class="s4">;</span>
+
+  <span class="s1">build</span><span class="s6">() </span><span class="s2">{</span>
+    <span class="s1">Column</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">space</span><span class="s4">: </span><span class="s7">10 </span><span class="s2">}</span><span class="s6">) </span><span class="s2">{</span>
+      <span class="s1">Column</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">space</span><span class="s4">: </span><span class="s7">10 </span><span class="s2">}</span><span class="s6">) </span><span class="s2">{</span>
+        <span class="s0">// 点击查看源码</span>
+        <span class="s1">ViewCodeText</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">webSrc</span><span class="s4">: </span><span class="s1">$rawfile</span><span class="s6">(</span><span class="s3">'UniAndBidirectionSyncCode.ets.html'</span><span class="s6">) </span><span class="s2">}</span><span class="s6">)</span>
+        <span class="s1">Text</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.string.parent_component'</span><span class="s6">))</span>
+          <span class="s4">.</span><span class="s1">fontSize</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.tips_font_size'</span><span class="s6">))</span>
+          <span class="s4">.</span><span class="s1">width</span><span class="s6">(</span><span class="s3">'100%'</span><span class="s6">)</span>
+          <span class="s4">.</span><span class="s1">textAlign</span><span class="s6">(</span><span class="s1">TextAlign</span><span class="s4">.</span><span class="s1">Start</span><span class="s6">)</span>
+          <span class="s4">.</span><span class="s1">margin</span><span class="s6">(</span><span class="s7">10</span><span class="s6">)</span>
+        <span class="s1">Text</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">&quot;app.string.uni_and_bidirection_sync_tips&quot;</span><span class="s6">))</span>
+          <span class="s4">.</span><span class="s1">fontColor</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.color.tips_font_color'</span><span class="s6">))</span>
+          <span class="s4">.</span><span class="s1">fontSize</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.tips_font_size'</span><span class="s6">))</span>
+          <span class="s4">.</span><span class="s1">width</span><span class="s6">(</span><span class="s3">'100%'</span><span class="s6">)</span>
+          <span class="s4">.</span><span class="s1">textAlign</span><span class="s6">(</span><span class="s1">TextAlign</span><span class="s4">.</span><span class="s1">Center</span><span class="s6">)</span>
+        <span class="s1">Circle</span><span class="s6">()</span>
+          <span class="s4">.</span><span class="s1">size</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">width</span><span class="s4">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.circle_size'</span><span class="s6">)</span><span class="s4">, </span><span class="s1">height</span><span class="s4">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.circle_size'</span><span class="s6">) </span><span class="s2">}</span><span class="s6">)</span>
+          <span class="s4">.</span><span class="s1">fill</span><span class="s6">(</span><span class="s1">this</span><span class="s4">.</span><span class="s1">circleColor</span><span class="s6">)</span>
+        <span class="s0">// 点击更新父组件的圆形颜色变量，父组件更新，子组件@Link以及@Prop继承的变量同步</span>
+        <span class="s1">Button</span><span class="s6">() </span><span class="s2">{</span>
+          <span class="s1">Text</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">&quot;app.string.uni_and_bidirection_sync_btn&quot;</span><span class="s6">))</span>
+            <span class="s4">.</span><span class="s1">fontColor</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.color.button_text_color'</span><span class="s6">))</span>
+            <span class="s4">.</span><span class="s1">fontSize</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.button_text_size'</span><span class="s6">))</span>
+            <span class="s4">.</span><span class="s1">width</span><span class="s6">(</span><span class="s3">'100%'</span><span class="s6">)</span>
+            <span class="s4">.</span><span class="s1">textAlign</span><span class="s6">(</span><span class="s1">TextAlign</span><span class="s4">.</span><span class="s1">Center</span><span class="s6">)</span>
+        <span class="s2">}</span>
+        <span class="s4">.</span><span class="s1">id</span><span class="s6">(</span><span class="s3">'pinkColorBtn'</span><span class="s6">)</span>
+        <span class="s4">.</span><span class="s1">height</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.button_height'</span><span class="s6">))</span>
+        <span class="s4">.</span><span class="s1">type</span><span class="s6">(</span><span class="s1">ButtonType</span><span class="s4">.</span><span class="s1">Capsule</span><span class="s6">)</span>
+        <span class="s4">.</span><span class="s1">backgroundColor</span><span class="s6">(</span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.color.button_background_color'</span><span class="s6">))</span>
+        <span class="s4">.</span><span class="s1">onClick</span><span class="s6">(() </span><span class="s4">=&gt; </span><span class="s2">{</span>
+          <span class="s1">this</span><span class="s4">.</span><span class="s1">circleColor </span><span class="s4">= </span><span class="s1">COLOR_DATA</span><span class="s4">.</span><span class="s1">PINK</span><span class="s4">;</span>
+        <span class="s2">}</span><span class="s6">)</span>
+      <span class="s2">}</span>
+      <span class="s0">// 单向同步子组件</span>
+      <span class="s1">ChildCompProp</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">circleColor</span><span class="s4">: </span><span class="s1">this</span><span class="s4">.</span><span class="s1">circleColor </span><span class="s2">}</span><span class="s6">)</span>
+      <span class="s0">// 双向同步子组件</span>
+      <span class="s1">ChildCompLink</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">circleColor</span><span class="s4">: </span><span class="s1">$circleColor </span><span class="s2">}</span><span class="s6">)</span>
+    <span class="s2">}</span>
+    <span class="s4">.</span><span class="s1">padding</span><span class="s6">(</span><span class="s7">10</span><span class="s6">)</span>
+    <span class="s4">.</span><span class="s1">border</span><span class="s6">(</span><span class="s2">{ </span><span class="s1">radius</span><span class="s4">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.component_radius'</span><span class="s6">)</span><span class="s4">, </span><span class="s1">color</span><span class="s4">: </span><span class="s1">Color</span><span class="s4">.</span><span class="s1">Grey</span><span class="s4">, </span><span class="s1">width</span><span class="s4">: </span><span class="s1">$r</span><span class="s6">(</span><span class="s3">'app.float.border_width'</span><span class="s6">) </span><span class="s2">}</span><span class="s6">)</span>
+  <span class="s2">}</span>
+<span class="s2">}</span></pre>
+</body>
+</html>

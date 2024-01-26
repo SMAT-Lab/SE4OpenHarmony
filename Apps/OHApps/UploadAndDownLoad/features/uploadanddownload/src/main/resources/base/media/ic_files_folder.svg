@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 321 270" version="1.1">
+    <title>ic_normal_white_grid_folder</title>
+    <defs>
+        <path d="M16,0 L115.92554,0 C121.2441,0 126.215009,2.64283316 129.18945,7.05188986 L157,48.2758621 L157,80 L0,80 L0,16 C0,7.163444 7.163444,0 16,0 Z" id="_path-1"/>
+        <filter x="-18.8%" y="-25.4%" width="137.5%" height="150.8%" filterUnits="objectBoundingBox" id="_filter-3">
+            <feGaussianBlur stdDeviation="20" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="_页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="_编组-151备份" transform="translate(0.428571, 0.000000)">
+            <g id="_矩形备份-9">
+                <mask id="_mask-2" fill="white">
+                    <use xlink:href="#_path-1"/>
+                </mask>
+                <use id="_蒙版" fill="#FFA800" xlink:href="#_path-1"/>
+                <rect fill="#D28E1B" opacity="0.5" filter="url(#_filter-3)" mask="url(#_mask-2)" x="0" y="33" width="320" height="236"/>
+            </g>
+            <rect id="_矩形" fill="#FFF3E2" x="10" y="36" width="175" height="35" rx="4"/>
+            <path d="M0,53 L49,53 L49,53.656 L105.797324,53.0646112 C109.837512,53.0225259 113.770215,51.7577438 117.077517,49.43683 L135.328866,36.6288662 C138.694338,34.2671312 142.705909,33 146.817381,33 L304,33 C312.836556,33 320,40.163444 320,49 L320,254 C320,262.836556 312.836556,270 304,270 L16,270 C7.163444,270 0,262.836556 0,254 L0,53 Z" id="_形状结合" fill="#FFC750"/>
+            <path d="" id="_形状结合" stroke="#FFFFFF" stroke-width="4" opacity="0.05"/>
+        </g>
+    </g>
+</svg>

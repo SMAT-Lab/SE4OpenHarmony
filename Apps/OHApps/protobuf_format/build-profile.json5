@@ -1,0 +1,46 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 10,
+        "compatibleSdkVersion": 9
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sax",
+      "srcPath": "./sax"
+    },
+    {
+      "name": "xml_js",
+      "srcPath": "./xml-js"
+    },
+    {
+      "name": "library",
+      "srcPath": "./library"
+    }
+  ]
+}

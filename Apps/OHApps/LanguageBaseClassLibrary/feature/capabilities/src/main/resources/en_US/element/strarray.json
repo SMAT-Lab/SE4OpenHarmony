@@ -1,0 +1,142 @@
+{
+  "strarray": [
+    {
+      "name": "util_menu",
+      "value": [
+        {
+          "value": "StringCode (String encoding and decoding)"
+        },
+        {
+          "value": "RationalNumber (RationalNumber)"
+        },
+        {
+          "value": "LRUCache (Lru cache)"
+        },
+        {
+          "value": "ScopeHelper (Scope judgment)"
+        },
+        {
+          "value": "Base64Helper (Base64 codec)"
+        },
+        {
+          "value": "TypeCheck (Type check)"
+        }
+      ]
+    },
+    {
+      "name": "convert_xml_operations",
+      "value": [
+        {
+          "value": "Xml Serializer"
+        },
+        {
+          "value": "Xml Pull Parser"
+        },
+        {
+          "value": "Xml Convert"
+        }
+      ]
+    },
+    {
+      "name": "lru_cache_operations",
+      "value": [
+        {
+          "value": "Initialize buffer"
+        },
+        {
+          "value": "Get buffer capacity"
+        },
+        {
+          "value": "Update buffer capacity"
+        },
+        {
+          "value": "Get buffer string"
+        },
+        {
+          "value": "Add key value pair"
+        },
+        {
+          "value": "Get value with key"
+        },
+        {
+          "value": "Get all key-values"
+        },
+        {
+          "value": "Delete the value of key"
+        },
+        {
+          "value": "Clear all key-values"
+        },
+        {
+          "value": "View operation record"
+        }
+      ]
+    },
+    {
+      "name": "process_operations",
+      "value": [
+        {
+          "value": "Get current process rum time"
+        },
+        {
+          "value": "Get process work directory"
+        },
+        {
+          "value": "Change work directory"
+        },
+        {
+          "value": "Start a child process"
+        },
+        {
+          "value": "Close the child process"
+        },
+        {
+          "value": "send signal to process"
+        },
+        {
+          "value": "Exit the process"
+        }
+      ]
+    },
+    {
+      "name": "rational_number_operations",
+      "value": [
+        {
+          "value": "Compare rational numbers"
+        },
+        {
+          "value": "Get rational number value"
+        },
+        {
+          "value": "Get numerator and denominator"
+        },
+        {
+          "value": "Check for zero"
+        },
+        {
+          "value": "Check for NaN"
+        },
+        {
+          "value": "Check for finite number"
+        }
+      ]
+    },
+    {
+      "name": "url_operations",
+      "value": [
+        {
+          "value": "Insert Key-value"
+        },
+        {
+          "value": "Delete Key-value"
+        },
+        {
+          "value": "GetFirst Key-value"
+        },
+        {
+          "value": "Set new value of key"
+        }
+      ]
+    }
+  ]
+}

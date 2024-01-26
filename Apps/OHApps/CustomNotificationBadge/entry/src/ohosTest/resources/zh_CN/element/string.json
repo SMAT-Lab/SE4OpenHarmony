@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "module_test_desc",
+      "value": "自定义通知角标"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "自定义通知角标"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "自定义通知角标"
+    },
+    {
+      "name": "basic_notification",
+      "value": "基本类型通知"
+    },
+    {
+      "name": "long_text_notification",
+      "value": "长文本类型通知"
+    },
+    {
+      "name": "multiline_notification",
+      "value": "多行文本类型通知"
+    },
+    {
+      "name": "picture_notification",
+      "value": "图片类型通知"
+    },
+    {
+      "name": "conversation_notification",
+      "value": "社交类型通知"
+    },
+    {
+      "name": "notification_title",
+      "value": "标题"
+    },
+    {
+      "name": "notification_content",
+      "value": "通知内容"
+    },
+    {
+      "name": "notification_additional",
+      "value": "通知次要内容"
+    },
+    {
+      "name": "notification_long_text",
+      "value": "通知的长文本"
+    },
+    {
+      "name": "notification_brief_text",
+      "value": "通知概要内容，是对通知内容的总结。"
+    },
+    {
+      "name": "notification_expanded_title",
+      "value": "通知展开时的标题"
+    },
+    {
+      "name": "cancel_all_notifications",
+      "value": "取消所有通知"
+    },
+    {
+      "name": "messages_list_title",
+      "value": "消息列表"
+    },
+    {
+      "name": "notification_publish_title",
+      "value": "通知发送"
+    },
+    {
+      "name": "accept",
+      "value": "允许"
+    }
+  ]
+}

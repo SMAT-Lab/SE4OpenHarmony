@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "title",
+      "value": "使用说明"
+    },
+    {
+      "name": "content1",
+      "value": "长按示例应用，等待出现服务卡片字样，点击后选择需要的卡片尺寸，添加到屏幕。"
+    },
+    {
+      "name": "content2",
+      "value": "可以将此应用安装到不同类型的设备上，查看自适应效果。"
+    },
+    {
+      "name": "index_title",
+      "value": "卡片"
+    }
+  ]
+}

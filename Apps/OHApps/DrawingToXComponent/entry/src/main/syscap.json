@@ -1,0 +1,16 @@
+{
+  "devices": {
+    "general": [
+      "phone",
+      "tablet",
+      "2in1"
+    ]
+  },
+  "development": {
+    "addedSysCaps": [
+      "SystemCapability.Graphic.Graphic2D.NativeDrawing",
+      "SystemCapability.Graphic.Graphic2D.NativeWindow",
+      "SystemCapability.Graphic.Graphic2D.NativeXComponent"
+    ]
+  }
+}

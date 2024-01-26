@@ -1,0 +1,12 @@
+{
+  "license": "MIT License",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.11"
+  },
+  "author": "ohos_tpc",
+  "name": "@babel/runtime",
+  "description": "一个 Babel 运行时的辅助库，用于在转换 ES6+ 代码时提供必要的运行时支持",
+  "main": "",
+  "version": "7.22.6",
+  "dependencies": {}
+}

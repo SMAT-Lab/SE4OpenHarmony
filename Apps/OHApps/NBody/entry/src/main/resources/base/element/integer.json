@@ -1,0 +1,37 @@
+{
+  "integer": [
+    {
+      "name": "top_bar_font_size",
+      "value": 30
+    },
+    {
+      "name": "top_bar_text_height",
+      "value": 50
+    },
+    {
+      "name": "top_bar_height",
+      "value": 50
+    },
+    {
+      "name": "top_image_border_radius",
+      "value": 5
+    },
+    {
+      "name": "center_message_font_size",
+      "value": 30
+    },
+    {
+      "name": "button_task_pool_margin_top",
+      "value": 30
+    },
+    {
+      "name": "button_worker_margin_top",
+      "value": 30
+    }
+  ,
+    {
+      "name": "AlertDialog_offset",
+      "value": -20
+    }
+  ]
+}

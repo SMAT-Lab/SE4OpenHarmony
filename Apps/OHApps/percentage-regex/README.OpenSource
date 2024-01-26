@@ -1,0 +1,11 @@
+[
+   {
+     "Name":"percentage-regex",
+     "License":"MIT license",
+     "License File":"LICENSE.txt",
+     "Version Number":"3.0.0",
+     "Owner":"arthurvr",
+     "Upstream URL":"https://github.com/arthurvr/percentage-regex",
+     "Description": "Regex to match a percentage value"
+    }
+]

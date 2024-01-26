@@ -1,0 +1,192 @@
+<html>
+<head>
+<title>ClassObjectTypeCode.ets</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #aa7dfc;}
+.s3 { color: #e2da90;}
+.s4 { color: #faa23d;}
+.s5 { color: #db7e9b;}
+.s6 { color: #bbb529;}
+.s7 { color: #b3e54c;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ClassObjectTypeCode.ets</font>
+</center></td></tr></table>
+<pre><span class="s0">/* 
+ * Copyright (c) 2023 Huawei Device Co., Ltd. 
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License. 
+ */</span>
+
+<span class="s1">import common from </span><span class="s2">'@ohos.app.ability.common'</span><span class="s3">;</span>
+<span class="s1">import </span><span class="s4">{ </span><span class="s1">ViewCodeText </span><span class="s4">} </span><span class="s1">from </span><span class="s2">'../../../../../commoncomponents/ViewCodeText'</span><span class="s3">;</span>
+<span class="s1">import </span><span class="s4">{ </span><span class="s1">getResourceString </span><span class="s4">} </span><span class="s1">from </span><span class="s2">'../../../../../utils/ResourceUtils'</span><span class="s3">;</span>
+
+<span class="s1">let context</span><span class="s3">: </span><span class="s1">common</span><span class="s3">.</span><span class="s1">UIAbilityContext </span><span class="s3">= </span><span class="s1">getContext</span><span class="s5">(</span><span class="s1">this</span><span class="s5">) </span><span class="s1">as common</span><span class="s3">.</span><span class="s1">UIAbilityContext</span><span class="s3">;</span>
+
+<span class="s6">@</span><span class="s1">Component</span>
+<span class="s1">export struct ClassObjectTypeCode </span><span class="s4">{</span>
+  <span class="s0">// 对象类型状态变量初始化</span>
+  <span class="s6">@</span><span class="s1">State classObjectData</span><span class="s3">: </span><span class="s1">ParentClass </span><span class="s3">= </span><span class="s1">new ParentClass</span><span class="s5">(</span><span class="s1">getResourceString</span><span class="s5">(</span><span class="s1">context</span><span class="s3">, </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.string.class_attribute'</span><span class="s5">))</span><span class="s3">, </span><span class="s7">1</span><span class="s3">,</span>
+    <span class="s1">new ChildClass</span><span class="s5">(</span><span class="s1">getResourceString</span><span class="s5">(</span><span class="s1">context</span><span class="s3">, </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.string.class_child_attribute'</span><span class="s5">))</span><span class="s3">, </span><span class="s7">2</span><span class="s5">))</span><span class="s3">;</span>
+  <span class="s0">// 更新对象的次数</span>
+  <span class="s1">private clickedCount</span><span class="s3">: </span><span class="s1">number </span><span class="s3">= </span><span class="s7">0</span><span class="s3">;</span>
+
+  <span class="s1">build</span><span class="s5">() </span><span class="s4">{</span>
+    <span class="s1">Column</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">space</span><span class="s3">: </span><span class="s7">10 </span><span class="s4">}</span><span class="s5">) </span><span class="s4">{</span>
+      <span class="s0">// 点击查看源码</span>
+      <span class="s1">ViewCodeText</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">webSrc</span><span class="s3">: </span><span class="s1">$rawfile</span><span class="s5">(</span><span class="s2">'ClassObjectTypeCode.ets.html'</span><span class="s5">) </span><span class="s4">}</span><span class="s5">)</span>
+      <span class="s1">Column</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">space</span><span class="s3">: </span><span class="s7">15 </span><span class="s4">}</span><span class="s5">) </span><span class="s4">{</span>
+        <span class="s1">Row</span><span class="s5">() </span><span class="s4">{</span>
+          <span class="s1">Text</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.string.class_object'</span><span class="s5">))</span>
+            <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s7">20</span><span class="s5">)</span>
+            <span class="s3">.</span><span class="s1">textAlign</span><span class="s5">(</span><span class="s1">TextAlign</span><span class="s3">.</span><span class="s1">End</span><span class="s5">)</span>
+          <span class="s1">Divider</span><span class="s5">()</span>
+            <span class="s3">.</span><span class="s1">layoutWeight</span><span class="s5">(</span><span class="s7">1</span><span class="s5">)</span>
+            <span class="s3">.</span><span class="s1">strokeWidth</span><span class="s5">(</span><span class="s7">1</span><span class="s5">)</span>
+            <span class="s3">.</span><span class="s1">margin</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">top</span><span class="s3">: </span><span class="s7">20</span><span class="s3">, </span><span class="s1">left</span><span class="s3">: </span><span class="s7">5 </span><span class="s4">}</span><span class="s5">)</span>
+        <span class="s4">}</span>
+        <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+
+        <span class="s1">Column</span><span class="s5">() </span><span class="s4">{</span>
+          <span class="s1">Row</span><span class="s5">() </span><span class="s4">{</span>
+            <span class="s1">Text</span><span class="s5">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">classObjectData</span><span class="s3">.</span><span class="s1">title</span><span class="s5">)</span>
+              <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s7">20</span><span class="s5">)</span>
+            <span class="s1">Text</span><span class="s5">(</span><span class="s2">`</span><span class="s4">${</span><span class="s1">this</span><span class="s3">.</span><span class="s1">classObjectData</span><span class="s3">.</span><span class="s1">attribute</span><span class="s4">}</span><span class="s2">`</span><span class="s5">)</span>
+              <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s7">20</span><span class="s5">)</span>
+              <span class="s3">.</span><span class="s1">textAlign</span><span class="s5">(</span><span class="s1">TextAlign</span><span class="s3">.</span><span class="s1">End</span><span class="s5">)</span>
+          <span class="s4">}</span>
+          <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+          <span class="s3">.</span><span class="s1">justifyContent</span><span class="s5">(</span><span class="s1">FlexAlign</span><span class="s3">.</span><span class="s1">SpaceBetween</span><span class="s5">)</span>
+
+          <span class="s1">Divider</span><span class="s5">()</span>
+            <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+            <span class="s3">.</span><span class="s1">strokeWidth</span><span class="s5">(</span><span class="s7">1</span><span class="s5">)</span>
+        <span class="s4">}</span>
+        <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">padding</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">left</span><span class="s3">: </span><span class="s7">50 </span><span class="s4">}</span><span class="s5">)</span>
+
+        <span class="s1">ChildObjectComp</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">childObject</span><span class="s3">: </span><span class="s1">this</span><span class="s3">.</span><span class="s1">classObjectData</span><span class="s3">.</span><span class="s1">child </span><span class="s4">}</span><span class="s5">) </span><span class="s0">// 对象的属性，使用子组件显示</span>
+      <span class="s4">}</span>
+      <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+      <span class="s3">.</span><span class="s1">backgroundColor</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.color.component_background_pink'</span><span class="s5">))</span>
+      <span class="s3">.</span><span class="s1">padding</span><span class="s5">(</span><span class="s7">10</span><span class="s5">)</span>
+      <span class="s0">// 点击更新对象</span>
+      <span class="s1">Button</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">&quot;app.string.class_type_update_object&quot;</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">onClick</span><span class="s5">(() </span><span class="s3">=&gt; </span><span class="s4">{</span>
+          <span class="s0">// 更新对象，把新的对象直接赋值给状态变量</span>
+          <span class="s1">this</span><span class="s3">.</span><span class="s1">clickedCount</span><span class="s3">++;</span>
+          <span class="s1">let objectTitle</span><span class="s3">: </span><span class="s1">string </span><span class="s3">= </span><span class="s1">getResourceString</span><span class="s5">(</span><span class="s1">context</span><span class="s3">, </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.string.class_attribute'</span><span class="s5">)) </span><span class="s3">+ </span><span class="s1">this</span><span class="s3">.</span><span class="s1">clickedCount</span><span class="s3">;</span>
+          <span class="s1">let attributeTitle</span><span class="s3">: </span><span class="s1">string </span><span class="s3">= </span><span class="s1">getResourceString</span><span class="s5">(</span><span class="s1">context</span><span class="s3">, </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.string.class_child_attribute'</span><span class="s5">))</span>
+                                       <span class="s3">+ </span><span class="s1">this</span><span class="s3">.</span><span class="s1">clickedCount</span><span class="s3">;</span>
+          <span class="s1">let newObject </span><span class="s3">= </span><span class="s1">new ParentClass</span><span class="s5">(</span><span class="s1">objectTitle</span><span class="s3">, </span><span class="s1">this</span><span class="s3">.</span><span class="s1">classObjectData</span><span class="s3">.</span><span class="s1">attribute </span><span class="s3">+ </span><span class="s7">1</span><span class="s3">,</span>
+            <span class="s1">new ChildClass</span><span class="s5">(</span><span class="s1">attributeTitle</span><span class="s3">, </span><span class="s1">this</span><span class="s3">.</span><span class="s1">classObjectData</span><span class="s3">.</span><span class="s1">child</span><span class="s3">.</span><span class="s1">attribute </span><span class="s3">+ </span><span class="s7">1</span><span class="s5">))</span><span class="s3">;</span>
+          <span class="s1">this</span><span class="s3">.</span><span class="s1">classObjectData </span><span class="s3">= </span><span class="s1">newObject</span><span class="s3">;</span>
+        <span class="s4">}</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">id</span><span class="s5">(</span><span class="s2">'updateObject'</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">fontColor</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.color.button_text_color'</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.float.button_text_size'</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">type</span><span class="s5">(</span><span class="s1">ButtonType</span><span class="s3">.</span><span class="s1">Capsule</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">buttonStyle</span><span class="s5">()</span>
+      <span class="s1">Button</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">&quot;app.string.class_type_update_attribute&quot;</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">onClick</span><span class="s5">(() </span><span class="s3">=&gt; </span><span class="s4">{</span>
+          <span class="s0">// 点击更新对象的属性</span>
+          <span class="s1">this</span><span class="s3">.</span><span class="s1">classObjectData</span><span class="s3">.</span><span class="s1">attribute</span><span class="s3">++;</span>
+        <span class="s4">}</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">id</span><span class="s5">(</span><span class="s2">'updateObjectAttribute'</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">fontColor</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.color.button_text_color'</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.float.button_text_size'</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">type</span><span class="s5">(</span><span class="s1">ButtonType</span><span class="s3">.</span><span class="s1">Capsule</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">buttonStyle</span><span class="s5">()</span>
+      <span class="s1">Button</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">&quot;app.string.class_type_update_child_attribute&quot;</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">onClick</span><span class="s5">(() </span><span class="s3">=&gt; </span><span class="s4">{</span>
+          <span class="s0">// 点击更新对象属性的属性</span>
+          <span class="s1">this</span><span class="s3">.</span><span class="s1">classObjectData</span><span class="s3">.</span><span class="s1">child</span><span class="s3">.</span><span class="s1">attribute</span><span class="s3">++;</span>
+        <span class="s4">}</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">id</span><span class="s5">(</span><span class="s2">'updateAttributeOfAttribute'</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">fontColor</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.color.button_text_color'</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.float.button_text_size'</span><span class="s5">))</span>
+        <span class="s3">.</span><span class="s1">type</span><span class="s5">(</span><span class="s1">ButtonType</span><span class="s3">.</span><span class="s1">Capsule</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">buttonStyle</span><span class="s5">()</span>
+    <span class="s4">}</span>
+    <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+    <span class="s3">.</span><span class="s1">padding</span><span class="s5">(</span><span class="s7">10</span><span class="s5">)</span>
+    <span class="s3">.</span><span class="s1">border</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">radius</span><span class="s3">: </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.float.component_radius'</span><span class="s5">)</span><span class="s3">, </span><span class="s1">color</span><span class="s3">: </span><span class="s1">Color</span><span class="s3">.</span><span class="s1">Grey</span><span class="s3">, </span><span class="s1">width</span><span class="s3">: </span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.float.border_width'</span><span class="s5">) </span><span class="s4">}</span><span class="s5">)</span>
+  <span class="s4">}</span>
+<span class="s4">}</span>
+
+<span class="s0">// 对象中属性的组件</span>
+<span class="s6">@</span><span class="s1">Component</span>
+<span class="s1">struct ChildObjectComp </span><span class="s4">{</span>
+  <span class="s0">// 使用@ObjectLink修饰，与父组件同步对象的属性</span>
+  <span class="s6">@</span><span class="s1">ObjectLink childObject</span><span class="s3">: </span><span class="s1">ChildClass</span><span class="s3">;</span>
+
+  <span class="s1">build</span><span class="s5">() </span><span class="s4">{</span>
+    <span class="s1">Column</span><span class="s5">() </span><span class="s4">{</span>
+      <span class="s1">Row</span><span class="s5">() </span><span class="s4">{</span>
+        <span class="s1">Text</span><span class="s5">(</span><span class="s1">this</span><span class="s3">.</span><span class="s1">childObject</span><span class="s3">.</span><span class="s1">title</span><span class="s5">)</span>
+          <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s7">20</span><span class="s5">)</span>
+        <span class="s1">Text</span><span class="s5">(</span><span class="s2">`</span><span class="s4">${</span><span class="s1">this</span><span class="s3">.</span><span class="s1">childObject</span><span class="s3">.</span><span class="s1">attribute</span><span class="s4">}</span><span class="s2">`</span><span class="s5">)</span>
+          <span class="s3">.</span><span class="s1">fontSize</span><span class="s5">(</span><span class="s7">20</span><span class="s5">)</span>
+          <span class="s3">.</span><span class="s1">textAlign</span><span class="s5">(</span><span class="s1">TextAlign</span><span class="s3">.</span><span class="s1">End</span><span class="s5">)</span>
+      <span class="s4">}</span>
+      <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+      <span class="s3">.</span><span class="s1">justifyContent</span><span class="s5">(</span><span class="s1">FlexAlign</span><span class="s3">.</span><span class="s1">SpaceBetween</span><span class="s5">)</span>
+
+      <span class="s1">Divider</span><span class="s5">()</span>
+        <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+        <span class="s3">.</span><span class="s1">strokeWidth</span><span class="s5">(</span><span class="s7">1</span><span class="s5">)</span>
+    <span class="s4">}</span>
+    <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+    <span class="s3">.</span><span class="s1">padding</span><span class="s5">(</span><span class="s4">{ </span><span class="s1">left</span><span class="s3">: </span><span class="s7">100 </span><span class="s4">}</span><span class="s5">)</span>
+  <span class="s4">}</span>
+<span class="s4">}</span>
+
+<span class="s6">@</span><span class="s1">Styles function buttonStyle</span><span class="s5">() </span><span class="s4">{</span>
+  <span class="s3">.</span><span class="s1">width</span><span class="s5">(</span><span class="s2">'100%'</span><span class="s5">)</span>
+  <span class="s3">.</span><span class="s1">height</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.float.button_height'</span><span class="s5">))</span>
+  <span class="s3">.</span><span class="s1">backgroundColor</span><span class="s5">(</span><span class="s1">$r</span><span class="s5">(</span><span class="s2">'app.color.button_background_color'</span><span class="s5">))</span>
+<span class="s4">}</span>
+
+<span class="s0">// 要更新对象属性的属性，对象属性的类需要使用@Observed修饰</span>
+<span class="s6">@</span><span class="s1">Observed</span>
+<span class="s1">class ChildClass </span><span class="s4">{</span>
+  <span class="s1">public title</span><span class="s3">: </span><span class="s1">string</span><span class="s3">;</span>
+  <span class="s1">public attribute</span><span class="s3">: </span><span class="s1">number</span><span class="s3">;</span>
+
+  <span class="s1">constructor</span><span class="s5">(</span><span class="s1">title</span><span class="s3">: </span><span class="s1">string</span><span class="s3">, </span><span class="s1">attribute</span><span class="s3">: </span><span class="s1">number</span><span class="s5">) </span><span class="s4">{</span>
+    <span class="s1">this</span><span class="s3">.</span><span class="s1">title </span><span class="s3">= </span><span class="s1">title</span><span class="s3">;</span>
+    <span class="s1">this</span><span class="s3">.</span><span class="s1">attribute </span><span class="s3">= </span><span class="s1">attribute</span><span class="s3">;</span>
+  <span class="s4">}</span>
+<span class="s4">}</span>
+
+<span class="s1">class ParentClass </span><span class="s4">{</span>
+  <span class="s1">public title</span><span class="s3">: </span><span class="s1">string</span><span class="s3">;</span>
+  <span class="s1">public attribute</span><span class="s3">: </span><span class="s1">number</span><span class="s3">;</span>
+  <span class="s1">public child</span><span class="s3">: </span><span class="s1">ChildClass</span><span class="s3">;</span>
+
+  <span class="s1">constructor</span><span class="s5">(</span><span class="s1">title</span><span class="s3">: </span><span class="s1">string</span><span class="s3">, </span><span class="s1">attribute</span><span class="s3">: </span><span class="s1">number</span><span class="s3">, </span><span class="s1">child</span><span class="s3">: </span><span class="s1">ChildClass</span><span class="s5">) </span><span class="s4">{</span>
+    <span class="s1">this</span><span class="s3">.</span><span class="s1">title </span><span class="s3">= </span><span class="s1">title</span><span class="s3">;</span>
+    <span class="s1">this</span><span class="s3">.</span><span class="s1">attribute </span><span class="s3">= </span><span class="s1">attribute</span><span class="s3">;</span>
+    <span class="s1">this</span><span class="s3">.</span><span class="s1">child </span><span class="s3">= </span><span class="s1">child</span><span class="s3">;</span>
+  <span class="s4">}</span>
+<span class="s4">}</span>
+</pre>
+</body>
+</html>

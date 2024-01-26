@@ -1,0 +1,120 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "应用恢复范例"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "EntryAbility"
+    },
+    {
+      "name": "TextAbility_label",
+      "value": "TextAbility"
+    },
+    {
+      "name": "RecoveryAbility_label",
+      "value": "RecoveryAbility"
+    },
+    {
+      "name": "app_has_recovered",
+      "value": "应用已经从故障中恢复"
+    },
+    {
+      "name": "trigger_fault",
+      "value": "跳转到故障触发页面"
+    },
+    {
+      "name": "current_ability",
+      "value": "当前页面:"
+    },
+    {
+      "name": "launch_reason",
+      "value": "启动原因"
+    },
+    {
+      "name": "last_exit_reason",
+      "value": "上次退出原因"
+    },
+    {
+      "name": "current_status",
+      "value": "当前状态:"
+    },
+    {
+      "name": "click_counter",
+      "value": "按钮点击计数:"
+    },
+    {
+      "name": "trigger_fault_items",
+      "value": "触发故障"
+    },
+    {
+      "name": "trigger_js_error",
+      "value": "JsError"
+    },
+    {
+      "name": "trigger_freeze_in_js_code",
+      "value": "Js代码卡死"
+    },
+    {
+      "name": "trigger_freeze_in_native_code",
+      "value": "Native代码卡死"
+    },
+    {
+      "name": "recover_settings",
+      "value": "应用恢复设置"
+    },
+    {
+      "name": "save_all_ability_status",
+      "value": "所有Ability状态"
+    },
+    {
+      "name": "save_current_ability_status",
+      "value": "当前Ability状态"
+    },
+    {
+      "name": "route_to_second_ability",
+      "value": "启动SecondAbility"
+    },
+    {
+      "name": "set_recovery_ability",
+      "value": "恢复Ability"
+    },
+    {
+      "name": "counter_name",
+      "value": "点击"
+    },
+    {
+      "name": "save_state",
+      "value": "保存"
+    },
+    {
+      "name": "set_config",
+      "value": "设置"
+    },
+    {
+      "name": "save_state_done",
+      "value": "已保存"
+    },
+    {
+      "name": "set_config_done",
+      "value": "已设置"
+    },
+    {
+      "name": "launch_ability",
+      "value": "启动"
+    },
+    {
+      "name": "trigger",
+      "value": "触发"
+    },
+    {
+      "name": "recover",
+      "value": "恢复"
+    }
+  ]
+}

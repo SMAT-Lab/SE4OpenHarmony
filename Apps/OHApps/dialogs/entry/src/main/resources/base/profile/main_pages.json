@@ -1,0 +1,23 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/ImageBrowser",
+    "pages/ListSelect",
+    "pages/Loading",
+    "pages/FullScreen",
+    "pages/PositionContent",
+    "pages/InputContent",
+    "pages/SideBarContainerExample",
+    "pages/RealtimeInput",
+    "pages/Message",
+    "pages/PopupButtonExample",
+    "pages/Confirm",
+    "pages/TopContent",
+    "pages/BottomScrollDialogExample",
+    "pages/RepeatContent",
+    "pages/BottomTextDialogExample",
+    "pages/BottomListDialogExample",
+    "pages/AnimateInputContent",
+    "pages/AnimateContent"
+  ]
+}

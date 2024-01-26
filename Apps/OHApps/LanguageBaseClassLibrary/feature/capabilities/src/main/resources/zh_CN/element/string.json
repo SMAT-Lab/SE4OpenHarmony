@@ -1,0 +1,392 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from npm package"
+    },
+    {
+      "name": "string_code",
+      "value": "StringCode (字符串编解码)"
+    },
+    {
+      "name": "rational_number",
+      "value": "RationalNumber (有理数)"
+    },
+    {
+      "name": "lru_cache",
+      "value": "LRUCache (缓冲区)"
+    },
+    {
+      "name": "scope_helper",
+      "value": "ScopeHelper (范围判断)"
+    },
+    {
+      "name": "base64",
+      "value": "Base64Helper (Base64编解码)"
+    },
+    {
+      "name": "type_check",
+      "value": "TypeCheck (类型检查)"
+    },
+    {
+      "name": "create_lru_cache",
+      "value": "创建LruCache成功"
+    },
+    {
+      "name": "put_success",
+      "value": "添加成功"
+    },
+    {
+      "name": "clear",
+      "value": "清除缓冲区成功"
+    },
+    {
+      "name": "success",
+      "value": "成功"
+    },
+    {
+      "name": "close_success",
+      "value": "关闭成功"
+    },
+    {
+      "name": "child_null",
+      "value": "子进程为空"
+    },
+    {
+      "name": "failed",
+      "value": "失败"
+    },
+    {
+      "name": "change_str",
+      "value": "要转换的字符串:"
+    },
+    {
+      "name": "encode",
+      "value": "编码"
+    },
+    {
+      "name": "decode",
+      "value": "解码"
+    },
+    {
+      "name": "SpecString",
+      "value": "字符串 : "
+    },
+    {
+      "name": "SpecString_info",
+      "value": "OpenHarmony 4.0"
+    },
+    {
+      "name": "result",
+      "value": "result = "
+    },
+    {
+      "name": "result_f",
+      "value": "result[%f] = "
+    },
+    {
+      "name": "result_i",
+      "value": "result[%i] = "
+    },
+    {
+      "name": "result_d",
+      "value": "result[%d] = "
+    },
+    {
+      "name": "result_s",
+      "value": "result[%s] = "
+    },
+    {
+      "name": "SpecFormOutput",
+      "value": "特定格式输出"
+    },
+    {
+      "name": "StringCodec_info",
+      "value": "OpenHarmony 4.0，未来有迹可循！"
+    },
+    {
+      "name": "read",
+      "value": "读取："
+    },
+    {
+      "name": "write",
+      "value": "写入："
+    },
+    {
+      "name": "Text_encoder",
+      "value": "文本编码器"
+    },
+    {
+      "name": "Text_decoder",
+      "value": "文本译码器"
+    },
+    {
+      "name": "message",
+      "value": "OpenHarmony 4.0，未来有迹可循！"
+    },
+    {
+      "name": "numerator",
+      "value": "分子:"
+    },
+    {
+      "name": "denominator",
+      "value": "分母:"
+    },
+    {
+      "name": "first_rational_number",
+      "value": "有理数1"
+    },
+    {
+      "name": "second_rational_number",
+      "value": "有理数2"
+    },
+    {
+      "name": "less_than",
+      "value": "有理数1小于有理数2"
+    },
+    {
+      "name": "equal_to",
+      "value": "有理数1等于有理数2"
+    },
+    {
+      "name": "greater_than",
+      "value": "有理数1大于有理数2"
+    },
+    {
+      "name": "rational_number_value_of",
+      "value": "以整数形式或者浮点数的形式获取有理数1的值是"
+    },
+    {
+      "name": "show",
+      "value": "显示预置值"
+    },
+    {
+      "name": "check",
+      "value": "校验预置值"
+    },
+    {
+      "name": "age",
+      "value": "年龄判断"
+    },
+    {
+      "name": "temperature",
+      "value": "体温检测"
+    },
+    {
+      "name": "range",
+      "value": "范围判断"
+    },
+    {
+      "name": "judge_age",
+      "value": "判断年龄是否在限制内(16-62)"
+    },
+    {
+      "name": "age_analyse",
+      "value": "年龄分析"
+    },
+    {
+      "name": "judge_temp",
+      "value": "判断您的体温是否正常(36-37.2)"
+    },
+    {
+      "name": "temp_morning",
+      "value": "您早上的体温是:"
+    },
+    {
+      "name": "temp_noon",
+      "value": "您中午的体温是:"
+    },
+    {
+      "name": "temp_night",
+      "value": "您晚上的体温是:"
+    },
+    {
+      "name": "temp_min",
+      "value": "您今天的最低体温是"
+    },
+    {
+      "name": "temp_max",
+      "value": "您今天的最高体温是"
+    },
+    {
+      "name": "temp_normal_range",
+      "value": "您的体温在正常范围"
+    },
+    {
+      "name": "judge_sleep",
+      "value": "判断您的睡眠是否充足:"
+    },
+    {
+      "name": "short_sleep",
+      "value": "这一个月，您最短的睡眠时间是几小时:"
+    },
+    {
+      "name": "long_sleep",
+      "value": "这一个月，您最长的睡眠时间是几小时:"
+    },
+    {
+      "name": "sleep_analyse",
+      "value": "睡眠分析"
+    },
+    {
+      "name": "sleep_time",
+      "value": "*人的正常睡眠时间是7到10个小时"
+    },
+    {
+      "name": "temp_analyse",
+      "value": "体温分析"
+    },
+    {
+      "name": "determine",
+      "value": "确定"
+    },
+    {
+      "name": "age_message_confirm",
+      "value": "您的年龄符合规定"
+    },
+    {
+      "name": "age_message_not_confirm",
+      "value": "对不起，您的年龄不符合规定"
+    },
+    {
+      "name": "temp_message_lower",
+      "value": "您今天的最低体温是"
+    },
+    {
+      "name": "temp_message_upper",
+      "value": "您今天的最高体温是"
+    },
+    {
+      "name": "temp_message_normal",
+      "value": "您的体温在正常范围"
+    },
+    {
+      "name": "temp_message_abnormal",
+      "value": "您今天的体温不正常，还望您尽快就医，注意身体！"
+    },
+    {
+      "name": "combine",
+      "value": "睡眠区间和正常的睡眠区间的并集为"
+    },
+    {
+      "name": "interval",
+      "value": "睡眠区间和正常的睡眠区间的交集为"
+    },
+    {
+      "name": "age_placeholder",
+      "value": "请输入您的年龄"
+    },
+    {
+      "name": "morning_placeholder",
+      "value": "请输入您早上的体温"
+    },
+    {
+      "name": "noon_placeholder",
+      "value": "请输入您中午的体温"
+    },
+    {
+      "name": "night_placeholder",
+      "value": "请输入您晚上的体温"
+    },
+    {
+      "name": "enter_sleep_time",
+      "value": "请输入睡眠时间"
+    },
+    {
+      "name": "upper",
+      "value": "37"
+    },
+    {
+      "name": "scope_temp_tips",
+      "value": "请确认输入三个时间段的体温，且体温均大于0"
+    },
+    {
+      "name": "scope_sleep_tips",
+      "value": "请输入最长和最短睡眠时间"
+    },
+    {
+      "name": "scope_sleep_tips_less",
+      "value": "最长睡眠时间小于或等于最短睡眠时间，请重新输入"
+    },
+    {
+      "name": "scope_expand",
+      "value": "睡眠区间和正常的睡眠区间的并集为"
+    },
+    {
+      "name": "scope_intersect",
+      "value": "T睡眠区间和正常的睡眠区间的交集为"
+    },
+    {
+      "name": "empty",
+      "value": "空"
+    },
+    {
+      "name": "please_insert",
+      "value": "不存在，请先插入."
+    },
+    {
+      "name": "contact_name",
+      "value": "姓名："
+    },
+    {
+      "name": "contact_age",
+      "value": "年龄："
+    },
+    {
+      "name": "contact_phone",
+      "value": "电话："
+    },
+    {
+      "name": "button_delete",
+      "value": "删除"
+    },
+    {
+      "name": "button_confirm",
+      "value": "确认"
+    },
+    {
+      "name": "button_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "contact_information",
+      "value": "联系人信息"
+    },
+    {
+      "name": "input_name",
+      "value": "请输入姓名"
+    },
+    {
+      "name": "input_age",
+      "value": "请输入年龄"
+    },
+    {
+      "name": "input_phone",
+      "value": "请输入电话"
+    },
+    {
+      "name": "name_null",
+      "value": "姓名不能为空"
+    },
+    {
+      "name": "age_null",
+      "value": "年龄不能为空"
+    },
+    {
+      "name": "phone_null",
+      "value": "电话号码不能为空"
+    },
+    {
+      "name": "click_exec_add_one",
+      "value": "点击execute task使numberOfExecutions++"
+    },
+    {
+      "name": "old",
+      "value": "岁"
+    },
+    {
+      "name": "key_limit",
+      "value": "key必须为数字"
+    }
+  ]
+}

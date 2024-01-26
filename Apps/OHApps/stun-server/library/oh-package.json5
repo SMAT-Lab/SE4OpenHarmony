@@ -1,0 +1,26 @@
+{
+  "types": "",
+  "keywords": [
+    "OpenHarmony",
+    "stun",
+    "HarmonyOS"
+  ],
+  "author": "hihope",
+  "description": "Service open source components based on STUN protocol",
+  "ohos": {
+    "org": "opensource"
+  },
+  "main": "index.ets",
+  "repository": "https://gitee.com/hihopeorg/stun-server",
+  "type": "module",
+  "version": "2.0.0",
+  "tags": [
+    "OpenHarmony",
+    "stun",
+    "HarmonyOS"
+  ],
+  "dependencies": {},
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "name": "@ohos/stun"
+}

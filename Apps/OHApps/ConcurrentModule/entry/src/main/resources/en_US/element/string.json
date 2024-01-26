@@ -1,0 +1,88 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "ConcurrentModule"
+    },
+    {
+      "name": "Text_desc",
+      "value": "enter the string to be sorted, separated by commas"
+    },
+    {
+      "name": "Result_desc",
+      "value": "execution result"
+    },
+    {
+      "name": "SortString_desc",
+      "value": "Sort String"
+    },
+    {
+      "name": "Clear_desc",
+      "value": "Clear"
+    },
+    {
+      "name": "Execute_After_3s_desc",
+      "value": "Execute After 3s"
+    },
+    {
+      "name": "Execute_Immediately_desc",
+      "value": "Execute Immediately"
+    },
+    {
+      "name": "Function_Task_desc",
+      "value": "Function Task"
+    },
+    {
+      "name": "Cancel_Task_desc",
+      "value": "Cancel Task"
+    },
+    {
+      "name": "strSortText",
+      "value": "String Sort Text"
+    },
+    {
+      "name": "copyFileText",
+      "value": "CopyFile Text"
+    },
+    {
+      "name": "workerTitleText",
+      "value": "Worker Title Text"
+    },
+    {
+      "name": "logTitle",
+      "value": "Log Title"
+    },
+    {
+      "name": "workerLog1",
+      "value": "Sandbox File Number"
+    },
+    {
+      "name": "workerLog2",
+      "value": "Sandbox File Number Unit"
+    },
+    {
+      "name": "workerLog3",
+      "value": "File"
+    },
+    {
+      "name": "workerLog4",
+      "value": "Finish"
+    },
+    {
+      "name": "workerLog5",
+      "value": "And So On"
+    },
+    {
+      "name": "workerLogChooseFile",
+      "value": "Please select a file"
+    }
+  ]
+}

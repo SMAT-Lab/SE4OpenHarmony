@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<meta charset="UTF-8">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>run javascript demo</title></head>
+<body><h1>run JavaScript Ext demo</h1>
+<p id="webDemo"></p>      <br> <br>
+<button type="button" style="height:30px;width:200px" onclick="testObjName()">test ObjName!</button>
+<br> <br>
+<button type="button" style="height:30px;width:200px" onclick="testobjTestName()">test objTestName!</button>
+<br> <br>
+<button type="button" style="height:30px;width:200px" onclick="testNdkProxyObj()">test ndk object!</button>
+<br> <br>
+<button type="button" style="height:30px;width:200px" onclick="testNdkProxyObjMethod1()">test ndk method1 !</button>
+<br> <br>
+<button type="button" style="height:30px;width:200px" onclick="testNdkProxyObjMethod2()">test ndk method2 !</button>
+<br> <br>
+<button onclick="callNativeObj1()"> callNativeObj 1M数据</button>
+<br> <br>
+<button onclick="callNativeObj5()"> callNativeObj 5M数据</button>
+<br> <br>
+<button onclick="callNativeObj10()"> callNativeObj 10M数据</button>
+<br> <br>
+<button onclick="callNativeObj20()"> callNativeObj 20M数据</button>
+</body>
+<script type="text/javascript">
+    function testNdkProxyObj() {
+        if (window.ndkProxy === undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 ndkProxy undefined"
+            return "m114 objName undefined"
+        }
+        if (window.ndkProxy.method1 == undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 ndkProxy method1 undefined"
+            return "m114 objName  test undefined"
+        }
+        if (window.ndkProxy.method2 == undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 ndkProxy method2 undefined"
+            return "m114 objName  test undefined"
+        }
+        document.getElementById("webDemo").innerHTML = "ndkProxy and method12 is ok"
+        return "RegisterSuccess"
+    }
+
+    function testNdkProxyObjMethod1() {
+        if (window.ndkProxy == undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 ndkProxy undefined"
+            return "m114 objName undefined"
+        }
+        if (window.ndkProxy.method1 == undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 ndkProxy method1 undefined"
+            return "m114 objName  test undefined"
+        }
+        if (window.ndkProxy.method2 === undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 ndkProxy method2 undefined"
+            return "m114 objName  test undefined"
+        }
+        var retStr = window.ndkProxy.method1("hello", "world", [1.2, -3.4, 123.456], ["Saab", "Volvo", "BMW", undefined], 1.23456, 123789, true, false, 0, undefined);
+        document.getElementById("webDemo").innerHTML = "ndkProxy and method1 is ok, " + retStr;
+    }
+
+    function testNdkProxyObjMethod2() {
+        if (window.ndkProxy == undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 ndkProxy undefined"
+            return "m114 objName undefined"
+        }
+        if (window.ndkProxy.method1 === undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 ndkProxy method1 undefined"
+            return "m114 objName  test undefined"
+        }
+        if (window.ndkProxy.method2 == undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 ndkProxy method2 undefined"
+            return "m114 objName  test undefined"
+        }
+        var student = {
+            name: "zhang",
+            sex: "man",
+            age: 25
+        };
+        var cars = [student, 456, false, 4.567];
+        var retStr = window.ndkProxy.method2("hello", "world", false, cars);
+        document.getElementById("webDemo").innerHTML = "ndkProxy and method2 is ok, " + retStr;
+    }
+
+    // 性能数据 1M 5M 10M
+    function callNativeObj1() {
+        var data = "0123456789123456";
+        var data1M = data.repeat(64 * 1024)
+        console.error("hwd time in html5 callNativeObj 1M start:" + new Date().getTime());
+        var start_time = new Date().getTime();
+        var str = window.ndkProxy.method3(data1M);
+        console.error("hwd time in html5 callEtsObj end:" + new Date().getTime()) + ", str:" + str;
+        document.getElementById("webDemo").innerHTML = "ndkProxy and method3 is ok, cost time: " + (new Date().getTime() - start_time) + " ms";
+    }
+
+    function callNativeObj5() {
+        var data = "0123456789123456";
+        var data5M = data.repeat(64 * 1024 * 5)
+        console.error("hwd time in html5 callNativeObj 5M start:" + new Date().getTime());
+        var start_time = new Date().getTime();
+        var str = window.ndkProxy.method3(data5M);
+        console.error("hwd time in html5 callNativeObj end:" + new Date().getTime()) + ", str:" + str;
+        document.getElementById("webDemo").innerHTML = "ndkProxy and method3 is ok, cost time: " + (new Date().getTime() - start_time) + " ms";
+    }
+
+    function callNativeObj10() {
+        var data = "0123456789123456";
+        var data10M = data.repeat(64 * 1024 * 10)
+        console.error("hwd time in html5 callNativeObj 10M start:" + new Date().getTime());
+        var start_time = new Date().getTime();
+        var str = window.ndkProxy.method3(data10M);
+        console.error("hwd time in html5 callNativeObj end:" + new Date().getTime()) + ", str:" + str;
+        document.getElementById("webDemo").innerHTML = "ndkProxy and method3 is ok, cost time: " + (new Date().getTime() - start_time) + " ms";
+    }
+
+    function callNativeObj20() {
+        var data = "0123456789123456";
+        var data10M = data.repeat(64 * 1024 * 20)
+        console.error("hwd time in html5 callNativeObj 10M start:" + new Date().getTime());
+        var start_time = new Date().getTime();
+        var str = window.ndkProxy.method3(data10M);
+        console.error("hwd time in html5 callNativeObj end:" + new Date().getTime()) + ", str:" + str;
+        document.getElementById("webDemo").innerHTML = "ndkProxy and method3 is ok, cost time: " + (new Date().getTime() - start_time) + " ms";
+    }
+
+    // others
+    function runVoid1() {
+        console.log("hwd return none");
+    }
+
+    function runVoid2() {
+        console.log("hwd return none");
+    }
+
+    function runJSRetStr(data) {
+        const d = new Date();
+        let time = d.getTime();
+        return JSON.stringify(time)
+    }
+
+    function runJSRetInt() {
+        return -123456;
+    }
+
+    function runJSRetTrue() {
+        return true;
+    }
+
+    function runJSRetFalse() {
+        return false;
+    }
+
+    function runJSRetMax() {
+        console.log("hwd Number.MAX_VALUE:" + Number.MAX_VALUE);
+        return Number.MAX_VALUE;
+    }
+
+    function runJSRetMin() {
+        console.log("hwd Number.MIN_VALUE:" + Number.MIN_VALUE);
+        return Number.MIN_VALUE;
+    }
+
+    function runJSRetDouble() {
+        return 123.456;
+    }
+
+    function runJSRetStrArray() {
+        var cars = ["Saab", "Volvo", "BMW"];
+        console.log("hwd runJSRetStrArray:" + cars);
+        return cars;
+    }
+
+    function runJSRetDoubleArray() {
+        var cars = [1.2, -3.4, 123.456];
+        console.log("hwd runJSRetDoubleArray:" + cars);
+        return cars;
+    }
+
+    function runJSRetBoolArray() {
+        var cars = [false, true, false, true];
+        console.log("hwd runJSRetBoolArray:" + cars);
+        return cars;
+    }
+
+    function runJSRetIntArray() {
+        var cars = [123, 456, 123456, -789];
+        console.log("hwd runJSRetIntArray:" + cars);
+        return cars;
+    }
+
+    function runJSRetArrayBuffer() {
+        var arrayBuffer = new ArrayBuffer(16);
+        console.log("hwd In html new arraybuffer message end");
+        // create a view that treats the data in the buffer as an array of 8-bit unsigned integers
+        var uint8Array = new Uint8Array(arrayBuffer);
+        // access the fields in the array just like a normal array
+        for (let i = 0; i < uint8Array.length; i++) {
+            uint8Array[i] = i % 255;
+        }
+        return arrayBuffer;
+    }
+
+    function runJSRetError() {
+        var error = new EvalError("Hello");
+        console.log("hwd EvalError:" + (error instanceof EvalError)); // true
+        console.log("hwd EvalError:" + error.message); // "Hello"
+        console.log("hwd EvalError:" + error.name); // "EvalError"
+        return error;
+    }
+
+    function runJSRetMixedArray1() {
+        var cars = [123, 456, false, 4.567];
+        console.log("hwd runJSRetIntArray:" + cars);
+        return cars;
+    }
+
+    function runJSRetMixedArray2() {
+        var student = {
+            name: "zhang",
+            sex: "man",
+            age: 25
+        };
+        return student;
+    }
+
+    function runJSRetMixedArray3() {
+        var student = {
+            name: "zhang",
+            sex: "man",
+            age: 25
+        };
+        var cars = [student, 456, false, 4.567];
+        console.log("hwd runJSRetIntArray:" + cars);
+        return cars;
+    }
+
+    function testObjName() {
+        if (window.objNameByEts == undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 objName undefined"
+            return "m114 objName undefined"
+        }
+        if (window.objNameByEts.test == undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 objName test undefined"
+            return "m114 objName  test undefined"
+        }
+        document.getElementById("webDemo").innerHTML = "objName and test is ok"
+    }
+
+    function testobjTestName() {
+        if (window.objTestNameByEts == undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 objTestName undefined"
+            return "m114 objName undefined"
+        }
+        if (window.objTestNameByEts.webTest == undefined) {
+            document.getElementById("webDemo").innerHTML = "m114 objTestName webTest undefined"
+            return "m114 objName  test undefined"
+        }
+        document.getElementById("webDemo").innerHTML = "objTestName and webTest is ok"
+    }
+</script>
+
+</html>

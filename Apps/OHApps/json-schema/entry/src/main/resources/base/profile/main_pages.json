@@ -1,0 +1,21 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/SimpleValidatePage",
+    "pages/VerySimpleValidatePage",
+    "pages/ComplicatedValidatePage",
+    "pages/AllValidatePage",
+    "pages/UnDefinedValidatePage",
+    "pages/FormatValidatePage",
+    "pages/NestedErrorsValidatePage",
+    "pages/LocalErrorMessagePage",
+    "pages/DiyKeyWordValidatePage",
+    "pages/DiyAnotherPage",
+    "pages/DereferencingSchemasPage",
+    "pages/DefaultBaseUriPage",
+    "pages/ReWritePage",
+    "pages/PrePropertyValidatePage",
+    "pages/AllowUnknownPage",
+    "pages/SkipAttributesPage"
+  ]
+}

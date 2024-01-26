@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <oatconfig>
+    <filefilterlist>
+      <filefilter
+        desc="Filters for compatibility，license header policies"
+        name="copyrightPolicyFilter">
+        <filteritem
+          desc="hvigor构建脚本，DevEco Studio自动生成，不需要添加版权头"
+          name="hvigorfile.js"
+          type="filename"/>
+        <filteritem
+          desc="hvigor工程配置文件，DevEco Studio自动生成，不需要添加版权头"
+          name="*.json5"
+          type="filename"/>
+        <filteritem
+          desc="资源文件，不需要添加版权头"
+          name="*.proto"
+          type="filename"/>
+        <filteritem
+          desc="资源文件，不需要添加版权头"
+          name="*.json"
+          type="filename"/>
+        <filteritem
+          desc="工程文件，不需要添加版权头"
+          name="*.ts"
+          type="filename"/>
+        <filteritem
+          desc="工程模板，不修改版权头，以防有修改版权风险"
+          name="hvigorw"
+          type="filepath"/>
+        <filteritem
+          desc="工程模板，不修改版权头，以防有修改版权风险"
+          name="hvigorw.bat"
+          type="filepath"/>
+        <filteritem
+          desc="工程模板，不修改版权头，以防有修改版权风险"
+          name="hvigor/hvigor-wrapper.js"
+          type="filepath"/>
+        <filteritem
+          desc="三方库module，不修改源库版权头，以防有修改版权风险"
+          name="xml-js/src/main/ets/.*"
+          type="filepath"/>
+        <filteritem
+          desc="三方库module，不修改源库版权头，以防有修改版权风险"
+          name="sax/src/main/ets/.*"
+          type="filepath"/>
+        <filteritem
+          desc="工程文件，不修改版权头"
+          name="LICENSE"
+          type="filename"/>
+        <filteritem
+          desc="工程文件，不修改版权头"
+          name="NOTICE"
+          type="filename"/>
+      </filefilter>
+      <filefilter
+        desc="Filters for compatibility，license header policies"
+        name="defaultPolicyFilter">
+        <filteritem
+          desc="hvigor构建脚本，DevEco Studio自动生成，不需要添加许可证头"
+          name="hvigorfile.js"
+          type="filename"/>
+        <filteritem
+          desc="hvigor工程配置文件，DevEco Studio自动生成，不需要添加许可证头"
+          name="*.json5"
+          type="filename"/>
+        <filteritem
+          desc="原三方库证书文件无需更改，因此添加过滤"
+          name="LICENSE"
+          type="filename"/>
+        <filteritem
+          desc="原三方库证书文件无需更改，因此添加过滤"
+          name="NOTICE"
+          type="filename"/>
+        <filteritem
+          desc="资源文件，不需要添加许可证头"
+          name="*.proto"
+          type="filename"/>
+        <filteritem
+          desc="资源文件，不需要添加许可证头"
+          name="*.json"
+          type="filename"/>
+        <filteritem
+          desc="工程文件，不需要添加许可证头"
+          name="*.ts"
+          type="filename"/>
+        <filteritem
+          desc="工程模板，不修改版权头，以防有修改版权风险"
+          name="hvigorw"
+          type="filepath"/>
+        <filteritem
+          desc="工程模板，不修改版权头，以防有修改版权风险"
+          name="hvigorw.bat"
+          type="filepath"/>
+        <filteritem
+          desc="工程模板，不修改许可头，以防有修改版权风险"
+          name="hvigor/hvigor-wrapper.js"
+          type="filepath"/>
+        <filteritem
+          desc="三方库module，不修改源库许可头，以防有修改版权风险"
+          name="xml-js/src/main/ets/.*"
+          type="filepath"/>
+        <filteritem
+          desc="三方库module，不修改源库许可头，以防有修改版权风险"
+          name="sax/src/main/ets/.*"
+          type="filepath"/>
+      </filefilter>
+      <filefilter
+        desc="Filters for resources files policies"
+        name="binaryFileTypePolicyFilter">
+        <filteritem
+          desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"
+          name="icon.png"
+          type="filename"/>
+        <filteritem
+          desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"
+          name="app_icon.png"
+          type="filename"/>
+      </filefilter>
+    </filefilterlist>
+  </oatconfig>
+</configuration>

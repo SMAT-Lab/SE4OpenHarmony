@@ -1,0 +1,240 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "仿应用"
+    },
+    {
+      "name": "Recommend",
+      "value": "推荐"
+    },
+    {
+      "name": "Font_family_medium",
+      "value": "HarmonyOS Sans SC-Medium"
+    },
+    {
+      "name": "Font_family_regular",
+      "value": "HarmonyOS Sans SC-Regular"
+    },
+    {
+      "name": "Home_page",
+      "value": "首页"
+    },
+    {
+      "name": "Message",
+      "value": "消息"
+    },
+    {
+      "name": "LoginByPhone",
+      "value": "手机号密码登录"
+    },
+    {
+      "name": "Input_phone",
+      "value": "请输入手机号"
+    },
+    {
+      "name": "Input_password",
+      "value": "请输入密码"
+    },
+    {
+      "name": "Login",
+      "value": "登录"
+    },
+    {
+      "name": "Video",
+      "value": "视频"
+    },
+    {
+      "name": "Next",
+      "value": "下一步"
+    },
+    {
+      "name": "Stroll",
+      "value": "逛逛"
+    },
+    {
+      "name": "Experience",
+      "value": "经验"
+    },
+    {
+      "name": "Attention",
+      "value": "关注"
+    },
+    {
+      "name": "Store",
+      "value": "商城"
+    },
+    {
+      "name": "Friend",
+      "value": "朋友"
+    },
+    {
+      "name": "Me",
+      "value": "我"
+    },
+    {
+      "name": "UserNick",
+      "value": "@小明"
+    },
+    {
+      "name": "TikContent",
+      "value": "今天天气真好#晴天#白云"
+    },
+    {
+      "name": "Num",
+      "value": "%s万"
+    },
+    {
+      "name": "NewFriend",
+      "value": "新朋友"
+    },
+    {
+      "name": "No_new_notice",
+      "value": "没有新通知"
+    },
+    {
+      "name": "Interactive_message",
+      "value": "互动消息"
+    },
+    {
+      "name": "Interactive_message_content",
+      "value": "xiaoming点赞了你的视频"
+    },
+    {
+      "name": "Greet",
+      "value": "跟 Ta 打个招呼"
+    },
+    {
+      "name": "Send_Message",
+      "value": "发送消息"
+    },
+    {
+      "name": "Search",
+      "value": "搜索"
+    },
+    {
+      "name": "Clear_all_search_record",
+      "value": "清楚全部搜索记录"
+    },
+    {
+      "name": "Synthesize",
+      "value": "综合"
+    },
+    {
+      "name": "Music",
+      "value": "音乐"
+    },
+    {
+      "name": "User",
+      "value": "用户"
+    },
+    {
+      "name": "Commodity",
+      "value": "商品"
+    },
+    {
+      "name": "Live_streaming",
+      "value": "直播"
+    },
+    {
+      "name": "All",
+      "value": "全部"
+    },
+    {
+      "name": "Special",
+      "value": "特效"
+    },
+    {
+      "name": "Album",
+      "value": "相册"
+    },
+    {
+      "name": "Word",
+      "value": "文字"
+    },
+    {
+      "name": "Subsection",
+      "value": "分段"
+    },
+    {
+      "name": "Photo",
+      "value": "照片"
+    },
+    {
+      "name": "Everyday",
+      "value": "日常"
+    },
+    {
+      "name": "Wen",
+      "value": "文"
+    },
+    {
+      "name": "Send_everyday",
+      "value": "发日常"
+    },
+    {
+      "name": "Select_music",
+      "value": "选择音乐"
+    },
+    {
+      "name": "Return_edit",
+      "value": "返回编辑"
+    },
+    {
+      "name": "Topic",
+      "value": "# 话题"
+    },
+    {
+      "name": "Where_are_you",
+      "value": "你在哪里"
+    },
+    {
+      "name": "Add_applet",
+      "value": "添加小程序"
+    },
+    {
+      "name": "Publicly_visible",
+      "value": "公开可见"
+    },
+    {
+      "name": "Advanced_setup",
+      "value": "高级设置"
+    },
+    {
+      "name": "Well_Number_Friend",
+      "value": "# 朋友"
+    },
+    {
+      "name": "Add_work_description",
+      "value": "添加作品描述"
+    },
+    {
+      "name": "Select_cover",
+      "value": "选封面"
+    },
+    {
+      "name": "Save_Draft",
+      "value": "存草稿"
+    },
+    {
+      "name": "Publish",
+      "value": "发布"
+    },
+    {
+      "name": "Publish_Success",
+      "value": "发布成功"
+    },
+    {
+      "name": "Connection_timesout",
+      "value": "连接超时，请检查网络状态"
+    }
+  ]
+}

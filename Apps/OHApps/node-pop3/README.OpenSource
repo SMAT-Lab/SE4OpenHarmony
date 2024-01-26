@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "node-pop3",
+        "License": "MIT",
+        "Version Number": "0.9.0",
+		"License File": "LICENSE-MIT",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/node-pop3/node-pop3",
+        "Description": "pop3 command support for node. Supports Promise and stream"
+}
+]

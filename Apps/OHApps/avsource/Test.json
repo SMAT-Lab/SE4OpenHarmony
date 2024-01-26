@@ -1,0 +1,24 @@
+{
+    "description": "Configuration for ActsMultiMediaAvCodeCTest Tests",
+    "driver": {
+        "type": "OHJSUnitTest",
+        "test-timeout": "180000",
+        "bundle-name": "com.multimedia.napitest",
+        "module-name": "com.multimedia.napitest",
+        "shell-timeout": "600000",
+        "testcase-timeout": 60000
+    },
+    "kits": [{
+        "test-file-name": [
+            "ActsMultiMediaAvCodeCTest.hap"
+        ],
+        "type": "AppInstallKit",
+        "cleanup-apps": false
+    }, {
+        "type": "ShellKit",
+        "run-command": [
+            "power-shell wakeup",
+            "power-shell setmode 602"
+        ]
+    }]
+}

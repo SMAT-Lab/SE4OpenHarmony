@@ -1,0 +1,38 @@
+[	
+    {
+        "Name": "protobuf-java-format",
+        "License": "Apache-2.0",
+        "License File": "LICENSE.txt",
+        "Version Number": "1.5",
+        "Owner" : "bivas"
+        "Upstream URL": "https://github.com/bivas/protobuf-java-format",
+        "Description": "Provide serialization and de-serialization of different formats based on Google’s protobuf Message. Enables overriding the default (byte array) output to text based formats such as XML, JSON and HTML."
+    },
+    {
+        "Name": "@ohos/protobufjs",
+        "License": "Apache-2.0",
+        "License File": "LICENSE",
+        "Version Number": "1.0.2",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://gitee.com/openharmony-tpc/protobuf/tree/1.x/",
+        "Description": "ProtoBuf(protocol buffers) 是一种语言无关、平台无关、可扩展的序列化结构数据的方法，它可用于（数据）通信协议、数据存储等。,是一种灵活，高效，自动化机制的结构数据序列化方法比XML更小,更快,更为简单。"
+    },
+    {
+        "Name": "xml-js",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "1.6.11",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/nashwaan/xml-js",
+        "Description": "Converter utility between XML text and Javascript object / JSON text."
+    },
+    {
+        "Name": "sax",
+        "License": "ISC License",
+        "License File": "LICENSE",
+        "Version Number": "1.2.4",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/isaacs/sax-js",
+        "Description": "A sax style parser for JS，A very simple tool to parse through an XML string."
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "Name": "AndroidVideoCache",
+        "License": "Apache-2.0 license",
+        "License File": "LICENSE",
+        "Version Number": "2.7.1",
+        "Owner": "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/danikula/AndroidVideoCache",
+        "Description": "AndroidVideoCache allows to add caching support to your VideoView/MediaPlayer, ExoPlayer or any another player with help of single line!"
+    },
+    {
+        "Name": "crypto-js",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "2.0.3-rc.0",
+        "Owner": "xiafeng@huawei.com"
+        "Upstream URL": "https://gitee.com/openharmony-sig/crypto-js",
+        "Description": "The encryption algorithm class library can be very convenient to perform the encryption and decryption operations it supports in the front end. Currently, the algorithms supported by crypto-js are: MD5, SHA-1, SHA-256, HMAC, HMAC-MD5, HMAC-SHA1, HMAC-SHA256, PBKDF2, etc."
+    },
+     {
+       "Name": "ohos_ijkplayer",
+        "License": " LGPLv2.1 or later ",
+       "License File": "LICENSE",
+       "Version Number": "2.0.2",
+       "Owner": "xiafeng@huawei.com"
+       "Upstream URL": "https://gitee.com/openharmony-sig/ohos_ijkplayer",
+       "Description": "ijkplayer是OpenHarmony环境下可用的一款基于FFmpeg的视频播放器。"
+        }
+]

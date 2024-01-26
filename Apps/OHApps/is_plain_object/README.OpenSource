@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "is-plain-object",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "5.0.0",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/jonschlinkert/is-plain-object",
+        "Description": "Use isobject if you only want to check if the value is an object and not an array or null."
+    },
+]

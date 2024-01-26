@@ -1,0 +1,240 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "AppSampleD"
+    },
+    {
+      "name": "Recommend",
+      "value": "recommend"
+    },
+    {
+      "name": "Font_family_medium",
+      "value": "HarmonyOS Sans SC-Medium"
+    },
+    {
+      "name": "Font_family_regular",
+      "value": "HarmonyOS Sans SC-Regular"
+    },
+    {
+      "name": "Home_page",
+      "value": "home page"
+    },
+    {
+      "name": "Message",
+      "value": "message"
+    },
+    {
+      "name": "LoginByPhone",
+      "value": "login by phone"
+    },
+    {
+      "name": "Input_phone",
+      "value": "please input phone"
+    },
+    {
+      "name": "Input_password",
+      "value": "please input  password"
+    },
+    {
+      "name": "Login",
+      "value": "login"
+    },
+    {
+      "name": "Video",
+      "value": "video"
+    },
+    {
+      "name": "Next",
+      "value": "Next"
+    },
+    {
+      "name": "Stroll",
+      "value": "stroll"
+    },
+    {
+      "name": "Experience",
+      "value": "experience"
+    },
+    {
+      "name": "Attention",
+      "value": "attention"
+    },
+    {
+      "name": "Store",
+      "value": "store"
+    },
+    {
+      "name": "Friend",
+      "value": "friend"
+    },
+    {
+      "name": "Me",
+      "value": "me"
+    },
+    {
+      "name": "UserNick",
+      "value": "@xiaoming"
+    },
+    {
+      "name": "TikContent",
+      "value": "It's a Lovely Day Today#sunny day#clouds"
+    },
+    {
+      "name": "Num",
+      "value": "%sW"
+    },
+    {
+      "name": "NewFriend",
+      "value": "New Friend"
+    },
+    {
+      "name": "No_new_notice",
+      "value": "No new notice"
+    },
+    {
+      "name": "Interactive_message",
+      "value": "Interactive message"
+    },
+    {
+      "name": "Interactive_message_content",
+      "value": "Ming liked your video"
+    },
+    {
+      "name": "Greet",
+      "value": "greet"
+    },
+    {
+      "name": "Send_Message",
+      "value": "Send Message"
+    },
+    {
+      "name": "Search",
+      "value": "search"
+    },
+    {
+      "name": "Clear_all_search_record",
+      "value": "Clear all search record"
+    },
+    {
+      "name": "Synthesize",
+      "value": "synthesize"
+    },
+    {
+      "name": "Music",
+      "value": "music"
+    },
+    {
+      "name": "User",
+      "value": "user"
+    },
+    {
+      "name": "Commodity",
+      "value": "commodity"
+    },
+    {
+      "name": "Live_streaming",
+      "value": "live streaming"
+    },
+    {
+      "name": "All",
+      "value": "all"
+    },
+    {
+      "name": "Special",
+      "value": "special"
+    },
+    {
+      "name": "Album",
+      "value": "album"
+    },
+    {
+      "name": "Word",
+      "value": "word"
+    },
+    {
+      "name": "Subsection",
+      "value": "subsection"
+    },
+    {
+      "name": "Photo",
+      "value": "photo"
+    },
+    {
+      "name": "Everyday",
+      "value": "everyday"
+    },
+    {
+      "name": "Wen",
+      "value": "wen"
+    },
+    {
+      "name": "Send_everyday",
+      "value": "send everyday"
+    },
+    {
+      "name": "Select_music",
+      "value": "select music"
+    },
+    {
+      "name": "Return_edit",
+      "value": "Return Edit"
+    },
+    {
+      "name": "Topic",
+      "value": "topic"
+    },
+    {
+      "name": "Where_are_you",
+      "value": "where are you"
+    },
+    {
+      "name": "Add_applet",
+      "value": "Add applet"
+    },
+    {
+      "name": "Publicly_visible",
+      "value": "Publicly visible"
+    },
+    {
+      "name": "Advanced_setup",
+      "value": "advanced setup"
+    },
+    {
+      "name": "Well_Number_Friend",
+      "value": "# Friend"
+    },
+    {
+      "name": "Add_work_description",
+      "value": "Add work description"
+    },
+    {
+      "name": "Select_cover",
+      "value": "select cover"
+    },
+    {
+      "name": "Save_Draft",
+      "value": "Save as Draft"
+    },
+    {
+      "name": "Publish",
+      "value": "publish"
+    },
+    {
+      "name": "Publish_Success",
+      "value": "Publish Success"
+    },
+    {
+      "name": "Connection_timesout",
+      "value": "The connection times out. Please check the network status"
+    }
+  ]
+}

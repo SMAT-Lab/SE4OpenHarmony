@@ -1,0 +1,28 @@
+{
+  "types": "",
+  "keywords": [
+    "OpenHarmony",
+    "epublib",
+    "HarmonyOS"
+  ],
+  "author": "hihope",
+  "description": "Epublib is a library for reading/writing/manipulating EPUB files",
+  "ohos": {
+    "org": ""
+  },
+  "main": "index.ets",
+  "repository": "https://gitee.com/hihopeorg/epublib",
+  "type": "module",
+  "version": "2.0.0",
+  "tags": [
+    "OpenHarmony",
+    "epublib",
+    "HarmonyOS"
+  ],
+  "dependencies": {
+    "@xmldom/xmldom": "file:../xmldom"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {},
+  "name": "@ohos/epublib"
+}

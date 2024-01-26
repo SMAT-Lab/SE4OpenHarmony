@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter name="binaryFileTypePolicyFilter" desc="Filters for resources files policies">
+                <filteritem type="filename" name="icon.png" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="app_icon.png" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
+            </filefilter>
+            <filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="hvigorfile.js" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+            </filefilter>
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="hvigorfile.js" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filename" name="*.json5" desc="hvigor配置文件，DevEco Studio自动生成，不手动修改"/>
+                <filteritem type="filepath" name="LICENSE" desc="LICENSE文件，无需添加许可头"/>
+            </filefilter>
+        </filefilterlist>
+    </oatconfig>
+</configuration>

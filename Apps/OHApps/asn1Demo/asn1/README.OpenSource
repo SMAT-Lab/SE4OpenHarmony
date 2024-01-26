@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "asn1",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "v0.3.4",
+        "Owner":"xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/ComplyCloud/asn1",
+        "Description": "Javascript library for Abstract Syntax Notation One (ASN.1)"
+    }
+]

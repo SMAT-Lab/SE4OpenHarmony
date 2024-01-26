@@ -1,0 +1,13 @@
+{
+  "license": "Apache-2.0 Licence",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "author": "hihope",
+  "name": "asn1Demo",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {},
+  "compileOnlyDependencies": {}
+}

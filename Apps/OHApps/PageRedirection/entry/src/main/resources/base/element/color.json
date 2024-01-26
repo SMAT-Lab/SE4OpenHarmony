@@ -1,0 +1,32 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "common_bg",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "price_red",
+      "value": "#E92F4F"
+    },
+    {
+      "name": "item_title_font",
+      "value": "#E6000000"
+    },
+    {
+      "name": "desc_font",
+      "value": "#99000000"
+    },
+    {
+      "name": "button_start",
+      "value": "#F64D43"
+    },
+    {
+      "name": "button_end",
+      "value": "#EB344D"
+    }
+  ]
+}

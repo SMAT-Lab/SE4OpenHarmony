@@ -1,0 +1,6 @@
+/node_modules
+/oh_modules
+/oh-package-lock.json5
+/.preview
+/build
+/.cxx

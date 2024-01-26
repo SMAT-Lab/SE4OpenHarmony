@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "smack",
+        "License": "GPL 3.0 License",
+        "Version Number": "1.0.13",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/rxwen/gloox.git",
+        "Description": "一个基于XMPP协议的一个聊天客户端."
+    }
+]

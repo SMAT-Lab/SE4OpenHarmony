@@ -1,0 +1,14 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/allowed_tags",
+    "pages/allowed_attributes",
+    "pages/allowed_schemes",
+    "pages/allowed_schemes_by_tags",
+    "pages/allowed_scheme_applied_to_attr",
+    "pages/allowed_self_closing_tags",
+    "pages/sanitize_html_options1",
+    "pages/sanitize_html_options2",
+    "pages/sanitize_html_options3"
+  ]
+}

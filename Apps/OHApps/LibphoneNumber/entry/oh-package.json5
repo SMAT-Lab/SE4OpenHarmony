@@ -1,0 +1,16 @@
+{
+  "license": "ISC",
+  "devDependencies": {},
+  "name": "entry",
+  "ohos": {
+    "org": "huawei",
+    "directoryLevel": "module",
+    "buildTool": "hvigor"
+  },
+  "description": "example description",
+  "repository": {},
+  "version": "3.0.0",
+  "dependencies": {
+    "libphonenumber-js": "^1.9.53"
+  }
+}

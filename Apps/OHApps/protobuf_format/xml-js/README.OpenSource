@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "xml-js",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "1.6.11",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/nashwaan/xml-js",
+        "Description": "Converter utility between XML text and Javascript object / JSON text."
+    },
+    {
+        "Name": "sax",
+        "License": "ISC License",
+        "License File": "LICENSE",
+        "Version Number": "1.2.4",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/isaacs/sax-js",
+        "Description": "A sax style parser for JS，A very simple tool to parse through an XML string."
+    }
+]

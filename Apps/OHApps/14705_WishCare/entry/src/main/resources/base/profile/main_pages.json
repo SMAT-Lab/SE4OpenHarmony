@@ -1,0 +1,14 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/login",
+    "pages/APP",
+    "pages/ExercisePlan",
+    "pages/HomePage",
+    "pages/HealthReport",
+    "pages/MyFamily",
+    "pages/wisecare",
+    "pages/register",
+    "pages/OlderPage"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "npm 模块"
+    },
+    {
+      "name": "recently_added",
+      "value": "最近添加"
+    },
+    {
+      "name": "next",
+      "value": "下一步"
+    },
+    {
+      "name": "choice_photo",
+      "value": "选照片"
+    },
+    {
+      "name": "choice_video",
+      "value": "选视频"
+    },
+
+    {
+      "name": "photograph",
+      "value": "拍照"
+    },
+    {
+      "name": "take_video",
+      "value": "拍视频"
+    },
+    {
+      "name": "complete",
+      "value": "完成"
+    },
+    {
+      "name": "adjust",
+      "value": "调节"
+    },
+    {
+      "name": "rotate",
+      "value": "旋转"
+    },
+    {
+      "name": "crop",
+      "value": "裁剪"
+    },
+    {
+      "name": "scale",
+      "value": "缩放"
+    },
+    {
+      "name": "confirm",
+      "value": "确认"
+    },
+    {
+      "name": "proportion_three_four",
+      "value": "3:4"
+    },
+    {
+      "name": "proportion_nine_sixth",
+      "value": "9:16"
+    },
+    {
+      "name": "proportion_one_one",
+      "value": "正方形"
+    },
+    {
+      "name": "choice_number",
+      "value": "最多选择六张图片"
+    },
+    {
+      "name": "origin_photo",
+      "value": "原图"
+    },
+    {
+      "name": "narrow",
+      "value": "缩小"
+    },
+    {
+      "name": "amplification",
+      "value": "放大"
+    },
+    {
+      "name": "user_tip",
+      "value": "功能开发中"
+    }
+  ]
+}

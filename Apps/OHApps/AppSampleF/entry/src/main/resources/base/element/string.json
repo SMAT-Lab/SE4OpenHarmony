@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "仿应用扫一扫"
+    },
+    {
+      "name": "index_nike",
+      "value": "nike短袖 男"
+    },
+    {
+      "name": "index_search",
+      "value": "搜索"
+    },
+    {
+      "name": "camera_sweep",
+      "value": "扫一扫"
+    },
+    {
+      "name": "camera_pictures",
+      "value": "应用拍照"
+    },
+    {
+      "name": "camera_pai",
+      "value": "拍拍乐"
+    },
+    {
+      "name": "message_text",
+      "value": "条码来源于：国家编码中心"
+    },
+    {
+      "name": "message_baby",
+      "value": "识别出以下宝贝"
+    },
+    {
+      "name": "text_description",
+      "value": "可扫描二维码、条形码"
+    },
+    {
+      "name": "text_concern",
+      "value": "关注"
+    },
+    {
+      "name": "text_translation",
+      "value": "翻译"
+    },
+    {
+      "name": "index_index_text",
+      "value": "首页"
+    },
+    {
+      "name": "index_shopping",
+      "value": "购物"
+    },
+    {
+      "name": "index_video",
+      "value": "视频"
+    },
+    {
+      "name": "index_message",
+      "value": "消息"
+    },
+    {
+      "name": "index_me",
+      "value": "我的"
+    }
+  ]
+}

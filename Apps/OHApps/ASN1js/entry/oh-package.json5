@@ -1,0 +1,14 @@
+{
+  "license": "BSD-3-Clause",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "pvutils": "^1.1.3",
+    "@fortanix/asn1js": "^2.0.27",
+    '@ohos/node-polyfill': '1.0.0'
+  }
+}

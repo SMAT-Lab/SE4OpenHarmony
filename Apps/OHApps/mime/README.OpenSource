@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "mime",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "4.0.0-beta.1",
+        "Owner" : "broofa"
+        "Upstream URL": "https://github.com/broofa/mime",
+        "Description": "Mime types for JavaScript."
+    }
+]

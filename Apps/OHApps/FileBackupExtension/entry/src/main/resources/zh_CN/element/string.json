@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "fileData",
+      "value": "文件数据"
+    },
+    {
+      "name": "createFiles",
+      "value": "生成文件数据"
+    },
+    {
+      "name": "filelistWaitingToBeGenerated",
+      "value": "文件列表等待生成中..."
+    }
+  ]
+}

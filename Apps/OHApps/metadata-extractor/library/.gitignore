@@ -1,0 +1,15 @@
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/build
+.preview
+/.cxx
+/.test
+/hvigor

@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "OpenGL I2C temp"
+    },
+    {
+      "name": "mode_label",
+      "value": "temp is： "
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "temp"
+    }
+  ]
+}

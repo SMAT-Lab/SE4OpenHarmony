@@ -1,0 +1,13 @@
+{
+  "license": "ISC",
+  "types": "",
+  "devDependencies": {},
+  "name": "capabilities",
+  "description": "a npm package which contains arkUI2.0 page",
+  "main": "index.ets",
+  "version": "1.0.0",
+  "dependencies": {
+    "@ohos/menuitems": "file:../menuitems",
+    "@ohos/common": "file:../../common"
+  }
+}

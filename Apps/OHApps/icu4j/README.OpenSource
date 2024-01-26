@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "intl_messageformat_parser",
+        "License": "Apache license",
+        "License File": "LICENSE ",
+        "Version Number": "4.1.2",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/formatjs/intl-messageformat",
+        "Description": "Format a string with placeholders, including plural and select support to create localized messages.  "
+    }
+]

@@ -1,0 +1,13 @@
+[
+
+    {
+        "Name": "node-xml2js",
+        "License": "MIT license",
+        "License File": "https://github.com/Leonidas-from-XIV/node-xml2js/blob/master/LICENSE",
+        "Version Number": "0.4.23",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/Leonidas-from-XIV/node-xml2js",
+        "Description": "XML to JavaScript object converter."
+    };
+
+]

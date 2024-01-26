@@ -1,0 +1,220 @@
+{
+  "string": [
+    {
+      "name": "module_test_desc",
+      "value": "test ability description"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "the test ability"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "test label"
+    },
+    {
+      "name": "xml",
+      "value": "Xml & ConvertXml (XML Parsing,Generation and convert)"
+    },
+    {
+      "name": "serializer",
+      "value": "Xml Serializer"
+    },
+    {
+      "name": "parser",
+      "value": "Xml Pull Parser"
+    },
+    {
+      "name": "convert",
+      "value": "Xml Convert"
+    },
+    {
+      "name": "url",
+      "value": "Url (URL String Parsing)"
+    },
+    {
+      "name": "util",
+      "value": "Util (util)"
+    },
+    {
+      "name": "array_list",
+      "value": "ArrayList (Linear Container ArrayList)"
+    },
+    {
+      "name": "string_code",
+      "value": "StringCode (String encoding and decoding)"
+    },
+    {
+      "name": "rational_number",
+      "value": "RationalNumber (RationalNumber)"
+    },
+    {
+      "name": "rationalNumber",
+      "value": "Rational number:"
+    },
+    {
+      "name": "numerator",
+      "value": "Numerator:"
+    },
+    {
+      "name": "denominator",
+      "value": "Denominator:"
+    },
+    {
+      "name": "compare",
+      "value": "Compare rational numbers"
+    },
+    {
+      "name": "less_than",
+      "value": "FirstRationalNumber id less than SecondRationalNumber"
+    },
+    {
+      "name": "get",
+      "value": "Get rational number value"
+    },
+    {
+      "name": "get_value",
+      "value": "Get Value"
+    },
+    {
+      "name": "getDenominator",
+      "value": "Get numerator and denominator"
+    },
+    {
+      "name": "isZero",
+      "value": "Check for zero"
+    },
+    {
+      "name": "rational_number_is",
+      "value": "Rational Number1 is"
+    },
+    {
+      "name": "isNaN",
+      "value": "Check for NaN"
+    },
+    {
+      "name": "rational_number_is_not_nan",
+      "value": "Rational Number1 is not NaN"
+    },
+    {
+      "name": "isFinite",
+      "value": "Check for finite number"
+    },
+    {
+      "name": "lru_cache",
+      "value": "LRUCache (Lru cache)"
+    },
+    {
+      "name": "initialize_buffer",
+      "value": "Initialize buffer"
+    },
+    {
+      "name": "get_buffer_capacity",
+      "value": "Get buffer capacity"
+    },
+    {
+      "name": "update_buffer_capacity",
+      "value": "Update buffer capacity"
+    },
+    {
+      "name": "get_buffer_string",
+      "value": "Get buffer string"
+    },
+    {
+      "name": "add_key_value",
+      "value": "Add key value pair"
+    },
+    {
+      "name": "get_value_with_key",
+      "value": "Get value with key"
+    },
+    {
+      "name": "get_all_key_values",
+      "value": "Get all key-values"
+    },
+    {
+      "name": "delete_key_and_value",
+      "value": "Delete the value of key"
+    },
+    {
+      "name": "clear_all_key_values",
+      "value": "Clear all key-values"
+    },
+    {
+      "name": "view_operation_record",
+      "value": "View operation record"
+    },
+    {
+      "name": "base64",
+      "value": "Base64Helper (Base64 codec)"
+    },
+    {
+      "name": "encode",
+      "value": "Encode"
+    },
+    {
+      "name": "decode",
+      "value": "Decode"
+    },
+    {
+      "name": "type_check",
+      "value": "TypeCheck (Type check)"
+    },
+    {
+      "name": "task_pool",
+      "value": "TaskPool (Using the Task Pool)"
+    },
+    {
+      "name": "deque",
+      "value": "Deque (Linear Container Deque)"
+    },
+    {
+      "name": "hash_map",
+      "value": "HashMap (NoLinear Container HashMap)"
+    },
+    {
+      "name": "hash_set",
+      "value": "HashSet (NoLinear Container HashSet)"
+    },
+    {
+      "name": "light_weight_map",
+      "value": "LightWeightMap (NoLinear Container LightWeightMap)"
+    },
+    {
+      "name": "light_weight_set",
+      "value": "LightWeightSet (NoLinear Container LightWeightSet)"
+    },
+    {
+      "name": "linked_list",
+      "value": "LinkedList (Linear Container LinkedList)"
+    },
+    {
+      "name": "list",
+      "value": "List (Linear Container List)"
+    },
+    {
+      "name": "plain_array",
+      "value": "PlainArray (NoLinear Container PlainArray)"
+    },
+    {
+      "name": "queue",
+      "value": "Queue (Linear Container Queue)"
+    },
+    {
+      "name": "stack",
+      "value": "Stack (Linear Container Stack)"
+    },
+    {
+      "name": "tree_map",
+      "value": "TreeMap (NoLinear Container TreeMap)"
+    },
+    {
+      "name": "tree_set",
+      "value": "TreeSet (NoLinear Container TreeSet)"
+    },
+    {
+      "name": "vector",
+      "value": "Vector (Linear Container Vector)"
+    }
+  ]
+}

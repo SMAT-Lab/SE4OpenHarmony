@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/SecondPage",
+    "pages/ThridPage",
+    "pages/ToastPage",
+    "pages/WebPage",
+    "pages/ScrollerPage"
+  ]
+}

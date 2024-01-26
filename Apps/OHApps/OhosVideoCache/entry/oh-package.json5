@@ -1,0 +1,14 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos/ijkplayer": "2.0.2",
+    "@ohos/video-cache": "file:../library",
+    "@ohos/crypto-js": "2.0.2"
+  }
+}
+

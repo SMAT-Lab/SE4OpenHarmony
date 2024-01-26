@@ -1,0 +1,26 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/SecondPage",
+    "pages/ButtonPage",
+    "pages/ImagePage",
+    "pages/TextinputPage",
+    "pages/LoginPage",
+    "pages/MainPage",
+    "pages/TabPage",
+    "pages/QrcodePage",
+    "pages/ProgressPage",
+    "pages/MePage",
+    "pages/ToastPage",
+    "pages/WebPage",
+    "pages/Me2Page",
+    "pages/HttpPage",
+    "pages/axiosPage",
+    "pages/SwiperPage",
+    "pages/SelectImagePage",
+    "pages/NavPage",
+    "pages/Animation/AnimationPage",
+    "pages/VideoPage",
+    "pages/MainnPage"
+  ]
+}

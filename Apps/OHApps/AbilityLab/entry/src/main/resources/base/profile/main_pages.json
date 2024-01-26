@@ -1,0 +1,8 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Second",
+    "pages/GamePage",
+    "pages/FinalGrade"
+  ]
+}

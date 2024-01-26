@@ -1,0 +1,12 @@
+[
+    {
+         "Name": "complex.js",
+         "License": "MIT License",
+         "License File": "LICENSE",
+         "Version Number": "2.1.1",
+         "Owner" : "xiafeng@huawei.com"
+         "Upstream URL": "https://github.com/infusion/Complex.js",
+         "Description": "A complex numbers library."
+    }
+]
+

@@ -1,0 +1,19 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/ClassicsSample",
+    "pages/BezierCircleSample",
+    "pages/BattleCitySample",
+    "pages/BezierRadarSample",
+    "pages/HitBlockSample",
+    "pages/DeliverySample",
+    "pages/DropBoxSample",
+    "pages/StoreHouseSample",
+    "pages/FlyRefreshStylePage",
+    "pages/MaterialSample",
+    "pages/PhoenixSample",
+    "pages/TaurusSample",
+    "pages/WaterSwipeSample",
+    "pages/WaveSwipeSample"
+  ]
+}

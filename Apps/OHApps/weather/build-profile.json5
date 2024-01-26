@@ -1,0 +1,53 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/jianguo/.ohos/config/auto_debug_weather_com.jianguo.weather_2850086000479307207.cer",
+          "storePassword": "0000001BFB8F1BB6B00A8DBA46592D8E9BFC66BE5AEC19FE25FEA7BC91F3D668FBF7E6776F6B26BCED6885",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BFC371737686231C1F95A74E6D06804DEA1EB38CCFC04B75DE9C718C46590F96AFE6D61AE582608",
+          "profile": "/Users/jianguo/.ohos/config/auto_debug_weather_com.jianguo.weather_2850086000479307207.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/jianguo/.ohos/config/auto_debug_weather_com.jianguo.weather_2850086000479307207.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sharedlibrary",
+      "srcPath": "./sharedlibrary",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

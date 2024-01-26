@@ -1,0 +1,18 @@
+{
+  "license": "",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "2.0.0",
+  "dependencies": {
+    "hex-encode-decode": "^1.0.0",
+    "@ohos/asn1": "file:../asn1",
+    "Base64": "^1.1.0",
+    "pvutils": "^1.1.3",
+    "@ohos/asn1-der": "file:../asn1_der",
+    "@fortanix/asn1js": "^2.0.27"
+  },
+  "compileOnlyDependencies": {}
+}

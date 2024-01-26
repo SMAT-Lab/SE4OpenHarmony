@@ -1,0 +1,116 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "eTS multimedia"
+    },
+    {
+      "name": "delete_file",
+      "value": "Delete this file?"
+    },
+    {
+      "name": "rename_file",
+      "value": "Rename this file"
+    },
+    {
+      "name": "yes",
+      "value": "OK"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "save",
+      "value": "Save"
+    },
+    {
+      "name": "rename_placeholder",
+      "value": "Input new name"
+    },
+    {
+      "name": "photo",
+      "value": "Photo"
+    },
+    {
+      "name": "video",
+      "value": "Video"
+    },
+    {
+      "name": "album_empty",
+      "value": "The album is empty"
+    },
+    {
+      "name": "setting",
+      "value": "setting"
+    },
+    {
+      "name": "size",
+      "value": "size"
+    },
+    {
+      "name": "rotation",
+      "value": "rotation"
+    },
+    {
+      "name": "default_size",
+      "value": "1920*1080"
+    },
+    {
+      "name": "notEnabled",
+      "value": "Not Enabled"
+    },
+    {
+      "name": "confirm",
+      "value": "confirm"
+    },
+    {
+      "name": "recording_resolution",
+      "value": "Recording resolution"
+    },
+    {
+      "name": "angle_of_rotation",
+      "value": "Angle of rotation"
+    },
+    {
+      "name": "support_90_rotate",
+      "value": "support 90°C rotate"
+    },
+    {
+      "name": "support_180_rotate",
+      "value": "support 180°C rotate"
+    },
+    {
+      "name": "support_270_rotate",
+      "value": "support 270°C rotate"
+    },
+    {
+      "name": "1920_1080",
+      "value": "1920*1080"
+    },
+    {
+      "name": "1280_720",
+      "value": "1280*720"
+    },
+    {
+      "name": "800_600",
+      "value": "800*600"
+    },
+    {
+      "name": "font_family",
+      "value": "HarmonyOS Sans SC-Medium"
+    },
+    {
+      "name": "font_family_Regular",
+      "value": "HarmonyOS Sans SC-Regular"
+    }
+  ]
+}

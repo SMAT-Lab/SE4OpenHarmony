@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "xml_js",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

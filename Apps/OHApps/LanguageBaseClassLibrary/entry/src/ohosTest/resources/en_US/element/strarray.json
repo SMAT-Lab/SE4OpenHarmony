@@ -1,0 +1,69 @@
+{
+  "strarray": [
+    {
+      "name": "language_base_class_library_list",
+      "value": [
+        {
+          "value": "Buffer (Buffer)"
+        },
+        {
+          "value": "Xml & ConvertXml (XML Parsing,Generation and convert)"
+        },
+        {
+          "value": "TaskPool (Using the Task Pool)"
+        },
+        {
+          "value": "Uri (URI String Parsing)"
+        },
+        {
+          "value": "Url (URL String Parsing)"
+        },
+        {
+          "value": "Util (util)"
+        },
+        {
+          "value": "ArrayList (Linear Container ArrayList)"
+        },
+        {
+          "value": "Deque (Linear Container ArrayList)"
+        },
+        {
+          "value": "HashMap (Nonlinear Container HashMap)"
+        },
+        {
+          "value": "HashSet (Nonlinear Container HashSet)"
+        },
+        {
+          "value": "LightWeightMap (Nonlinear Container LightWeightMap)"
+        },
+        {
+          "value": "LightWeightSet (Nonlinear Container LightWeightMap)"
+        },
+        {
+          "value": "LinkedList (Nonlinear Container LightWeightMap)"
+        },
+        {
+          "value": "List (Nonlinear Container LightWeightMap)"
+        },
+        {
+          "value": "PlainArray (Nonlinear Container PlainArray)"
+        },
+        {
+          "value": "Queue (Linear Container Queue)"
+        },
+        {
+          "value": "Stack (Linear Container Stack)"
+        },
+        {
+          "value": "TreeMap (Nonlinear Container TreeMap)"
+        },
+        {
+          "value": "TreeSet (Nonlinear Container TreeSet)"
+        },
+        {
+          "value": "Vector (Linear Container Vector)"
+        }
+      ]
+    }
+  ]
+}

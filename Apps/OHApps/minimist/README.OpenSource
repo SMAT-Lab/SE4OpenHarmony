@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "minimist",
+        "License": "MIT LICENSE ",
+        "License File": "LICENSE ",
+        "Version Number": "^1.2.2",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/minimistjs/minimist",
+        "Description": "parse argument options"
+    }
+]

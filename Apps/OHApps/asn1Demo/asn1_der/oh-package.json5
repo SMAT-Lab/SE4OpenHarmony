@@ -1,0 +1,19 @@
+{
+  "license": "MIT License",
+  "keywords": [
+    "asn1-der",
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "devDependencies": {},
+  "author": "ohos_tpc",
+  "name": "@ohos/asn1-der",
+  "description": "Javascript library for DER and PEM serialization/deserialization of Abstract Syntax Notation One (ASN.2) object models",
+  "main": "src/main/dist/der_index.js",
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/asn1Demo",
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "buffer": "^6.0.3"
+  }
+}

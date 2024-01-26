@@ -1,0 +1,436 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "StateManagement entry model"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "StateManagement entry ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "StateManagement"
+    },
+    {
+      "name": "close",
+      "value": "Close"
+    },
+    {
+      "name": "page_level",
+      "value": "PageLevelStageManagement"
+    },
+    {
+      "name": "app_level",
+      "value": "AppLevelStageManagement"
+    },
+    {
+      "name": "single_component_state",
+      "value": "State variables in single component"
+    },
+    {
+      "name": "decorated_object_type",
+      "value": "The decorated object type"
+    },
+    {
+      "name": "base_type",
+      "value": "Based type"
+    },
+    {
+      "name": "array_type",
+      "value": "Array type"
+    },
+    {
+      "name": "array_type_add",
+      "value": "add elements"
+    },
+    {
+      "name": "array_type_delete",
+      "value": "delete elements"
+    },
+    {
+      "name": "array_type_update",
+      "value": "Update a single element in an array"
+    },
+    {
+      "name": "array_type_deletetoast",
+      "value": "The list is empty and cannot be deleted！"
+    },
+    {
+      "name": "array_type_updatetoast",
+      "value": "The list is empty and cannot be update！"
+    },
+    {
+      "name": "class_type",
+      "value": "Class Object type"
+    },
+    {
+      "name": "class_type_objectName",
+      "value": "Chasing the starry sun"
+    },
+    {
+      "name": "class_object",
+      "value": "Object"
+    },
+    {
+      "name": "class_attribute",
+      "value": "Object Attribute"
+    },
+    {
+      "name": "class_child_attribute",
+      "value": "Attribute of attribute"
+    },
+    {
+      "name": "class_type_update_object",
+      "value": "Update object:"
+    },
+    {
+      "name": "class_type_update_attribute",
+      "value": "Update object attribute"
+    },
+    {
+      "name": "class_type_update_child_attribute",
+      "value": "Update attribute of attribute"
+    },
+    {
+      "name": "update_principle",
+      "value": "Update principle"
+    },
+    {
+      "name": "only_update_bound_components",
+      "value": "Only the components to which you are bound are updated"
+    },
+    {
+      "name": "only_update_state",
+      "value": "@State declare variables"
+    },
+    {
+      "name": "only_update_title",
+      "value": "title:"
+    },
+    {
+      "name": "only_update_private",
+      "value": "Private declare variables"
+    },
+    {
+      "name": "only_update_content",
+      "value": "content:"
+    },
+    {
+      "name": "update_title_content",
+      "value": "Click to modify the title and content"
+    },
+    {
+      "name": "only_update_state_components",
+      "value": "Only update components declared by @State"
+    },
+    {
+      "name": "update_the_custom_component",
+      "value": "Where the custom component is updated"
+    },
+    {
+      "name": "multi_component_sync",
+      "value": "Status synchronization between components"
+    },
+    {
+      "name": "parent_child_sync",
+      "value": "State synchronization between parent and child components"
+    },
+    {
+      "name": "single_and_two_way_sync",
+      "value": "Single and two-way synchronization"
+    },
+    {
+      "name": "parent_component",
+      "value": "Parent component"
+    },
+    {
+      "name": "child_component",
+      "value": "Child component"
+    },
+    {
+      "name": "uni_and_bidirection_sync_tips",
+      "value": "The prototype color in the parent component is @ state state state variable"
+    },
+    {
+      "name": "single_direction_sync_tips",
+      "value": "The prototype color in the one-way synchronization sub-component is @Prop state variable"
+    },
+    {
+      "name": "both_direction_sync_tips",
+      "value": "The prototype color in the bidirectional synchronization sub-component is @Link state variable"
+    },
+    {
+      "name": "uni_and_bidirection_sync_btn",
+      "value": "Set to pink, components are updated synchronously"
+    },
+    {
+      "name": "single_direction_sync_btn",
+      "value": "Set to blue, parent component is out of sync"
+    },
+    {
+      "name": "both_direction_sync_btn",
+      "value": "Set to red, attachment synchronization"
+    },
+    {
+      "name": "partial_sync",
+      "value": "The child component synchronizes parts of the parent component"
+    },
+    {
+      "name": "partial_sync_element_one",
+      "value": "Elment one"
+    },
+    {
+      "name": "partial_sync_element_two",
+      "value": "Elment two"
+    },
+    {
+      "name": "partial_sync_element_three",
+      "value": "Elment three"
+    },
+    {
+      "name": "partial_sync_attribute_one",
+      "value": "Attribute one"
+    },
+    {
+      "name": "partial_sync_attribute_two",
+      "value": "Attribute two"
+    },
+    {
+      "name": "partial_sync_attribute_three",
+      "value": "Attribute three"
+    },
+    {
+      "name": "partial_sync_parent_tips",
+      "value": "The array in the parent component is a @State state variable, and the classes of the elements of the array are decorated with @observed"
+    },
+    {
+      "name": "partial_sync_text",
+      "value": "Use @ObjectLink to modify variables in child components to synchronize data with elements of objects in parent components"
+    },
+    {
+      "name": "parent_descendent_sync",
+      "value": "State synchronization between parent and descendent"
+    },
+    {
+      "name": "select_colorblue",
+      "value": "Blue"
+    },
+    {
+      "name": "select_colorpink",
+      "value": "Pink"
+    },
+    {
+      "name": "realize_by_state_link",
+      "value": "Use @State, @Link to realize:"
+    },
+    {
+      "name": "realize_by_provide_consume",
+      "value": "Use @Provide, @Consume to realize:"
+    },
+    {
+      "name": "deepnest_parent_titleone",
+      "value": "The circular color in the parent component as @State state variable"
+    },
+    {
+      "name": "deepnest_child_titleone",
+      "value": "The circular color of the sub-component is @Link, and the state variable is passed to the sub-component"
+    },
+    {
+      "name": "deepnest_descendent_titleone",
+      "value": "The circle color in the sub-component is @Link status variable"
+    },
+    {
+      "name": "deepnest_parent_titletwo",
+      "value": "The state variable with the circular color of @Provide in the parent component as the data provider"
+    },
+    {
+      "name": "deepnest_child_titletwo",
+      "value": "Variables do not need to be set in subcomponents"
+    },
+    {
+      "name": "deepnest_descendent_titletwo",
+      "value": "The round color in the sub-component is @Consume variable to sense data changes, update the UI, or reverse synchronization"
+    },
+    {
+      "name": "brother_sync",
+      "value": "State synchronization between brother components"
+    },
+    {
+      "name": "parent_titleone",
+      "value": "The common parent component circle color is @State variable"
+    },
+    {
+      "name": "link_brothers_title",
+      "value": "The brother component circle color is @Link state variable"
+    },
+    {
+      "name": "parent_titletwo",
+      "value": "The common parent component circle color is @Provide variable"
+    },
+    {
+      "name": "consume_brothers_title",
+      "value": "The brother component circle color is @Consume state variable"
+    },
+    {
+      "name": "application_storage_ui",
+      "value": "State synchronization between the app storage and the UI"
+    },
+    {
+      "name": "nightmode",
+      "value": "Night mode"
+    },
+    {
+      "name": "close_nightmode",
+      "value": "Close night mode"
+    },
+    {
+      "name": "start_nightmode",
+      "value": "Start night mode"
+    },
+    {
+      "name": "nightmode_text",
+      "value": "Night mode control Ability1, Ability2 interface style"
+    },
+    {
+      "name": "fontSize_text",
+      "value": "FontSize"
+    },
+    {
+      "name": "fontSize_singlesync_textone",
+      "value": "FontSize one-way synchronization"
+    },
+    {
+      "name": "enter_abilityone",
+      "value": "Enter ability1"
+    },
+    {
+      "name": "enter_abilitytwo",
+      "value": "Enter ability2"
+    },
+    {
+      "name": "abilityone_page",
+      "value": "Ability1"
+    },
+    {
+      "name": "abilitytwo_page",
+      "value": "Ability2"
+    },
+    {
+      "name": "both_data_binding",
+      "value": "The component establishes two-way binding with AppStorage through the state variable decorated by @StorageLink(key)"
+    },
+    {
+      "name": "single_data_binding",
+      "value": "The component establishes a one-way data binding with AppStorage by using the state variable decorated with @StorageProp(key)"
+    },
+    {
+      "name": "nigntmode_both_binding",
+      "value": "The night mode in this interface is bidirectional synchronization of @StorageLink(key) variable, and the night mode switch will be synchronized in other capabilities"
+    },
+    {
+      "name": "single_fontsize_binding",
+      "value": "The font size in this interface is the @StorageProp(key) variable one-way synchronization, which only changes the font size of the current interface"
+    },
+    {
+      "name": "ability_storage_ui",
+      "value": "State synchronization between the ability storage and the UI"
+    },
+    {
+      "name": "enter_pageone",
+      "value": "Enter Page1"
+    },
+    {
+      "name": "enter_ability_outofsync",
+      "value": "Cross Ability out of sync"
+    },
+    {
+      "name": "enter_pagetwo",
+      "value": "Enter Page2"
+    },
+    {
+      "name": "ability_storage_nightmodelsync",
+      "value": "The night mode switch controls the interface style of Page1 and Page2"
+    },
+    {
+      "name": "ability_storage_fontsizesync",
+      "value": "Font size control page1, page2 interface font size one-way synchronization"
+    },
+    {
+      "name": "localStorage_both_data_binding",
+      "value": "The component establishes two-way binding with LocalStorage through the state variable decorated by @LocalStorageLink(key)"
+    },
+    {
+      "name": "localStorage_single_data_binding",
+      "value": "The component establishes a one-way data binding with LocalStorage by using the state variable decorated with @LocalStorageProp(key)"
+    },
+    {
+      "name": "localStorage_nigntmode_both_binding",
+      "value": "The night mode in this interface is bidirectional synchronization of @LocalStorageLink (key) variable, and the night mode switch will be synchronized in other capabilities"
+    },
+    {
+      "name": "localStorage_single_fontsize_binding",
+      "value": "The font size in this interface is the @StorageProp(key) variable one-way synchronization, which only changes the font size of the current interface"
+    },
+    {
+      "name": "enter_ability_outofsync_text",
+      "value": "The data is not synchronized across capabilities, so the switch of night mode and home page in this interface is not synchronized"
+    },
+    {
+      "name": "localStorage_pagetitleone",
+      "value": "Page1"
+    },
+    {
+      "name": "localStorage_pagetitletwo",
+      "value": "Page2"
+    },
+    {
+      "name": "localStorage_abilitytitle",
+      "value": "Ability"
+    },
+    {
+      "name": "base_type_tip_text",
+      "value": "The circle color is a @State state variable"
+    },
+    {
+      "name": "source_code",
+      "value": "View the source code"
+    },
+    {
+      "name": "set_to_blue",
+      "value": "Set to blue"
+    },
+    {
+      "name": "set_to_pink",
+      "value": "Set to pink"
+    },
+    {
+      "name": "storagepropability_desc",
+      "value": "StoragePropAbility_desc"
+    },
+    {
+      "name": "storagepropability_label",
+      "value": "StoragePropAbilityLabel"
+    },
+    {
+      "name": "storagelinkability_desc",
+      "value": "storageLinkAbilityDesc"
+    },
+    {
+      "name": "storagelinkability_label",
+      "value": "StorageLinkAbilityLabel"
+    },
+    {
+      "name": "outofsyncability_desc",
+      "value": "OutofsyncAbilityDesc"
+    },
+    {
+      "name": "outofsyncability_label",
+      "value": "OutOfSyncAbilityLabel"
+    },
+    {
+      "name": "empty",
+      "value": "empty"
+    }
+  ]
+}

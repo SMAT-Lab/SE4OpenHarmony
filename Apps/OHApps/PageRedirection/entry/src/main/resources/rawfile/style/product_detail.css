@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+}
+
+#detail {
+    width: 100%;
+    height: 100vh;
+    background-color: #F1F3F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#detail-info {
+    flex: 1;
+    overflow: scroll;
+}
+
+#slider {
+    width: 100vw;
+    background-color: #000000;
+    overflow: hidden;
+}
+#swiper {
+    width: 100vw;
+    background-color: #000000;
+}
+
+#swiper > img {
+    width: 100%;
+    aspect-ratio: 1.42;
+    margin: 16px 0 24px 0;
+    object-fit: cover;
+    display: none;
+}
+
+.showing {
+    display: block !important;
+}
+#dot {
+    position: absolute;
+    right: 18px;
+    top: 68vw;
+    z-index: 2;
+    width: 36px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: rgba(0,0,0,0.40);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+#info {
+    margin: 12px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 12px;
+    color: #182431;
+}
+
+#price {
+    font-size: 20px;
+    color: #E92F4F;
+    line-height: 28px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+#price > span {
+    font-size: 14px;
+}
+
+#product-name {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+#guide {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#product-info {
+    font-size: 14px;
+    opacity: 0.6;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+br {
+    display: inline;
+    line-height: 8px;
+}
+
+#menu {
+    height: 56px;
+    padding: 0 12px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu > div {
+    display: flex;
+}
+
+#menu > div:first-of-type {
+    flex: 1;
+    justify-content: space-around;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn > img {
+    width: 24px;
+    height: 24px;
+}
+
+.btn > text {
+    margin-top: 4px;
+    font-size: 10px;
+    text-align: center;
+    color: #182431;
+}
+
+button {
+    color: #FFFFFF;
+    border: none;
+    height: 40px;
+    width: 96px
+}
+
+button:first-of-type {
+    margin-left: 8px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background: linear-gradient(270deg, #FF914C 52%, #FEA748 96%);
+}
+
+button:last-of-type {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background: linear-gradient(90deg, #F64D43 11%, #EB344D 89%);
+}

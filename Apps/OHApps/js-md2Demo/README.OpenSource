@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "js-md2",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "0.2.2",
+        "Owner" : "Chen, Yi-Cyuan"
+        "Upstream URL": "https://github.com/emn178/js-md2",
+        "Description": "A simple MD2 hash function for JavaScript supports UTF-8 encoding"
+    }
+]

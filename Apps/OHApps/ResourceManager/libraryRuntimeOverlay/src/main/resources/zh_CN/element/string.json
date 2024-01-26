@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "shared_desc",
+      "value": "描述"
+    },
+    {
+      "name": "test_string",
+      "value": "overlay运行时测试"
+    }
+  ]
+}

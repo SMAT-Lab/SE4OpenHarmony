@@ -1,0 +1,10 @@
+{
+  "license": "ISC",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "certificate framework sample.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {}
+}

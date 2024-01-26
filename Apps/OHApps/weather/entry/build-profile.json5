@@ -1,0 +1,16 @@
+{
+  "apiType": 'stageMode',
+  "buildOption": {
+  },
+  "targets": [
+    {
+      "name": "default",
+      //运行到OpenHArmony的时候要用OpenHarmony
+      "runtimeOS": "HarmonyOS"
+    },
+
+    {
+      "name": "ohosTest",
+    }
+  ]
+}

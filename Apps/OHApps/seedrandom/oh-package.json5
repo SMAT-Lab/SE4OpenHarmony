@@ -1,0 +1,12 @@
+{
+  "license": "MIT",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "author": "",
+  "name": "seedrandom",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "3.0.5",
+  "dependencies": {}
+}

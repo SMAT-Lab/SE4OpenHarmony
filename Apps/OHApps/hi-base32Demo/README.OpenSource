@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "hi-base32",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "0.5.1",
+        "Owner" : "Yi-Cyuan"
+        "Upstream URL": "https://github.com/emn178/hi-base32",
+        "Description": "A simple Base32(RFC 4648) encode / decode function for JavaScript supports UTF-8 encoding"
+    }
+]

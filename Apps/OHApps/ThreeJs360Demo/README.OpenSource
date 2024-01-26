@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "three.js",
+        "License": "MIT License",
+        "Version Number": "r155",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/mrdoob/three.js",
+        "Description": "The aim of the project is to create an easy to use, lightweight, cross-browser, general purpose 3D library. The current builds only include a WebGL renderer but WebGPU (experimental), SVG and CSS3D renderers are also available as addons"
+    }
+]

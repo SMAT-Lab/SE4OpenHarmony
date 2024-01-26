@@ -1,0 +1,67 @@
+/*
+ * MIT License
+ *
+ * Copyright (C) 2023 Huawei Device Co., Ltd.
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+import { chain } from 'underscore'
+
+@Entry
+@Component
+struct Chain {
+  @State chainResult: string = ''
+
+  build() {
+    Column () {
+      Button('Click', { type: ButtonType.Capsule, stateEffect: true })
+        .backgroundColor(0x317aff)
+        .width('50%')
+        .height(60)
+        .margin({ bottom: 30, top: 50 })
+        .onClick(() => {
+          this.chainResult = chain([{ name: 'curly', age: 25 }, { name: 'moe', age: 21 }, { name: 'larry', age: 23 }])
+            .sortBy((stooge: ESObject): ESObject => {
+              return stooge.age;
+            })
+            .map((stooge: ESObject) => {
+              return stooge.name + ' is ' + stooge.age;
+            })
+            .first()
+            .value(); //moe is 21
+        })
+
+      Column() {
+        Text('数据：[{ name: curly, age: 25 }, { name: moe, age: 21 }, { name: larry, age: 23 }]')
+          .fontSize(20)
+          .margin({ bottom: 10 })
+        Text('chain: ' + this.chainResult)
+          .fontSize(25)
+          .margin({ bottom: 30 })
+      }
+      .width('100%')
+      .alignItems(HorizontalAlign.Start)
+    }
+    .width('100%')
+  }
+}

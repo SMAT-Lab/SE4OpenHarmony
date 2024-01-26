@@ -1,0 +1,11 @@
+{
+  "license": "ISC",
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  },
+  "name": "mediaprovider",
+  "description": "Provides an example of using the AVSession interface to develop media provider app.",
+  "repository": {},
+  "version": "1.0.0",
+  "dependencies": {}
+}

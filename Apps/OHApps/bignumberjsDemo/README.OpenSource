@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "bignumber.js",
+        "License": "MIT license",
+        "License File": "LICENSE",
+        "Version Number": "9.1.0",
+        "Owner" : "MikeMcl"
+        "Upstream URL": "https://github.com/MikeMcl/bignumber.js",
+        "Description": "A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic."
+    }
+]

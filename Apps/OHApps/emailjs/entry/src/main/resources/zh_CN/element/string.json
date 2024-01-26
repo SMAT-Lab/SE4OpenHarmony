@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "SMTP"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "SMTP"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "SMTP"
+    }
+  ]
+}

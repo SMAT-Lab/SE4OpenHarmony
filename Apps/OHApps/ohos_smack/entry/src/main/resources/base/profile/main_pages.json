@@ -1,0 +1,32 @@
+{
+  "src": [
+    "pages/index",
+    "pages/user/login",
+    "pages/main",
+    "pages/user/register",
+    "pages/tabs/friends/friends_list",
+    "pages/tabs/group/group_list",
+    "pages/tabs/meeting/meeting_list",
+    "pages/tabs/setting",
+    "pages/user/search_friends",
+    "pages/chat/one_chat/one_chat_main",
+    "pages/chat/one_chat/one_chat_setting",
+    "pages/chat/meeting_chat/meeting_chat_main",
+    "pages/chat/meeting_chat/meeting_chat_setting",
+    "pages/chat/group_chat/group_chat_main",
+    "pages/chat/group_chat/group_chat_setting",
+    "pages/chat/group_chat/group_all_member",
+    "pages/tabs/friends/add_friends",
+    "pages/tabs/friends/add_group",
+    "pages/tabs/group/create_group_chat",
+    "pages/tabs/group/Join_in_group",
+    "pages/page",
+    "pages/tabs/friends/change_group_name",
+    "pages/chat/group_chat/group_member",
+    "pages/chat/group_chat/group_chat_edit"
+  ],
+  "window": {
+    "autoDesignWidth": true,
+    "designWidth": 720
+  }
+}

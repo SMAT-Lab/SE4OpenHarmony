@@ -1,0 +1,13 @@
+{
+  "license": "LGPL-3.0",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "example description",
+  "main": "",
+  "version": "2.0.0",
+  "dependencies": {
+    "@ohos/epublib": "file:../library",
+    "@xmldom/xmldom": "file:../xmldom"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "epublib",
+        "License": "LGPL License",
+        "License File": "LICENSE",
+        "Version Number": "master",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/psiegman/epublib",
+        "Description": "Epublib is a library for reading/writing/manipulating EPUB files."
+    },
+    {
+        "Name": "@xmldom/xmldom",
+        "License": "MIT LICENSE ",
+        "License File": "LICENSE ",
+        "Version Number": "^0.8.2",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/xmldom/xmldom",
+        "Description": "A pure JavaScript W3C standard-based (XML DOM Level 2 Core) `DOMParser` and `XMLSerializer` module."
+    }
+]

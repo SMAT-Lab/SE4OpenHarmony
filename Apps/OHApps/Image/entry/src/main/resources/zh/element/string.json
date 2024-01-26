@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "图片处理"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "图片处理"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "图片处理"
+    },
+    {
+      "name": "publish_comments",
+      "value": "发表评价"
+    },
+    {
+      "name": "submit",
+      "value": "提交"
+    },
+    {
+      "name": "commodity_comment",
+      "value": "商品评价"
+    },
+    {
+      "name": "tip",
+      "value": "      符合评价规则，评价超过10个字即可获得桔豆"
+    },
+    {
+      "name": "anonymous_display",
+      "value": "您的评价内容在商品评价页面将会被匿名展示。"
+    },
+    {
+      "name": "add_picture",
+      "value": "添加图片/照片"
+    },
+    {
+      "name": "media_read_permission",
+      "value": "允许应用读取用户外部存储中的媒体文件信息"
+    },
+    {
+      "name": "media_write_permission",
+      "value": "允许应用读写用户外部存储中的媒体文件信息"
+    },
+    {
+      "name": "media_location_permission",
+      "value": "允许应用访问用户媒体文件中的地理位置信息"
+    }
+  ]
+}

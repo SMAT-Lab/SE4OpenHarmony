@@ -1,0 +1,24 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "index_driver",
+      "value": "#F3F3F3"
+    },
+    {
+      "name": "index_search",
+      "value": "#FF7C0D"
+    },
+    {
+      "name": "index_bg",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "message_text",
+      "value": "#A5A5A5"
+    }
+  ]
+}

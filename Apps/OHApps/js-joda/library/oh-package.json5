@@ -1,0 +1,28 @@
+{
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "e78db48870eddc16cc35f81cee07f99918d7bf8f",
+  "types": "src/main/ets/dist/js-joda-locale.d.ts",
+  "keywords": [
+    "date",
+    "time",
+    "locale",
+    "OpenHarmony",
+    "HarmonyOS"
+  ],
+  "author": "ohos_tpc",
+  "description": "prebuilt js-joda locale package for locales: en,en-US",
+  "main": "src/main/ets/dist/index.esm.js",
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/js-joda",
+  "type": "module",
+  "version": "2.0.0",
+  "dependencies": {
+    "@js-joda/timezone": "^2.15.0",
+    "@js-joda/core": "^5.4.2"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {},
+  "name": "@ohos/localeenus",
+  "homepage": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/js-joda"
+}

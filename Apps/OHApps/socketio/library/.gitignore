@@ -1,0 +1,6 @@
+/node_modules
+/.preview
+/build
+/.cxx
+.cxx
+build

@@ -1,0 +1,232 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "etsAudio"
+    },
+    {
+      "name": "Speaker",
+      "value": "扬声器"
+    },
+    {
+      "name": "EarPiece",
+      "value": "听筒"
+    },
+    {
+      "name": "WiredHeadset",
+      "value": "有线耳机[带麦克风]"
+    },
+    {
+      "name": "WiredHeadPhones",
+      "value": "有线耳机[无麦克风]"
+    },
+    {
+      "name": "Bluetooth_A2DP",
+      "value": "蓝牙设备A2DP"
+    },
+    {
+      "name": "USB_Headset",
+      "value": "USB耳机"
+    },
+    {
+      "name": "BLUETOOTH_SCO",
+      "value": "蓝牙设备SCO"
+    },
+    {
+      "name": "Back",
+      "value": "返回"
+    },
+    {
+      "name": "SelectOutputDevice",
+      "value": "发声设备查询"
+    },
+    {
+      "name": "AudioEffectManager",
+      "value": "音效管理"
+    },
+    {
+      "name": "AudioFocus",
+      "value": "音频焦点"
+    },
+    {
+      "name": "VoiceCallType",
+      "value": "通话类型"
+    },
+    {
+      "name": "MusicType",
+      "value": "音乐类型"
+    },
+    {
+      "name": "RingtoneType",
+      "value": "铃声类型"
+    },
+    {
+      "name": "EffectManager",
+      "value": "音效管理"
+    },
+    {
+      "name": "CONTENT_TYPE_UNKNOWN",
+      "value": "未知类型"
+    },
+    {
+      "name": "CONTENT_TYPE_SPEECH",
+      "value": "演讲类型"
+    },
+    {
+      "name": "CONTENT_TYPE_MUSIC",
+      "value": "音乐类型"
+    },
+    {
+      "name": "CONTENT_TYPE_MOVIE",
+      "value": "视频类型"
+    },
+    {
+      "name": "CONTENT_TYPE_SONIFICATION",
+      "value": "声波化类型"
+    },
+    {
+      "name": "CONTENT_TYPE_RINGTONE",
+      "value": "铃声类型"
+    },
+    {
+      "name": "CONTENT_TYPE_ULTRASONIC",
+      "value": "超声波类型"
+    },
+    {
+      "name": "STREAM_USAGE_UNKNOWN",
+      "value": "未知场景"
+    },
+    {
+      "name": "STREAM_USAGE_MEDIA",
+      "value": "音频场景"
+    },
+    {
+      "name": "STREAM_USAGE_MUSIC",
+      "value": "音乐场景"
+    },
+    {
+      "name": "STREAM_USAGE_VOICE_COMMUNICATION",
+      "value": "语音通信场景"
+    },
+    {
+      "name": "STREAM_USAGE_VOICE_ASSISTANT",
+      "value": "语音播报场景"
+    },
+    {
+      "name": "STREAM_USAGE_ALARM",
+      "value": "闹钟场景"
+    },
+    {
+      "name": "STREAM_USAGE_VOICE_MESSAGE",
+      "value": "语音消息场景"
+    },
+    {
+      "name": "STREAM_USAGE_NOTIFICATION_RINGTONE",
+      "value": "通知铃声场景"
+    },
+    {
+      "name": "STREAM_USAGE_RINGTONE",
+      "value": "铃声场景"
+    },
+    {
+      "name": "STREAM_USAGE_NOTIFICATION",
+      "value": "通知消息场景"
+    },
+    {
+      "name": "STREAM_USAGE_ACCESSIBILITY",
+      "value": "无障碍场景"
+    },
+    {
+      "name": "STREAM_USAGE_SYSTEM",
+      "value": "系统音场景"
+    },
+    {
+      "name": "STREAM_USAGE_MOVIE",
+      "value": "影视场景"
+    },
+    {
+      "name": "STREAM_USAGE_GAME",
+      "value": "游戏场景"
+    },
+    {
+      "name": "STREAM_USAGE_AUDIOBOOK",
+      "value": "听书场景"
+    },
+    {
+      "name": "STREAM_USAGE_NAVIGATION",
+      "value": "导航场景"
+    },
+    {
+      "name": "EFFECT_NONE_AND_DEFAULT",
+      "value": "直通/默认"
+    },
+    {
+      "name": "EFFECT_NONE",
+      "value": "直通"
+    },
+    {
+      "name": "EFFECT_DEFAULT",
+      "value": "默认"
+    },
+    {
+      "name": "CURRENT_AUDIO_EFFECT",
+      "value": "当前音频流音效"
+    },
+    {
+      "name": "QUERY",
+      "value": "查询"
+    },
+    {
+      "name": "QUERY_RESULT",
+      "value": "查询结果"
+    },
+    {
+      "name": "AUDIO_EFFECT_MODE_SETTING",
+      "value": "音频流音效模式设置"
+    },
+    {
+      "name": "PRESET_AUDIO_EFFECT_QUERY",
+      "value": "预置音效"
+    },
+    {
+      "name": "REALTIME_AUDIO_EFFECT_SETTING",
+      "value": "实时音效"
+    },
+    {
+      "name": "SYSTEM_PRESET_AUDIO_EFFECT",
+      "value": "系统预置音效"
+    },
+    {
+      "name": "BLANK",
+      "value": "--"
+    },
+    {
+      "name": "AUDIO_CAPTURER",
+      "value": "音频录制"
+    },
+    {
+      "name": "allow",
+      "value": "允许"
+    },
+    {
+      "name": "NORMAL_CAPTURER",
+      "value": "普通录制"
+    },
+    {
+      "name": "PARALLEL_CAPTURER",
+      "value": "并行录制"
+    },
+    {
+      "name": "CONTINUE",
+      "value": "继续"
+    },
+    {
+      "name": "PAUSE",
+      "value": "暂停"
+    },
+    {
+      "name": "RECORD_RESULT",
+      "value": "录音结果"
+    }
+  ]
+}

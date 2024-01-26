@@ -1,0 +1,81 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "font_color_shallow",
+      "value": "#99000000"
+    },
+    {
+      "name": "font_color_dark",
+      "value": "#000000"
+    },
+    {
+      "name": "tab_bar_select",
+      "value": "#007DFF"
+    },
+    {
+      "name": "tab_bar_unselect",
+      "value": "#66182431"
+    },
+    {
+      "name": "tab_bar_divider",
+      "value": "#33182431"
+    },
+    {
+      "name": "background_shallow_grey",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "circle_pink",
+      "value": "#F7A4A4"
+    },
+    {
+      "name": "circle_blue",
+      "value": "#4A90E2"
+    },
+    {
+      "name": "tips_font_color",
+      "value": "#660d0d0d"
+    },
+    {
+      "name": "source_code_font_color",
+      "value": "#0A8DF2"
+    },
+    {
+      "name": "button_text_color",
+      "value": "#0d0d0d"
+    },
+    {
+      "name": "button_background_color",
+      "value": "#E5E5E5"
+    },
+    {
+      "name": "button_border_color",
+      "value": "#880d0d0d"
+    },
+    {
+      "name": "divider_color",
+      "value": "#33182431"
+    },
+    {
+      "name": "code_view_background",
+      "value": "#66182431"
+    },
+    {
+      "name": "component_background_pink",
+      "value": "#22F7A4A4"
+    },
+    {
+      "name": "color_white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "nightnode_color",
+      "value": "#EE343333"
+    }
+
+  ]
+}

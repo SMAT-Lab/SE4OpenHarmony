@@ -1,0 +1,11 @@
+[
+    {
+        "Name": " EventEmitter3 ",
+        "License": " MIT License ",
+        "License File": " LICENSE ",
+        "Version Number": " v4.0.7 ",
+        "Owner": "Primus"
+        "Upstream URL": " https://github.com/primus/eventemitter3 ",
+        "Description": "  EventEmitter3 is a high performance EventEmitter. It has been micro-optimized for various of code paths making this, one of, if not the fastest EventEmitter available for Node.js and browsers. "
+    }
+]

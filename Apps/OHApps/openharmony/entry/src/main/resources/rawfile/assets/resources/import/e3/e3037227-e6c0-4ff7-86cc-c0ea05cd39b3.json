@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "5eBIb0zihDiI+5n489r35T"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "videplayIcon",
+      "rect": [
+        10,
+        4,
+        108,
+        121
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        128,
+        128
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

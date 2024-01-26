@@ -1,0 +1,380 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "login_help",
+      "value": "帮助"
+    },
+    {
+      "name": "login_welcome",
+      "value": "欢迎登录"
+    },
+    {
+      "name": "login_86",
+      "value": "+86"
+    },
+    {
+      "name": "login_phone",
+      "value": "请输入手机号"
+    },
+    {
+      "name": "login_pass",
+      "value": "请输入密码"
+    },
+    {
+      "name": "login_agree",
+      "value": "我已阅读并同意。"
+    },
+    {
+      "name": "login_login",
+      "value": "登录"
+    },
+    {
+      "name": "login_captcha",
+      "value": "验证码"
+    },
+    {
+      "name": "login_question",
+      "value": "遇到问题"
+    },
+    {
+      "name": "index_coffee",
+      "value": "瑞幸咖啡"
+    },
+    {
+      "name": "index_search",
+      "value": "搜索"
+    },
+    {
+      "name": "index_text",
+      "value": "美食百货随叫随到"
+    },
+    {
+      "name": "index_takeaway",
+      "value": "外卖"
+    },
+    {
+      "name": "index_buy",
+      "value": "团购"
+    },
+    {
+      "name": "index_convenient",
+      "value": "便利"
+    },
+    {
+      "name": "index_general_merchandise",
+      "value": "百货"
+    },
+    {
+      "name": "index_medicine",
+      "value": "买药"
+    },
+    {
+      "name": "index_recommend",
+      "value": "推荐"
+    },
+    {
+      "name": "index_optimization",
+      "value": "优选"
+    },
+    {
+      "name": "index_video",
+      "value": "视频"
+    },
+    {
+      "name": "index_message",
+      "value": "消息"
+    },
+    {
+      "name": "index_me",
+      "value": "我的"
+    },
+    {
+      "name": "business_noodles",
+      "value": "面条"
+    },
+    {
+      "name": "business_takeaway",
+      "value": "外卖"
+    },
+    {
+      "name": "business_vip",
+      "value": "会员"
+    },
+    {
+      "name": "business_order",
+      "value": "订单"
+    },
+    {
+      "name": "business_more",
+      "value": "更多"
+    },
+    {
+      "name": "Connection_timesout",
+      "value": "The connection times out. Please check the network status"
+    },
+    {
+      "name": "pd_dispenser_description",
+      "value": "掌柜描述："
+    },
+    {
+      "name": "pd_package_contents",
+      "value": "套餐内容："
+    },
+    {
+      "name": "pd_price_description",
+      "value": "价格说明"
+    },
+    {
+      "name": "pd_tabs_detail",
+      "value": "详情"
+    },
+    {
+      "name": "pd_tabs_appraise",
+      "value": "评价2000+"
+    },
+    {
+      "name": "commodity_tabs_order",
+      "value": "点菜"
+    },
+    {
+      "name": "business_less_delivery",
+      "value": "减配送费"
+    },
+    {
+      "name": "business_zero",
+      "value": "0元起送"
+    },
+    {
+      "name": "business_order_minus",
+      "value": "首单立减"
+    },
+    {
+      "name": "business_score",
+      "value": "分"
+    },
+    {
+      "name": "business_monthly_sale",
+      "value": "月销"
+    },
+    {
+      "name": "business_good_shop",
+      "value": "精选好店"
+    },
+    {
+      "name": "business_buy_back",
+      "value": "\"会回购款!\""
+    },
+    {
+      "name": "business_reduce",
+      "value": "满20减5 | 满30减10"
+    },
+    {
+      "name": "business_per_capita",
+      "value": "人均￥ "
+    },
+    {
+      "name": "business_delivery",
+      "value": "团购快送"
+    },
+    {
+      "name": "business_give",
+      "value": "起送￥ "
+    },
+    {
+      "name": "business_yuan",
+      "value": "元 "
+    },
+    {
+      "name": "business_distribution",
+      "value": "配送约 "
+    },
+    {
+      "name": "business_min",
+      "value": "分钟"
+    },
+    {
+      "name": "business_m",
+      "value": "m"
+    },
+    {
+      "name": "buy_all",
+      "value": "全部"
+    },
+    {
+      "name": "buy_takeaway",
+      "value": "外卖"
+    },
+    {
+      "name": "buy_store",
+      "value": "到店"
+    },
+    {
+      "name": "buy_hongtuan",
+      "value": "团购优选"
+    },
+    {
+      "name": "buy_delivery",
+      "value": "快递"
+    },
+    {
+      "name": "buy_shop",
+      "value": "筛选特价团购商铺"
+    },
+    {
+      "name": "buy_time",
+      "value": "次日16:00"
+    },
+    {
+      "name": "buy_address",
+      "value": "地址 "
+    },
+    {
+      "name": "buy_longitude",
+      "value": "111.28"
+    },
+    {
+      "name": "buy_latitude",
+      "value": "28.57"
+    },
+    {
+      "name": "self_ponit",
+      "value": "搜索更多地址或自提点"
+    },
+    {
+      "name": "self_near",
+      "value": "附近自提点"
+    },
+    {
+      "name": "self_cold",
+      "value": "冷藏冷冻"
+    },
+    {
+      "name": "self_door",
+      "value": "送货上门"
+    },
+    {
+      "name": "self_service",
+      "value": "优质服务"
+    },
+    {
+      "name": "self_walk",
+      "value": "步行"
+    },
+    {
+      "name": "self_choose",
+      "value": "选这个"
+    },
+    {
+      "name": "login_phone_input",
+      "value": "13111111111"
+    },
+    {
+      "name": "login_pass_input",
+      "value": "123456"
+    },
+    {
+      "name": "commodity_plus",
+      "value": "+"
+    },
+    {
+      "name": "commodity_reduce",
+      "value": "-"
+    },
+    {
+      "name": "commodity_car",
+      "value": "购物车"
+    },
+    {
+      "name": "commodity_share",
+      "value": "分享商家"
+    },
+    {
+      "name": "commodity_call",
+      "value": "拨打商家电话"
+    },
+    {
+      "name": "commodity_tell",
+      "value": "166666666666"
+    },
+    {
+      "name": "commodity_money",
+      "value": "￥"
+    },
+    {
+      "name": "commodity_one",
+      "value": "一人份"
+    },
+    {
+      "name": "commodity_reduce_money",
+      "value": "已减5元"
+    },
+    {
+      "name": "commodity_clear_car",
+      "value": "清空购物车"
+    },
+    {
+      "name": "commodity_to_pay",
+      "value": "去结算"
+    },
+    {
+      "name": "commodity_to_give",
+      "value": "20元起送"
+    },
+    {
+      "name": "commodity_des",
+      "value": "满28减4，满36减6，满49减8，满79减15"
+    },
+    {
+      "name": "commodity_fee",
+      "value": "预计配送费 ￥0"
+    },
+    {
+      "name": "commodity_vip",
+      "value": "团购会员"
+    },
+    {
+      "name": "commodity_all_in",
+      "value": "全部"
+    },
+    {
+      "name": "commodity_best_new",
+      "value": "最新"
+    },
+    {
+      "name": "commodity_good_reviews",
+      "value": "好评"
+    },
+    {
+      "name": "commodity_bad_reviews",
+      "value": "差评"
+    },
+    {
+      "name": "commodity_video",
+      "value": "有图/视频"
+    },
+    {
+      "name": "commodity_month",
+      "value": "月销"
+    },
+    {
+      "name": "commodity_good",
+      "value": " 好评95%"
+    },
+    {
+      "name": "commodity_right",
+      "value": ">"
+    }
+  ]
+}

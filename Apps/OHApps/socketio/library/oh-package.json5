@@ -1,0 +1,30 @@
+{
+  "types": "module",
+  "keywords": [
+    "OpenHarmony",
+    "HarmonyOS",
+    "socketio",
+    "Network"
+  ],
+  "author": "ohos_tpc",
+  "description": "客户端和服务器两者之间实现低延迟、双向消息通信以及基于事件的通信组件",
+  "ohos": {
+    "org": "opensource"
+  },
+  "main": "index.ets",
+  "repository": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/socketio",
+  "type": "module",
+  "version": "2.0.0",
+  "dependencies": {},
+  "tags": [
+    "OpenHarmony",
+    "HarmonyOS",
+    "socketio",
+    "Network"
+  ],
+  "license": "MIT License",
+  "devDependencies": {
+    "@types/libclient_socket_c.so": "file:./src/main/cpp/types/libentry"
+  },
+  "name": "@ohos/socketio"
+}

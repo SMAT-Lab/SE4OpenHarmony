@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="234px" viewBox="0 0 127 234" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_cal_equal</title>
+    <defs>
+        <rect id="path-1" x="-8" y="-12" width="110" height="226" rx="25"></rect>
+        <filter x="-28.0%" y="-12.5%" width="155.9%" height="126.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="calculator" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="" transform="translate(-337.000000, -710.000000)">
+            <g id="ic_cal_equal" transform="translate(354.000000, 726.000000)">
+                <g id="矩形备份-25">
+                    <use fill="black" fill-opacity="0" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="none" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="编组-4" transform="translate(31.000000, 93.000000)" fill="#000000">
+                    <rect id="矩形备份-26" fill-opacity="0" x="0" y="-7.10542736e-15" width="93" height="93" rx="21"></rect>
+                    <rect id="矩形" x="-20" y="10" width="160" height="10" rx="1.5"></rect>
+                    <rect id="矩形备份-27" fill-opacity="0" x="0" y="-7.10542736e-15" width="93" height="93" rx="21"></rect>
+                    <rect id="矩形" x="-20" y="40" width="160" height="10" rx="1.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

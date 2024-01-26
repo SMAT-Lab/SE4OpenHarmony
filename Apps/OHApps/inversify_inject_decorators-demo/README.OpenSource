@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "inversify-inject-decorators",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "3.1.0",
+        "Owner" : "inversify"
+        "Upstream URL": "https://github.com/inversify/inversify-inject-decorators",
+        "Description": "Lazy evaluated property injection decorators"
+    }
+]

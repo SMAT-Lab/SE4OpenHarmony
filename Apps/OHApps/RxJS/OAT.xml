@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="hvigorfile.js" type="filename"/>
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="*.json5" type="filename"/>
+                <filteritem desc="DevEco Studio自动生成，没有修改" name="MainAbility.ts" type="filename"/>
+                <filteritem desc="DevEco Studio自动生成，没有修改" name="AbilityStage.ts" type="filename"/>
+                <filteritem desc="DevEco Studio自动生成，没有修改" name="Ability.test.ets" type="filename"/>
+                <filteritem desc="DevEco Studio自动生成，没有修改" name="OpenHarmonyTestRunner.ts" type="filename"/>
+                <filteritem desc="DevEco Studio自动生成，没有修改" name="entry/src/ohosTest/ets/TestAbility/.*" type="filepath"/>
+                <filteritem desc="从第三方开源软件Rxjs的单元测试移植过来的" name="entry/src/ohosTest/ets/test/spec/.*" type="filepath"/>
+            </filefilter>
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="hvigorfile.js" type="filename"/>
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="*.json5" type="filename"/>
+                <filteritem desc="DevEco Studio自动生成，没有修改" name="MainAbility.ts" type="filename"/>
+                <filteritem desc="DevEco Studio自动生成，没有修改" name="AbilityStage.ts" type="filename"/>
+                <filteritem desc="DevEco Studio自动生成，没有修改" name="Ability.test.ets" type="filename"/>
+                <filteritem desc="DevEco Studio自动生成，没有修改" name="OpenHarmonyTestRunner.ts" type="filename"/>
+                <filteritem desc="DevEco Studio自动生成，没有修改" name="entry/src/ohosTest/ets/TestAbility/.*" type="filepath"/>
+                <filteritem desc="从第三方开源软件Rxjs的单元测试移植过来的" name="entry/src/ohosTest/ets/test/spec/.*" type="filepath"/>
+            </filefilter>
+        </filefilterlist>
+    </oatconfig>
+</configuration>

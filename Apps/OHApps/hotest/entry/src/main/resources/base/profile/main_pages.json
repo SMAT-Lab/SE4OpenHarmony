@@ -1,0 +1,25 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/AttrAnimationPage",
+    "pages/AnimationToPage",
+    "pages/MotionPathPage",
+    "pages/LottiePage",
+    "pages/PageTransitionPage1",
+    "pages/PageTransitionPage2",
+    "pages/PageTransitionPage3",
+    "pages/ToPage1",
+    "pages/ToPage2",
+    "pages/TransitionPage",
+    "pages/SharedTransitionPage",
+    "pages/SharedTransitionPage2",
+    "pages/ImageAnimatePage",
+    "pages/RefreshPage",
+    "pages/StylePage",
+    "pages/RouterPage",
+    "pages/WindowPage",
+    "pages/NavigationPage",
+    "pages/SecondPage",
+    "pages/CustomDialogPage"
+  ]
+}

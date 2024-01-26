@@ -1,0 +1,57 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntrance": "./ets/entryability/EntryAbility.ts",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "visible": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      },
+      //      {
+      //        "name": "gameability",
+      //        "srcEntrance": "./ets/gameability/gameability.ts",
+      //        "description": "$string:gameability_desc",
+      //        "icon": "$media:icon",
+      //        "label": "$string:gameability_label",
+      //        "startWindowIcon": "$media:icon",
+      //        "startWindowBackground": "$color:start_window_background",
+      //        "visible": true
+      //      }
+      //      ,
+
+      {
+        "name": "GameAbility",
+        "srcEntry": "./ets/gameability/GameAbility.ts",
+        "description": "$string:GameAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:GameAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background"
+      }
+    ]
+  }
+}

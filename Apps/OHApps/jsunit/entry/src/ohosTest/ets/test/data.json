@@ -1,0 +1,24 @@
+
+{
+  "suites": [{
+    "describe": ["paramExampleTest"],
+    "stress": 4,
+    "params": {
+      "suiteParams1": "suiteParams001",
+      "suiteParams2": "suiteParams002"
+    },
+    "items": [{
+      "it": "testDataDriverAsync"
+    },
+      {
+        "it": "testDataDriverParam",
+        "stress": 2,
+        "params":[
+          {
+            "ts1": "ts1",
+            "ts2": "ts2"
+          }
+        ]
+      }]
+  }]
+}

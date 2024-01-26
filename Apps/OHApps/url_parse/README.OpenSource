@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "url-parse",
+        "License": "MIT License",
+        "License File": " LICENSE ",
+        "Version Number": "1.5.10",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/unshiftio/url-parse",
+        "Description": "Small footprint URL parser that works seamlessly across Node.js and browser environments."
+    }
+]

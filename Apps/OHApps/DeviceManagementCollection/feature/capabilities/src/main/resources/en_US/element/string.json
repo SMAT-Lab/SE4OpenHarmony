@@ -1,0 +1,124 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from npm package"
+    },
+    {
+      "name": "no_battery",
+      "value": "The battery is supported or present"
+    },
+    {
+      "name": "battery_charge_percent",
+      "value": "Battery charge percent"
+    },
+    {
+      "name": "charging_status",
+      "value": "ChargingStatus"
+    },
+    {
+      "name": "usb_listener",
+      "value": "USB Listener"
+    },
+    {
+      "name": "device_list",
+      "value": "device list"
+    },
+    {
+      "name": "confirm",
+      "value": "confirm"
+    },
+    {
+      "name": "bus_address",
+      "value": "bus address"
+    },
+    {
+      "name": "device_address",
+      "value": "device address"
+    },
+    {
+      "name": "serial",
+      "value": "serial"
+    },
+    {
+      "name": "device_name",
+      "value": "device name"
+    },
+    {
+      "name": "manufacturer_name",
+      "value": "manufacturer name"
+    },
+    {
+      "name": "product_name",
+      "value": "product name"
+    },
+    {
+      "name": "version",
+      "value": "version"
+    },
+    {
+      "name": "vendor_id",
+      "value": "vendor id"
+    },
+    {
+      "name": "product_id",
+      "value": "product id"
+    },
+    {
+      "name": "device_class",
+      "value": "device class"
+    },
+    {
+      "name": "toast_start_listening",
+      "value": "Start listening"
+    },
+    {
+      "name": "toast_inserted",
+      "value": "USB inserted"
+    },
+    {
+      "name": "toast_removed",
+      "value": "Device removed"
+    },
+    {
+      "name": "toast_listening_cancel",
+      "value": "Cancel listening"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "screen_state",
+      "value": "The screen state:"
+    },
+    {
+      "name": "power_mode",
+      "value": "current power mode:"
+    },
+    {
+      "name": "running_lock_proximity_screen_control",
+      "value": "proximity screen control:"
+    },
+    {
+      "name": "running_lock_background",
+      "value": "Background:"
+    },
+    {
+      "name": "airplane_status",
+      "value": "Airplane status:"
+    },
+    {
+      "name": "thermal_warning",
+      "value": "The current device battery temperature is too high!"
+    },
+    {
+      "name": "no_usb_device",
+      "value": "No USB Device"
+    },
+    {
+      "name": "show_floating_status",
+      "value": "show floating status:"
+    }
+  ]
+}

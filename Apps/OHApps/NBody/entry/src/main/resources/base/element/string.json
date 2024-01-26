@@ -1,0 +1,64 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "N-Body"
+    },
+    {
+      "name": "AlertDialog_title",
+      "value": "提示"
+    },
+    {
+      "name": "AlertDialog_message",
+      "value": "无需重复点击，正在计算中..."
+    },
+    {
+      "name": "AlertDialog_ok",
+      "value": "确定"
+    },
+    {
+      "name": "page_title",
+      "value": "N-Body模拟程序"
+    },
+    {
+      "name": "layout_100",
+      "value": "100%"
+    },
+    {
+      "name": "layout_40",
+      "value": "40%"
+    },
+    {
+      "name": "layout_30",
+      "value": "30%"
+    },
+    {
+      "name": "layout_80",
+      "value": "80%"
+    },
+    {
+      "name": "layout_24",
+      "value": "24%"
+    },
+    {
+      "name": "layout_10",
+      "value": "10%"
+    },
+    {
+      "name": "button_task_pool_text",
+      "value": "Calculate by TaskPool"
+    },
+    {
+      "name": "button_worker_text",
+      "value": "Calculate by Worker"
+    }
+  ]
+}

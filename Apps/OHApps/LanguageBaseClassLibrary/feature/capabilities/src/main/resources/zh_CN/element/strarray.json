@@ -1,0 +1,142 @@
+{
+  "strarray": [
+    {
+      "name": "util_menu",
+      "value": [
+        {
+          "value": "StringCode (字符串编解码)"
+        },
+        {
+          "value": "RationalNumber (有理数)"
+        },
+        {
+          "value": "LRUCache (缓冲区)"
+        },
+        {
+          "value": "ScopeHelper (范围判断)"
+        },
+        {
+          "value": "Base64Helper (Base64编解码)"
+        },
+        {
+          "value": "TypeCheck (类型检查)"
+        }
+      ]
+    },
+    {
+      "name": "convert_xml_operations",
+      "value": [
+        {
+          "value": "Xml 生成"
+        },
+        {
+          "value": "Xml 解析"
+        },
+        {
+          "value": "Xml 转换"
+        }
+      ]
+    },
+    {
+      "name": "lru_cache_operations",
+      "value": [
+        {
+          "value": "初始化缓冲区"
+        },
+        {
+          "value": "获取缓冲区容量"
+        },
+        {
+          "value": "更新缓冲区容量"
+        },
+        {
+          "value": "获取缓冲区字符串"
+        },
+        {
+          "value": "添加键值对"
+        },
+        {
+          "value": "获取键对应的值"
+        },
+        {
+          "value": "获取所有键值对"
+        },
+        {
+          "value": "删除指定键及关联值"
+        },
+        {
+          "value": "清除所有键值对"
+        },
+        {
+          "value": "查看操作记录"
+        }
+      ]
+    },
+    {
+      "name": "process_operations",
+      "value": [
+        {
+          "value": "获取当前系统运行时间"
+        },
+        {
+          "value": "获取进程当前工作目录"
+        },
+        {
+          "value": "更改进程当前工作目录"
+        },
+        {
+          "value": "启动一个子进程"
+        },
+        {
+          "value": "关闭子进程"
+        },
+        {
+          "value": "发送signal到指定的进程"
+        },
+        {
+          "value": "退出当前进程"
+        }
+      ]
+    },
+    {
+      "name": "rational_number_operations",
+      "value": [
+        {
+          "value": "有理数比较"
+        },
+        {
+          "value": "获取有理数的值"
+        },
+        {
+          "value": "获取有理数分子分母"
+        },
+        {
+          "value": "检查是否为0"
+        },
+        {
+          "value": "检查是否表示NaN"
+        },
+        {
+          "value": "检查是否为有限值"
+        }
+      ]
+    },
+    {
+      "name": "url_operations",
+      "value": [
+        {
+          "value": "插入键值对到查询字符串"
+        },
+        {
+          "value": "删除键值对"
+        },
+        {
+          "value": "获取指定名称对应的第一个值"
+        },
+        {
+          "value": "设置键的新值"
+        }
+      ]
+    }
+  ]
+}

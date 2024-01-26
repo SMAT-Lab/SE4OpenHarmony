@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "rotation_angle",
+      "value": "拍摄旋转角度"
+    },
+    {
+      "name": "resolution_ratio",
+      "value": "录制分辨率"
+    },
+    {
+      "name": "support_90_rotate",
+      "value": "支持 90°C 旋转"
+    },
+    {
+      "name": "confirm",
+      "value": "确定"
+    },
+    {
+      "name": "allow",
+      "value": "允许"
+    },
+    {
+      "name": "whether",
+      "value": "是否"
+    }
+  ]
+}

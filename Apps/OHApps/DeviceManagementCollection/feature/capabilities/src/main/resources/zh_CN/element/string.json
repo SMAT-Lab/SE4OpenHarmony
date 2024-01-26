@@ -1,0 +1,124 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from npm package"
+    },
+    {
+      "name": "no_battery",
+      "value": "当前设备不支持电池或电池不在位"
+    },
+    {
+      "name": "battery_charge_percent",
+      "value": "电池电量百分比"
+    },
+    {
+      "name": "charging_status",
+      "value": "充电状态"
+    },
+    {
+      "name": "usb_listener",
+      "value": "USB监听"
+    },
+    {
+      "name": "device_list",
+      "value": "设备列表"
+    },
+    {
+      "name": "confirm",
+      "value": "确定"
+    },
+    {
+      "name": "bus_address",
+      "value": "总线地址"
+    },
+    {
+      "name": "device_address",
+      "value": "设备地址"
+    },
+    {
+      "name": "serial",
+      "value": "序列号"
+    },
+    {
+      "name": "device_name",
+      "value": "设备名字"
+    },
+    {
+      "name": "manufacturer_name",
+      "value": "产商信息"
+    },
+    {
+      "name": "product_name",
+      "value": "产品信息"
+    },
+    {
+      "name": "version",
+      "value": "版本"
+    },
+    {
+      "name": "vendor_id",
+      "value": "厂商ID"
+    },
+    {
+      "name": "product_id",
+      "value": "产品ID"
+    },
+    {
+      "name": "device_class",
+      "value": "设备类"
+    },
+    {
+      "name": "toast_start_listening",
+      "value": "开始监听"
+    },
+    {
+      "name": "toast_inserted",
+      "value": "USB已插入"
+    },
+    {
+      "name": "toast_removed",
+      "value": "设备已移除"
+    },
+    {
+      "name": "toast_listening_cancel",
+      "value": "取消监听"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "screen_state",
+      "value": "亮灭屏状态:"
+    },
+    {
+      "name": "power_mode",
+      "value": "当前电源模式:"
+    },
+    {
+      "name": "running_lock_background",
+      "value": "阻止系统休眠的锁:"
+    },
+    {
+      "name": "running_lock_proximity_screen_control",
+      "value": "通过接近或者远离状态来控制亮灭屏的锁:"
+    },
+    {
+      "name": "airplane_status",
+      "value": "飞行模式状态:"
+    },
+    {
+      "name": "thermal_warning",
+      "value": "当前设备电池温度过高！"
+    },
+    {
+      "name": "no_usb_device",
+      "value": "暂无USB设备"
+    },
+    {
+      "name": "show_floating_status",
+      "value": "应用是否能以悬浮窗形式显示:"
+    }
+  ]
+}

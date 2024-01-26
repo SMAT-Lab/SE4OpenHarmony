@@ -1,0 +1,104 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "entry_MainAbility",
+      "value": "eTS资源管理"
+    },
+    {
+      "name": "description_mainability",
+      "value": "eTSResourceManager Ability"
+    },
+    {
+      "name": "title",
+      "value": "资源管理"
+    },
+    {
+      "name": "get_info",
+      "value": "通过资源管理获取信息"
+    },
+    {
+      "name": "stringDesc",
+      "value": "字符串: "
+    },
+    {
+      "name": "stringArrayDesc",
+      "value": "字符串数组: "
+    },
+    {
+      "name": "pluralStringDesc",
+      "value": "单复数字符串: "
+    },
+    {
+      "name": "string_str",
+      "value": "ETS资源管理"
+    },
+    {
+      "name": "capabilityDesc",
+      "value": "设备支持能力: "
+    },
+    {
+      "name": "configurationDesc",
+      "value": "设备状态: "
+    },
+    {
+      "name": "mediaDesc",
+      "value": "图片字节数: "
+    },
+    {
+      "name": "mediaBase64Desc",
+      "value": "Base64编码字符串长度: "
+    },
+    {
+      "name": "formatStr",
+      "value": "你好，%s"
+    },
+    {
+      "name": "world",
+      "value": "世界！"
+    },
+    {
+      "name": "formatStrDesc",
+      "value": "格式化字符串: "
+    },
+    {
+      "name": "densityMediaDesc",
+      "value": "特定屏幕密度媒体查询: "
+    },
+    {
+      "name": "systemResDesc",
+      "value": "系统资源查询: "
+    },
+    {
+      "name": "test_string",
+      "value": "测试"
+    },
+    {
+      "name": "unEnableFailed",
+      "value": "overlay 去使能失败"
+    },
+    {
+      "name": "unEnableSuccess",
+      "value": "overlay 去使能成功"
+    },
+    {
+      "name": "enableFailed",
+      "value": "overlay 使能失败"
+    },
+    {
+      "name": "enableSuccess",
+      "value": "overlay 使能成功"
+    },
+    {
+      "name": "testResources",
+      "value": "资源API调用示例"
+    },
+    {
+      "name": "testOverlay",
+      "value": "Overlay使用示例"
+    }
+  ]
+}

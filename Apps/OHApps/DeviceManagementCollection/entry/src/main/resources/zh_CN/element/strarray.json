@@ -1,0 +1,30 @@
+{
+  "strarray": [
+    {
+      "name": "device_management_list",
+      "value": [
+        {
+          "value": "电量信息"
+        },
+        {
+          "value": "RunningLock锁"
+        },
+        {
+          "value": "系统电源管理"
+        },
+        {
+          "value": "设置数据项名称"
+        },
+        {
+          "value": "设备状态感知框架"
+        },
+        {
+          "value": "热管理"
+        },
+        {
+          "value": "USB管理"
+        }
+      ]
+    }
+  ]
+}

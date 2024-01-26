@@ -1,0 +1,14 @@
+{
+  "license": "",
+  "devDependencies": {},
+  "author": "",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "@ohos/localeenus": "file:../library",
+    "@js-joda/timezone": "^2.15.0",
+    "@js-joda/core": "^5.4.2"
+  }
+}

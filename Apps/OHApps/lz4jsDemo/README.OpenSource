@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "lz4js",
+        "License": "",
+        "License File": "",
+        "Version Number": "0.2.0",
+        "Owner" : "Benzinga"
+        "Upstream URL": "https://github.com/Benzinga/lz4js",
+        "Description": "Lz4.js is an implementation of Lz4 designed to be used in web browsers. It contains no dependencies on external libraries or Node.JS, though it is organized as a set of CommonJS modules. "
+    }
+
+]

@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "inject-decorators"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "inject-decorators"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "inject-decorators"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Crypto Framework"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Crypto Framework"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Crypto Framework"
+    },
+    {
+      "name": "please_choose",
+      "value": "Please Choose"
+    },
+    {
+      "name": "open_file",
+      "value": "Open File"
+    },
+    {
+      "name": "file_name",
+      "value": "File Name"
+    },
+    {
+      "name": "select_key_file",
+      "value": "Select Key File"
+    },
+    {
+      "name": "select_signature_file",
+      "value": "Select Signature File"
+    },
+    {
+      "name": "text_context",
+      "value": "Text Context"
+    },
+    {
+      "name": "encrypt",
+      "value": "Encrypt"
+    },
+    {
+      "name": "encrypted_context",
+      "value": "Encrypted Context"
+    },
+    {
+      "name": "decrypt",
+      "value": "Decrypt"
+    },
+    {
+      "name": "decrypted_context",
+      "value": "Decrypted Context"
+    },
+    {
+      "name": "generate_rsa_key_randomly",
+      "value": "Generate RSA Key randomly"
+    },
+    {
+      "name": "generate_aes_key_randomly",
+      "value": "Generate AES Key randomly"
+    },
+    {
+      "name": "sign",
+      "value": "Sign"
+    },
+    {
+      "name": "verify",
+      "value": "Verify"
+    },
+    {
+      "name": "encrypt_success",
+      "value": "Encryption Succeeded"
+    },
+    {
+      "name": "encrypt_fail",
+      "value": "Encryption Failed"
+    },
+    {
+      "name": "decrypt_success",
+      "value": "Decryption Succeeded"
+    },
+    {
+      "name": "decrypt_fail",
+      "value": "Decryption Failed"
+    },
+    {
+      "name": "sign_success",
+      "value": "Signature Succeeded"
+    },
+    {
+      "name": "sign_fail",
+      "value": "Signature Failed"
+    },
+    {
+      "name": "verify_success",
+      "value": "Verification Succeeded"
+    },
+    {
+      "name": "verify_fail",
+      "value": "Verification Failed"
+    },
+    {
+      "name": "gen_key_success",
+      "value": "Key File Generation Succeeded"
+    },
+    {
+      "name": "gen_key_fail",
+      "value": "Key File Generation Failed"
+    },
+    {
+      "name": "null_message",
+      "value": "Message Or Key Is Null"
+    },
+    {
+      "name": "slow_rsa_key_gen",
+      "value": "Generation RSA Key Is Slow, Please Wait"
+    }
+  ]
+}

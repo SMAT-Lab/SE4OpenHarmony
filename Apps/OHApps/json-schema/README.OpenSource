@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "jsonschema",
+        "License": "MIT",
+        "License File": " LICENSE ",
+        "Version Number": "1.4.1",
+        "Owner" : "tdegrunt"
+        "Upstream URL": "https://github.com/tdegrunt/jsonschema",
+        "Description": "JSON schema validator, which is designed to be fast and simple to use. JSON Schema versions through draft-07 are fully supported."
+    }
+]

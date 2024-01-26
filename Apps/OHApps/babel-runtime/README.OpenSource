@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "babel-runtime",
+        "License": "MIT License",
+        "License File": " LICENSE ",
+        "Version Number": "7.22.6",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/babel/babel",
+        "Description": "babel's modular runtime helpers"
+    }
+R

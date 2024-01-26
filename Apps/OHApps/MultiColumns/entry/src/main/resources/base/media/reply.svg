@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>reply</title>
+    <g id="Demo-Sample" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板备份-2" transform="translate(-65.000000, -171.000000)">
+            <g id="ic/favourites/ic_favourites" transform="translate(65.000000, 171.000000)">
+                <g id="symbol/frame/symbol_grid24-copy-2"></g>
+                <g id="分组" transform="translate(2.187500, 4.687500)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5625">
+                    <g id="email" transform="translate(1.093750, 0.937500)">
+                        <path d="M0,0 L10.6220977,10.682583 C11.2285771,11.2925158 12.2139657,11.2975819 12.8266844,10.6939172 L23.4375,0.239895379 L23.4375,0.239895379" id="Stroke-45"></path>
+                    </g>
+                    <path d="M17.0833333,0 L2.34375,0 C1.04933262,2.37780616e-16 -1.04669883e-15,1.04933262 0,2.34375 L0,18.28125 C1.5852041e-16,19.5756674 1.04933262,20.625 2.34375,20.625 L23.28125,20.625 C24.5756674,20.625 25.625,19.5756674 25.625,18.28125 L25.625,9.70588235 L25.625,9.70588235" id="路径" transform="translate(12.812500, 10.312500) scale(1, -1) translate(-12.812500, -10.312500) "></path>
+                    <line x1="18.125" y1="15.9819174" x2="26.875" y2="15.9819174" id="路径-2"></line>
+                    <polyline id="路径" transform="translate(22.452888, 15.981917) rotate(-45.000000) translate(-22.452888, -15.981917) " points="19.1716383 19.2631674 19.1716383 12.7006674 25.7341383 12.7006674"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

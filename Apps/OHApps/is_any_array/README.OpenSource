@@ -1,0 +1,12 @@
+[
+    {
+         "Name": "is-any-array",
+         "License": "MIT License",
+         "License File": "LICENSE",
+         "Version Number": "2.0.0",
+         "Owner" : "xiafeng@huawei.com"
+         "Upstream URL": "https://github.com/cheminfo-js/is-any-array",
+         "Description": "Check if a value is any kind of array"
+    }
+]
+

@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "@protobufjs/eventemitter",
+        "License": "BSD License",
+        "License File": " LICENSE ",
+        "Version Number": "1.1.0",
+        "Owner" : "xiafeng@huawei.com"
+        "Upstream URL": "https://github.com/protobufjs/protobuf.js/tree/master/lib/eventemitter",
+        "Description": "A minimal event emitter"
+    }
+]

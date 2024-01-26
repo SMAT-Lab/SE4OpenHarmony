@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "hex-encode-decode",
+        "License": "MIT License",
+        "License File": "LICENSE",
+        "Version Number": "1.0.0",
+        "Owner" : "tiaanduplessis"
+        "Upstream URL": "https://github.com/tiaanduplessis/hex-encode-decode",
+        "Description": "Hex encode & decode string"
+    }
+]

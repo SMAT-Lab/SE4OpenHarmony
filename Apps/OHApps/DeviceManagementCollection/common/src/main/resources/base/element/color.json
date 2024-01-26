@@ -1,0 +1,32 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#FFF"
+    },
+    {
+      "name": "black",
+      "value": "#000"
+    },
+    {
+      "name": "list_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "list_title",
+      "value": "#1A1A1A"
+    },
+    {
+      "name": "list_content",
+      "value": "#666"
+    },
+    {
+      "name": "list_sub_content",
+      "value": "#999"
+    },
+    {
+      "name": "divider",
+      "value": "#f1f1f1"
+    }
+  ]
+}

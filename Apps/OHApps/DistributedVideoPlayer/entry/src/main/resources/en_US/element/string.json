@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "DistributedVideoPlayer"
+    },
+    {
+      "name": "choiceDevice",
+      "value": "choiceDevice"
+    },
+    {
+      "name": "cancel",
+      "value": "cancel"
+    },
+    {
+      "name": "distributed_permission",
+      "value": "Allow data exchange between different devices"
+    },
+    {
+      "name": "media_reason",
+      "value": "Allows applications to read media files from external storage"
+    }
+  ]
+}

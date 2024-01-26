@@ -1,0 +1,21 @@
+{
+    "description": "Configuration for esmodule_ohostest_hap Tests",
+    "driver": {
+        "type": "OHJSUnitTest",
+        "test-timeout": "1800000",
+        "bundle-name": "com.esmodule.acts",
+        "module-name": "entry_test",
+        "shell-timeout": "180000",
+        "compile-mode": "esmodule"
+    },
+    "kits": [
+        {
+            "test-file-name": [
+                "ActsEsmoduleOhostestLibTest.hap",
+                "ActsEsmoduleOhostestTest.hap"
+            ],
+            "type": "AppInstallKit",
+            "cleanup-apps": true
+        }
+    ]
+}

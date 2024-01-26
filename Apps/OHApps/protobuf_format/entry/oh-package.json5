@@ -1,0 +1,15 @@
+{
+  "license": "Apache-2.0 License",
+  "devDependencies": {},
+  "author": "ohos_tpc",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.3",
+  "dynamicDependencies": {},
+  "dependencies": {
+    "@ohos/sax": "file:../sax",
+    "@ohos/protobuf_format": "file:../library",
+    "@ohos/xml_js": "file:../xml-js"
+  }
+}

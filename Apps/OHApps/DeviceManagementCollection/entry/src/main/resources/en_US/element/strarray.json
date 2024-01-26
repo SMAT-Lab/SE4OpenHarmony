@@ -1,0 +1,66 @@
+{
+  "strarray": [
+    {
+      "name": "device_management_list",
+      "value": [
+        {
+          "value": "Battery Information"
+        },
+        {
+          "value": "Charging Type"
+        },
+        {
+          "value": "Device Information"
+        },
+        {
+          "value": "Runninglock"
+        },
+        {
+          "value": "System Power Management"
+        },
+        {
+          "value": "Data Item Settings"
+        },
+        {
+          "value": "Device Status Awareness Framework"
+        },
+        {
+          "value": "Thermal Management"
+        },
+        {
+          "value": "USB Management"
+        },
+        {
+          "value": "Input Consumer"
+        },
+        {
+          "value": "Input Device"
+        },
+        {
+          "value": "Input Event"
+        },
+        {
+          "value": "Key Event Injection"
+        },
+        {
+          "value": "Input Monitor"
+        },
+        {
+          "value": "Key Code"
+        },
+        {
+          "value": "Key Event"
+        },
+        {
+          "value": "Mouse Event"
+        },
+        {
+          "value": "Mouse Pointer"
+        },
+        {
+          "value": "Touch Event"
+        }
+      ]
+    }
+  ]
+}

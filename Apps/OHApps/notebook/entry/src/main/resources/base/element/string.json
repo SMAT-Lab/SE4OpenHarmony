@@ -1,0 +1,84 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "数据存储demo"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "笔记本"
+    },
+    {
+      "name": "notebook",
+      "value": "笔记本"
+    },
+    {
+      "name": "add_notebook",
+      "value": "新增笔记"
+    },
+    {
+      "name": "input_title",
+      "value": "输入笔记标题"
+    },
+    {
+      "name": "input_content",
+      "value": "输入笔记正文内容"
+    },
+    {
+      "name": "public",
+      "value": "发布"
+    },
+    {
+      "name": "search",
+      "value": "搜索笔记"
+    },
+    {
+      "name": "edit",
+      "value": "编辑"
+    },
+    {
+      "name": "no_title",
+      "value": "暂无标题"
+    },
+    {
+      "name": "byte_number",
+      "value": "字"
+    },
+    {
+      "name": "save",
+      "value": "保存"
+    },
+    {
+      "name": "edit_notebook",
+      "value": "编辑笔记"
+    },
+    {
+      "name": "detail_notebook",
+      "value": "笔记详情"
+    },
+    {
+      "name": "notebook_number",
+      "value": "条笔记"
+    },
+    {
+      "name": "notebook_name_input",
+      "value": "请输入新的记事本名称"
+    },
+    {
+      "name": "dialog_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "dialog_confirm",
+      "value": "确定"
+    },
+    {
+      "name": "dialog_change_name",
+      "value": "修改记事本名称"
+    }
+  ]
+}

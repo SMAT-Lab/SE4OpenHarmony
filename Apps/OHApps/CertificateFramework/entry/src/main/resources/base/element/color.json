@@ -1,0 +1,60 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "homepage_title_color",
+      "value": "#182431"
+    },
+    {
+      "name": "homepage_bg_color",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "text_title_color",
+      "value": "#99182431"
+    },
+    {
+      "name": "text_content_color",
+      "value": "#182431"
+    },
+    {
+      "name": "text_bg_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "button_display_title_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "button_display_bg_color",
+      "value": "#007DFF"
+    },
+    {
+      "name": "button_verify_title_color",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "button_verify_bg_color",
+      "value": "#007DFF"
+    },
+    {
+      "name": "button_modify_origin_data_title_color",
+      "value": "#007DFF"
+    },
+    {
+      "name": "button_modify_origin_data_bg_color",
+      "value": "#0D182431"
+    },
+    {
+      "name": "button_modify_signature_data_title_color",
+      "value": "#007DFF"
+    },
+    {
+      "name": "button_modify_signature_data_bg_color",
+      "value": "#0D182431"
+    }
+  ]
+}

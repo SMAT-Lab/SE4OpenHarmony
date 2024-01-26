@@ -1,0 +1,11 @@
+[
+  {
+    "Name":"inversify",
+    "License":"MIT License",
+    "License File":"LICENSE",
+    "Version Number":"6.0.1",
+    "Owner":"xiafeng@huawei.com",
+    "Upstream URL":"https://github.com/inversify/InversifyJS.git",
+    "Description": "A powerful and lightweight inversion of control container for JavaScript and Node.js apps powered by TypeScript."
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Auth",
+    "pages/CloudDb/CloudDb",
+    "pages/CloudFunction",
+    "pages/CloudStorage",
+    "pages/CloudDb/DbInsert",
+    "pages/AuthService",
+    "pages/Functions"
+  ]
+}

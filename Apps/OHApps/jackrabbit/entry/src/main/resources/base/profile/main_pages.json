@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/HelloWorld",
+    "pages/WorkQueues",
+    "pages/PubSub",
+    "pages/Routing",
+    "pages/Topics",
+    "pages/Rpc",
+    "pages/TimeoutRpc"
+  ]
+}

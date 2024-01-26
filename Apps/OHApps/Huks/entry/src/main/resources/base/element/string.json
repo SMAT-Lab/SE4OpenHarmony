@@ -1,0 +1,72 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "HUKS"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Harmony Universal Keystore Service"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "HUKS"
+    },
+    {
+      "name": "send_message",
+      "value": "Send Message"
+    },
+    {
+      "name": "recieve_message",
+      "value": "Recieve Message"
+    },
+    {
+      "name": "import_key",
+      "value": "Import key"
+    },
+    {
+      "name": "new_key",
+      "value": "New Key"
+    },
+    {
+      "name": "old_key",
+      "value": "Old Key"
+    },
+    {
+      "name": "back",
+      "value": "Back"
+    },
+    {
+      "name": "input_message",
+      "value": "Input the message you want to send"
+    },
+    {
+      "name": "input_save_password",
+      "value": "Input the password you want to save"
+    },
+    {
+      "name": "min_access_control",
+      "value": "Minimum Access Control"
+    },
+    {
+      "name": "save_password",
+      "value": "Save Password"
+    },
+    {
+      "name": "read_password",
+      "value": "Read Password"
+    },
+    {
+      "name": "cipher_text",
+      "value": "Cipher_Text"
+    },
+    {
+      "name": "plain_text",
+      "value": "Plain Text"
+    },
+    {
+      "name": "pinInput",
+      "value": "Please Input Pin"
+    }
+  ]
+}

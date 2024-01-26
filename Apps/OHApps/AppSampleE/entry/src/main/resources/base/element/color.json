@@ -1,0 +1,152 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "login_86",
+      "value": "#636363"
+    },
+    {
+      "name": "login_input",
+      "value": "#CBCBCB"
+    },
+    {
+      "name": "login_divider",
+      "value": "#CCCCCC"
+    },
+    {
+      "name": "login_button_bg_no",
+      "value": "#FFF3C9"
+    },
+    {
+      "name": "login_button_bg_yes",
+      "value": "#FECF05"
+    },
+    {
+      "name": "login_button_font_color_no",
+      "value": "#938A6B"
+    },
+    {
+      "name": "login_button_font_color_yes",
+      "value": "#47370E"
+    },
+    {
+      "name": "index_bg",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "index_search_btn_bg",
+      "value": "#FEDA24"
+    },
+    {
+      "name": "index_font",
+      "value": "#313131"
+    },
+    {
+      "name": "business_font",
+      "value": "#ABABAB"
+    },
+    {
+      "name": "business_border",
+      "value": "#EDE56E"
+    },
+    {
+      "name": "pd_font_gray",
+      "value": "#B5B4B8"
+    },
+    {
+      "name": "pd_money",
+      "value": "#F15C54"
+    },
+    {
+      "name": "business_buy_back",
+      "value": "#E2A550"
+    },
+    {
+      "name": "business_buy_back_bg",
+      "value": "#FDF8E2"
+    },
+    {
+      "name": "business_good_shop",
+      "value": "#E2A550"
+    },
+    {
+      "name": "business_good_shop_bg",
+      "value": "#FDF8E2"
+    },
+    {
+      "name": "business_score",
+      "value": "#E98424"
+    },
+    {
+      "name": "business_delivery",
+      "value": "#E99C51"
+    },
+    {
+      "name": "business_delivery_bg",
+      "value": "#E99C51"
+    },
+    {
+      "name": "self_cold_font",
+      "value": "#3A7C9B"
+    },
+    {
+      "name": "self_cold_bg",
+      "value": "#BAD0DC"
+    },
+    {
+      "name": "pd_standard",
+      "value": "#E3973F"
+    },
+    {
+      "name": "pd_standard_bg",
+      "value": "#FEF7E4"
+    },
+    {
+      "name": "comm_plus",
+      "value": "#FEDD02"
+    },
+    {
+      "name": "comm_border",
+      "value": "#F3E7DD"
+    },
+    {
+      "name": "comm_bad",
+      "value": "#F5F5F5"
+    },
+    {
+      "name": "comm_video",
+      "value": "#FEF8DF"
+    },
+    {
+      "name": "comm_vip",
+      "value": "#F6E3D2"
+    },
+    {
+      "name": "comm_vip_bg",
+      "value": "#504F4E"
+    },
+    {
+      "name": "comm_good",
+      "value": "#FEF8DF"
+    },
+    {
+      "name": "comm_bg",
+      "value": "#FAFAFA"
+    },
+    {
+      "name": "comm_fee",
+      "value": "#858688"
+    },
+    {
+      "name": "comm_car",
+      "value": "#212526"
+    },
+    {
+      "name": "comm_to_pay",
+      "value": "#FEF9E3"
+    }
+  ]
+}

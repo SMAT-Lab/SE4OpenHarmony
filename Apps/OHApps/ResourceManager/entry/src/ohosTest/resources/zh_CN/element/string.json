@@ -1,0 +1,56 @@
+{
+  "string": [
+    {
+      "name": "stringDesc",
+      "value": "字符串: "
+    },
+    {
+      "name": "stringArrayDesc",
+      "value": "字符串数组: "
+    },
+    {
+      "name": "pluralStringDesc",
+      "value": "单复数字符串: "
+    },
+    {
+      "name": "string_str",
+      "value": "ETS资源管理"
+    },
+    {
+      "name": "capabilityDesc",
+      "value": "设备支持能力: "
+    },
+    {
+      "name": "configurationDesc",
+      "value": "设备状态: "
+    },
+    {
+      "name": "mediaDesc",
+      "value": "图片字节数: "
+    },
+    {
+      "name": "mediaBase64Desc",
+      "value": "Base64编码字符串长度: "
+    },
+    {
+      "name": "formatStr",
+      "value": "你好，%s"
+    },
+    {
+      "name": "world",
+      "value": "世界！"
+    },
+    {
+      "name": "formatStrDesc",
+      "value": "格式化字符串: "
+    },
+    {
+      "name": "densityMediaDesc",
+      "value": "特定屏幕密度媒体查询: "
+    },
+    {
+      "name": "systemResDesc",
+      "value": "系统资源查询: "
+    }
+  ]
+}

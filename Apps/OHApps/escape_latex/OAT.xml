@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="hvigorfile.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="*.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorfile.ts" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="hvigorw" type="filename"/>
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="hvigorw.bat" type="filename"/>
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="hvigor/hvigor-wrapper.js" type="filepath"/>
+            </filefilter>
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="hvigorfile.js" desc="项目工程默认文件，不需要添加许可证头"/>
+                <filteritem type="filename" name="*.json5" desc="项目工程默认文件，不需要添加许可证头"/>
+                <filteritem type="filepath" name="LICENSE" desc="LICENSE文件，无需添加许可头"/>
+                <filteritem type="filename" name="hvigorfile.ts" desc="hvigor构建脚本，DevEco Studio自动生成，不手动修改"/>
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="hvigorw" type="filename"/>
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="hvigorw.bat" type="filename"/>
+                <filteritem desc="hvigor配置文件，DevEco Studio自动生成，不手动修改" name="hvigor/hvigor-wrapper.js" type="filepath"/>
+            </filefilter>
+            <filefilter name="binaryFileTypePolicyFilter" desc="Filters for binary file policies">
+                <filteritem type="filename" name="*.png" desc="png图片格式文件,用于应用图标"/>
+                <filteritem type="filename" name="*.json5" desc="项目工程默认文件，不需要添加许可证头"/>
+            </filefilter>
+        </filefilterlist>
+        <policylist>
+            <policy name="projectPolicy" desc="">
+                <policyitem type="license" name="MIT" path=".*" group="defaultGroup" filefilter="defaultPolicyFilter" desc="当前项目兼容此协议" />
+                <policyitem type="copyright" name="Copyright (c) 2012 Dang Mai" path="LICENSE.md" rule="may" group="defaultGroup" filefilter="copyrightPolicyFilter" desc="Developed by hihope Company 或 原开源库版权头，版权头维持原样，不做侵入式修改"/>
+            </policy>
+        </policylist>
+    </oatconfig>
+</configuration>

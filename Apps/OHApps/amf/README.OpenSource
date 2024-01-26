@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "amf-convert",
+        "License": "MTI LICENSE",
+        "License File": "https://github.com/1nVitr0/amf-convert/blob/master/LICENSE",
+        "Version Number": "1.1.3",
+        "Owner" : "1nVitr0",
+        "Upstream URL": "https://github.com/1nVitr0/amf-js",
+        "Description": "AMF serialization/deserialization for JS"
+    }
+]

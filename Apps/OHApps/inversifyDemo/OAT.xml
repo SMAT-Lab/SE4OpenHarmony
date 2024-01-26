@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <oatconfig>
+        <filefilterlist>
+            <filefilter name="copyrightPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="*.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorfile.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw.bat" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/build-profile.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/hvigorfile.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/.*" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/main/module.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/testability/TestAbility.ets" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/testability/pages/Index.ets" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/test/Ability.test.ets" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/test/List.test.ets" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ts" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/Application/TestAbilityStage.ts" desc="项目工程默认文件，不需要添加版权头"/>
+            </filefilter>
+            <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
+                <filteritem type="filename" name="*.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorw.bat" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filename" name="hvigorfile.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/hvigorfile.js" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/build-profile.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/.*" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/main/module.json5" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/testability/TestAbility.ets" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/testability/pages/Index.ets" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/test/Ability.test.ets" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/test/List.test.ets" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/testrunner/OpenHarmonyTestRunner.ts" desc="项目工程默认文件，不需要添加版权头"/>
+                <filteritem type="filepath" name="entry/src/ohosTest/ets/Application/TestAbilityStage.ts" desc="项目工程默认文件，不需要添加版权头"/>
+            </filefilter>
+            <filefilter name="binaryFileTypePolicyFilter" desc="Filters for copyright header policies">
+            </filefilter>
+        </filefilterlist>
+    </oatconfig>
+</configuration>

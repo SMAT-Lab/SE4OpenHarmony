@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/FileRead",
+    "pages/JumpOne",
+    "pages/JumpTwo",
+    "pages/EventSequencing",
+    "pages/ApiTest"
+  ]
+}
